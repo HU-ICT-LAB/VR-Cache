@@ -1,15 +1,23 @@
-name: Check code quality
+name: Lint
 
 on:
   pull_request:
-    branches: [ main, development ]
+  push:
+    branches:
+      - master
+      - development
 
 jobs:
   eslint:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v1
-      - uses: stefanoeb/eslint-action@1.0.2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          files: src/
+          node-version: 16
+      - run: npm ci
+      - uses: sibiraj-s/action-eslint@v2
+        with:
+          eslint-args: '--ignore-path=.gitignore --quiet'
+          extensions: 'js,jsx,ts,tsx'
+          annotations: true
