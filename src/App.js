@@ -1,5 +1,6 @@
 import "aframe";
 import "aframe-react";
+import "./components/PauseGame";
 import React from "react";
 
 class App extends React.Component {
@@ -13,6 +14,8 @@ class App extends React.Component {
 					<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
 					<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
 					<a-sky color="#ECECEC"></a-sky>
+
+					<a-camera id="player"></a-camera>
 				</a-scene>
 			</div>
 		);
