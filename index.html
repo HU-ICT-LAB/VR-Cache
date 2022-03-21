@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>VR Cache</title>
+
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="./dist/bundle.js"></script>
+</head>
+<body>
+    <div className="App">
+        <a-scene physics="debug: true; debugDrawMode: 1;">
+            <a-entity camera position="0 1.6 5" look-controls wasd-controls></a-entity>
+            <a-plane body="type: static" shape="type: box" position="0 0 -4" rotation="-90 0 0" width="8" height="8" color="yellow"></a-plane>
+            <a-box body="type: dynamic" shape="type: box" position="0 4 -2" width="3" height="2" depth="1" color="red"></a-box>
+            <a-box body="type: dynamic" shape="type: box" position="2 10 0" width="1" height="1" depth="1" color="blue"></a-box>
+        </a-scene>
+    </div>
+</body>
+</html>
