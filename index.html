@@ -11,13 +11,19 @@
 </head>
 <body>
 <a-scene physics="debug: true">
+    <a-assets>
+        <a-asset-item id="tree-o" src="assets/lowpolytree.obj"></a-asset-item>
+        <a-asset-item id="tree-m" src="assets/lowpolytree.mtl"></a-asset-item>
+    </a-assets>
     <a-entity id="camera" position="0 1.6 0">
         <a-entity id="camera" camera look-controls wasd-controls kinematic-body></a-entity>
     </a-entity>
 
+    <a-entity static-body obj-model="obj: assets/lowpolytree.obj; mtl: assets/lowpolytree.mtl" velocity="" position="5.516 1.878 -0.037"></a-entity>
+
     <a-box static-body position="0 1 -2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
 
-    <a-plane static-body rotation="-90 0 0" position="0 0 -4" width="10" height="10" color="#7BC8A4"></a-plane>
+    <a-plane static-body rotation="-90 0 0" position="0 0 -4" width="20" height="20" color="#7BC8A4"></a-plane>
     <a-sky color="#ECECEC"></a-sky>
 </a-scene>
 </body>
