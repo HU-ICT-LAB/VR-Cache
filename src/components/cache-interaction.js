@@ -13,6 +13,12 @@ window.AFRAME.registerComponent("cache-interaction", {
 	 */
 	tick() {
 		this.checkDistance();
+
+		if (this.inDistance) {
+			document.getElementById("cache").setAttribute("color", "#d9ff00");
+		} else {
+			document.getElementById("cache").setAttribute("color", "#4CC3D9");
+		}
 	},
 
 	/**
@@ -27,8 +33,6 @@ window.AFRAME.registerComponent("cache-interaction", {
 			cachePosition.y - playerPosition.y,
 			cachePosition.z - playerPosition.z
 		);
-
-		console.log(result.magnitude());
 
 		this.inDistance = result.magnitude() <= DISTANCE_TO_INTERACT;
 	}
