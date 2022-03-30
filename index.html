@@ -7,24 +7,29 @@
     <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
     <script src="http://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="https://unpkg.com/aframe-cubemap-component@2.1.1/dist/aframe-cubemap-component.min.js"></script>
     <script src="dist/bundle.js"></script>
 </head>
 <body>
 <a-scene physics="debug: true">
     <a-assets>
-        <a-asset-item id="tree-o" src="assets/lowpolytree.obj"></a-asset-item>
-        <a-asset-item id="tree-m" src="assets/lowpolytree.mtl"></a-asset-item>
+        <a-asset-item id="tree-o" src="assets/tree/lowpolytree.obj"></a-asset-item>
+        <a-asset-item id="tree-m" src="assets/tree/lowpolytree.mtl"></a-asset-item>
+        <a-asset-item id="village" src="assets/village/scene.gltf"></a-asset-item>
     </a-assets>
-    <a-entity id="camera" position="0 1.6 0">
+
+    <a-entity cubemap="folder: /assets/sky/MilkyWayPNG/"></a-entity>
+
+    <a-entity id="camera" position="0 1.4 0">
         <a-entity id="camera" camera look-controls wasd-controls kinematic-body></a-entity>
     </a-entity>
 
-    <a-entity static-body obj-model="obj: assets/lowpolytree.obj; mtl: assets/lowpolytree.mtl" velocity="" position="5.516 1.878 -0.037"></a-entity>
+    <a-entity static-body obj-model="obj: #tree-o; mtl: #tree-m" position="35 2 -3"></a-entity>
+    <a-entity gltf-model="#village"></a-entity>
 
-    <a-box static-body position="0 1 -2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
+    <a-box static-body position="35 1 3" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
 
-    <a-plane static-body rotation="-90 0 0" position="0 0 -4" width="20" height="20" color="#7BC8A4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky>
+    <a-plane static-body rotation="-90 0 0" position="0 -0.01 -4" width="200" height="200" color="#565656"></a-plane>
 </a-scene>
 </body>
 </html>
