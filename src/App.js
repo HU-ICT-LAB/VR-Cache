@@ -1,7 +1,7 @@
 import "aframe";
 import "aframe-react";
 import React, {useState} from 'react';
-import "./ components/Timer/timer-component";
+import "./components/Timer/timer-component";
 
 class App extends React.Component {
 	render() {
