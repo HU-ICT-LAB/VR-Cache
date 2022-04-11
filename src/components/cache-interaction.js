@@ -28,7 +28,7 @@ window.AFRAME.registerComponent("cache-interaction", {
 			cachePosition.z - playerPosition.z
 		);
 
-		console.log(result.magnitude());
+		//console.log(result.magnitude());
 
 		this.inDistance = result.magnitude() <= DISTANCE_TO_INTERACT;
 	}
