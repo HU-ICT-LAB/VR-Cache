@@ -15,21 +15,21 @@
     <a-assets>
         <a-asset-item id="tree-o" src="assets/tree/lowpolytree.obj"></a-asset-item>
         <a-asset-item id="tree-m" src="assets/tree/lowpolytree.mtl"></a-asset-item>
-        <a-asset-item id="village" src="assets/village/scene.gltf"></a-asset-item>
     </a-assets>
 
-    <a-entity cubemap="folder: /assets/sky/MilkyWayPNG/"></a-entity>
+    <a-entity cubemap="folder: /assets/sky/CloudyCrown_01_Midday"></a-entity>
 
     <a-entity id="camera" position="0 1.4 0">
         <a-entity id="camera" camera look-controls wasd-controls kinematic-body></a-entity>
     </a-entity>
 
-    <a-entity static-body obj-model="obj: #tree-o; mtl: #tree-m" position="35 2 -3"></a-entity>
-    <a-entity gltf-model="#village"></a-entity>
+    <a-entity static-body obj-model="obj: #tree-o; mtl: #tree-m" position="6.4 2 -3"></a-entity>
 
-    <a-box static-body position="35 1 3" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
+    <a-box static-body position="6.4 1 3" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
 
-    <a-plane static-body rotation="-90 0 0" position="0 -0.01 -4" width="200" height="200" color="#565656"></a-plane>
+    <a-entity light="type: ambient"></a-entity>
+
+    <a-plane static-body rotation="-90 0 0" position="0 -0.01 -4" width="200" height="200" color="#5dc064"></a-plane>
 </a-scene>
 </body>
 </html>
