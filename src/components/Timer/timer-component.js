@@ -17,5 +17,10 @@ window.AFRAME.registerComponent("timer", {
 
     stop() {
         clearInterval(interval);
+    },
+
+    continue() {
+        interval = setInterval(this.updateTime,
+            1000);
     }
 });
