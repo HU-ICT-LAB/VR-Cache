@@ -6,7 +6,7 @@ let updatedM = time.m;
 
 let isCounting=true;
 
-window.AFRAME.registerComponent('timer', {
+window.AFRAME.registerComponent("timer", {
 
     init: function () {
         isCounting=true
@@ -39,7 +39,7 @@ window.AFRAME.registerComponent('timer', {
             time.ms=updatedMs;
         }
 
-        this.el.emit('timeUpdated', {updatedTime: time}, true);
+        this.el.emit("timeUpdated", {updatedTime: time}, true);
     },
 
     sleep(milliseconds) {
