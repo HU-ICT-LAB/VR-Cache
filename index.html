@@ -21,8 +21,11 @@
         <a-asset-item id="mount-m" src="assets/mountain/part.mtl"></a-asset-item>
     </a-assets>
     <a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="2 2 20" shadow="cast: false; receive: false"></a-entity>
-    <a-entity id="camera" position="0 1.4 0" velocity="0 0 0" ngularVelocity="0 0 0" vlambda="0 0 0" wlambda="0 0 0">
-        <a-entity id="camera" camera look-controls wasd-controls kinematic-body></a-entity>
+    <a-entity id="camera" position="0 1.6 0">
+        <a-entity id="camera" camera look-controls wasd-controls kinematic-body cache-interaction>
+            <a-entity position="1 0.72 -1" displaytimer></a-entity>
+            <a-entity position="0 0 -1" id="timer" timer></a-entity>
+        </a-entity>
     </a-entity>
 
     <a-entity static-body="shape:cylinder" gltf-model="#tree" position="6.4 -1 -3"></a-entity>
