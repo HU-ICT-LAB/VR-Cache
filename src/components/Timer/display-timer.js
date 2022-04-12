@@ -1,13 +1,16 @@
-
-window.AFRAME.registerComponent("displaytimer",{
+window.AFRAME.registerComponent("displaytimer", {
 
     init: function () {
         let text = document.createElement("a-text");
-        text.setAttribute("value","00"+":"+"00"+":"+"00");
-        text.setAttribute("font","https://cdn.aframe.io/fonts/Monoid.fnt")
+        text.setAttribute("value", "00" + ":" + "00");
+        text.setAttribute("font", "https://cdn.aframe.io/fonts/Monoid.fnt")
         this.el.appendChild(text);
+        const component=this
         this.el.sceneEl.addEventListener("timeUpdated", function (event) {
-            text.setAttribute("value",event.detail.updatedTime.m+":"+event.detail.updatedTime.s+":"+event.detail.updatedTime.ms);
+            text.setAttribute("value",component.makeNumberTwoDigits(event.detail.updatedTime.m)+ ":" +component.makeNumberTwoDigits(event.detail.updatedTime.s));
         });
     },
+    makeNumberTwoDigits(number) {
+        return (number < 10 ? '0' : '') + number
+    }
 });
