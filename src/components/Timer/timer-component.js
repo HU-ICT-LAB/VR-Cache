@@ -5,13 +5,8 @@ window.AFRAME.registerComponent("timer", {
         interval = setInterval(this.updateTime,
             1000);
         let component=this
-        this.el.sceneEl.addEventListener("paused", function (event) {
-            component.stop();
-        });
-        this.el.sceneEl.addEventListener("continued", function (event) {
-            component.continue();
-        });
-
+        this.el.sceneEl.addEventListener("paused", component.stop);
+        this.el.sceneEl.addEventListener("continued", component.continue);
     },
 
     updateTime() {
