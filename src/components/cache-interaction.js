@@ -7,18 +7,14 @@ const DISTANCE_TO_INTERACT = 5;
  */
 window.AFRAME.registerComponent("cache-interaction", {
 	inDistance: false,
+	inDistanceEvent: false,
 
 	/**
 	 * Gets called every frame
 	 */
 	tick() {
 		this.checkDistance();
-
-		if (this.inDistance) {
-			document.getElementById("cache").setAttribute("color", "#d9ff00");
-		} else {
-			document.getElementById("cache").setAttribute("color", "#4CC3D9");
-		}
+		this.handleEvents();
 	},
 
 	/**
@@ -35,5 +31,18 @@ window.AFRAME.registerComponent("cache-interaction", {
 		);
 
 		this.inDistance = result.magnitude() <= DISTANCE_TO_INTERACT;
+	},
+
+	/**
+	 * Handle all the events that are being emitted by this component
+	 */
+	handleEvents() {
+		// If the cache is in range and the event hasn't emitted yet before the cache went out of range
+		if (this.inDistance && !this.inDistanceEvent) {
+			this.el.emit("enteredCacheRange");
+			this.inDistanceEvent = true;
+		} else if (!this.inDistance) {
+			this.inDistanceEvent = false;
+		}
 	}
 });
