@@ -4,5 +4,6 @@ Een geocaching game in virtual reality gemaakt met het [AFrame](https://aframe.i
 # Setup
 ```
 npm install
-npm run
+npm start
+webpack --watch --progress --mode=development
 ```
