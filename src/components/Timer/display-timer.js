@@ -4,6 +4,7 @@ window.AFRAME.registerComponent("displaytimer", {
         const text = document.createElement("a-text");
         text.setAttribute("value", "00" + ":" + "00");
         text.setAttribute("font", "https://cdn.aframe.io/fonts/Monoid.fnt");
+        text.setAttribute("color", "#000000");
         this.el.appendChild(text);
         const component = this;
         this.el.sceneEl.addEventListener("timeUpdated", function (event) {
