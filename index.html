@@ -1,24 +1,88 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <title>VR Cache</title>
-
-    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
-    <script src="dist/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
+<style>
+    * {
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-size: cover;
+    }
+
+    section {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        background-image: url('https://musictech.com/wp-content/uploads/2019/05/history-of-vr-credit-shutterstock@1400x1050.jpg');
+        flex-direction: column;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 500px;
+        /* height: 500px; */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .btn {
+        min-width: 240px;
+        min-height: auto;
+        text-align: middle;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 4px;
+        background-color: rgb(255, 222, 228);
+        border: 1px solid white;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background-color: rgb(234, 184, 192);
+        transition: 0.2s;
+    }
+</style>
+
 <body>
-<a-scene physics="debug: true">
-    <a-entity id="camera" position="0 1.6 0">
-        <a-entity id="camera" camera look-controls wasd-controls kinematic-body></a-entity>
-    </a-entity>
-
-    <a-box static-body position="0 1 -2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
-
-    <a-plane static-body rotation="-90 0 0" position="0 0 -4" width="10" height="10" color="#7BC8A4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky>
-</a-scene>
+    <section>
+        <div class="img">
+            <img width="500px" src="https://www.vrfitnessinsider.com/wp-content/uploads/2021/02/VR-Wear-transparent-e1613707531595.png"
+                alt="">
+        </div>
+        <div class="box">
+            <button class="btn" type="button">
+                <h2>NEW GAME</h2>
+            </button><br>
+            <button class="btn" type="button">
+                <h2>LOAD GAME</h2>
+            </button><br>
+            <button class="btn" type="button">
+                <h2>EXIT</h2>
+            </button>
+        </div>
+    </section>
 </body>
+
 </html>
