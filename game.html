@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>VR Cache</title>
+
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="https://unpkg.com/aframe-cubemap-component@2.1.1/dist/aframe-cubemap-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+    <script src="./dist/bundle.js"></script>
+</head>
+<body>
+<a-scene physics="debug: true" environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:0.96; scale: 2 2 20">
+    <a-entity id="camera" position="0 1.6 0" rotation="0 180 0">
+        <a-entity id="camera" camera look-controls wasd-controls kinematic-body cache-interaction pause-component>
+            <a-entity position="1 0.72 -1" display-timer></a-entity>
+            <a-entity position="0 0 -1" id="timer" timer></a-entity>
+        </a-entity>
+    </a-entity>
+
+    <a-entity static-body="shape:mesh">
+        <a-entity gltf-model="assets/tree.gltf" position="9.4 0 13.6"></a-entity>
+    </a-entity>
+
+    <a-entity static-body="shape:mesh">
+        <a-entity gltf-model="assets/tree.gltf" position="0.9 0 19.2"></a-entity>
+    </a-entity>
+
+    <a-entity static-body="shape:mesh">
+        <a-entity gltf-model="assets/tree.gltf" position="-6.7 0 13.4"></a-entity>
+    </a-entity>
+
+    <a-entity static-body="shape:mesh">
+        <a-entity gltf-model="assets/stone.gltf" position="4 -1.7 14.4"></a-entity>
+    </a-entity>
+
+    <a-entity static-body="shape:mesh">
+        <a-entity gltf-model="assets/stone.gltf" position="-2.76122 -1 10.78893"></a-entity>
+    </a-entity>
+
+    <a-box id="cache" static-body position="0.2 1 14.2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
+
+    <a-plane static-body rotation="-90 0 0" position="0 -0.01 -4" width="300" height="300" color="#5dc064"></a-plane>
+</a-scene>
+</body>
+</html>
