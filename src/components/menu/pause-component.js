@@ -1,23 +1,24 @@
-let pause = false;
-let camera;
-
 window.AFRAME.registerComponent("pause-component", {
 	init() {
-		camera = this;
-	},
+		const timer = document.querySelector("#timer");
+		const camera = this;
 
-	tick() {
+		let pause = false;
+
 		document.onkeydown = function menu(e) {
-			if (e.key === "Escape" && !pause) {
-				camera.el.pause();
-				document.querySelector("#timer").emit("paused");
-				pause = true;
-			} else if (e.key === "Escape") {
-				camera.el.play();
-				document.querySelector("#timer").emit("continued");
-				pause = false;
+			if (e.key === "Escape") {
+				if (!pause) {
+					timer.emit("paused");
+					camera.el.pause();
+					pause = true;
+				} else {
+					timer.emit("continued");
+					camera.el.play();
+					pause = false;
+				}
 			}
 		};
+
 	}
 });
 
