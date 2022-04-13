@@ -7,12 +7,14 @@ const DISTANCE_TO_INTERACT = 5;
  */
 window.AFRAME.registerComponent("cache-interaction", {
 	inDistance: false,
+	inDistanceEvent: false,
 
 	/**
 	 * Gets called every frame
 	 */
 	tick() {
 		this.checkDistance();
+		this.handleEvents();
 	},
 
 	/**
@@ -28,8 +30,19 @@ window.AFRAME.registerComponent("cache-interaction", {
 			cachePosition.z - playerPosition.z
 		);
 
-		//console.log(result.magnitude());
-
 		this.inDistance = result.magnitude() <= DISTANCE_TO_INTERACT;
+	},
+
+	/**
+	 * Handle all the events that are being emitted by this component
+	 */
+	handleEvents() {
+		// If the cache is in range and the event hasn't emitted yet before the cache went out of range
+		if (this.inDistance && !this.inDistanceEvent) {
+			this.el.emit("enteredCacheRange");
+			this.inDistanceEvent = true;
+		} else if (!this.inDistance) {
+			this.inDistanceEvent = false;
+		}
 	}
 });
