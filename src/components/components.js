@@ -5,4 +5,5 @@ import "./menu/pause-component";
 import "./world/tree";
 import "./world/rock";
 import "./world/bush";
-import "./world/foilage";
+import "./world/campfire";
+import "./world/log";
