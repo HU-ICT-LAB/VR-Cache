@@ -1,6 +1,5 @@
 window.AFRAME.registerComponent("foilage", {
 	schema: {
-		position: {type: "string", default: "0 0 0"},
 		type: {type: "string"}
 	},
 	init: function () {
@@ -24,6 +23,5 @@ window.AFRAME.registerComponent("foilage", {
 			break;
 		default:
 		}
-		element.setAttribute("position", this.data.position);
 	}
 });

@@ -1,6 +1,5 @@
 window.AFRAME.registerComponent("bush", {
 	schema: {
-		position: {type: "string", default: "0 0 0"},
 		size: {type: "string"}
 	},
 	init: function () {
@@ -15,7 +14,6 @@ window.AFRAME.registerComponent("bush", {
 			break;
 		default:
 		}
-		element.setAttribute("position", this.data.position);
 
 		element.setAttribute("static-body", "shape:mesh");
 	}
