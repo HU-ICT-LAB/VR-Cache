@@ -6,15 +6,15 @@
 
     <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
-    <script src="dist/bundle.js"></script>
+    <script src="bundle.js"></script>
 </head>
 <body>
 
 <a-scene physics="debug:true" environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20" fog="far:150">
     <a-entity id="camera" position="0 3.5 0">
-        <a-entity id="camera" camera look-controls wasd-controls kinematic-body cache-interaction pause-component>
+        <a-entity id="camera" camera look-controls universal-controls wasd-controls kinematic-body cache-interaction pause-component>
             <a-entity position="1 0.72 -1" display-timer></a-entity>
             <a-entity position="0 0 -1" id="timer" timer></a-entity>
         </a-entity>
