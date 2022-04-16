@@ -11,34 +11,103 @@
     <script src="dist/bundle.js"></script>
 </head>
 <body>
-<a-scene physics="debug: true" environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:0.96; scale: 2 2 20">
 
-    <a-entity id="camera" position="0 1.6 0">
-        <a-entity camera look-controls wasd-controls kinematic-body cache-interaction pause-component>
+<a-scene physics="debug:true" environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20" fog="far:150">
+    <a-entity id="camera" position="0 3.5 0">
+        <a-entity id="camera" camera look-controls wasd-controls universal-controls kinematic-body cache-interaction pause-component>
             <a-entity position="1 0.72 -1" display-timer></a-entity>
             <a-entity position="0 0 -1" id="timer" timer></a-entity>
         </a-entity>
     </a-entity>
 
-    <a-entity static-body="shape:mesh">
-        <a-entity id="tree 1" gltf-model="assets/tree.gltf" position="9.4 0 13.6"></a-entity>
+    <a-entity id="camp">
+        <a-entity id="campfire" campfire position="0 0 0"></a-entity>
+        <a-entity id="stump1" log position="4.64818 0 -5.76874" rotation="0 -45 0" scale="0.95 0.83 0.9"></a-entity>
+        <a-entity id="stump2" log position="6.65702 0 2.66021" rotation="0 -63 0" scale="0.82 0.83 0.84"></a-entity>
+        <a-entity id="stump3" log position="4.24836 0 6.27064" rotation="0 -20 0" scale="1.06 0.93 0.98"></a-entity>
+        <a-entity id="stump4" log position="0.325096 0 7.49915" rotation="0 94 0" scale="0.9 0.87 0.86"></a-entity>
+        <a-entity id="stump5" log position="-3.97178 0 6.57643" rotation="0 60 0" scale="0.72 0.83 0.8"></a-entity>
+        <a-entity id="stump6" log position="-6.52506 0 1.96627" rotation="0 35 0" scale="0.82 0.71 0.87"></a-entity>
+        <a-entity id="stump7" log position="-6.39513 0 -2.55755" rotation="0 4 0" scale="0.77 0.78 0.78"></a-entity>
+        <a-entity id="stump8" log position="-4.13558 0 -6.0324" rotation="0 90 0" scale="1.0 0.61 1.0"></a-entity>
+        <a-entity id="stump9" log position="-0.092121 0 -7.35342" rotation="0 60 0" scale="0.84 0.89 0.83"></a-entity>
+        <a-entity id="stump10" log position="7.54424 0 -1.96655" rotation="0 -9 0" scale="0.78 0.8 0.75"></a-entity>
     </a-entity>
 
-    <a-entity static-body="shape:mesh">
-        <a-entity id="tree 2" gltf-model="assets/tree.gltf" position="0.9 0 19.2"></a-entity>
+    <a-entity id="treesl">
+        <a-entity id="treel1" tree="size:l" position="0.550868 0 28.8071"></a-entity>
+        <a-entity id="treel2" tree="size:l" position="24.7523 0 0.315249"></a-entity>
+        <a-entity id="treel3" tree="size:l" position="24.1385 0 -18.5996"></a-entity>
+        <a-entity id="treel4" tree="size:l" position="-16.6042 0 -7.25354"></a-entity>
+        <a-entity id="treel5" tree="size:l" position="26.4712 0 23.841"></a-entity>
+        <a-entity id="treel6" tree="size:l" position="-22.4292  0 28.7583"></a-entity>
+        <a-entity id="treel7" tree="size:l" position="-18.0013 0 42.6302"></a-entity>
+        <a-entity id="treel8" tree="size:l" position="-33.147 0 -8.11434 "></a-entity>
+        <a-entity id="treel9" tree="size:l" position="37.6867 0 -19.0815"></a-entity>
+        <a-entity id="treel10" tree="size:l" position="15.6617 0 -22.0906"></a-entity>
+        <a-entity id="treel11" tree="size:l" position="-43.9034 0 29.1104"></a-entity>
+        <a-entity id="treel12" tree="size:l" position="-14.8045 0 -32.535"></a-entity>
+        <a-entity id="treel13" tree="size:l" position="53.7514 0 -10.3117"></a-entity>
+        <a-entity id="treel14" tree="size:l" position="48.0903 0 11.0435"></a-entity>
+        <a-entity id="treel15" tree="size:l" position="36.6472 0 34.9627"></a-entity>
+        <a-entity id="treel16" tree="size:l" position="6.95775 0 47.8469"></a-entity>
+        <a-entity id="treel17" tree="size:l" position="-31.3023 0 43.0525"></a-entity>
+        <a-entity id="treel18" tree="size:l" position="0.06943 0 -30.5297"></a-entity>
+        <a-entity id="treel19" tree="size:l" position="-35.7664 0 -22.1242"></a-entity>
+        <a-entity id="treel20" tree="size:l" position="15.1127 0 10.5171"></a-entity>
+        <a-entity id="treel21" tree="size:l" position="-20.0872 0 13.8202"></a-entity>
     </a-entity>
 
-    <a-entity static-body="shape:mesh">
-        <a-entity id="tree 3" gltf-model="assets/tree.gltf" position="-6.7 0 13.4"></a-entity>
+    <a-entity id="treesm">
+        <a-entity id="treem1" tree="size:m" position="-13.0135 0 -15.5419"></a-entity>
+        <a-entity id="treem2" tree="size:m" position="-9.73524 0 -26.8225"></a-entity>
+        <a-entity id="treem3" tree="size:m" position="6.4329 0 -29.0437"></a-entity>
+        <a-entity id="treem4" tree="size:m" position="35.9323 0 -8.54349"></a-entity>
+        <a-entity id="treem5" tree="size:m" position="31.7184 0 -1.42727"></a-entity>
+        <a-entity id="treem6" tree="size:m" position="25.5684 0 11.3936"></a-entity>
+        <a-entity id="treem7" tree="size:m" position="11.563 0 20.9342"></a-entity>
+        <a-entity id="treem8" tree="size:m" position="-3.74124 0 -18.1625"></a-entity>
+        <a-entity id="treem9" tree="size:m" position="37.6512 0 14.9823"></a-entity>
+        <a-entity id="treem10" tree="size:m" position="33.4373 0 22.0985"></a-entity>
+        <a-entity id="treem11" tree="size:m" position="27.2873 0 34.9193"></a-entity>
+        <a-entity id="treem12" tree="size:m" position="-11.2492 0 19.8996"></a-entity>
+        <a-entity id="treem13" tree="size:m" position="-15.4631 0 27.0158"></a-entity>
+        <a-entity id="treem14" tree="size:m" position="-11.7258 0 36.1785"></a-entity>
+        <a-entity id="treem15" tree="size:m" position="-35.8436 0 34.3514"></a-entity>
+        <a-entity id="treem16" tree="size:m" position="0.356987 0 39.7672"></a-entity>
+        <a-entity id="treem17" tree="size:m" position="-3.8569 0 46.8834"></a-entity>
+        <a-entity id="treem18" tree="size:m" position="15.354 0 35.7809"></a-entity>
+        <a-entity id="treem19" tree="size:m" position="-35.2859 0 2.22629"></a-entity>
+        <a-entity id="treem20" tree="size:m" position="-29.5563 0 -16.4027"></a-entity>
+        <a-entity id="treem21" tree="size:m" position="-26.278 0 -27.6833"></a-entity>
+        <a-entity id="treem22" tree="size:m" position="-20.284 0 -19.0233"></a-entity>
+        <a-entity id="treem23" tree="size:m" position="35.7951 0 -29.5182"></a-entity>
+        <a-entity id="treem24" tree="size:m" position="39.0734 0 -40.7987"></a-entity>
+        <a-entity id="treem25" tree="size:m" position="45.0674 0 -32.1387"></a-entity>
+        <a-entity id="treem26" tree="size:m" position="13.5227 0 -11.7499"></a-entity>
+        <a-entity id="treem27" tree="size:m" position="19.2524 0 -30.379"></a-entity>
+        <a-entity id="treem28" tree="size:m" position="22.5306 0 -41.6595"></a-entity>
+        <a-entity id="treem29" tree="size:m" position="28.5246 0 -32.9995"></a-entity>
+        <a-entity id="treem30" tree="size:m" position="-40.3127 0 20.822"></a-entity>
+        <a-entity id="treem31" tree="size:m" position="-37.0344 0 9.54142"></a-entity>
+        <a-entity id="treem32" tree="size:m" position="-31.0404 0 18.2014"></a-entity>
+        <a-entity id="treem33" tree="size:m" position="38.8158 0 4.04538"></a-entity>
+        <a-entity id="treem34" tree="size:m" position="-11.2138 0 -40.8234"></a-entity>
+        <a-entity id="treem35" tree="size:m" position="10.4143 0 -40.7748"></a-entity>
+        <a-entity id="treem36" tree="size:m" position="-1.94157 0 -43.444"></a-entity>
+        <a-entity id="treem37" tree="size:m" position="50.864 0 -19.6771"></a-entity>
+        <a-entity id="treem38" tree="size:m" position="46.3704 0 23.9747"></a-entity>
+        <a-entity id="treem39" tree="size:m" position="48.3858 0 0.26988"></a-entity>
+        <a-entity id="treem40" tree="size:m" position="44.2912 0 -10.8147"></a-entity>
+        <a-entity id="treem41" tree="size:m" position="60.8304 0 1.50391"></a-entity>
+        <a-entity id="treem42" tree="size:m" position="17.484 0 45.8127"></a-entity>
+        <a-entity id="treem43" tree="size:m" position="-0.184795 0 19.8779"></a-entity>
+        <a-entity id="treem44" tree="size:m" position="-18.7432 0 3.08708"></a-entity>
     </a-entity>
 
-    <a-entity static-body="shape:mesh">
-        <a-entity id="stone 1" gltf-model="assets/stone.gltf" position="4 -1.7 14.4"></a-entity>
-    </a-entity>
+    <a-entity gltf-model="assets/foilage.gltf"></a-entity>
 
-    <a-entity static-body="shape:mesh">
-        <a-entity id="stone 2" gltf-model="assets/stone.gltf" position="-2.76122 -1 10.78893"></a-entity>
-    </a-entity>
+    <a-entity id="mountains" static-body="shape:mesh" gltf-model="assets/mountains.gltf" position="0 0 0" scale="1.04 1 1.05"></a-entity>
 
     <a-box id="cache" static-body position="0.2 1 14.2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
 
