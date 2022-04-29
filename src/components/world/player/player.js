@@ -39,7 +39,7 @@ window.AFRAME.registerComponent("player", {
 			break;
 		case "mobile" :
             element.innerHTML =
-                "<a-entity id=\"camera\" position=\"0 1.6 0\">\n" +
+                "<a-entity id=\"camera\" position=\"0 0 0\">\n" +
                 "     <a-entity camera kinematic-body universal-controls cache-interaction pause-component>\n" +
                 "         <a-entity position=\"1 0.72 -1\" display-timer></a-entity>\n" +
                 "         <a-entity position=\"0 0 -1\" id=\"timer\" timer></a-entity>\n" +
