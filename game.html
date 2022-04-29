@@ -13,16 +13,8 @@
 </head>
 <body>
 <a-scene id="scene" physics="debug:true" environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5" >
-    <a-entity id="rig" kinematic-body="shape:mesh">
-    <a-entity id="camera" position="0 0 0">
-        <a-entity id="camera" camera look-controls wasd-controls cache-interaction pause-component>
-            <a-entity position="1 0.72 -1" display-timer></a-entity>
-            <a-entity position="0 0 -1" id="timer" timer></a-entity>
-        </a-entity>
-    </a-entity>
-    <a-entity oculus-touch-controls="hand: left" ></a-entity>
-    <a-entity oculus-touch-controls="hand: right" oculus-thumbstick-controls="acceleration: 20"></a-entity>
-    </a-entity>
+
+    <a-entity player="device: mobile"></a-entity>
 
     <a-entity id="camp" scale="0.4 0.4 0.4">
         <a-entity id="campfire" campfire position="0 0 0"></a-entity>

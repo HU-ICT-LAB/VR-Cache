@@ -7,3 +7,4 @@ import "./world/rock";
 import "./world/bush";
 import "./world/campfire";
 import "./world/log";
+import "./world/player/player";
