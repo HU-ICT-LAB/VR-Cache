@@ -16,7 +16,8 @@ window.AFRAME.registerComponent("input-handler", {
 		);
 
 		if (result.magnitude() <= 5) {
-			document.getElementById("cache").object3D.position.x = 10;
+			// eslint-disable-next-line no-alert
+			alert("Je hebt gewonnen!");
 		}
 	}
 });
