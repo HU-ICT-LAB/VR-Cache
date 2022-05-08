@@ -6,7 +6,7 @@ window.AFRAME.registerComponent("input-handler", {
 	},
 
 	interact: function () {
-		const playerPosition = document.querySelector("[camera]").object3D.position;
+		const playerPosition = document.getElementById("rig").object3D.position;
 		const cachePosition = document.getElementById("cache").object3D.position;
 
 		const result = new Vector3D(
