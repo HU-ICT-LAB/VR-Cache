@@ -12,6 +12,5 @@ window.AFRAME.registerComponent("log", {
 		hitbox.appendChild(element);
 
 		element.setAttribute("gltf-model", "assets/log-M.gltf");
-		hitbox.setAttribute("static-body", "shape:mesh");
 	}
 });
