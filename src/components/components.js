@@ -8,3 +8,4 @@ import "./world/bush";
 import "./world/campfire";
 import "./world/log";
 import "./world/player/player";
+import "./input-handler";

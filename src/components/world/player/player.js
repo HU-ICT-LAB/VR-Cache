@@ -34,11 +34,11 @@ window.AFRAME.registerComponent("player", {
                     "        </a-entity>\n" +
                     "    </a-entity>\n" +
                     "    <a-entity oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
-                    "    <a-entity oculus-touch-controls=\"hand: right\" oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
+                    "    <a-entity oculus-touch-controls=\"hand: right\" input-handler oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
                     "</a-entity>";
 			break;
 		case "mobile" :
-            element.innerHTML =
+			element.innerHTML =
                 "<a-entity id=\"camera\" position=\"0 0 0\">\n" +
                 "     <a-entity camera kinematic-body universal-controls cache-interaction pause-component>\n" +
                 "         <a-entity position=\"1 0.72 -1\" display-timer></a-entity>\n" +
