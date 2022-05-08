@@ -37,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cac
   \*****************************************/
 /***/ (() => {
 
-eval("window.AFRAME.registerComponent(\"input-handler\", {\r\n\tinit() {\r\n\r\n\t\tthis.el.addEventListener(\"abuttondown\", this.print);\r\n\t},\r\n\r\n\tprint: function () {\r\n\t\tconsole.log(\"AAAAAAAAAAAAAAA\");\r\n\t}\r\n});\r\n\n\n//# sourceURL=webpack://vr-cache/./src/components/input-handler.js?");
+eval("window.AFRAME.registerComponent(\"input-handler\", {\r\n\tinit() {\r\n\t\tthis.el.addEventListener(\"abuttondown\", this.test);\r\n\t},\r\n\r\n\ttest: function () {\r\n\t\tdocument.getElementById(\"cache\").object3D.position.x = 10;\r\n\t}\r\n});\r\n\n\n//# sourceURL=webpack://vr-cache/./src/components/input-handler.js?");
 
 /***/ }),
 

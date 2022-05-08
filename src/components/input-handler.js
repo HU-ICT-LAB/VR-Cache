@@ -1,10 +1,9 @@
 window.AFRAME.registerComponent("input-handler", {
 	init() {
-
-		this.el.addEventListener("abuttondown", this.print);
+		this.el.addEventListener("abuttondown", this.test);
 	},
 
-	print: function () {
-		console.log("AAAAAAAAAAAAAAA");
+	test: function () {
+		document.getElementById("cache").object3D.position.x = 10;
 	}
 });
