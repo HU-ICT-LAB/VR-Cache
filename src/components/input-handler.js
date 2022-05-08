@@ -5,16 +5,7 @@ window.AFRAME.registerComponent("input-handler", {
 		this.el.addEventListener("abuttondown", this.interact);
 	},
 
-	interact() {
-		if (this.checkDistance()) {
-			document.getElementById("cache").object3D.position.x = 10;
-		}
-	},
-
-	/**
-	 * Checks if the player is in distance of the cache
-	 */
-	checkDistance() {
+	interact: function () {
 		const playerPosition = document.querySelector("[camera]").object3D.position;
 		const cachePosition = document.getElementById("cache").object3D.position;
 
@@ -24,6 +15,8 @@ window.AFRAME.registerComponent("input-handler", {
 			cachePosition.z - playerPosition.z
 		);
 
-		return result.magnitude() <= 5;
+		if (result.magnitude() <= 5) {
+			document.getElementById("cache").object3D.position.x = 10;
+		}
 	}
 });
