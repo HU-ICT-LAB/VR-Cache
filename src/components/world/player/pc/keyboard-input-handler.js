@@ -18,8 +18,7 @@ window.AFRAME.registerComponent("keyboard-input-handler", {
 			);
 
 			if (result.magnitude() <= 5) {
-				// eslint-disable-next-line no-alert
-				alert("Gevonden");
+				window.location.href = "/succes.html";
 			}
 		}
 	}

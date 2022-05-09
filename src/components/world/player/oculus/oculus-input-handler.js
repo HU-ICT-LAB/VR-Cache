@@ -16,7 +16,7 @@ window.AFRAME.registerComponent("oculus-input-handler", {
 		);
 
 		if (result.magnitude() <= 5) {
-			window.location.href = "../../../../../succes.html";
+			window.location.href = "/succes.html";
 		}
 	}
 });
