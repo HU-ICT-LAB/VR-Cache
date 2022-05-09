@@ -6,7 +6,7 @@ window.AFRAME.registerComponent("oculus-input-handler", {
 	},
 
 	interact: function () {
-		const playerPosition = document.getElementById("rig").object3D.position;
+		const playerPosition = document.getElementById("right-controller").object3D.position;
 		const cachePosition = document.getElementById("cache").object3D.position;
 
 		const result = new Vector3D(
@@ -15,7 +15,7 @@ window.AFRAME.registerComponent("oculus-input-handler", {
 			cachePosition.z - playerPosition.z
 		);
 
-		if (result.magnitude() <= 5) {
+		if (result.magnitude() <= 0.5) {
 			window.location.href = "./succes.html";
 		}
 	}

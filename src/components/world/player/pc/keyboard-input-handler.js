@@ -3,7 +3,6 @@ import {Vector3D} from "../../../../utils/vector3d";
 window.AFRAME.registerComponent("keyboard-input-handler", {
 	init() {
 		document.addEventListener("keydown", this.interact);
-		console.log("aaaaaaaaaaaaaaa");
 	},
 
 	interact: function (e) {
