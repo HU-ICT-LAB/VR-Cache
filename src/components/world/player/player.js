@@ -34,7 +34,7 @@ window.AFRAME.registerComponent("player", {
                     "        </a-entity>\n" +
                     "    </a-entity>\n" +
                     "    <a-entity oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
-                    "    <a-entity oculus-touch-controls=\"hand: right\" laser-controls=\"hand: right\" oculus-input-handler oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
+                    "    <a-entity oculus-touch-controls=\"hand: right\" laser-controls oculus-input-handler oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
                     "</a-entity>";
 			break;
 		case "mobile" :

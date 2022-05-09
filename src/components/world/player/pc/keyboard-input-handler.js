@@ -16,7 +16,7 @@ window.AFRAME.registerComponent("keyboard-input-handler", {
 				cachePosition.z - playerPosition.z
 			);
 
-			if (result.magnitude() <= 5) {
+			if (result.magnitude() <= 3) {
 				window.location.href = "./succes.html";
 			}
 		}
