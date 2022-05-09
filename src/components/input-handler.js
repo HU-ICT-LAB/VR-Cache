@@ -17,7 +17,7 @@ window.AFRAME.registerComponent("input-handler", {
 
 		if (result.magnitude() <= 5) {
 			// eslint-disable-next-line no-alert
-			alert("Je hebt gewonnen!");
+			window.location.href = "/succes.html";
 		}
 	}
 });
