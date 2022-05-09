@@ -16,7 +16,6 @@ window.AFRAME.registerComponent("input-handler", {
 		);
 
 		if (result.magnitude() <= 5) {
-			// eslint-disable-next-line no-alert
 			window.location.href = "VR-Cache/succes.html";
 		}
 	}
