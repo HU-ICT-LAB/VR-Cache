@@ -1,6 +1,6 @@
-import {Vector3D} from "../utils/vector3d";
+import {Vector3D} from "../../../../utils/vector3d";
 
-window.AFRAME.registerComponent("input-handler", {
+window.AFRAME.registerComponent("oculus-input-handler", {
 	init() {
 		this.el.addEventListener("abuttondown", this.interact);
 	},
@@ -15,8 +15,8 @@ window.AFRAME.registerComponent("input-handler", {
 			cachePosition.z - playerPosition.z
 		);
 
-		if (result.magnitude() <= 5) {
-			window.location.href = "VR-Cache/succes.html";
+		if (result.magnitude() <= 3) {
+			window.location.href = "./succes.html";
 		}
 	}
 });
