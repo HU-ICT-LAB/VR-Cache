@@ -4,7 +4,6 @@ window.AFRAME.registerComponent("player", {
 	},
 	init: function () {
 		const element = this.el;
-		const camera = document.createElement("a-entity");
 		const displaytimer = document.createElement("a-entity");
 		const timer = document.createElement("a-entity");
 
