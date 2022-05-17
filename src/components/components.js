@@ -8,3 +8,6 @@ import "./world/bush";
 import "./world/campfire";
 import "./world/log";
 import "./world/player/player";
+import "./world/player/oculus/oculus-input-handler";
+import "./world/player/pc/keyboard-input-handler";
+import "./world/cache/cache";

@@ -12,11 +12,12 @@
     <script src="./dist/bundle.js"></script>
 </head>
 <body>
-<a-scene id="scene" physics="debug:true" environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5" >
+<a-scene id="scene" fog="density: 0" physics
+         environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5">
 
-    <a-entity player="device: pc"></a-entity>
+    <a-entity player="device: oculus"></a-entity>
 
-    <a-entity id="camp" scale="0.4 0.4 0.4">
+    <a-entity id="camp" scale="0.3 0.3 0.3">
         <a-entity id="campfire" campfire position="0 0 0"></a-entity>
         <a-entity id="stump1" log position="4.64818 0 -5.76874" rotation="0 -45 0" scale="0.95 0.83 0.9"></a-entity>
         <a-entity id="stump2" log position="6.65702 0 2.66021" rotation="0 -63 0" scale="0.82 0.83 0.84"></a-entity>
@@ -30,7 +31,7 @@
         <a-entity id="stump10" log position="7.54424 0 -1.96655" rotation="0 -9 0" scale="0.78 0.8 0.75"></a-entity>
     </a-entity>
 
-    <a-entity id="treesl" scale="0.4 0.5 0.4">
+    <a-entity id="treesl" scale="0.3 0.5 0.3">
         <a-entity id="treel1" tree="size:l" position="0.550868 0 28.8071"></a-entity>
         <a-entity id="treel2" tree="size:l" position="24.7523 0 0.315249"></a-entity>
         <a-entity id="treel3" tree="size:l" position="24.1385 0 -18.5996"></a-entity>
@@ -54,7 +55,7 @@
         <a-entity id="treel21" tree="size:l" position="-20.0872 0 13.8202"></a-entity>
     </a-entity>
 
-    <a-entity id="treesm" scale="0.4 0.7 0.4">
+    <a-entity id="treesm" scale="0.3 0.7 0.3">
         <a-entity id="treem1" tree="size:m" position="-13.0135 0 -15.5419"></a-entity>
         <a-entity id="treem2" tree="size:m" position="-9.73524 0 -26.8225"></a-entity>
         <a-entity id="treem3" tree="size:m" position="6.4329 0 -29.0437"></a-entity>
@@ -101,11 +102,26 @@
         <a-entity id="treem44" tree="size:m" position="-18.7432 0 3.08708"></a-entity>
     </a-entity>
 
-    <a-entity gltf-model="assets/foilage.gltf" scale="0.4 0.4 0.4"></a-entity>
+    <a-entity id="border" scale="1 1 1">
+        <a-box id="wall1" static-body position="3.14907 0 -16.39262" material="opacity: 0" width="100"
+               height="20" depth="1"></a-box>
+        <a-box id="wall2" static-body rotation="0 49.68 0" position="-13.1761 0 -10.06561" material="opacity: 0"
+               width="100" height="20" depth="1"></a-box>
+        <a-box id="wall3" static-body rotation="0 83.23 0" position="-18.2067 0 8.08214" material="opacity: 0"
+               width="100" height="20" depth="1"></a-box>
+        <a-box id="wall4" static-body rotation="0 -6.88 0" position="3.14907 0 17.90184" material="opacity: 0"
+               width="100" height="20" depth="1"></a-box>
+        <a-box id="wall5" static-body rotation="0 31.19 0" position="8.50678 0 15.91824" material="opacity: 0"
+               width="100" height="20" depth="1"></a-box>
+        <a-box id="wall6" static-body rotation="0 95.61 0" position="22.66644 0 16.56808" material="opacity: 0"
+               width="100" height="20" depth="1"></a-box>
+    </a-entity>
 
-    <a-entity id="mountains" gltf-model="assets/mountains.gltf" position="0 0 0" scale="0.416 0.4 0.42"></a-entity>
+    <a-entity gltf-model="assets/foilage.gltf" scale="0.3 0.3 0.3"></a-entity>
 
-    <a-box id="cache" static-body position="0.2 1 14.2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
+    <a-entity id="mountains" gltf-model="assets/mountains.gltf" position="0 0 0" scale="0.312 0.3 0.315"></a-entity>
+
+    <a-sphere id="cache" cache></a-sphere>
 
     <a-plane static-body rotation="-90 0 0" position="0 -0.01 -4" width="300" height="300" color="#5dc064"></a-plane>
 
