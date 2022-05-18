@@ -20,10 +20,6 @@ window.AFRAME.registerComponent("vibration", {
 
 		const pulse = this.duration - result.magnitude() * 10;
 
-		const gamepads = navigator.getGamepads && navigator.getGamepads();
-		for (let i = 0; gamepads.length; i++) {
-			const gamepad = gamepads[i];
-			gamepad.hapticActuators[0].pulse(this.data.value, pulse);
-		}
+		this.el.components.haptics.pulse(0.5, pulse);
 	}
 });
