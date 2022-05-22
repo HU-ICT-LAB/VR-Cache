@@ -5,6 +5,7 @@ window.AFRAME.registerComponent("rock", {
 	init: function () {
 		const element = this.el;
 
+		element.setAttribute("description", "name:steen;");
 		switch (this.data.size) {
 		case "m" :
 			element.setAttribute("gltf-model", "assets/rock-M.gltf");

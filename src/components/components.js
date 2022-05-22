@@ -11,3 +11,4 @@ import "./world/player/player";
 import "./world/player/oculus/oculus-input-handler";
 import "./world/player/pc/keyboard-input-handler";
 import "./world/cache/cache";
+import "./world/a11y/description";

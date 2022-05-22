@@ -5,6 +5,7 @@ window.AFRAME.registerComponent("bush", {
 	init: function () {
 		const element = this.el;
 
+		element.setAttribute("description", "name:struik;");
 		switch (this.data.size) {
 		case "m" :
 			element.setAttribute("gltf-model", "assets/bush-M.gltf");
