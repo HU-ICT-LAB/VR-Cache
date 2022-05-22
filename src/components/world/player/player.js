@@ -25,16 +25,15 @@ window.AFRAME.registerComponent("player", {
 			break;
 		case "oculus" :
 			element.innerHTML =
-                    "<a-entity id=\"rig\" kinematic-body=\"shape:mesh\">\n" +
-                    "    <a-entity id=\"camera\" position=\"0 0 0\">\n" +
-                    "        <a-entity camera look-controls cache-interaction pause-component>\n" +
-                    "            <a-entity position=\"1 0.72 -1\" display-timer></a-entity>\n" +
-                    "            <a-entity position=\"0 0 -1\" id=\"timer\" timer></a-entity>\n" +
-                    "        </a-entity>\n" +
-                    "    </a-entity>\n" +
-                    "    <a-entity id=\"left\" haptics=\"events: triggerdown;\" vibration=\"duration: 200; value: 0.5\" oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
-                    "    <a-entity id=\"right\" haptics=\"events: triggerdown;\" vibration=\"duration: 200; value: 0.5\"  oculus-touch-controls=\"hand: right\" laser-controls raycaster=\"lineColor: red; lineOpacity: 0.5\" oculus-input-handler oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
-                    "</a-entity>";
+				"            <a-entity display-timer></a-entity>\n" +
+				"            <a-entity id=\"timer\" timer></a-entity>\n" +
+				"<a-entity id=\"rig\" kinematic-body=\"shape:mesh\">\n" +
+				"    <a-entity id=\"camera\" position=\"0 0 0\">\n" +
+				"        <a-entity camera look-controls cache-interaction pause-component></a-entity>\n" +
+				"    </a-entity>\n" +
+				"    <a-entity id=\"left\" haptics vibration oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
+				"    <a-entity id=\"right\" haptics vibration oculus-touch-controls=\"hand: right\" laser-controls raycaster=\"lineColor: red; lineOpacity: 0.5\" oculus-input-handler oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
+				"</a-entity>";
 			break;
 		case "mobile" :
 			element.innerHTML =
