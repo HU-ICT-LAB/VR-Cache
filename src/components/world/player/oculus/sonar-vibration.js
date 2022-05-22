@@ -24,11 +24,9 @@ window.AFRAME.registerComponent("vibration", {
 			);
 
 			pulse = 1300 - result.magnitude() * 65;
-			if (pulse < 0) {
-				pulse = 0;
+			if (pulse > 0) {
+				this.el.components.haptics.pulse(0.5, pulse);
 			}
 		}
-		this.el.components.haptics.pulse(0.5, pulse);
 	}
-
 });
