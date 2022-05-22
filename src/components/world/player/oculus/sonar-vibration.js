@@ -23,7 +23,7 @@ window.AFRAME.registerComponent("vibration", {
 				cachePosition.z - playerPosition.z
 			);
 
-			pulse = 5000 - result.magnitude() * 250;
+			pulse = 1300 - result.magnitude() * 65;
 			if (pulse < 0) {
 				pulse = 0;
 			}
