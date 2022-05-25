@@ -11,6 +11,7 @@ window.AFRAME.registerComponent("log", {
 		hitbox.removeAttribute("scale");
 		hitbox.appendChild(element);
 
+		element.setAttribute("description", "name:boomstam;");
 		element.setAttribute("gltf-model", "assets/log-M.gltf");
 	}
 });

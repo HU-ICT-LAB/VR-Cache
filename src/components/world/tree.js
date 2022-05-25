@@ -10,6 +10,7 @@ window.AFRAME.registerComponent("tree", {
 		hitbox.removeAttribute("position");
 		hitbox.appendChild(element);
 
+		hitbox.setAttribute("description", "name:boom;");
 		switch (this.data.size) {
 		case "m" :
 			element.setAttribute("gltf-model", "assets/tree-M.gltf");
