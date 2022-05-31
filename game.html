@@ -16,90 +16,97 @@
 <a-scene id="scene" fog="density: 0" physics
          environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5">
 
-    <a-entity player="device: pc"></a-entity>
+    <a-assets>
+        <!-- All sound assets -->
+        <audio id="boomSoundAsset" src="assets/Boom.mp3" preload="auto"></audio>
+        <audio id="kampvuurSoundAsset" src="assets/Kampvuur.mp3" preload="auto"></audio>
+        <audio id="kleineBoomstamSoundAsset" src="assets/KleineBoomstam.mp3" preload="auto"></audio>
+    </a-assets>
 
-    <a-sphere id="cache" cache></a-sphere>
+    <a-entity player="device: oculus"></a-entity>
+
+    <a-sphere class="interactable" id="cache" cache></a-sphere>
 
     <a-entity id="camp" scale="0.3 0.3 0.3">
-        <a-cone id="campfire" campfire></a-cone>
-        <a-cylinder id="stump1" log position="4.64818 0 -5.76874"></a-cylinder>
-        <a-cylinder id="stump2" log position="6.65702 0 2.66021"></a-cylinder>
-        <a-cylinder id="stump3" log position="4.24836 0 6.27064"></a-cylinder>
-        <a-cylinder id="stump4" log position="0.325096 0 7.49915"></a-cylinder>
-        <a-cylinder id="stump5" log position="-3.97178 0 6.57643"></a-cylinder>
-        <a-cylinder id="stump6" log position="-6.52506 0 1.96627"></a-cylinder>
-        <a-cylinder id="stump7" log position="-6.39513 0 -2.55755"></a-cylinder>
-        <a-cylinder id="stump8" log position="-4.13558 0 -6.0324"></a-cylinder>
-        <a-cylinder id="stump9" log position="-0.092121 0 -7.35342"></a-cylinder>
-        <a-cylinder id="stump10" log position="7.54424 0 -1.96655"></a-cylinder>
+        <a-cone class="interactable" id="campfire" campfire></a-cone>
+        <a-cylinder class="interactable" id="stump1" log position="4.64818 0 -5.76874"></a-cylinder>
+        <a-cylinder class="interactable" id="stump2" log position="6.65702 0 2.66021"></a-cylinder>
+        <a-cylinder class="interactable" id="stump3" log position="4.24836 0 6.27064"></a-cylinder>
+        <a-cylinder class="interactable" id="stump4" log position="0.325096 0 7.49915"></a-cylinder>
+        <a-cylinder class="interactable" id="stump5" log position="-3.97178 0 6.57643"></a-cylinder>
+        <a-cylinder class="interactable" id="stump6" log position="-6.52506 0 1.96627"></a-cylinder>
+        <a-cylinder class="interactable" id="stump7" log position="-6.39513 0 -2.55755"></a-cylinder>
+        <a-cylinder class="interactable" id="stump8" log position="-4.13558 0 -6.0324"></a-cylinder>
+        <a-cylinder class="interactable" id="stump9" log position="-0.092121 0 -7.35342"></a-cylinder>
+        <a-cylinder class="interactable" id="stump10" log position="7.54424 0 -1.96655"></a-cylinder>
     </a-entity>
 
     <a-entity id="trees" scale="0.3 0.3 0.3">
-        <a-cylinder id="tree1" tree position="-13.0135 0 -15.5419"></a-cylinder>
-        <a-cylinder id="tree2" tree position="-9.73524 0 -26.8225"></a-cylinder>
-        <a-cylinder id="tree3" tree position="6.4329 0 -29.0437"></a-cylinder>
-        <a-cylinder id="tree4" tree position="35.9323 0 -8.54349"></a-cylinder>
-        <a-cylinder id="tree5" tree position="31.7184 0 -1.42727"></a-cylinder>
-        <a-cylinder id="tree6" tree position="25.5684 0 11.3936"></a-cylinder>
-        <a-cylinder id="tree7" tree position="11.563 0 20.9342"></a-cylinder>
-        <a-cylinder id="tree8" tree position="-3.74124 0 -18.1625"></a-cylinder>
-        <a-cylinder id="tree9" tree position="37.6512 0 14.9823"></a-cylinder>
-        <a-cylinder id="tree10" tree position="33.4373 0 22.0985"></a-cylinder>
-        <a-cylinder id="tree11" tree position="27.2873 0 34.9193"></a-cylinder>
-        <a-cylinder id="tree12" tree position="-11.2492 0 19.8996"></a-cylinder>
-        <a-cylinder id="tree13" tree position="-15.4631 0 27.0158"></a-cylinder>
-        <a-cylinder id="tree14" tree position="-11.7258 0 36.1785"></a-cylinder>
-        <a-cylinder id="tree15" tree position="-35.8436 0 34.3514"></a-cylinder>
-        <a-cylinder id="tree16" tree position="0.356987 0 39.7672"></a-cylinder>
-        <a-cylinder id="tree17" tree position="-3.8569 0 46.8834"></a-cylinder>
-        <a-cylinder id="tree18" tree position="15.354 0 35.7809"></a-cylinder>
-        <a-cylinder id="tree19" tree position="-35.2859 0 2.22629"></a-cylinder>
-        <a-cylinder id="tree20" tree position="-29.5563 0 -16.4027"></a-cylinder>
-        <a-cylinder id="tree21" tree position="-26.278 0 -27.6833"></a-cylinder>
-        <a-cylinder id="tree22" tree position="-20.284 0 -19.0233"></a-cylinder>
-        <a-cylinder id="tree23" tree position="35.7951 0 -29.5182"></a-cylinder>
-        <a-cylinder id="tree24" tree position="39.0734 0 -40.7987"></a-cylinder>
-        <a-cylinder id="tree25" tree position="45.0674 0 -32.1387"></a-cylinder>
-        <a-cylinder id="tree26" tree position="13.5227 0 -11.7499"></a-cylinder>
-        <a-cylinder id="tree27" tree position="19.2524 0 -30.379"></a-cylinder>
-        <a-cylinder id="tree28" tree position="22.5306 0 -41.6595"></a-cylinder>
-        <a-cylinder id="tree29" tree position="28.5246 0 -32.9995"></a-cylinder>
-        <a-cylinder id="tree30" tree position="-40.3127 0 20.822"></a-cylinder>
-        <a-cylinder id="tree31" tree position="-37.0344 0 9.54142"></a-cylinder>
-        <a-cylinder id="tree32" tree position="-31.0404 0 18.2014"></a-cylinder>
-        <a-cylinder id="tree33" tree position="38.8158 0 4.04538"></a-cylinder>
-        <a-cylinder id="tree34" tree position="-11.2138 0 -40.8234"></a-cylinder>
-        <a-cylinder id="tree35" tree position="10.4143 0 -40.7748"></a-cylinder>
-        <a-cylinder id="tree36" tree position="-1.94157 0 -43.444"></a-cylinder>
-        <a-cylinder id="tree37" tree position="50.864 0 -19.6771"></a-cylinder>
-        <a-cylinder id="tree38" tree position="46.3704 0 23.9747"></a-cylinder>
-        <a-cylinder id="tree39" tree position="48.3858 0 0.26988"></a-cylinder>
-        <a-cylinder id="tree40" tree position="44.2912 0 -10.8147"></a-cylinder>
-        <a-cylinder id="tree41" tree position="60.8304 0 1.50391"></a-cylinder>
-        <a-cylinder id="tree42" tree position="17.484 0 45.8127"></a-cylinder>
-        <a-cylinder id="tree43" tree position="-0.184795 0 19.8779"></a-cylinder>
-        <a-cylinder id="tree44" tree position="-18.7432 0 3.08708"></a-cylinder>
-        <a-cylinder id="tree45" tree position="0.550868 0 28.8071"></a-cylinder>
-        <a-cylinder id="tree46" tree position="24.7523 0 0.315249"></a-cylinder>
-        <a-cylinder id="tree47" tree position="24.1385 0 -18.5996"></a-cylinder>
-        <a-cylinder id="tree48" tree position="-16.6042 0 -7.25354"></a-cylinder>
-        <a-cylinder id="tree49" tree position="26.4712 0 23.841"></a-cylinder>
-        <a-cylinder id="tree50" tree position="-22.4292  0 28.7583"></a-cylinder>
-        <a-cylinder id="tree51" tree position="-18.0013 0 42.6302"></a-cylinder>
-        <a-cylinder id="tree52" tree position="-33.147 0 -8.11434 "></a-cylinder>
-        <a-cylinder id="tree53" tree position="37.6867 0 -19.0815"></a-cylinder>
-        <a-cylinder id="tree54" tree position="15.6617 0 -22.0906"></a-cylinder>
-        <a-cylinder id="tree55" tree position="-43.9034 0 29.1104"></a-cylinder>
-        <a-cylinder id="tree56" tree position="-14.8045 0 -32.535"></a-cylinder>
-        <a-cylinder id="tree57" tree position="53.7514 0 -10.3117"></a-cylinder>
-        <a-cylinder id="tree58" tree position="48.0903 0 11.0435"></a-cylinder>
-        <a-cylinder id="tree59" tree position="36.6472 0 34.9627"></a-cylinder>
-        <a-cylinder id="tree60" tree position="6.95775 0 47.8469"></a-cylinder>
-        <a-cylinder id="tree61" tree position="-31.3023 0 43.0525"></a-cylinder>
-        <a-cylinder id="tree62" tree position="0.06943 0 -30.5297"></a-cylinder>
-        <a-cylinder id="tree63" tree position="-35.7664 0 -22.1242"></a-cylinder>
-        <a-cylinder id="tree64" tree position="15.1127 0 10.5171"></a-cylinder>
-        <a-cylinder id="tree65" tree position="-20.0872 0 13.8202"></a-cylinder>
+        <a-cylinder class="interactable" id="tree1" tree position="-13.0135 0 -15.5419"></a-cylinder>
+        <a-cylinder class="interactable" id="tree2" tree position="-9.73524 0 -26.8225"></a-cylinder>
+        <a-cylinder class="interactable" id="tree3" tree position="6.4329 0 -29.0437"></a-cylinder>
+        <a-cylinder class="interactable" id="tree4" tree position="35.9323 0 -8.54349"></a-cylinder>
+        <a-cylinder class="interactable" id="tree5" tree position="31.7184 0 -1.42727"></a-cylinder>
+        <a-cylinder class="interactable" id="tree6" tree position="25.5684 0 11.3936"></a-cylinder>
+        <a-cylinder class="interactable" id="tree7" tree position="11.563 0 20.9342"></a-cylinder>
+        <a-cylinder class="interactable" id="tree8" tree position="-3.74124 0 -18.1625"></a-cylinder>
+        <a-cylinder class="interactable" id="tree9" tree position="37.6512 0 14.9823"></a-cylinder>
+        <a-cylinder class="interactable" id="tree10" tree position="33.4373 0 22.0985"></a-cylinder>
+        <a-cylinder class="interactable" id="tree11" tree position="27.2873 0 34.9193"></a-cylinder>
+        <a-cylinder class="interactable" id="tree12" tree position="-11.2492 0 19.8996"></a-cylinder>
+        <a-cylinder class="interactable" id="tree13" tree position="-15.4631 0 27.0158"></a-cylinder>
+        <a-cylinder class="interactable" id="tree14" tree position="-11.7258 0 36.1785"></a-cylinder>
+        <a-cylinder class="interactable" id="tree15" tree position="-35.8436 0 34.3514"></a-cylinder>
+        <a-cylinder class="interactable" id="tree16" tree position="0.356987 0 39.7672"></a-cylinder>
+        <a-cylinder class="interactable" id="tree17" tree position="-3.8569 0 46.8834"></a-cylinder>
+        <a-cylinder class="interactable" id="tree18" tree position="15.354 0 35.7809"></a-cylinder>
+        <a-cylinder class="interactable" id="tree19" tree position="-35.2859 0 2.22629"></a-cylinder>
+        <a-cylinder class="interactable" id="tree20" tree position="-29.5563 0 -16.4027"></a-cylinder>
+        <a-cylinder class="interactable" id="tree21" tree position="-26.278 0 -27.6833"></a-cylinder>
+        <a-cylinder class="interactable" id="tree22" tree position="-20.284 0 -19.0233"></a-cylinder>
+        <a-cylinder class="interactable" id="tree23" tree position="35.7951 0 -29.5182"></a-cylinder>
+        <a-cylinder class="interactable" id="tree24" tree position="39.0734 0 -40.7987"></a-cylinder>
+        <a-cylinder class="interactable" id="tree25" tree position="45.0674 0 -32.1387"></a-cylinder>
+        <a-cylinder class="interactable" id="tree26" tree position="13.5227 0 -11.7499"></a-cylinder>
+        <a-cylinder class="interactable" id="tree27" tree position="19.2524 0 -30.379"></a-cylinder>
+        <a-cylinder class="interactable" id="tree28" tree position="22.5306 0 -41.6595"></a-cylinder>
+        <a-cylinder class="interactable" id="tree29" tree position="28.5246 0 -32.9995"></a-cylinder>
+        <a-cylinder class="interactable" id="tree30" tree position="-40.3127 0 20.822"></a-cylinder>
+        <a-cylinder class="interactable" id="tree31" tree position="-37.0344 0 9.54142"></a-cylinder>
+        <a-cylinder class="interactable" id="tree32" tree position="-31.0404 0 18.2014"></a-cylinder>
+        <a-cylinder class="interactable" id="tree33" tree position="38.8158 0 4.04538"></a-cylinder>
+        <a-cylinder class="interactable" id="tree34" tree position="-11.2138 0 -40.8234"></a-cylinder>
+        <a-cylinder class="interactable" id="tree35" tree position="10.4143 0 -40.7748"></a-cylinder>
+        <a-cylinder class="interactable" id="tree36" tree position="-1.94157 0 -43.444"></a-cylinder>
+        <a-cylinder class="interactable" id="tree37" tree position="50.864 0 -19.6771"></a-cylinder>
+        <a-cylinder class="interactable" id="tree38" tree position="46.3704 0 23.9747"></a-cylinder>
+        <a-cylinder class="interactable" id="tree39" tree position="48.3858 0 0.26988"></a-cylinder>
+        <a-cylinder class="interactable" id="tree40" tree position="44.2912 0 -10.8147"></a-cylinder>
+        <a-cylinder class="interactable" id="tree41" tree position="60.8304 0 1.50391"></a-cylinder>
+        <a-cylinder class="interactable" id="tree42" tree position="17.484 0 45.8127"></a-cylinder>
+        <a-cylinder class="interactable" id="tree43" tree position="-0.184795 0 19.8779"></a-cylinder>
+        <a-cylinder class="interactable" id="tree44" tree position="-18.7432 0 3.08708"></a-cylinder>
+        <a-cylinder class="interactable" id="tree45" tree position="0.550868 0 28.8071"></a-cylinder>
+        <a-cylinder class="interactable" id="tree46" tree position="24.7523 0 0.315249"></a-cylinder>
+        <a-cylinder class="interactable" id="tree47" tree position="24.1385 0 -18.5996"></a-cylinder>
+        <a-cylinder class="interactable" id="tree48" tree position="-16.6042 0 -7.25354"></a-cylinder>
+        <a-cylinder class="interactable" id="tree49" tree position="26.4712 0 23.841"></a-cylinder>
+        <a-cylinder class="interactable" id="tree50" tree position="-22.4292  0 28.7583"></a-cylinder>
+        <a-cylinder class="interactable" id="tree51" tree position="-18.0013 0 42.6302"></a-cylinder>
+        <a-cylinder class="interactable" id="tree52" tree position="-33.147 0 -8.11434 "></a-cylinder>
+        <a-cylinder class="interactable" id="tree53" tree position="37.6867 0 -19.0815"></a-cylinder>
+        <a-cylinder class="interactable" id="tree54" tree position="15.6617 0 -22.0906"></a-cylinder>
+        <a-cylinder class="interactable" id="tree55" tree position="-43.9034 0 29.1104"></a-cylinder>
+        <a-cylinder class="interactable" id="tree56" tree position="-14.8045 0 -32.535"></a-cylinder>
+        <a-cylinder class="interactable" id="tree57" tree position="53.7514 0 -10.3117"></a-cylinder>
+        <a-cylinder class="interactable" id="tree58" tree position="48.0903 0 11.0435"></a-cylinder>
+        <a-cylinder class="interactable" id="tree59" tree position="36.6472 0 34.9627"></a-cylinder>
+        <a-cylinder class="interactable" id="tree60" tree position="6.95775 0 47.8469"></a-cylinder>
+        <a-cylinder class="interactable" id="tree61" tree position="-31.3023 0 43.0525"></a-cylinder>
+        <a-cylinder class="interactable" id="tree62" tree position="0.06943 0 -30.5297"></a-cylinder>
+        <a-cylinder class="interactable" id="tree63" tree position="-35.7664 0 -22.1242"></a-cylinder>
+        <a-cylinder class="interactable" id="tree64" tree position="15.1127 0 10.5171"></a-cylinder>
+        <a-cylinder class="interactable" id="tree65" tree position="-20.0872 0 13.8202"></a-cylinder>
     </a-entity>
 
     <a-entity id="border" scale="1 1 1">
