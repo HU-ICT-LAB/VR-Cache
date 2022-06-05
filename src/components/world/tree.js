@@ -3,23 +3,13 @@ window.AFRAME.registerComponent("tree", {
 		size: {type: "string"}
 	},
 	init: function () {
-		const element = document.createElement("a-entity");
-		const hitbox = this.el;
+		const element = this.el;
 
-		element.setAttribute("position", hitbox.getAttribute("position"));
-		hitbox.removeAttribute("position");
-		hitbox.appendChild(element);
+		element.setAttribute("geometry", "height: 30; radius: 3.33;");
+		element.setAttribute("material", "opacity: 0.1;");
 
-		switch (this.data.size) {
-		case "m" :
-			element.setAttribute("gltf-model", "assets/tree-M.gltf");
-			break;
-		case "l" :
-			element.setAttribute("gltf-model", "assets/tree-L.gltf");
-			break;
-		default:
-		}
-
-		hitbox.setAttribute("static-body", "shape:mesh");
+		this.el.addEventListener("raycaster-intersected", function () {
+			document.getElementById("boomSound").components.sound.playSound();
+		});
 	}
 });
