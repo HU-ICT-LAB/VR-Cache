@@ -6,7 +6,12 @@ window.AFRAME.registerComponent("cache", {
 		this.el.setAttribute("radius", "0.5");
 
 		this.el.addEventListener("raycaster-intersected", function () {
+			sessionStorage.setItem("interacting", "true");
 			document.getElementById("cacheSound").components.sound.playSound();
+		});
+
+		this.el.addEventListener("raycaster-intersected-cleared", function () {
+			sessionStorage.setItem("interacting", "false");
 		});
 	}
 });
