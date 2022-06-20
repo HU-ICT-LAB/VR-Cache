@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>VR Cache</title>
+    <title>VR Cache | Game</title>
 
     <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
@@ -17,17 +17,19 @@
          environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5">
 
     <a-assets>
+
         <!-- All sound assets -->
-        <audio id="boomSoundAsset" src="assets/Boom.mp3" preload="auto"></audio>
-        <audio id="kampvuurSoundAsset" src="assets/Kampvuur.mp3" preload="auto"></audio>
-        <audio id="kleineBoomstamSoundAsset" src="assets/KleineBoomstam.mp3" preload="auto"></audio>
-        <audio id="cacheSoundAsset" src="assets/Cache.mp3" preload="auto"></audio>
-        <audio id="cacheGevondenSoundAsset" src="assets/CacheGevonden.mp3" preload="auto"></audio>
+        <a-sound id="wereldBorderAsset" src="assets/wereldGrens.mp3" positional="false"></a-sound>
+        <a-sound id="boomSoundAsset" src="assets/Boom.mp3" positional="false"></a-sound>
+        <a-sound id="kampvuurSoundAsset" src="assets/Kampvuur.mp3" positional="false"></a-sound>
+        <a-sound id="kleineBoomstamSoundAsset" src="assets/KleineBoomstam.mp3" positional="false"></a-sound>
+        <a-sound id="cacheSoundAsset" src="assets/Cache.mp3" positional="false"></a-sound>
+        <a-sound id="cacheGevondenSoundAsset" src="assets/CacheGevonden.mp3" positional="false"></a-sound>
     </a-assets>
 
-    <a-entity player="device: oculus"></a-entity>
+    <a-entity player="device: pc"></a-entity>
 
-    <a-sphere class="interactable" id="cache" cache></a-sphere>
+    <a-sphere class="interactable" id="cache" sound="maxDistance: 5000; volume: 0.8" static-body="sphereRadius: NaN" cache></a-sphere>
 
     <a-entity id="camp" scale="0.3 0.3 0.3">
         <a-cone class="interactable" id="campfire" campfire></a-cone>
@@ -112,23 +114,19 @@
     </a-entity>
 
     <a-entity id="border" scale="1 1 1">
-        <a-box id="wall1" static-body position="3.14907 0 -16.39262" material="opacity: 0" width="100"
-               height="20" depth="1"></a-box>
-        <a-box id="wall2" static-body rotation="0 49.68 0" position="-13.1761 0 -10.06561" material="opacity: 0"
-               width="100" height="20" depth="1"></a-box>
-        <a-box id="wall3" static-body rotation="0 83.23 0" position="-18.2067 0 8.08214" material="opacity: 0"
-               width="100" height="20" depth="1"></a-box>
-        <a-box id="wall4" static-body rotation="0 -6.88 0" position="3.14907 0 17.90184" material="opacity: 0"
-               width="100" height="20" depth="1"></a-box>
-        <a-box id="wall5" static-body rotation="0 31.19 0" position="8.50678 0 15.91824" material="opacity: 0"
-               width="100" height="20" depth="1"></a-box>
-        <a-box id="wall6" static-body rotation="0 95.61 0" position="22.66644 0 16.56808" material="opacity: 0"
-               width="100" height="20" depth="1"></a-box>
+        <a-box id="wall1" border position="3.14907 0 -16.39262"></a-box>
+        <a-box id="wall2" border rotation="0 49.68 0" position="-13.1761 0 -10.06561"></a-box>
+        <a-box id="wall3" border rotation="0 83.23 0" position="-18.2067 0 8.08214"></a-box>
+        <a-box id="wall4" border rotation="0 -6.88 0" position="3.14907 0 17.90184"></a-box>
+        <a-box id="wall5" border rotation="0 31.19 0" position="8.50678 0 15.91824"></a-box>
+        <a-box id="wall6" border rotation="0 95.61 0" position="22.66644 0 16.56808"></a-box>
     </a-entity>
 
     <a-plane id="floor" static-body rotation="-90 0 0" position="0 -0.01 -4" width="300" height="300" color="#5dc064"></a-plane>
 
     <a-entity id="world" gltf-model="assets/world.gltf" scale="0.3 0.3 0.3"></a-entity>
+
+    <a-sound id="backgroundnoise" sound="positional: false" src="assets/forest.mp3" autoplay="true" loop="true" positional="false" volume="0.1"></a-sound>
 
 </a-scene>
 </body>

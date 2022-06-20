@@ -12,17 +12,19 @@ body {
 section {
     background-image: url('https://musictech.com/wp-content/uploads/2019/05/history-of-vr-credit-shutterstock@1400x1050.jpg');
     min-height: 100vh;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.img {
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
 }
 
-.box {
+.button-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +34,7 @@ section {
     text-align: center;
 }
 
-.btn {
+.button {
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -44,6 +46,7 @@ section {
     transition: 0.2s;
 }
 
-.btn:hover {
-    background-color: rgb(234, 184, 192);
+.button:hover {
+    background-color: rgb(229, 154, 166);
+    color: white;
 }

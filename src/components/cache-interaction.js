@@ -1,12 +1,15 @@
 import {Vector3D} from "./../utils/vector3d";
 
 const DISTANCE_TO_INTERACT = 5;
+const DISTANCE_TO_HEAR = 10;
 
 /**
  * Component to check interactions with the cache
  */
 window.AFRAME.registerComponent("cache-interaction", {
 	inDistance: false,
+	inSoundDistance: false,
+	inSoundDistanceTriggered: false,
 	inDistanceEvent: false,
 
 	/**
@@ -15,6 +18,7 @@ window.AFRAME.registerComponent("cache-interaction", {
 	tick() {
 		this.checkDistance();
 		this.handleEvents();
+		this.handleSound();
 	},
 
 	/**
@@ -31,6 +35,7 @@ window.AFRAME.registerComponent("cache-interaction", {
 		);
 
 		this.inDistance = result.magnitude() <= DISTANCE_TO_INTERACT;
+		this.inSoundDistance = result.magnitude() <= DISTANCE_TO_HEAR;
 	},
 
 	/**
@@ -44,5 +49,16 @@ window.AFRAME.registerComponent("cache-interaction", {
 		} else if (!this.inDistance) {
 			this.inDistanceEvent = false;
 		}
+	},
+
+	handleSound() {
+		if (this.inSoundDistance && !this.inSoundDistanceTriggered) {
+			document.querySelector("#cache").components.sound.playSound();
+			this.inSoundDistanceTriggered = true;
+		} else if (!this.inSoundDistance) {
+			document.querySelector("#cache").components.sound.stopSound();
+			this.inSoundDistanceTriggered = false;
+		}
+
 	}
 });

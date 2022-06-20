@@ -30,11 +30,6 @@ window.AFRAME.registerComponent("player", {
 				"<a-entity id=\"rig\" kinematic-body=\"shape:mesh\">\n" +
 				"    <a-entity id=\"camera\" position=\"0 0 0\">\n" +
 				"        <a-entity camera look-controls cache-interaction pause-component></a-entity>\n" +
-				"    <a-entity id=\"boomSound\" sound=\"src: #boomSoundAsset\"></a-entity>\n" +
-				"    <a-entity id=\"kampvuurSound\" sound=\"src: #kampvuurSoundAsset\"></a-entity>\n" +
-				"    <a-entity id=\"kleineBoomstamSound\" sound=\"src: #kleineBoomstamSoundAsset\"></a-entity>" +
-				"    <a-entity id=\"cacheSound\" sound=\"src: #cacheSoundAsset\"></a-entity>" +
-				"    <a-entity id=\"cacheGevondenSound\" sound=\"src: #cacheGevondenSoundAsset\"></a-entity>" +
 				"    </a-entity>\n" +
 				"    <a-entity id=\"left\" haptics vibration oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
 				"    <a-entity id=\"right\" haptics vibration oculus-touch-controls=\"hand: right\" laser-controls raycaster=\"lineColor: red; lineOpacity: 0.5; far: 1.6; objects: .interactable\" oculus-input-handler oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
