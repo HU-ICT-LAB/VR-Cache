@@ -1,4 +1,4 @@
-import "./cache-interaction";
+import "./cache-sound";
 import "./timer/timer";
 import "./timer/display-timer";
 import "./menu/pause-component";
