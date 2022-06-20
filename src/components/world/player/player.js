@@ -17,7 +17,7 @@ window.AFRAME.registerComponent("player", {
 		case "pc" :
 			element.innerHTML =
                     "<a-entity id=\"camera\" position=\"0 1.6 0\">\n" +
-                    "     <a-entity camera keyboard-input-handler kinematic-body look-controls wasd-controls cache-interaction pause-component>\n" +
+                    "     <a-entity camera keyboard-input-handler kinematic-body look-controls wasd-controls cache-sound pause-component>\n" +
                     "         <a-entity position=\"1 0.72 -1\" display-timer></a-entity>\n" +
                     "         <a-entity position=\"0 0 -1\" id=\"timer\" timer></a-entity>\n" +
                     "     </a-entity>\n" +

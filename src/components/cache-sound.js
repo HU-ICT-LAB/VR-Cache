@@ -21,7 +21,7 @@ window.AFRAME.registerComponent("cache-sound", {
 	 * Checks if the player is in distance of the cache
 	 */
 	checkDistance() {
-		const playerPosition = this.el.object3D.position;
+		const playerPosition = document.getElementById("rig").object3D.position;
 		const cachePosition = document.getElementById("cache").object3D.position;
 
 		const result = new Vector3D(
