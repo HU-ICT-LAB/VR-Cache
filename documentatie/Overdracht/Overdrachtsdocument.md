@@ -9,12 +9,12 @@ De applicatie is gemaakt met behulp van het A-Frame framework. Dit is een virtua
 ### Toegankelijkheid
 
 #### Richter met "text-to-speech"
-Als de richter over een object heen gaat zal deze een uitleg van het object afspelen.
+Als de richter over een object heen gaat zal deze een geluid met de uitleg van het object afspelen.
 
 #### Object heeft een grotere hitbox
-<img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" data-canonical-src="" height="250" />
+Een object heeft een grotere cilinder of kubus eromheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
 
-Een object heeft een grotere cilinder of kubus er omheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
+<img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" data-canonical-src="" height="250" />
 
 #### Sonar vibratie cache
 Als de gebruiker op de trekker van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pause tussen elke trilling is 2 seconden.
@@ -110,9 +110,9 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 - [x] [Wereld: The Forest]()
 - [ ] [Wereld: The Office]()
 
-## Known bugs
-
-
 ## Tools
-De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
+- De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
+- Voor het maken van de modellen is [draw.io](https://app.diagrams.net/) gebruikt.
+
+## Known bugs
 
