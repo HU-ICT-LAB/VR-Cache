@@ -25,7 +25,26 @@ Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aa
 ![Git graph](/docs/Git_Graph.png)
 
 ## Limitaties
+Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in A-Frame en de browsers van de Oculus Quest.
 
+### A-Frame
+
+#### Default richter (Laser)
+De laser van A-Frame is niet aanpasbaar, ook is deze laser zeer precies en kan er maar één object tegelijkertijd uitgelezen worden. Deze laser kan ook niet verwisseld worden met een zelf bedacht alternatief omdat het niet mogelijk is objecten uit te lezen met iets anders dan de A-Frame laser.
+
+#### Aantal objecten limiet
+Bij gebruik van een groot aantal objecten daalt de framerate significant. Ook zijn er browsers die niks meer inladen zodra je over bepaalde limieten heen gaat, dit is browser specifiek. Dit heeft er voor gezorgd dat objecten zijn gegroepeerd op bestands niveau, dus de game ziet dit dan als één groot object.
+
+#### Physics engine outdated
+Om gebruik te maken van de [physics engine](https://github.com/n5ro/aframe-physics-system) moet er gebruik gemaakt worden van een oudere versie van A-Frame. Met het gebruik van een oudere versie is er geen ondersteuning en kan er geen gebruik gemaakt worden van nieuwe features. Hier is ook geen alternatief voor.
+
+### Browser Oculus Quest
+
+#### Text-to-speech niet ondersteund
+De standaard browser van Oculus heeft geen ondersteuning voor het gebruik van text-to-speech, als alternatief is er gebruik gemaakt van audio bestanden.
+
+#### Geen extensies
+Screen readers zijn er niet voor de Oculus browser, de website (home & settings page) is hierdoor op de Oculus Quest niet accesible, dit zorgt ervoor dat mensen met een visuele beperking het spel niet zelf kunnen starten en aanpassen.
 
 ## Known bugs
 1. [Audio Kraakt](https://github.com/HU-ICT-LAB/VR-Cache/issues/92)
