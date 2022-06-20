@@ -9,7 +9,7 @@ window.AFRAME.registerComponent("tree", {
 		element.setAttribute("material", "opacity: 0.1;");
 
 		this.el.addEventListener("raycaster-intersected", function () {
-			document.getElementById("boomSound").components.sound.playSound();
+			document.getElementById("boomSoundAsset").components.sound.playSound();
 		});
 	}
 });
