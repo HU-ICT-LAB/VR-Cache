@@ -12,7 +12,7 @@ De applicatie is gemaakt met behulp van het A-Frame framework. Dit is een virtua
 Als de richter over een object heen gaat zal deze een uitleg van het object afspelen.
 
 #### Object heeft een grotere hitbox
-![Object hitbox voorbeeld](/docs/Object_Hitbox.png  =x250)
+<img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" data-canonical-src="" height="250" />
 
 Een object heeft een grotere cilinder of kubus er omheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
 
@@ -111,4 +111,8 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 - [ ] [Wereld: The Office]()
 
 ## Known bugs
-1. [Audio Kraakt](https://github.com/HU-ICT-LAB/VR-Cache/issues/92)
+
+
+## Tools
+De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
+
