@@ -87,7 +87,7 @@ eval("window.AFRAME.registerComponent(\"border\", {\r\n\tinit: function () {\r\n
   \*********************************************/
 /***/ (() => {
 
-eval("window.AFRAME.registerComponent(\"cache\", {\r\n\tinit() {\r\n\t\tthis.el.setAttribute(\"static-body\", null);\r\n\t\tthis.el.setAttribute(\"position\", \"0.2 1 14.2\");\r\n\t\tthis.el.setAttribute(\"color\", \"#4CC3D9\");\r\n\t\tthis.el.setAttribute(\"radius\", \"0.5\");\r\n\t\tthis.el.setAttribute(\"sound\", \"src: assets/CacheGeluid.mp3; autoplay: true; loop: true; maxDistance: 10000; rolloffFactor: 3; volume: 0.3;\");\r\n\r\n\t\tthis.el.addEventListener(\"raycaster-intersected\", function () {\r\n\t\t\tsessionStorage.setItem(\"interacting\", \"true\");\r\n\t\t\tdocument.getElementById(\"cacheSound\").components.sound.playSound();\r\n\t\t});\r\n\r\n\t\tthis.el.addEventListener(\"raycaster-intersected-cleared\", function () {\r\n\t\t\tsessionStorage.setItem(\"interacting\", \"false\");\r\n\t\t});\r\n\t}\r\n});\n\n//# sourceURL=webpack://vr-cache/./src/components/world/cache/cache.js?");
+eval("window.AFRAME.registerComponent(\"cache\", {\r\n\tinit() {\r\n\t\tthis.el.setAttribute(\"static-body\", null);\r\n\t\tthis.el.setAttribute(\"position\", \"0.2 1 14.2\");\r\n\t\tthis.el.setAttribute(\"color\", \"#4CC3D9\");\r\n\t\tthis.el.setAttribute(\"radius\", \"0.5\");\r\n\t\tthis.el.setAttribute(\"sound\", \"src: assets/CacheGeluid.mp3; autoplay: true; loop: true; maxDistance: 10000; rolloffFactor: 3; volume: 0.3;\");\r\n\r\n\t\tthis.el.addEventListener(\"raycaster-intersected\", function () {\r\n\t\t\tsessionStorage.setItem(\"interacting\", \"true\");\r\n\t\t\tdocument.getElementById(\"cacheSoundAsset\").components.sound.playSound();\r\n\t\t});\r\n\r\n\t\tthis.el.addEventListener(\"raycaster-intersected-cleared\", function () {\r\n\t\t\tsessionStorage.setItem(\"interacting\", \"false\");\r\n\t\t});\r\n\t}\r\n});\n\n//# sourceURL=webpack://vr-cache/./src/components/world/cache/cache.js?");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ eval("window.AFRAME.registerComponent(\"cache\", {\r\n\tinit() {\r\n\t\tthis.el.
   \******************************************/
 /***/ (() => {
 
-eval("window.AFRAME.registerComponent(\"campfire\", {\r\n\tinit: function () {\r\n\t\tconst element = this.el;\r\n\r\n\t\telement.setAttribute(\"geometry\", \"height: 5.06; radiusBottom: 4.30; radiusTop: 1.56\");\r\n\t\telement.setAttribute(\"material\", \"opacity: 0.1;\");\r\n\t\telement.setAttribute(\"sound\", \"src: assets/KampvuurGeluid.mp3; autoplay: true; loop: true;\");\r\n\r\n\t\tthis.el.addEventListener(\"raycaster-intersected\", function () {\r\n\t\t\tdocument.getElementById(\"kampvuurSoundAsset\").components.sound.playSound();\r\n\t\t});\r\n\t}\r\n});\n\n//# sourceURL=webpack://vr-cache/./src/components/world/campfire.js?");
+eval("window.AFRAME.registerComponent(\"campfire\", {\r\n\tinit: function () {\r\n\t\tconst element = this.el;\r\n\r\n\t\telement.setAttribute(\"geometry\", \"height: 5.06; radiusBottom: 4.30; radiusTop: 1.56\");\r\n\t\telement.setAttribute(\"material\", \"opacity: 0.1;\");\r\n\t\telement.setAttribute(\"sound\", \"src: assets/KampvuurGeluid.mp3; autoplay: true; loop: true; volume: 1.5\");\r\n\r\n\t\tthis.el.addEventListener(\"raycaster-intersected\", function () {\r\n\t\t\tdocument.getElementById(\"kampvuurSoundAsset\").components.sound.playSound();\r\n\t\t});\r\n\t}\r\n});\n\n//# sourceURL=webpack://vr-cache/./src/components/world/campfire.js?");
 
 /***/ }),
 
