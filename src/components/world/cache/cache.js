@@ -8,7 +8,7 @@ window.AFRAME.registerComponent("cache", {
 
 		this.el.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("interacting", "true");
-			document.getElementById("cacheSound").components.sound.playSound();
+			document.getElementById("cacheSoundAsset").components.sound.playSound();
 		});
 
 		this.el.addEventListener("raycaster-intersected-cleared", function () {
