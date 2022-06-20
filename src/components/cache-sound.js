@@ -5,7 +5,7 @@ const DISTANCE_TO_HEAR = 10;
 /**
  * Component to check interactions with the cache
  */
-window.AFRAME.registerComponent("cache-interaction", {
+window.AFRAME.registerComponent("cache-sound", {
 	inSoundDistance: false,
 	inSoundDistanceTriggered: false,
 
