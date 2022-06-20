@@ -1,5 +1,10 @@
 # Overdracht document
-TODO: inleiding & context
+In dit document is alle informatie te vinden over het project en benodigdheden om het project op te zetten binnen een lokale en productieomgeving. Ook is er informatie te vinden over hoe de applicatie in elkaar zit en hoe hierop uit te breiden is. Tijdens de ontwikkeling zijn we tegen bepaalde obstakels en limitaties aangelopen, in dit document geven we hier uitleg over plus eventuele oplossingen.
+
+## Omschrijving
+We hebben van [Stichting Accessibility](https://www.accessibility.nl/) de opdracht gekregen om een virtual reality game maken voor mensen met een visuele beperking. Ze willen graag meer te weten komen over hoe virtual reality ingezet kan worden voor mensen met een beperking. Het doel van het spel is om binnen een virtual reality wereld op zoek te gaan naar een [cache](https://en.wikipedia.org/wiki/Geocaching#Geocaches) die ergens verstopt is.
+
+De applicatie is gemaakt met behulp van het A-Frame framework. Dit is een virtual reality framework voor NodeJS om web gerelateerde games mee te ontwikkelen. A-Frame scenes worden volledig opgezet door middel van HTML en maakt gebruik van Three.js.
 
 ## Deployment
 
@@ -25,6 +30,8 @@ Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aa
 ![Git graph](/docs/Git_Graph.png)
 
 ## Structuur
+
+### Mappenstructuur
 In het diagram hieronder is de volledige mappenstructuur van het project gevisualiseerd.
 
 ```
@@ -54,6 +61,9 @@ src/
 └── utils/                       Herbruikbare Javascript code
 ```
 
+### ESLint rules
+ESLint zorgt ervoor dat de gehele codebase één code standaard aanhoudt. Deze regels hebben wij gedefiënneerd in het bestand [.eslintrc.json](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/.eslintrc.json). Deze regels kunnen indien nodig aangepast worden.
+
 ## Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in A-Frame en de browsers van de Oculus Quest.
 
@@ -74,7 +84,18 @@ Om gebruik te maken van de [physics engine](https://github.com/n5ro/aframe-physi
 De standaard browser van Oculus heeft geen ondersteuning voor het gebruik van text-to-speech, als alternatief is er gebruik gemaakt van audio bestanden.
 
 #### Geen extensies
-Screen readers zijn er niet voor de Oculus browser, de website (home & settings page) is hierdoor op de Oculus Quest niet accesible, dit zorgt ervoor dat mensen met een visuele beperking het spel niet zelf kunnen starten en aanpassen.
+Screen readers zijn er niet voor de Oculus browser, de website (home & settings page) is hierdoor op de Oculus Quest niet accessible, dit zorgt ervoor dat mensen met een visuele beperking het spel niet zelf kunnen starten en aanpassen.
+
+## Voortgang
+We hebben tijdens het project verschillende milestones gepland. Hieronder is een overzicht te zien van welke milestones wel en niet behaald zijn.
+
+### Milestones
+- [x] [Basisfunctionaliteit geocaching](https://github.com/HU-ICT-LAB/VR-Cache/milestone/1)
+- [x] [VR-Controller](https://github.com/HU-ICT-LAB/VR-Cache/milestone/4)
+- [ ] [Six degrees of freedom](https://github.com/HU-ICT-LAB/VR-Cache/milestone/5)
+- [ ] [Game score](https://github.com/HU-ICT-LAB/VR-Cache/milestone/6)
+- [x] [Wereld: The Forest]()
+- [ ] [Wereld: The Office]()
 
 ## Known bugs
 1. [Audio Kraakt](https://github.com/HU-ICT-LAB/VR-Cache/issues/92)
