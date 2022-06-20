@@ -24,6 +24,36 @@ Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aa
 
 ![Git graph](/docs/Git_Graph.png)
 
+## Structuur
+In het diagram hieronder is de volledige mappenstructuur van het project gevisualiseerd.
+
+```
+.github/workflows/               GitHub Actions workflows
+assets/                          Bestanden die in het spel worden gebruikt
+docs/                            Documenten
+documentatie/                    Alle documentatie voor het project in markdown
+├── Bijlagen/                      
+    ├── Lessen/                  Notities over besprekingen in de lessen
+    ├── Overig/                  Overige notities
+    └── Sprint Meetings/         Notities van de sprint meetings
+├── Onderzoek/                   Alle documentatie met betrekking tot het onderzoeksrapport
+├── Overdracht/                  Informatie voor de overdracht van het project
+└── Wiki/                        Documentatie over het project
+public/
+src/                               
+├── components/                  Alle Javascript webcomponenten
+|   ├── menu/                      
+|   ├── timer/                     
+|   ├── world/                     
+|   |   ├── cache/                 
+|   |   └── player/              Verschillende soorten game devices
+|   |       ├── oculus/
+|   |       └── pc/
+├── css/                         Alle styling files
+├── images/                      Alle foto's die gebruikt worden op de website
+└── utils/                       Herbruikbare Javascript code
+```
+
 ## Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in A-Frame en de browsers van de Oculus Quest.
 
