@@ -12,7 +12,7 @@ De applicatie is gemaakt met behulp van het A-Frame framework. Dit is een virtua
 Als de richter over een object heen gaat zal deze een uitleg van het object afspelen.
 
 #### Object heeft een grotere hitbox
-![Object hitbox voorbeeld](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/docs/Object_hitbox.png)
+![Object hitbox voorbeeld](https://github.com/HU-ICT-LAB/VR-Cache/blob/documentatie/docs/Object_hitbox.png)
 
 Een object heeft een grotere cilinder of kubus er omheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
 
