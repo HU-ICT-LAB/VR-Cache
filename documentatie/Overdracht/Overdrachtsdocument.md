@@ -6,6 +6,9 @@ We hebben van [Stichting Accessibility](https://www.accessibility.nl/) de opdrac
 
 De applicatie is gemaakt met behulp van het A-Frame framework. Dit is een virtual reality framework voor NodeJS om web gerelateerde games mee te ontwikkelen. A-Frame scenes worden volledig opgezet door middel van HTML en maakt gebruik van Three.js.
 
+### Oculus Quest 2
+Ons gekozen platform voor dit project is de Oculus Quest 2, de Oculus Quest 2 maakt gebruik van een virtual reality bril en 2 controllers die beide vibratie ondersteunen. De Oculus Quest 2 bevat een eigen standaard browser. Deze gebruikt de Chromium rendering engine en heeft daardoor compatibiliteit met alle normale sites en sites die gebruik maken van web based virtual reality. 
+
 ### Toegankelijkheid
 
 #### Richter met "text-to-speech"
