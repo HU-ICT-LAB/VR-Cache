@@ -128,7 +128,7 @@ src/
 └── index.js 
 ```
 
-## Tools
+### Tools
 - De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
 - Voor het maken van de diagrammen is [draw.io](https://app.diagrams.net/) gebruikt.
 
