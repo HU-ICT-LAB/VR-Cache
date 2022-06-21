@@ -97,9 +97,6 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 - [x] [Wereld: The Forest]()
 - [ ] [Wereld: The Office]()
 
-## Known bugs
-1. [Audio Kraakt](https://github.com/HU-ICT-LAB/VR-Cache/issues/92)
-
 ## Nieuwe code toevoegen
 Na het schrijven van nieuwe code moet er niet vergeten worden de import van die bestand in de [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js) en het component in [components.js]([HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js)) toe te voegen.
 Hieronder kunt u zien waar die twee bestanden zich in de github-repository bevinden.
@@ -109,3 +106,5 @@ src/
     └── components.js
 └── index.js 
 ```
+
+## Known bugs
