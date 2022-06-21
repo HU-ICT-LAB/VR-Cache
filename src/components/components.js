@@ -1,4 +1,4 @@
-import "./cache-interaction";
+import "./cache-sound";
 import "./timer/timer";
 import "./timer/display-timer";
 import "./menu/pause-component";
@@ -11,3 +11,5 @@ import "./world/player/pc/keyboard-input-handler";
 import "./world/player/oculus/sonar-vibration";
 import "./world/cache/cache";
 import "./world/a11y/description";
+import "./world/border";
+import "./overlay";

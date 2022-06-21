@@ -8,6 +8,7 @@
     "start": "web-dev-server --node-resolve --open",
     "build": "webpack"
   },
+  "eslintIgnore": ["src/css", "src/images", "dist"],
   "keywords": [],
   "author": "Team T",
   "license": "ISC",
