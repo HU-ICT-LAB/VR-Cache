@@ -1,6 +1,7 @@
 window.AFRAME.registerComponent("player", {
 	schema: {
-		device: {type: "string"}
+		device: {type: "string"},
+		visual: {type: "string"}
 	},
 	init: function () {
 		const element = this.el;
@@ -12,6 +13,15 @@ window.AFRAME.registerComponent("player", {
 		timer.setAttribute("timer", null);
 		timer.setAttribute("position", "0 0 -1");
 		timer.setAttribute("id", "timer");
+
+		let visual = "";
+
+		switch (this.data.visual) {
+		case "blind" :
+			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.02\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>\n";
+			break;
+		default:
+		}
 
 		switch (this.data.device) {
 		case "pc" :
@@ -29,7 +39,7 @@ window.AFRAME.registerComponent("player", {
 				"            <a-entity id=\"timer\" timer></a-entity>\n" +
 				"<a-entity id=\"rig\" kinematic-body=\"shape:mesh\">\n" +
 				"    <a-entity id=\"camera\" position=\"0 0 0\">\n" +
-				"        <a-entity camera look-controls cache-interaction pause-component></a-entity>\n" +
+				"        <a-entity camera look-controls cache-interaction pause-component></a-entity>\n" + visual +
 				"    </a-entity>\n" +
 				"    <a-entity id=\"left\" haptics vibration oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
 				"    <a-entity id=\"right\" haptics vibration oculus-touch-controls=\"hand: right\" laser-controls raycaster=\"lineColor: red; lineOpacity: 0.5; far: 1.6; objects: .interactable\" oculus-input-handler cache-sound oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
