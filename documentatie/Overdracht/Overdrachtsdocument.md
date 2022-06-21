@@ -136,3 +136,5 @@ Screen readers zijn er niet voor de Oculus browser, de website (home & settings 
 - Voor het maken van de diagrammen is [draw.io](https://app.diagrams.net/) gebruikt.
 
 ## Bekende bugs
+- [Timer UI gaat door objecten](https://github.com/HU-ICT-LAB/VR-Cache/issues/32)
+- [Colliders krijgen een aparte offset bij het verplaatsen of draaien van objecten](https://github.com/HU-ICT-LAB/VR-Cache/issues/31)
