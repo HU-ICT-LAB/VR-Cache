@@ -4,12 +4,12 @@
 
 1. [Inleiding](#inleiding)
 2. [Hoofdvraag](#hoofdvraag)
-3. [Deelvragen](#deelvragen)
-    1. [Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking)
-    2. [Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame](#hoe-ontwikkel-je-een-virtual-reality-game-in-de-browser-door-middel-van-a-frame)
-    3. [Hoe pas je geocaching toe in virtual reality](#hoe-pas-je-geocaching-toe-in-virtual-reality)
-    4. [Wat is een visuele beperking](#wat-is-een-visuele-beperking)
-    5. [Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden](#op-welke-manier-draagt-toegankelijkheid-in-games-bij-aan-minder-ongelijkheden)
+3. [Deelvragen](#deelvragen)<br/>
+ㅤㅤ3.1. [Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking)<br/>
+ㅤㅤ3.2. [Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame](#hoe-ontwikkel-je-een-virtual-reality-game-in-de-browser-door-middel-van-a-frame)<br/>
+ㅤㅤ3.3. [Hoe pas je geocaching toe in virtual reality](#hoe-pas-je-geocaching-toe-in-virtual-reality)<br/>
+ㅤㅤ3.4. [Wat is een visuele beperking](#wat-is-een-visuele-beperking)<br/>
+ㅤㅤ3.5. [Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden](#op-welke-manier-draagt-toegankelijkheid-in-games-bij-aan-minder-ongelijkheden)
 4. [Conclusie](#conclusie)
 5. [Aanbevelingen](#aanbevelingen)
 6. [Evaluatie](#evaluatie)
