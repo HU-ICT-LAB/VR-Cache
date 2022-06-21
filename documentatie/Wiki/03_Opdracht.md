@@ -6,7 +6,7 @@ Om deze vraag te beantwoorden gaan wij een [geocaching](https://wikipedia.org/wi
 - Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?
 - Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?
 - Hoe pas je geocaching toe in virtual reality?
-- Wat is geocaching?
+- Wat is een visuele beperking?
 - Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden?
 
 # Op te leveren eindresultaat
