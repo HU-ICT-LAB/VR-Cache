@@ -17,7 +17,7 @@ Als de richter over een object heen gaat zal deze een geluid met de uitleg van h
 #### Object heeft een grotere hitbox
 Een object heeft een grotere cilinder of kubus eromheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
 
-<img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" data-canonical-src="" height="250" />
+<img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" height="250" />
 
 #### Sonar vibratie cache
 Als de gebruiker op de trekker van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pause tussen elke trilling is 2 seconden.
@@ -44,6 +44,9 @@ VR Cache maakt gebruik van GitHub pages voor de hosting van het spel. Met [GitHu
 Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aangemaakt. Vervolgens wordt er voor elke aparte taak nog een extra branch aangemaakt die vervolgens weer merged met de feature branch. Zodra de feature voltooid is kan deze worden gemerged met de development branch. Bij het mergen naar de development zal [ESLint](https://eslint.org/) eerst de code valideren via GitHub Actions. Wanneer je de development branch merged naar de demo branch zal er automatisch via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) een website worden opgezet waarop alle features getest kunnen worden door de opdrachtgever. Zodra de opdrachtgever hier akkoord op geeft kan de code uit de development gemerged worden naar de master branch.
 
 ![Git graph](/docs/Git_Graph.png)
+
+### Deployment diagram
+![Deployment diagram](/docs/Deployment_diagram.png)
 
 ## Structuur
 
