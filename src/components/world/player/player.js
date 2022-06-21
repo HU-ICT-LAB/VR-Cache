@@ -18,7 +18,7 @@ window.AFRAME.registerComponent("player", {
 
 		switch (this.data.visual) {
 		case "blind" :
-			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.02\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>";
+			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.1\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>";
 			break;
 		default:
 		}
