@@ -12,3 +12,4 @@ import "./world/player/oculus/sonar-vibration";
 import "./world/cache/cache";
 import "./world/a11y/description";
 import "./world/border";
+import "./overlay";
