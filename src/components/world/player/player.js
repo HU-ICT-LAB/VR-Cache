@@ -16,11 +16,8 @@ window.AFRAME.registerComponent("player", {
 
 		let visual = "";
 
-		switch (this.data.visual) {
-		case "blind" :
+		if (sessionStorage.getItem("gamemode") === "blind") {
 			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.1\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>";
-			break;
-		default:
 		}
 
 		switch (this.data.device) {
