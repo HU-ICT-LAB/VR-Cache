@@ -110,9 +110,18 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 - [x] [Wereld: The Forest]()
 - [ ] [Wereld: The Office]()
 
+## Nieuwe code toevoegen
+Na het schrijven van nieuwe code moet er niet vergeten worden de import van die bestand in de [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js) en het component in [components.js]([HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js)) toe te voegen.
+Hieronder kunt u zien waar die twee bestanden zich in de github-repository bevinden.
+```
+src/                    
+├── components/                      
+    └── components.js
+└── index.js 
+```
+
 ## Tools
 - De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
 - Voor het maken van de diagrammen is [draw.io](https://app.diagrams.net/) gebruikt.
 
-## Known bugs
-
+## Bekende bugs
