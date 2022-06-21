@@ -110,9 +110,17 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 - [x] [Wereld: The Forest]()
 - [ ] [Wereld: The Office]()
 
-## Nieuwe code toevoegen
-Na het schrijven van nieuwe code moet er niet vergeten worden de import van die bestand in de [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js) en het component in [components.js]([HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js)) toe te voegen.
-Hieronder kunt u zien waar die twee bestanden zich in de github-repository bevinden.
+## Verder ontwikkelen
+
+### Lokaal ontwikkelen
+Om de applicatie lokaal verder te ontwikkelen en te testen zonder iedere keer via GitHub pages de applicatie op te zetten kan je gebruik maken van [ngrok](https://ngrok.com/). Deze tool zorgt ervoor dat je lokale server vanaf andere devices geopend kan worden. Zodra je deze tool hebt geïnstalleerd en de installatie stappen van de applicatie hebt gevolgd en de server running hebt met `npm start` kan je een nieuwe commandline openen en het commando `ngrok http 8000` uitvoeren. Je zal vervolgens een 'Forwarding' url te zien krijgen die te bezoeken is via je Oculus Quest 2.
+
+Indien je tijdens het ontwikkelen gebruik wilt maken van de developer console is dit mogelijk door middel van [Chrome remote debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). Wanneer je de Oculus Quest 2 met een USB naar USB-C kabel verbindt met je computer en vervolgens toestemming geeft in je Oculus Quest 2 dat je computer je Oculus Quest 2 kan uitlezen kan je via de url `chrome://inspect#devices` in Google Chrome je device aanklikken en de developer console openen.
+
+### Components toevoegen
+
+Na het schrijven van nieuwe code moet het bestand toegevoegd worden als import in de [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js).
+Hieronder kan je zien waar die twee bestanden zich in de github-repository bevinden.
 ```
 src/                    
 ├── components/                      
