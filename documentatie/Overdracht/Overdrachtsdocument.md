@@ -109,6 +109,12 @@ src/
 └── index.js 
 ```
 
+### Objecten toevoegen
+
+Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar de type bestanden bestaan grotendeels uit .obj of .blend. A-Frame heeft een voorkeur voor .gltf bestanden, dus om dit op te lossen kan je in het programma [blender](https://www.blender.org/) het object aanpassen naar eigen behoren en het obj vergvolgens exporteren als een .gltf bestand.
+
+<img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
+
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
 
