@@ -6,6 +6,19 @@ We hebben van [Stichting Accessibility](https://www.accessibility.nl/) de opdrac
 
 De applicatie is gemaakt met behulp van het A-Frame framework. Dit is een virtual reality framework voor NodeJS om web gerelateerde games mee te ontwikkelen. A-Frame scenes worden volledig opgezet door middel van HTML en maakt gebruik van Three.js.
 
+### Toegankelijkheid
+
+#### Richter met "text-to-speech"
+Als de richter over een object heen gaat zal deze een geluid met de uitleg van het object afspelen.
+
+#### Object heeft een grotere hitbox
+Een object heeft een grotere cilinder of kubus eromheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
+
+<img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" data-canonical-src="" height="250" />
+
+#### Sonar vibratie cache
+Als de gebruiker op de trekker van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pause tussen elke trilling is 2 seconden.
+
 ## Deployment
 
 ### Installatie
@@ -97,5 +110,9 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 - [x] [Wereld: The Forest]()
 - [ ] [Wereld: The Office]()
 
+## Tools
+- De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
+- Voor het maken van de diagrammen is [draw.io](https://app.diagrams.net/) gebruikt.
+
 ## Known bugs
-1. [Audio Kraakt](https://github.com/HU-ICT-LAB/VR-Cache/issues/92)
+
