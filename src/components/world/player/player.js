@@ -18,7 +18,7 @@ window.AFRAME.registerComponent("player", {
 
 		switch (this.data.visual) {
 		case "blind" :
-			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.02\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>\n";
+			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.02\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>";
 			break;
 		default:
 		}
@@ -39,7 +39,7 @@ window.AFRAME.registerComponent("player", {
 				"            <a-entity id=\"timer\" timer></a-entity>\n" +
 				"<a-entity id=\"rig\" kinematic-body=\"shape:mesh\">\n" +
 				"    <a-entity id=\"camera\" position=\"0 0 0\">\n" +
-				"        <a-entity camera look-controls cache-interaction pause-component></a-entity>\n" + visual +
+				"        <a-entity camera look-controls cache-interaction pause-component>"+ visual +"</a-entity>\n" +
 				"    </a-entity>\n" +
 				"    <a-entity id=\"left\" haptics vibration oculus-touch-controls=\"hand: left\" ></a-entity>\n" +
 				"    <a-entity id=\"right\" haptics vibration oculus-touch-controls=\"hand: right\" laser-controls raycaster=\"lineColor: red; lineOpacity: 0.5; far: 1.6; objects: .interactable\" oculus-input-handler cache-sound oculus-thumbstick-controls=\"acceleration: 20\"></a-entity>\n" +
