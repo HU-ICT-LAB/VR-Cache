@@ -114,7 +114,7 @@ src/
 
 ### Objecten toevoegen
 
-Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar de type bestanden bestaan grotendeels uit .obj of .blend. A-Frame heeft een voorkeur voor .gltf bestanden, dus om dit op te lossen kan je in het programma [blender](https://www.blender.org/) het object aanpassen naar eigen behoren en het obj vergvolgens exporteren als een .gltf bestand.
+Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar de type bestanden bestaan grotendeels uit .obj of .blend. A-Frame heeft een voorkeur voor .gltf bestanden, dus om dit op te lossen kan je in het programma [blender](https://www.blender.org/) het object aanpassen naar eigen behoren en het object vergvolgens exporteren als een .gltf bestand.
 
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
