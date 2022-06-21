@@ -19,6 +19,9 @@ window.AFRAME.registerComponent("player", {
 		if (sessionStorage.getItem("gamemode") === "blind") {
 			visual = "<a-plane id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.1\" width=\"1\" height=\"1\" color=\"black\" shadow></a-plane>";
 		}
+		if (sessionStorage.getItem("gamemode") === "tunnel") {
+			visual = "<a-image src='assets/tunnel.png' id=\"hud\" overlay rotation=\"0 0 0\" position=\"0 0 -0.25\"></a-image>";
+		}
 
 		switch (this.data.device) {
 		case "pc" :
