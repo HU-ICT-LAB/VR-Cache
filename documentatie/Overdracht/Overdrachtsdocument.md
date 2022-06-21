@@ -100,7 +100,7 @@ Indien je tijdens het ontwikkelen gebruik wilt maken van de developer console is
 
 ### Components toevoegen
 
-Na het schrijven van nieuwe code moet het bestand toegevoegd worden als import in de [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js).
+Na het schrijven van nieuwe code moet het bestand toegevoegd worden als import in de [components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js), deze staat als import in [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/index.js).
 Hieronder kan je zien waar die twee bestanden zich in de github-repository bevinden.
 ```
 src/                    
