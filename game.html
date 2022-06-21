@@ -14,7 +14,8 @@
 </head>
 <body>
 <a-scene id="scene" fog="density: 0" physics
-         environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5">
+         environment="groundColor:#4dba2c; groundColor2:#4dba2c; groundYScale:26.3; playArea:2; scale: 2 2 20; fog:0.5"
+         render-order="hud, floor, world, cache, camp, trees, border">
 
     <a-assets>
 
@@ -27,7 +28,7 @@
         <a-sound id="cacheGevondenSoundAsset" src="assets/CacheGevonden.mp3" sound="positional: false"></a-sound>
     </a-assets>
 
-    <a-entity player="device: oculus"></a-entity>
+    <a-entity player="device: oculus; visual: blind"></a-entity>
 
     <a-sphere class="interactable" id="cache" sound="maxDistance: 5000; volume: 0.8" static-body="sphereRadius: NaN" cache></a-sphere>
 

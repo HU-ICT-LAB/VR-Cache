@@ -6,7 +6,7 @@ window.AFRAME.registerComponent("tree", {
 		const element = this.el;
 
 		element.setAttribute("geometry", "height: 30; radius: 3.33;");
-		element.setAttribute("material", "opacity: 0.1;");
+		element.setAttribute("material", "opacity: 0;");
 
 		this.el.addEventListener("raycaster-intersected", function () {
 			document.getElementById("boomSoundAsset").components.sound.playSound();
