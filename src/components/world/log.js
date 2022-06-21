@@ -6,7 +6,7 @@ window.AFRAME.registerComponent("log", {
 		element.setAttribute("material", "opacity: 0.1;");
 
 		this.el.addEventListener("raycaster-intersected", function () {
-			document.getElementById("kleineBoomstamSound").components.sound.playSound();
+			document.getElementById("kleineBoomstamSoundAsset").components.sound.playSound();
 		});
 	}
 });
