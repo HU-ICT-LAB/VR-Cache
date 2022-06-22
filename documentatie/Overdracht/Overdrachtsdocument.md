@@ -1,6 +1,27 @@
 # Overdracht document
 In dit document is alle informatie te vinden over het project en benodigdheden om het project op te zetten binnen een lokale en productieomgeving. Ook is er informatie te vinden over hoe de applicatie in elkaar zit en hoe hierop uit te breiden is. Tijdens de ontwikkeling zijn we tegen bepaalde obstakels en limitaties aangelopen, in dit document geven we hier uitleg over plus eventuele oplossingen.
 
+## Inhoudsopgave
+1. [Omschrijving](#omschrijving)<br/>
+1.1. [Oculus Quest 2](#oculus-quest-2)<br/>
+1.2. [Toegankelijkheid](#toegankelijkheid)
+2. [Deployment](#deployment)<br/>
+2.1. [Installatie](#installatie)<br/>
+2.2. [GitHub](#github)<br/>
+2.3. [Deployment diagram](#deployment-diagram)
+3. [Structuur](#structuur)<br/>
+3.1. [Mappenstructuur](#mappenstructuur)<br/>
+3.2. [ESLint rules](#eslint-rules)
+4. [Voortgang](#voortgang)<br/>
+4.1. [Milestones](#milestones)
+4. [Verder ontwikkelen](#verder-ontwikkelen)<br/>
+5.1. [Lokaal ontwikkelen](#lokaal-ontwikkelen)<br/>
+5.2. [Components toevoegen](#components-toevoegen)<br/>
+5.3. [Objecten toevoegen](#objecten-toevoegen)<br/>
+5.4. [Limitaties](#limitaties)<br/>
+5.5. [Tools](#tools)
+6. [Bekende bugs](#bekende-bugs)
+
 ## Omschrijving
 We hebben van [Stichting Accessibility](https://www.accessibility.nl/) de opdracht gekregen om een virtual reality game maken voor mensen met een visuele beperking. Ze willen graag meer te weten komen over hoe virtual reality ingezet kan worden voor mensen met een beperking. Het doel van het spel is om binnen een virtual reality wereld op zoek te gaan naar een [cache](https://en.wikipedia.org/wiki/Geocaching#Geocaches) die ergens verstopt is.
 
