@@ -70,6 +70,7 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 ## Wat is toegankelijkheid?
 
 ### Aanpak
+Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het noodzakelijk om goed in kaart te hebben wat er precies onder die term valt en ook juist wat hier niet onder valt. Om dit te onderzoeken zal er voornamelijk literture study gedaan worden om goed in kaart te brengen wat deze term inhoudt. Er zijn ook verschillende organisaties die hier veel mee bezig zijn die we kunnen ondervragen om hier meer informatie over te vergaren.
 
 ### Resultaten
 
