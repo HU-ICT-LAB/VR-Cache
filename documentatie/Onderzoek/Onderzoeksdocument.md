@@ -1,6 +1,6 @@
 # Onderzoeksdocument
 
-![Foto van VR Cache](/src/images/game.png)
+![Foto van VR Cache](/src/images/banner.png)
 
 # Inhoudsopgave
 
