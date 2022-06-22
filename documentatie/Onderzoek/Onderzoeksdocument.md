@@ -52,7 +52,7 @@
 
 ### Deelconclusie
 
-## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden?
+## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
 
 ### Aanpak
 
