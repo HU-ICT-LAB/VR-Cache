@@ -54,7 +54,7 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 ## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?
 
 ### Aanpak
-Hoe je virtual reality games toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatie bron is ons contact persoon Mike, hij  heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames. Onze tweede informatie bron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
+Hoe je virtual reality games toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatie bron is ons contact persoon Mike, hij  heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames. Onze tweede informatie bron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
 
 ### Resultaten
 
@@ -80,7 +80,7 @@ Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het n
 ## Wat is een visuele beperking?
 
 ### Aanpak
-Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [de literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode, wordt er allerei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
+Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [de literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
 ### Resultaten
 
 ### Deelconclusie
@@ -88,7 +88,7 @@ Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visue
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
 
 ### Aanpak
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er voornamelijk [literture study](https://ictresearchmethods.nl/Literature_study) gedaan worden om er achter te komen hoe digitale toegankelijkheid wordt toegepast in verschillende games, maar ook websites, om ongelijkheid te weergeven. Ook is er een [Survey](https://ictresearchmethods.nl/Survey) gedaan onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid.
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er voornamelijk [literture study](https://ictresearchmethods.nl/Literature_study) gedaan worden om er achter te komen hoe digitale toegankelijkheid wordt toegepast in verschillende games, maar ook websites, om ongelijkheid te weergeven. Ook gaan we een [Survey](https://ictresearchmethods.nl/Survey) doen onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid.
 
 ### Resultaten
 
@@ -101,5 +101,3 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 # Evaluatie
 
 # Bronnen
-https://www.linkedin.com/pulse/toegankelijkheid-inclusiviteit-diversiteit-martin-van-teylingen
-https://www.webaccessibilityaward.nl/digitale-toegankelijkheid/
