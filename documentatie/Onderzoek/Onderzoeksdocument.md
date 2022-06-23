@@ -86,6 +86,7 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
 
 ### Aanpak
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er voornamelijk [literture study](https://ictresearchmethods.nl/Literature_study) gedaan worden om er achter te komen hoe digitale toegankelijkheid wordt toegepast in verschillende games, maar ook websites, om ongelijkheid te weergeven. Ook is er een [Survey](https://ictresearchmethods.nl/Survey) gedaan onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid.
 
 ### Resultaten
 
@@ -99,3 +100,4 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 
 # Bronnen
 https://www.linkedin.com/pulse/toegankelijkheid-inclusiviteit-diversiteit-martin-van-teylingen
+https://www.webaccessibilityaward.nl/digitale-toegankelijkheid/
