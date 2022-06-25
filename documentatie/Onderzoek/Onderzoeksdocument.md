@@ -93,8 +93,8 @@ Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tel
 - **Doofblind** <br/>
 Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind-/slechtziendheid. Dit heeft grote invloed op hun leven, want het belemmert mensen in hun communicatie, het vergaren van informatie en begeewgelijkheid. De meeste met deze aandoening kunnen nog wel wat zien horen, en klein aantal zijn compleet doof en blind. Bij het zien is hun gezichtsveld kleiner dan 30 graden, en bij het horen is er sprake van 35 decibel verlies aan gehoor. Doofblindheid kan verschillende oorzaken hebben: door syndroom van Usher, trauma, hersenvliesontsteking, ziekte, vroeggeboort en congenitale rebellavirus.
 
-![Foto van tabel visuele beperking in NL](https://i.ibb.co/r7PdDRb/overzicht-visulebeperking-nl.png) <br/>
-*Overzicht van visueel beperking in Nederland*
+![Foto van tabel visuele beperking in NL](https://i.ibb.co/xzg3L5f/overzicht-visulebeperking-nl.png) <br/>
+*Overzicht van visueel beperking en andere beperking in Nederland*
 
 
 ### Deelconclusie
