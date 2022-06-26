@@ -145,6 +145,23 @@ Buiten digitale en fysieke toegankelijkheid heb je ook nog de term sociale toega
 ### Aanpak
 Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [de literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
 ### Resultaten
+Er bestaan veel verschillende beperkingen, maar de beperking die bij onze doelgroep het meest voorkomt is slechtziend en blindheid. Bij het opzoeken van wat visuele beperking precies inhoudt, komt je vier verschillende soorten visuele beperkingen tegen.
+
+- **Kleurenblind** <br/>
+Mensen die kleurenblind zijn, hebben problemen met het onderscheiden van verschillen tussen kleuren en soms het ontbreken van kleurwaarneming. Dus kleurenblindheid is eigenlijk een verkeerde naam. Daarom wordt vaak de term kleurenzienstoornis gebruikt, want blind in kleuren zijn ze niet. Kleurenblindheid komt veel voor. 8% van de mannen in Nederland lijdt aan enige vorm van kleurenblindheid. Bij vrouwen ligt het cijfer veel lager: 0,5%. Kleurenblindheid is genetisch gerelateerd aan seks. Dit betekent dat het kind het via de moeder van de grootvader kan erven. Oorzaak kleurenblind zijn is dat er een fout zit in de kegeletjes (kleine cellen op het netvlies). Deze kegeltjes schakelen niet goed, waardoor de kleurne niet ziet zoals ze in werkelijkhied zijn. Kleurenblindheid is niet te genezen.
+
+- **Slechtziend** <br/>
+Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen. De meest voorkomende oorzaken van slechtziendheid zijn maculadegeneratie, diabetische retinopathie en gluacoom.
+
+- **Blind** <br/>
+Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelik blind. Een normaal gezichtsveld is 140 graden. Blindheid kan bij geboorte al gekregen zijn of in de loop van het leven door een ziekte of ongeval.
+
+- **Doofblind** <br/>
+Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind-/slechtziendheid. Dit heeft grote invloed op hun leven, want het belemmert mensen in hun communicatie, het vergaren van informatie en begeewgelijkheid. De meeste met deze aandoening kunnen nog wel wat zien horen, en klein aantal zijn compleet doof en blind. Bij het zien is hun gezichtsveld kleiner dan 30 graden, en bij het horen is er sprake van 35 decibel verlies aan gehoor. Doofblindheid kan verschillende oorzaken hebben: door syndroom van Usher, trauma, hersenvliesontsteking, ziekte, vroeggeboort en congenitale rebellavirus.
+
+![Foto van tabel visuele beperking in NL](https://i.ibb.co/xzg3L5f/overzicht-visulebeperking-nl.png) <br/>
+*Overzicht van visueel beperking en andere beperking in Nederland*
+
 
 ### Deelconclusie
 
@@ -164,6 +181,12 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 # Evaluatie
 
 # Bronnen
+https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
+https://www.accessibility.nl/verschillende-beperkingen/visuele-beperking
+https://nl.wikipedia.org/wiki/Visuele_handicap
+https://oogfonds.nl/oogklacht/kleurenblind
+https://oogfonds.nl/visuele-beperkingen/blindheid
+https://oogfonds.nl/visuele-beperkingen/slechtziend/
 https://www.linkedin.com/pulse/toegankelijkheid-inclusiviteit-diversiteit-martin-van-teylingen
 https://www.accessibility.nl/over-toegankelijkheid/wat-is-toegankelijkheid
 https://www.lezenenschrijven.nl/informatie-over-laaggeletterdheid-nederland
