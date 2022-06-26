@@ -88,29 +88,62 @@ Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visue
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
 
 ### Aanpak
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. DIT is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. Dit is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
 
 ### Resultaten
 
-Wat voor beperking heb je?
+#### Vragen enquête "Zorgt toegankelijkheid in games voor minder ongelijkheid?"
+
+De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16.
+
+##### Heb je een beperking?
 
 ![Grafiek vraag 1](/docs/google_form/1_Do_you_have_any_kind_of_disability.png)
 
-Wat voor games speel je?
+##### Wat voor spellen speel je?
 
 ![Grafiek vraag 2](/docs/google_form/2_What_kind_of_games_do_you_play.png)
 
-Waarom speel je games?
+##### Waarom speel je spellen?
 
 ![Grafiek vraag 3](/docs/google_form/3_What_makes_you_want_to_play_a_game.png)
 
-Wanner ik een game niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten?
+##### Wanner ik een spel niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
 
-![Grafiek vraag 4]()
+![Grafiek vraag 4](/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png)
 
-Wanneer mijn vrienden over games praten maar ik kan het niet spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten
+##### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
+
+![Grafiek vraag 5](/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png)
+
+##### Ik zou willen dat meer spellen toegankelijk waren.
+
+![Grafiek vraag 6](/docs/google_form/6_I_wish_more_games_would_be_accessible.png)
+
+##### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
+
+![Grafiek vraag 7](/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png)
+
+##### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
+
+![Grafiek vraag 8](/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png)
+
+##### Wanneer een spel geadverteerd word als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+
+![Grafiek vraag 9](/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png)
+
+##### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
+
+![Grafiek vraag 10](/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png)
+
+##### Als virtual reality toegankelijk was dan zou ik het willen proberen.
+
+![Grafiek vraag 11](/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png)
+
 
 ### Deelconclusie
+
+
 
 # Conclusie
 
