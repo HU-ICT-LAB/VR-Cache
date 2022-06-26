@@ -90,9 +90,8 @@ Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visue
 ### Aanpak
 Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. DIT is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
 
-### Resultaten
-![image](https://user-images.githubusercontent.com/25842434/175813893-b03d9c2a-c136-4544-be78-3e6f3b040538.png)
 
+### Resultaten
 
 
 ### Deelconclusie
