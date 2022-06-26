@@ -63,18 +63,19 @@ Hoe je virtual reality games toegankelijk maakt voor mensen met een visuele bepe
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?
 
 ### Aanpak
-Om te leren hoe je een virtual reality spel kan maken op basis van aframe hebben we besloten om twee onderzoek methodes te gebruikende eerste is [literature study](https://ictresearchmethods.nl/Literature_study) . Op de website van Aframe staat de documentatie van aframe en die kunnen wij goed lezen om de basics van aframe te begrijpen. 
+Om te leren hoe je een virtual reality spel kan maken op basis van A-Frame hebben we besloten om twee onderzoeks methodes te gebruiken. De eerste is [literature study](https://ictresearchmethods.nl/Literature_study). Op de website van A-Frame staat de documentatie die we kunnen gebruiken om A-Frame goed te kunnen begrijpen. 
 
-En er is ook andere websites zoals stackoverflow voor andere meer specifieke vragen die we zullen hebben. De tweede onderzoek methode die zeker belangrijk voor ons is [Best good and bad practises](https://ictresearchmethods.nl/Best_good_and_bad_practices) dit betekent namelijk dat wij gaan kijken als andere projecten bepaalde dingen op een heel goed manier hebben gedaan en die ook toepassen in onze project want aframe is een nieuwe concept voor ons dus als we kunnen opbouwen op wat anderen al hebben ontdekt zou dat ideal zijn. 
+Ook kunnen we Stackoverflow raadplegen voor meer specifieke vragen die we zullen hebben. De tweede onderzoeks methode die zeker belangrijk is voor ons [best good and bad practices](https://ictresearchmethods.nl/Best_good_and_bad_practices), dit betekent namelijk dat wij gaan kijken hoe andere projecten bepaalde funtionaliteiten op een goede manier hebben toegepast, daarna kunnen wij die ook toepassen in ons project. A-Frame is een nieuw concept voor ons, dus als we kunnen ontdekken wat anderen al hebben ontdekt zou dat ideaal zijn.
+
 ### Resultaten
-Met onze onderzoek hebben we het volgende gevonden: <br>
+Met ons onderzoek hebben we het volgende gevonden: <br>
 
-Aframe is een webframework voor het bouwen van virtual reality aplicaties. Aframe is gebaseerd op HTML, waardoor het eenvoudig is om aan de slag te gaan, het maakt ook gebruik van [Three.js](https://threejs.org).<br>
-Met weinig regels van code kan je al wat opzetten net als deze [voorbeeld](https://glitch.com/edit/#!/aframe?path=index.html%3A1%3A0).<br>
+A-Frame is een webframework voor het bouwen van virtual reality aplicaties. A-Frame is gebaseerd op HTML, waardoor het eenvoudig is om aan de slag te gaan, het maakt ook gebruik van [Three.js](https://threejs.org). Met weinig regels code kan je al snel simpele applicaties opzetten, een voorbeeld hiervan is [dit spel](https://glitch.com/edit/#!/aframe?path=index.html%3A1%3A0).
 
-Net als andere programeertalen heeft Aframe ook zijn primitives zoals bv box,cylinder,plane en sphere maar er zijn ook een aantal websites waar je [custom objecten](https://blog.mozvr.com/using-gltf-models-with-a-frame) die iemand anders heeft gemaakt kan downloaden en in je project zetten.<br>
+A-Frame heeft standaard verschillende web components zoals bijvoorbeeld box, cylinder, plane of een sphere. Er zijn ook een aantal websites waar je [custom objecten](https://blog.mozvr.com/using-gltf-models-with-a-frame) die iemand anders heeft gemaakt kan downloaden en kan gebruiken in je eigen project.
 
-En net als bijna elke andere programeer taal kan je in Aframe ook je eigen [componenten](https://aframe.io/docs/1.3.0/core/component.html) maken met hun eigen uniek gedrag die met elkaar kan comuniceren via events. 
+In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3.0/core/component.html) te maken die eigen unieke functionaliteiten bevatten die je met elkaar kan laten communiceren via events.
+
 ### Deelconclusie
 
 ## Wat is toegankelijkheid?
