@@ -88,11 +88,11 @@ Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visue
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
 
 ### Aanpak
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er voornamelijk [literture study](https://ictresearchmethods.nl/Literature_study) gedaan worden om er achter te komen hoe digitale toegankelijkheid wordt toegepast in verschillende games, maar ook websites, om ongelijkheid te weergeven. Ook gaan we een [Survey](https://ictresearchmethods.nl/Survey) doen onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid.
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken.  Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. De enquête is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
 
 ### Resultaten
-Vroeger sprak men vooral over de ‘integratie’ van mensen met een beperking. Hierbij richtte men zich vooral op het wijze hoe het individu zich kan aanpassen aan zijn omgeving.
-Tegenwoordig spreken we meer over ‘inclusie’. Bij inclusie wordt gekeken hoe de omgeving kan worden aangepast aan het ‘individu’. Er wordt zoveel mogelijk gewerkt naar één oplossing die zoveel mogelijk voor iedereen van toepassing kan zijn. 
+
+
 
 ### Deelconclusie
 
