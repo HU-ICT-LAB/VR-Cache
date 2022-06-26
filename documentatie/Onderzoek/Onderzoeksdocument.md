@@ -27,7 +27,7 @@
 ## Het bedrijf
 [Stichting Accessibility](https://www.accessibility.nl/), opgericht in 2001 als onderdeel van [Bartimeus](https://www.bartimeus.nl/), is een stichting die streeft naar een samenleving waarin iedereen zelfstandig mee kan doen in de maatschappij. [Bartimeus](https://www.bartimeus.nl/) richt zich op zorginstellingen en contact met cliënten, [Stichting Accessibility](https://www.accessibility.nl/) houdt zich bezig met onderzoek, ontwikkeling en voorlichtingen voor en met klanten zoals bedrijven en scholen. Binnen de [Stichting Accessibility](https://www.accessibility.nl/) wordt er [Agile](https://wikipedia.org/wiki/Agile-softwareontwikkeling) gewerkt met vier verschillende teams, één team als front office met daarnaast drie uitvoeringsteams. Deze teams zijn opgedeeld in twee verschillende categorieën, twee verantwoordelijk voor klanten en één verantwoordelijk voor projecten bij bedrijven en scholen.
 
-![Organogram Stichting Accessibility](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/docs/organogram-stichting-a11y.png)
+![Organogram Stichting Accessibility](/docs/organogram-stichting-a11y.png)
 
 ## Betrokkenen
 
@@ -92,7 +92,7 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 
 
 ### Resultaten
-
+    
 
 ### Deelconclusie
 
