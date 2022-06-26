@@ -92,53 +92,116 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 
 ### Resultaten
 
-#### Vragen enquête "Zorgt toegankelijkheid in games voor minder ongelijkheid?"
+**Enquête "Zorgt toegankelijkheid in games voor minder ongelijkheid?".**
 
-De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16.
+De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben wij 21 antwoorden binnengekregen. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
 
-##### Heb je een beperking?
+#### Heb je een beperking?
 
-![Grafiek vraag 1](/docs/google_form/1_Do_you_have_any_kind_of_disability.png)
+De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
 
-##### Wat voor spellen speel je?
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/1_Do_you_have_any_kind_of_disability.png" alt="Grafiek vraag 1"/>
+</details>
 
-![Grafiek vraag 2](/docs/google_form/2_What_kind_of_games_do_you_play.png)
+#### Wat voor spellen speel je?
 
-##### Waarom speel je spellen?
+Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
 
-![Grafiek vraag 3](/docs/google_form/3_What_makes_you_want_to_play_a_game.png)
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/2_What_kind_of_games_do_you_play.png" alt="Grafiek vraag 2"/>
+</details>
 
-##### Wanner ik een spel niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
+#### Waarom speel je spellen?
 
-![Grafiek vraag 4](/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png)
+De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
 
-##### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/3_What_makes_you_want_to_play_a_game.png" alt="Grafiek vraag 3"/>
+</details>
 
-![Grafiek vraag 5](/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png)
+#### Wanner ik een spel niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
 
-##### Ik zou willen dat meer spellen toegankelijk waren.
+De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
 
-![Grafiek vraag 6](/docs/google_form/6_I_wish_more_games_would_be_accessible.png)
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png" alt="Grafiek vraag 4"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
 
-##### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
+#### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
 
-![Grafiek vraag 7](/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png)
+De meerderheid was het hier mee eens
 
-##### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png" alt="Grafiek vraag 5"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
 
-![Grafiek vraag 8](/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png)
+#### Ik zou willen dat meer spellen toegankelijk waren.
 
-##### Wanneer een spel geadverteerd word als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+De meerderheid was het hier mee eens
 
-![Grafiek vraag 9](/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png)
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/6_I_wish_more_games_would_be_accessible.png" alt="Grafiek vraag 6"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
 
-##### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
+#### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
 
-![Grafiek vraag 10](/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png)
+De meerderheid was het hier mee eens
 
-##### Als virtual reality toegankelijk was dan zou ik het willen proberen.
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png" alt="Grafiek vraag 7"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
 
-![Grafiek vraag 11](/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png)
+#### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
+
+De meerderheid was het hier mee eens
+
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png" alt="Grafiek vraag 8"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
+
+#### Wanneer een spel geadverteerd word als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+
+De meerderheid was het hier mee eens
+
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png" alt="Grafiek vraag 9"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
+
+#### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
+
+De meerderheid was neutraal
+
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png" alt="Grafiek vraag 10"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
+
+#### Als virtual reality toegankelijk was dan zou ik het willen proberen.
+
+De meerderheid was het hier mee eens
+
+<details>
+  <summary>Grafiek</summary><br/>
+  <img src="/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png" alt="Grafiek vraag 11"/>
+  <p> 1 = Oneens | 5 = Eens </p>
+</details>
 
 
 ### Deelconclusie
