@@ -122,7 +122,7 @@ In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3
 ## Wat is toegankelijkheid?
 
 ### Aanpak
-Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het noodzakelijk om goed in kaart te hebben wat er precies onder die term valt en ook juist wat hier niet onder valt. Om dit te onderzoeken zal er voornamelijk [literture study](https://ictresearchmethods.nl/Literature_study) gedaan worden om goed in kaart te brengen wat deze term inhoudt. Er zijn ook verschillende organisaties die hier veel mee bezig zijn die we kunnen [interviewen](https://ictresearchmethods.nl/Expert_interview) om hier meer informatie over te vergaren.
+Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het noodzakelijk om goed in kaart te hebben wat er precies onder die term valt en ook juist wat hier niet onder valt. Om dit te onderzoeken zal er voornamelijk [literature study](https://ictresearchmethods.nl/Literature_study) gedaan worden om goed in kaart te brengen wat deze term inhoudt. Er zijn ook verschillende organisaties die hier veel mee bezig zijn die we kunnen [interviewen](https://ictresearchmethods.nl/Expert_interview) om hier meer informatie over te vergaren.
 
 ### Resultaten
 Wanneer je op zoekt gaat naar de term 'toegankelijkheid' kom je veel verschillende pagina's tegen die omschrijven wat dit precies inhoudt, ook zal je veel tegen de term 'inclusiviteit' aanlopen. Wat houden deze twee termen precies in? Bij het onderzoeken hiervan hebben we verschillende bronnen geraadpleegd die vrij te verkrijgen zijn op het internet. We hebben ook gesproken met verschillende experts in het gebied van toegankelijkheid en inclusiviteit zodat we een beter beeld konden krijgen wat deze termen nou precies inhouden.
@@ -168,7 +168,7 @@ Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
 
 ### Aanpak
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er voornamelijk [literture study](https://ictresearchmethods.nl/Literature_study) gedaan worden om er achter te komen hoe digitale toegankelijkheid wordt toegepast in verschillende games, maar ook websites, om ongelijkheid te weergeven. Ook gaan we een [Survey](https://ictresearchmethods.nl/Survey) doen onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid.
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er voornamelijk [literature study](https://ictresearchmethods.nl/Literature_study) gedaan worden om er achter te komen hoe digitale toegankelijkheid wordt toegepast in verschillende games, maar ook websites, om ongelijkheid te weergeven. Ook gaan we een [Survey](https://ictresearchmethods.nl/Survey) doen onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid.
 
 ### Resultaten
 
