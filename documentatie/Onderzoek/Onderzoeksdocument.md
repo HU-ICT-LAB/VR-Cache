@@ -125,7 +125,7 @@ De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spele
 
 #### Wanner ik een spel niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -135,7 +135,7 @@ De meerderheid was het hier mee eens
 
 #### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -145,7 +145,7 @@ De meerderheid was het hier mee eens
 
 #### Ik zou willen dat meer spellen toegankelijk waren.
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -155,7 +155,7 @@ De meerderheid was het hier mee eens
 
 #### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -165,7 +165,7 @@ De meerderheid was het hier mee eens
 
 #### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -175,7 +175,7 @@ De meerderheid was het hier mee eens
 
 #### Wanneer een spel geadverteerd word als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -185,7 +185,7 @@ De meerderheid was het hier mee eens
 
 #### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
 
-De meerderheid was neutraal
+De meerderheid is neutraal
 
 <details>
   <summary>Grafiek</summary><br/>
@@ -195,7 +195,7 @@ De meerderheid was neutraal
 
 #### Als virtual reality toegankelijk was dan zou ik het willen proberen.
 
-De meerderheid was het hier mee eens
+De meerderheid is het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
