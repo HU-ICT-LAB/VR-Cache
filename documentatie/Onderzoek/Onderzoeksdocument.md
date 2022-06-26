@@ -72,7 +72,7 @@ Met onze onderzoek hebben we het volgende gevonden: <br>
 Aframe is een webframework voor het bouwen van virtual reality aplicaties. Aframe is gebaseerd op HTML, waardoor het eenvoudig is om aan de slag te gaan, het maakt ook gebruik van [Three.js](https://threejs.org).<br>
 Met weinig regels van code kan je al wat opzetten net als deze [voorbeeld](https://glitch.com/edit/#!/aframe?path=index.html%3A1%3A0).<br>
 
-Net als andere programeertalen heeft Aframe ook zijn primitives zoals bv box,cylinder,plane en sphere maar er zijn ook een aantal websites waar je [custom objecten](https://blog.mozvr.com/using-gltf-models-with-a-frame) die iemand anders heeft gemaakt kan downloaden en in je project zetten zoals deze boom hier: <br>
+Net als andere programeertalen heeft Aframe ook zijn primitives zoals bv box,cylinder,plane en sphere maar er zijn ook een aantal websites waar je [custom objecten](https://blog.mozvr.com/using-gltf-models-with-a-frame) die iemand anders heeft gemaakt kan downloaden en in je project zetten.<br>
 
 En net als bijna elke andere programeer taal kan je in Aframe ook je eigen [componenten](https://aframe.io/docs/1.3.0/core/component.html) maken met hun eigen uniek gedrag die met elkaar kan comuniceren via events. 
 ### Deelconclusie
