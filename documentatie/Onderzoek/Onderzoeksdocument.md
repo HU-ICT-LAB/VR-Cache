@@ -181,12 +181,12 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 # Evaluatie
 
 # Bronnen
-https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
-https://www.accessibility.nl/verschillende-beperkingen/visuele-beperking
-https://nl.wikipedia.org/wiki/Visuele_handicap
-https://oogfonds.nl/oogklacht/kleurenblind
-https://oogfonds.nl/visuele-beperkingen/blindheid
-https://oogfonds.nl/visuele-beperkingen/slechtziend/
-https://www.linkedin.com/pulse/toegankelijkheid-inclusiviteit-diversiteit-martin-van-teylingen
-https://www.accessibility.nl/over-toegankelijkheid/wat-is-toegankelijkheid
-https://www.lezenenschrijven.nl/informatie-over-laaggeletterdheid-nederland
+https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html <br/>
+https://www.accessibility.nl/verschillende-beperkingen/visuele-beperking <br/>
+https://nl.wikipedia.org/wiki/Visuele_handicap <br/>
+https://oogfonds.nl/oogklacht/kleurenblind <br/>
+https://oogfonds.nl/visuele-beperkingen/blindheid <br/>
+https://oogfonds.nl/visuele-beperkingen/slechtziend/ <br/>
+https://www.linkedin.com/pulse/toegankelijkheid-inclusiviteit-diversiteit-martin-van-teylingen <br/>
+https://www.accessibility.nl/over-toegankelijkheid/wat-is-toegankelijkheid <br/>
+https://www.lezenenschrijven.nl/informatie-over-laaggeletterdheid-nederland <br/>
