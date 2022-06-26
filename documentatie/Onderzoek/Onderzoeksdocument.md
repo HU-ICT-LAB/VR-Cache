@@ -93,7 +93,7 @@ Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kie
 ##### *Qua map design, wat wel en niet?*
 Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevings geluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je er op loopt.
 
-#### Comunity research
+#### Comunity research:
 In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulp middel voor ons project. De [pagina](https://whitethorngames.com/accessibility) is van een indie game publisher [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game publisher is om games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig zijn maar voor iedereen, zoals de functie dat je elke button kan remappen op een andere button.
 
 ### Deelconclusie
