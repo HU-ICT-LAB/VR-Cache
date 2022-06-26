@@ -125,7 +125,7 @@ De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spele
 
 #### Wanner ik een spel niet kan spelen vanwegen slechte toegankelijkheid dan voel ik mij buitengesloten.
 
-De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
+De meerderheid was het hier mee eens
 
 <details>
   <summary>Grafiek</summary><br/>
