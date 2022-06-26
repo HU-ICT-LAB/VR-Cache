@@ -118,3 +118,9 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 # Evaluatie
 
 # Bronnen
+https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
+https://www.accessibility.nl/verschillende-beperkingen/visuele-beperking
+https://nl.wikipedia.org/wiki/Visuele_handicap
+https://oogfonds.nl/oogklacht/kleurenblind
+https://oogfonds.nl/visuele-beperkingen/blindheid
+https://oogfonds.nl/visuele-beperkingen/slechtziend/
