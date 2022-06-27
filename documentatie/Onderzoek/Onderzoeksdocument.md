@@ -51,7 +51,7 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 
 # Deelvragen
 
-## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?
+## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)
 
 ### Aanpak
 Hoe je virtual reality games toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatie bron is ons contact persoon Mike, hij  heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames. Onze tweede informatie bron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
@@ -101,7 +101,7 @@ In het interview kwam naar voren dat het belangerijk is om geluid op een functio
 
 Verder in het onderzoek is ook naar voren gekomen dat het erg belangerijk is om de speler vrijheid te geven. Je kan wel handige functies toevoegen aan je game die je zelf erg toepasselijk vindt, maar uiteindelijk is het de speler die bepaald of de functies daadwerkelijk van toepassing zijn. Ook hebben we gezien dat in accessibility er niet alleen gedacht wordt aan de mensen met een beperking, maar dat er ook aandacht gegeven wordt aan de mensen zonder een beperking met universele functies die voor iedereen handig zijn zoals het kunnen remappen van je input knoppen.
 
-## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?
+## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
 ### Aanpak
 Om te leren hoe je een virtual reality spel kan maken op basis van A-Frame hebben we besloten om twee onderzoeks methodes te gebruiken. De eerste is [literature study](https://ictresearchmethods.nl/Literature_study). Op de website van A-Frame staat de documentatie die we kunnen gebruiken om A-Frame goed te kunnen begrijpen. 
@@ -119,7 +119,7 @@ In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3
 
 ### Deelconclusie
 
-## Wat is toegankelijkheid?
+## Wat is toegankelijkheid? (Jaimie)
 
 ### Aanpak
 Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het noodzakelijk om goed in kaart te hebben wat er precies onder die term valt en ook juist wat hier niet onder valt. Om dit te onderzoeken zal er voornamelijk [literature study](https://ictresearchmethods.nl/Literature_study) gedaan worden om goed in kaart te brengen wat deze term inhoudt. Er zijn ook verschillende organisaties die hier veel mee bezig zijn die we kunnen [interviewen](https://ictresearchmethods.nl/Expert_interview) om hier meer informatie over te vergaren.
@@ -140,7 +140,7 @@ Buiten digitale en fysieke toegankelijkheid heb je ook nog de term sociale toega
 
 ### Deelconclusie
 
-## Wat is een visuele beperking?
+## Wat is een visuele beperking? (Samy)
 
 ### Aanpak
 Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [de literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
@@ -165,7 +165,7 @@ Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind
 
 ### Deelconclusie
 
-## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid?
+## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
 ### Aanpak
 
