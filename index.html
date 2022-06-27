@@ -1,24 +1,68 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
-    <title>VR Cache</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Cache | Home</title>
 
-    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
-    <script src="dist/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/home.css">
 </head>
+
 <body>
-<a-scene physics="debug: true">
-    <a-entity id="camera" position="0 1.6 0">
-        <a-entity id="camera" camera look-controls wasd-controls kinematic-body></a-entity>
-    </a-entity>
-
-    <a-box static-body position="0 1 -2" color="#4CC3D9" width="1" height="1" depth="1"></a-box>
-
-    <a-plane static-body rotation="-90 0 0" position="0 0 -4" width="10" height="10" color="#7BC8A4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky>
-</a-scene>
+    <section role="navigation" id="topbar">
+        <div class="topbarWrapper">
+            <div class="topLeft">
+                <h1 class="logo" tabindex="0">VR Cache</h1>
+            </div>
+            <div class="topRight">
+                <div class="topbarButtonContainer">
+                    <a onclick="sessionStorage.setItem('gamemode', 'regular')" href="./game.html" class="button" tabindex="0">Reguliere modus</a>
+                    <a onclick="sessionStorage.setItem('gamemode', 'blind')" href="./game.html" class="button" tabindex="0">Blinde modus</a>
+                    <a onclick="sessionStorage.setItem('gamemode', 'tunnel')" href="./game.html" class="button" tabindex="0">Tunnel modus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section role="main" id="main">
+        <img src="src/images/game.png" alt="Impressie foto van de VR Cache wereld" id="previewImage" tabindex="0">
+        <h2 tabindex="0">Introductie</h2>
+        <p tabindex="0">
+            In deze game ga je een VR headset gebruiken om een cache te zoeken.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo maxime, iusto officiis maiores,
+            consectetur totam enim quis omnis velit eaque quas modi praesentium. Rem, unde autem neque et
+            consectetur quae.
+        </p>
+        <h2 tabindex="0">Over ons</h2>
+        <p tabindex="0">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo maxime, iusto officiis maiores,
+            consectetur totam enim quis omnis velit eaque quas modi praesentium. Rem, unde autem neque et
+            consectetur quae.
+        </p>
+    </section>
+    <section role="contentinfo" class="footer">
+        <div class="footerWrapper">
+            <div class="footerLeft">
+                <div class="footerImageContainerLeft">
+                    <a href="https://www.hu.nl/">
+                        <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/hogeschool-utrecht-logo.png"
+                            alt="Logo van de Hogeschool Utrecht">
+                    </a>
+                </div>
+            </div>
+            <div class="footerRight">
+                <div class="footerImageContainerRight">
+                    <a href="https://github.com/HU-ICT-LAB/VR-Cache/">
+                        <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
+                            alt="Logo van Github">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
