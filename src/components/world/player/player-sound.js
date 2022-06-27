@@ -5,7 +5,7 @@ window.AFRAME.registerComponent("player-sound", {
 		this.el.addEventListener("thumbstickmoved", () => {
 			this.walking = true;
 		});
-		this.el.addEventListener("thumbstickup", () => {
+		this.el.addEventListener("thumbsticktouchend", () => {
 			this.walking = false;
 		});
 	},
