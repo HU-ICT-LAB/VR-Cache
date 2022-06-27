@@ -5,9 +5,9 @@ window.AFRAME.registerComponent("player-sound", {
 		this.el.addEventListener("thumbstickmoved", this.isWalking);
 	},
 
-	isWalking(evt) {
-		this.walking = evt.detail._y > 0.95 || evt.detail._y < -0.95 || evt.detail._x < -0.95 || evt.detail._x > 0.95;
-		console.log(evt.detail._y);
+	isWalking(e) {
+		this.walking = e.detail.y > 0.95 || e.detail.y < -0.95 || e.detail.x < -0.95 || e.detail.x > 0.95;
+		console.log(e);
 	},
 
 	tick() {
