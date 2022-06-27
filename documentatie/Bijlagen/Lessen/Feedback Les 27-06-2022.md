@@ -1,10 +1,13 @@
 # Info
 
 Poster printen 09:00 - 10:00
+
 Poster presenteren 10:00 - 11:00
 
 Alex beschikbaarheid
+
 Donderdag alleen ochtend tot 12 uur
+
 Vrijdag vanaf 10:00
 
 ## Mail
@@ -30,7 +33,11 @@ Diagram maken over welke components welke andere componenten gebruiken
 Namen bij de deelvragen zetten
 
 Structuur:
+
 Inleiding is te lang
+
 Organisatorische context na de inleiding als eigen hoofdstuk
+
 Aanleiding / Opdracht (uit de inleiding halen)
+
 Doelstelling
