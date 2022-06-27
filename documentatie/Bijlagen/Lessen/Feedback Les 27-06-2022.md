@@ -20,9 +20,7 @@ Lokalen reserveren (in de mail met Alex)
 
 ## Overdrachtsdocument
 
-Omschrijving van componenten toevoegen
-
-Verschil A-Frame components en HTML web components omschrijven en hoe deze te gebruiken zijn
+Omschrijving van componenten toevoegen en het verschil met HTML web components. + Hoe deze te gebruiken zijn.
 
 Omschrijving toevoegen over hoe we geluid hebben toegevoegd zodat deze opgenoemd worden
 
