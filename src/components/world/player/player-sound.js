@@ -7,10 +7,10 @@ window.AFRAME.registerComponent("player-sound", {
 
 	isWalking(evt) {
 		this.walking = evt.detail.y > 0.95 || evt.detail.y < -0.95 || evt.detail.x < -0.95 || evt.detail.x > 0.95;
+		console.log(evt.detail.y);
 	},
 
-	tick(evt) {
-		console.log(evt.detail.y);
+	tick() {
 		if (this.walking && !this.alreadyWalking) {
 			document.getElementById("playerWalkingsoundAsset").components.sound.playSound();
 			this.alreadyWalking = true;
