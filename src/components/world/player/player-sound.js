@@ -2,13 +2,13 @@ window.AFRAME.registerComponent("player-sound", {
 	walking: false,
 	alreadyWalking: false,
 	init() {
-		this.el.addEventListener("thumbstickmoved", () => {
-			this.walking = true;
-		});
-		this.el.addEventListener("thumbsticktouchend", () => {
-			this.walking = false;
-		});
+		this.el.addEventListener("thumbstickmoved", this.isWalking);
 	},
+
+	isWalking(evt) {
+		this.walking = evt.detail.y > 0.95 || evt.detail.y < -0.95 || evt.detail.x < -0.95 || evt.detail.x > 0.95;
+	},
+
 	tick() {
 		if (this.walking && !this.alreadyWalking) {
 			document.getElementById("playerWalkingsoundAsset").components.sound.playSound();
