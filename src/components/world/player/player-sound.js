@@ -6,8 +6,8 @@ window.AFRAME.registerComponent("player-sound", {
 	},
 
 	isWalking(evt) {
-		this.walking = evt.detail.y > 0.95 || evt.detail.y < -0.95 || evt.detail.x < -0.95 || evt.detail.x > 0.95;
-		console.log(evt.detail.y);
+		this.walking = evt.detail._y > 0.95 || evt.detail._y < -0.95 || evt.detail._x < -0.95 || evt.detail._x > 0.95;
+		console.log(evt.detail._y);
 	},
 
 	tick() {
