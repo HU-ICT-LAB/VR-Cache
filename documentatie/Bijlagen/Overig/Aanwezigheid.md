@@ -10,3 +10,4 @@
 | Meeting         | 21-06  | x      | x      | x      | x      | x    |      |
 | Meeting         | 22-06  | x      | x      | x      | x      | x    |      |
 | Meeting         | 23-06  | x      | x      | x      |        | x    |      |
+| Meeting Alex    | 27-06  | x      | x      | x      |        | x    |      |
