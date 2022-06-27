@@ -29,9 +29,9 @@
         <a-sound id="playerWalkingsoundAsset" src="assets/Footsteps.mp3" sound="positional: false" loop="true" volume="0.8"></a-sound>
     </a-assets>
 
-    <a-entity player="device: oculus; visual: blind"></a-entity>
+    <a-entity player="device: oculus"></a-entity>
 
-    <a-sphere class="interactable" id="cache" sound="maxDistance: 5000; volume: 0.8" static-body="sphereRadius: NaN" cache></a-sphere>
+    <a-entity class="interactable" id="cache" sound="maxDistance: 5000; volume: 0.8" cache></a-entity>
 
     <a-entity id="camp" scale="0.3 0.3 0.3">
         <a-cone class="interactable" id="campfire" campfire></a-cone>
