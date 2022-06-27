@@ -13,3 +13,4 @@ import "./world/cache/cache";
 import "./world/a11y/description";
 import "./world/border";
 import "./overlay";
+import ".world/player/player-sound";
