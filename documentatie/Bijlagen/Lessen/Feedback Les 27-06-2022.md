@@ -28,14 +28,14 @@ Diagram maken over welke components welke andere componenten gebruiken
 
 ## Onderzoeksdocument
 
-Namen bij de deelvragen zetten
+**Namen bij de deelvragen zetten**
 
-Structuur:
+**Structuur:**
 
-Inleiding is te lang
+**Inleiding is te lang**
 
-Organisatorische context na de inleiding als eigen hoofdstuk
+**Organisatorische context na de inleiding als eigen hoofdstuk**
 
-Aanleiding / Opdracht (uit de inleiding halen)
+**Aanleiding / Opdracht (uit de inleiding halen)**
 
-Doelstelling
+**Doelstelling**
