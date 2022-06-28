@@ -12,9 +12,9 @@ Vrijdag vanaf 10:00
 
 ## Mail
 
-Alex mailen over testen met Mike en Nicolien (tijden)
+**Alex mailen over testen met Mike en Nicolien (tijden)**
 
-Lokalen reserveren (in de mail met Alex)
+**Lokalen reserveren (in de mail met Alex)**
 
 # Feedback documentatie
 
