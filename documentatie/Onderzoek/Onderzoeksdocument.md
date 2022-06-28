@@ -5,26 +5,27 @@
 # Inhoudsopgave
 
 1. [Inleiding](#inleiding)<br/>
-1.1. [Het bedrijf](#het-bedrijf)<br/>
-1.2. [Aanleiding](#aanleiding)<br/>
-1.3. [Doelstelling](#doelstelling)<br/>
-1.4. [Opdrachtomschrijving](#opdrachtomschrijving)<br/>
-1.5. [Scope van het onderzoek](#scope-van-het-onderzoek)
-2. [Hoofdvraag](#hoofdvraag)
-3. [Deelvragen](#deelvragen)<br/>
-ㅤㅤ3.1. [Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking)<br/>
-ㅤㅤ3.2. [Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame](#hoe-ontwikkel-je-een-virtual-reality-game-in-de-browser-door-middel-van-a-frame)<br/>
-ㅤㅤ3.3. [Wat is toegankelijkheid?](#wat-is-toegankelijkheid)<br/>
-ㅤㅤ3.4. [Wat is een visuele beperking](#wat-is-een-visuele-beperking)<br/>
-ㅤㅤ3.5. [Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden](#op-welke-manier-draagt-toegankelijkheid-in-games-bij-aan-minder-ongelijkheid)
-4. [Conclusie](#conclusie)
-5. [Aanbevelingen](#aanbevelingen)
-6. [Evaluatie](#evaluatie)
-7. [Bronnen](#bronnen)
+2. [Organisatorische context](#organisatorische-context)<br/>
+3. [Aanleiding](#aanleiding)<br/>
+4. [Opdracht](#opdracht)<br/>
+5. [Doelstelling](#doelstelling)<br/>
+6. [Hoofdvraag](#hoofdvraag)
+7. [Deelvragen](#deelvragen)<br/>
+ㅤㅤ7.1. [Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking-robert)<br/>
+ㅤㅤ7.2. [Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)](#hoe-ontwikkel-je-een-virtual-reality-game-in-de-browser-door-middel-van-a-frame-misher)<br/>
+ㅤㅤ7.3. [Wat is toegankelijkheid? (Jaimie)](#wat-is-toegankelijkheid-jaimie)<br/>
+ㅤㅤ7.4. [Wat is een visuele beperking? (Samy)](#wat-is-een-visuele-beperking-samy)<br/>
+ㅤㅤ7.5. [Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden? (Thomas)](#op-welke-manier-draagt-toegankelijkheid-in-games-bij-aan-minder-ongelijkheid-thomas)
+8. [Conclusie](#conclusie)
+9. [Aanbevelingen](#aanbevelingen)
+10. [Evaluatie](#evaluatie)
+11. [Bronnen](#bronnen)
 
 # Inleiding
+VR is een begrip dat in deze tijd vaak naar boven komt. Elke keer als men over de toekomst praat dan wordt VR vaak als lijdend voorbeeld genomen. Nu de metaverse op de horizon ligt en je ook steeds meer hoort over bedrijven die hun eigen vr brillen aan het ontwikkelen zijn is het dichterbij dan ooit. Dit klinkt natuurlijk allemaal heel gunstig in de oren, maar voor iemand die een visuele beperking heeft is dit een heel ander verhaal. Hoe zouden de visueel beperkte kunnen deelnemen aan deze toekomst?
 
-## Het bedrijf
+
+# Organisatorische context
 [Stichting Accessibility](https://www.accessibility.nl/), opgericht in 2001 als onderdeel van [Bartimeus](https://www.bartimeus.nl/), is een stichting die streeft naar een samenleving waarin iedereen zelfstandig mee kan doen in de maatschappij. [Bartimeus](https://www.bartimeus.nl/) richt zich op zorginstellingen en contact met cliënten, [Stichting Accessibility](https://www.accessibility.nl/) houdt zich bezig met onderzoek, ontwikkeling en voorlichtingen voor en met klanten zoals bedrijven en scholen. Binnen de [Stichting Accessibility](https://www.accessibility.nl/) wordt er [Agile](https://wikipedia.org/wiki/Agile-softwareontwikkeling) gewerkt met vier verschillende teams, één team als front office met daarnaast drie uitvoeringsteams. Deze teams zijn opgedeeld in twee verschillende categorieën, twee verantwoordelijk voor klanten en één verantwoordelijk voor projecten bij bedrijven en scholen.
 
 ![Organogram Stichting Accessibility](/docs/organogram-stichting-a11y.png)
@@ -34,17 +35,19 @@
 ### [Veron Wormeester (opdrachtgever)](https://www.accessibility.nl/persoon/veron-wormeester)
 Veron maakt deel uit van het projectteam binnen [Stichting Accessibility](https://www.accessibility.nl/) als projectleider en gebruikersonderzoeker. Hij is gespecialiseerd in het doen van onderzoek onder eindgebruikers. Veron is betrokken bij projecten op het gebied van educatie en projecten op het gebied van toegankelijke games.
 
-## Aanleiding
+
+# Aanleiding
 Virtual reality wordt steeds populairder en ontwikkeld zich razendsnel, [Hogeschool Utrecht](https://www.hu.nl/) is hier al een langere tijd mee aan het experimenteren en de mogelijkheden aan het ontdekken. De [Hogeschool Utrecht](https://www.hu.nl/) werkt regelmatig samen met [Stichting Accessibility](https://www.accessibility.nl/) binnen de opleiding en vroegen zich af hoe kan virtual reality ingezet worden voor mensen met een visuele beperking. Hierdoor is [Hogeschool Utrecht](https://www.hu.nl/) in gesprek gegaan met [Stichting Accessibility](https://www.accessibility.nl/) om een project te ontwikkelen voor studenten van [Hogeschool Utrecht](https://www.hu.nl/).
 
-## Doelstelling
-Het doel van dit onderzoek is om uit te vinden wat er allemaal mogelijk is in virtual reality voor mensen met een visuele beperking en hoe dit in de toekomst ingezet kan worden op verschillende manieren. Op dit moment is er nog heel weinig bekend over toegankelijkheid binnen virtual reality. We hopen met dit onderzoek bij te dragen aan de toegankelijkheid binnen virtual reality en dat dit ingezet kan worden in het dagelijks leven.
-
-## Opdrachtomschrijving
+# Opdracht
 Binnen dit onderzoek willen wij erachter komen in hoeverre virtual reality ingezet kan worden voor mensen met een visuele beperking, zodat ze in de toekomst meer gebruik kunnen maken van virtual reality in het dagelijkse leven. Om deze reden gaan wij een [geocaching](https://wikipedia.org/wiki/Geocaching) spel ontwikkelen voor de browser door middel van het [AFrame framework](https://aframe.io/). Deze kan gespeeld worden met virtual reality headsets met nadruk voor de Oculus Quest 2.
 
 ## Scope van het onderzoek
 Wij gaan ons bezighouden met toegankelijkheid binnen virtual reality. Toegankelijkheid is een heel breed begrip, wij gaan ons in het specifiek focussen op mensen met een visuele beperking. Voor dit onderzoek gebruiken we [A-Frame](https://aframe.io/) als framework om een virtual reality geocaching spel mee te ontwikkelen, waarin de speler opzoek gaat naar een cache.
+
+# Doelstelling
+Het doel van dit onderzoek is om uit te vinden wat er allemaal mogelijk is in virtual reality voor mensen met een visuele beperking en hoe dit in de toekomst ingezet kan worden op verschillende manieren. Op dit moment is er nog heel weinig bekend over toegankelijkheid binnen virtual reality. We hopen met dit onderzoek bij te dragen aan de toegankelijkheid binnen virtual reality en dat dit ingezet kan worden in het dagelijks leven.
+
 
 # Hoofdvraag
 Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van [A-Frame](https://aframe.io/) zodat mensen met een visuele beperking het ook kunnen spelen?
