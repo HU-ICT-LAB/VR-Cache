@@ -1,10 +1,11 @@
-const positions = [{position: "0.07104 -0.00483 12.4918", rotation: "0 0 0"},
-	{position: "-12.370 -0.00483 6.458", rotation: "0 -47.870 0"},
-	{position: "9.84865 1.33479 -0.46017", rotation: "0 90 0"},
-	{position: "14.91071 -0.00483 3.60356", rotation: "0 65.83 0"},
-	{position: "11.31676 -0.00483 10.89139", rotation: "0 31.94 0"},
-	{position: "2.30102 -0.00483 14.72652", rotation: "0 31.94 0"},
-	{position: "-3.62847 1.19811 11.02244", rotation: "0 -26.05 0"}];
+const positions = [{position: "-13.43007 -0.00483 -5.78539", rotation: "0 37.83 0"},
+	{position: "-6.52414 -0.00483 -9.61352", rotation: "0 37.83 0"},
+	{position: "0.97651 -0.00483 -11.41705", rotation: "0 0 0"},
+	{position: "9.16316 -0.00483 -12.47704", rotation: "0 -36.94 0"},
+	{position: "13.40126 -0.00483 -7.60519", rotation: "0 -60.94 0"},
+	{position: "12.07774 -0.00483 8.65857", rotation: "0 -127.14 0"},
+	{position: "5.349 -0.00483 8.002", rotation: "0 -127.140 0"},
+	{position: "-7.877 -0.00483 11.000", rotation: "0 -216.710 0"}];
 
 window.AFRAME.registerComponent("cache", {
 	init() {
