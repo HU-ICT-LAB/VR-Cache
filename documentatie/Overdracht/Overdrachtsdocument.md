@@ -104,6 +104,20 @@ src/
 ### ESLint rules
 [ESLint](https://eslint.org/) zorgt ervoor dat de gehele codebase één code standaard aanhoudt. Deze regels hebben wij gedefiënneerd in het bestand [.eslintrc.json](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/.eslintrc.json). Deze regels kunnen indien nodig aangepast worden.
 
+### Components
+| Component              | Omschrijving                                                   |
+|------------------------|----------------------------------------------------------------|
+| cache-sound            | Speelt geluid af wanneer de speler in bereik van de cache komt |
+| tree                   | Geeft de attributes die een boom object nodig heeft            |
+| log                    | Geeft de attributes die een log object nodig heeft             |
+| campfire               | Geeft de attributes die een campfire object nodig heeft        |
+| border                 | Geeft de attributes die een border object nodig heeft          |
+| player                 | Zorgt voor alle input en player movement                       |
+| keyboard-input-handler | Zorgt voor het cachen op pc modus                              |
+| oculus-input-handler   | Zorgt voor het cachen op de oculus quest                       |
+| sonar-vibration        | Zorgt voor een sonar vibratie op de oculus quest               |
+| cache                  | Geeft de attributes die de cache nodig heeft                   |
+
 ## Voortgang
 We hebben tijdens het project verschillende milestones gepland. Hieronder is een overzicht te zien van welke milestones wel en niet behaald zijn.
 
