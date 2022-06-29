@@ -57,7 +57,7 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 ## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)
 
 ### Aanpak
-Hoe je virtual reality games toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatie bron is ons contact persoon Mike, hij  heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames. Onze tweede informatie bron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
+Hoe je virtual reality games toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatiebron is ons contactpersoon Mike, hij heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames. Onze tweede informatiebron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
 
 ### Resultaten
 Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
@@ -74,10 +74,10 @@ Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. 
 
 
 ##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
-Zorg er voor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt alsof je op hout klopt.
+Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt alsof je op hout klopt.
 
 ##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
-Het liefst zou je willen dat je iets van een knop ingedrukt houdt die er voor zorgt dat er een 3D sound wordt afgespeeld van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede kant op kijkt.
+Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede kant op kijkt.
 
 ##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
 Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan loopt.
@@ -94,10 +94,10 @@ Geluid van takjes of grond waar je op loopt
 Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
 
 ##### *Qua map design, wat wel en niet?*
-Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevings geluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je er op loopt.
+Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
 
 #### Community research:
-In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulp middel voor ons project. De [pagina](https://whitethorngames.com/accessibility) is van een indie game publisher [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game publisher is om games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig zijn maar voor iedereen, zoals de functie dat je elke button kan remappen op een andere button.
+In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulpmiddel voor ons project. De [pagina](https://whitethorngames.com/accessibility) is van een indie game publisher [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game publisher is om games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig zijn maar voor iedereen, zoals de functie dat je elke button kan remappen op een andere button.
 
 ### Deelconclusie
 In het interview kwam naar voren dat het belangerijk is om geluid op een functionele manier toe te passen. De voorbeelden die Mike gaf met de 3d sound van de cache en de ambient geluiden in de omgeving zijn erg belangerijk om je te kunnen oriënteren in de map. Ook kwam naar voren dat hoe dichter de geluiden bij de werkelijkheid komen hoe makkelijker het is om een beeld te schetsen van je omgeving, bijvoorbeeld dat je in een bos de wind door bomen hoort gaan en dat je vogels hoort zingen. Maar ook dat je objecten logische natuurlijke geluiden geeft om de speler te laten weten waar die mee interacteert.
@@ -107,9 +107,9 @@ Verder in het onderzoek is ook naar voren gekomen dat het erg belangerijk is om 
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
 ### Aanpak
-Om te leren hoe je een virtual reality spel kan maken op basis van A-Frame hebben we besloten om twee onderzoeks methodes te gebruiken. De eerste is [literature study](https://ictresearchmethods.nl/Literature_study). Op de website van A-Frame staat de documentatie die we kunnen gebruiken om A-Frame goed te kunnen begrijpen. 
+Om te leren hoe je een virtual reality spel kan maken op basis van A-Frame hebben we besloten om twee onderzoeksmethodes te gebruiken. De eerste is [literature study](https://ictresearchmethods.nl/Literature_study). Op de website van A-Frame staat de documentatie die we kunnen gebruiken om A-Frame goed te kunnen begrijpen. 
 
-Ook kunnen we Stackoverflow raadplegen voor meer specifieke vragen die we zullen hebben. De tweede onderzoeks methode die zeker belangrijk is voor ons [best good and bad practices](https://ictresearchmethods.nl/Best_good_and_bad_practices), dit betekent namelijk dat wij gaan kijken hoe andere projecten bepaalde funtionaliteiten op een goede manier hebben toegepast, daarna kunnen wij die ook toepassen in ons project. A-Frame is een nieuw concept voor ons, dus als we kunnen ontdekken wat anderen al hebben ontdekt zou dat ideaal zijn.
+Ook kunnen we Stackoverflow raadplegen voor meer specifieke vragen die we zullen hebben. De tweede onderzoeksmethode die zeker belangrijk is voor ons [best good and bad practices](https://ictresearchmethods.nl/Best_good_and_bad_practices), dit betekent namelijk dat wij gaan kijken hoe andere projecten bepaalde funtionaliteiten op een goede manier hebben toegepast, daarna kunnen wij die ook toepassen in ons project. A-Frame is een nieuw concept voor ons, dus als we kunnen ontdekken wat anderen al hebben ontdekt zou dat ideaal zijn.
 
 ### Resultaten
 Met ons onderzoek hebben we het volgende gevonden: <br>
@@ -257,7 +257,7 @@ De meerderheid is het hier mee eens.
   <p> 1 = Oneens | 5 = Eens </p>
 </details>
 
-#### Wanneer een spel geadverteerd word als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+#### Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
 
 De meerderheid is het hier mee eens.
 
