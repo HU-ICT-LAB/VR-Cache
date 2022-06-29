@@ -19,6 +19,7 @@ In dit document is alle informatie te vinden over het project en benodigdheden o
 5.1. [Lokaal ontwikkelen](#lokaal-ontwikkelen)<br/>
 5.2. [Components toevoegen](#components-toevoegen)<br/>
 5.3. [Objecten toevoegen](#objecten-toevoegen)<br/>
+5.4. [Geluid toevoegen](#geluid-toevoegen)<br/>
 5.4. [Limitaties](#limitaties)<br/>
 5.5. [Tools](#tools)
 6. [Bekende bugs](#bekende-bugs)
