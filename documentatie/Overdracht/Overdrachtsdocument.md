@@ -1,4 +1,4 @@
-# Overdracht document
+# Overdrachtsdocument
 In dit document is alle informatie te vinden over het project en benodigdheden om het project op te zetten binnen een lokale en productieomgeving. Ook is er informatie te vinden over hoe de applicatie in elkaar zit en hoe hierop uit te breiden is. Tijdens de ontwikkeling zijn we tegen bepaalde obstakels en limitaties aangelopen, in dit document geven we hier uitleg over plus eventuele oplossingen.
 
 ## Inhoudsopgave
@@ -81,9 +81,9 @@ assets/                          Bestanden die in het spel worden gebruikt
 docs/                            Documenten
 documentatie/                    Alle documentatie voor het project in markdown
 ├── Bijlagen/                      
-    ├── Lessen/                  Notities over besprekingen in de lessen
-    ├── Overig/                  Overige notities
-    └── Sprint Meetings/         Notities van de sprint meetings
+|   ├── Lessen/                  Notities over besprekingen in de lessen
+|   ├── Overig/                  Overige notities
+|   └── Sprint Meetings/         Notities van de sprint meetings
 ├── Onderzoek/                   Alle documentatie met betrekking tot het onderzoeksrapport
 ├── Overdracht/                  Informatie voor de overdracht van het project
 └── Wiki/                        Documentatie over het project
@@ -151,7 +151,7 @@ Hieronder kan je zien waar die twee bestanden zich in de github-repository bevin
 ```
 src/                    
 ├── components/                      
-    └── components.js
+|   └── components.js
 └── index.js 
 ```
 
