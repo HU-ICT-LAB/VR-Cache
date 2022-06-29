@@ -109,7 +109,7 @@ src/
 
 Componenten zijn herbruikbare modules of data-containers die aan entiteiten kunnen worden gekoppeld om uiterlijk, gedrag en/of functionaliteit toe te voegen. Alle logica wordt geïmplementeerd via componenten en we definiëren verschillende soorten objecten door deze te mixen, matchen en configureren.
 
-Registreer een A-Frame component via ``AFRAME.registerComponent (name, definition)``, componenten moeten worden geregistreerd voordat ze ergens in de scene gebruikt kunnen worden.
+Registreer een A-Frame component via ``window.AFRAME.registerComponent (name, definition)``, componenten moeten worden geregistreerd voordat ze ergens in de scene gebruikt kunnen worden.
 
 Dit is anders dan een Web Component, een Web Component is echt een nieuwe HTML tag. Dat zou dan bijvoorbeeld ``<tree></tree>`` kunnen zijn, dit zou via een A-Frame component ``<a-entity tree></a-entity>`` zijn.
 
