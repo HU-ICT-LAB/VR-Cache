@@ -89,7 +89,7 @@ documentatie/                    Alle documentatie voor het project in markdown
 └── Wiki/                        Documentatie over het project
 public/
 src/                               
-├── components/                  Alle Javascript webcomponenten
+├── components/                  Alle A-Frame componenten
 |   ├── menu/                      
 |   ├── timer/                     
 |   ├── world/                     
