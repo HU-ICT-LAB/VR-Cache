@@ -11,7 +11,8 @@ In dit document is alle informatie te vinden over het project en benodigdheden o
 2.3. [Deployment diagram](#deployment-diagram)
 3. [Structuur](#structuur)<br/>
 3.1. [Mappenstructuur](#mappenstructuur)<br/>
-3.2. [ESLint rules](#eslint-rules)
+3.2. [ESLint rules](#eslint-rules)<br/>
+3.3. [Componenten](#componenten)
 4. [Voortgang](#voortgang)<br/>
 4.1. [Milestones](#milestones)
 4. [Verder ontwikkelen](#verder-ontwikkelen)<br/>
@@ -104,7 +105,13 @@ src/
 ### ESLint rules
 [ESLint](https://eslint.org/) zorgt ervoor dat de gehele codebase één code standaard aanhoudt. Deze regels hebben wij gedefiënneerd in het bestand [.eslintrc.json](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/.eslintrc.json). Deze regels kunnen indien nodig aangepast worden.
 
-### Components
+### Componenten
+
+Componenten zijn herbruikbare modules of data-containers die aan entiteiten kunnen worden gekoppeld om uiterlijk, gedrag en/of functionaliteit toe te voegen. Componenten zijn als plug-and-play voor objecten. Alle logica wordt geïmplementeerd via componenten en we definiëren verschillende soorten objecten door componenten te mixen, matchen en configureren.
+
+Registreer een A-Frame component via ``AFRAME.registerComponent (name, definition)``, componenten moeten worden geregistreerd voordat ze ergens in de scene gebruikt kunnen worden.
+
+
 | Component              | Omschrijving                                                   |
 |------------------------|----------------------------------------------------------------|
 | cache-sound            | Speelt geluid af wanneer de speler in bereik van de cache komt |
