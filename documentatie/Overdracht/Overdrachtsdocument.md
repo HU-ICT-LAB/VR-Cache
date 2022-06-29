@@ -107,23 +107,24 @@ src/
 
 ### Componenten
 
-Componenten zijn herbruikbare modules of data-containers die aan entiteiten kunnen worden gekoppeld om uiterlijk, gedrag en/of functionaliteit toe te voegen. Componenten zijn als plug-and-play voor objecten. Alle logica wordt geïmplementeerd via componenten en we definiëren verschillende soorten objecten door componenten te mixen, matchen en configureren.
+Componenten zijn herbruikbare modules of data-containers die aan entiteiten kunnen worden gekoppeld om uiterlijk, gedrag en/of functionaliteit toe te voegen. Alle logica wordt geïmplementeerd via componenten en we definiëren verschillende soorten objecten door deze te mixen, matchen en configureren.
 
 Registreer een A-Frame component via ``AFRAME.registerComponent (name, definition)``, componenten moeten worden geregistreerd voordat ze ergens in de scene gebruikt kunnen worden.
 
+Dit is anders dan een Web Component, een Web Component is echt een nieuwe HTML tag. Dat zou dan bijvoorbeeld ``<tree></tree>`` kunnen zijn, dit zou via een A-Frame component ``<a-entity tree></a-entity>`` zijn.
 
 | Component              | Omschrijving                                                   |
 |------------------------|----------------------------------------------------------------|
-| cache-sound            | Speelt geluid af wanneer de speler in bereik van de cache komt |
-| tree                   | Geeft de attributes die een boom object nodig heeft            |
-| log                    | Geeft de attributes die een log object nodig heeft             |
-| campfire               | Geeft de attributes die een campfire object nodig heeft        |
-| border                 | Geeft de attributes die een border object nodig heeft          |
 | player                 | Zorgt voor alle input en player movement                       |
 | keyboard-input-handler | Zorgt voor het cachen op pc modus                              |
 | oculus-input-handler   | Zorgt voor het cachen op de oculus quest                       |
 | sonar-vibration        | Zorgt voor een sonar vibratie op de oculus quest               |
 | cache                  | Geeft de attributes die de cache nodig heeft                   |
+| cache-sound            | Speelt geluid af wanneer de speler in bereik van de cache komt |
+| tree                   | Geeft de attributes die een boom object nodig heeft            |
+| log                    | Geeft de attributes die een log object nodig heeft             |
+| campfire               | Geeft de attributes die een campfire object nodig heeft        |
+| border                 | Geeft de attributes die een border object nodig heeft          |
 
 ## Voortgang
 We hebben tijdens het project verschillende milestones gepland. Hieronder is een overzicht te zien van welke milestones wel en niet behaald zijn.
