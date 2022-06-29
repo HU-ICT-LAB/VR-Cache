@@ -184,8 +184,10 @@ De standaard browser van Oculus heeft geen ondersteuning voor het gebruik van te
 Screen readers zijn er niet voor de Oculus browser, de website (home & settings page) is hierdoor op de Oculus Quest niet toegankelijk, dit zorgt ervoor dat mensen met een visuele beperking het spel niet zelf kunnen starten en aanpassen.
 
 ### Tools
-- De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
-- Voor het maken van de diagrammen is [draw.io](https://app.diagrams.net/) gebruikt.
+- [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) met als stem "Dutch / Lotte": Genereren van mp3 files voor het oplezen van de objecten.
+- [draw.io](https://app.diagrams.net/): Maken van diagrammen.
+- [Adobe Photoshop](https://www.adobe.com/nl/products/photoshop.html): Aanpassen/maken van afbeeldingen en een aantal assets.
+- [blender](https://www.blender.org/): Aanpassen/converteren van 3D modellen.
 
 ## Bekende bugs
 - [Timer UI gaat door objecten](https://github.com/HU-ICT-LAB/VR-Cache/issues/32)
