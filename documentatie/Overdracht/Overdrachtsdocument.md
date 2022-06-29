@@ -160,6 +160,9 @@ Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar
 
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
+### Geluid toevoegen
+
+
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
 
