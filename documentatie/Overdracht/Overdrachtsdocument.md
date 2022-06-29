@@ -42,7 +42,7 @@ Een object heeft een grotere cilinder of kubus eromheen waar de richter op reage
 <img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" height="250" />
 
 #### Sonar vibratie cache
-Als de gebruiker op de trekker van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pause tussen elke trilling is 2 seconden.
+Als de gebruiker op de trekker van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pauze tussen elke trilling is 2 seconden.
 
 ## Deployment
 
@@ -61,7 +61,7 @@ webpack --watch --progress --mode=development
 ```
 
 ### GitHub
-VR Cache maakt gebruik van GitHub pages voor de hosting van het spel. Met [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) is het heel eenvoudig om snel en in een gestructureerde manier met git om tijdens development gebruik te maken van continious deployment. In het onderstaande diagram is gevisualiseerd hoe de git workflow loopt van het begin van een feature naar uiteindelijke deployment via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/). 
+VR Cache maakt gebruik van GitHub pages voor de hosting van het spel. Met [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) is het heel eenvoudig om snel en in een gestructureerde manier met git om tijdens development gebruik te maken van continuous deployment. In het onderstaande diagram is gevisualiseerd hoe de git workflow loopt van het begin van een feature naar uiteindelijke deployment via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/). 
 
 Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aangemaakt. Vervolgens wordt er voor elke aparte taak nog een extra branch aangemaakt die vervolgens weer merged met de feature branch. Zodra de feature voltooid is kan deze worden gemerged met de development branch. Bij het mergen naar de development zal [ESLint](https://eslint.org/) eerst de code valideren via GitHub Actions. Wanneer je de development branch merged naar de demo branch zal er automatisch via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) een website worden opgezet waarop alle features getest kunnen worden door de opdrachtgever. Zodra de opdrachtgever hier akkoord op geeft kan de code uit de development gemerged worden naar de master branch.
 
@@ -103,7 +103,7 @@ src/
 ```
 
 ### ESLint rules
-[ESLint](https://eslint.org/) zorgt ervoor dat de gehele codebase één code standaard aanhoudt. Deze regels hebben wij gedefiënneerd in het bestand [.eslintrc.json](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/.eslintrc.json). Deze regels kunnen indien nodig aangepast worden.
+[ESLint](https://eslint.org/) zorgt ervoor dat de gehele codebase één code standaard aanhoudt. Deze regels hebben wij gedefinieerd in het bestand [.eslintrc.json](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/.eslintrc.json). Deze regels kunnen indien nodig aangepast worden.
 
 ### Componenten
 
@@ -173,7 +173,7 @@ De laser van [A-Frame](https://aframe.io/) is niet aanpasbaar, ook is deze laser
 Bij gebruik van een groot aantal objecten daalt de framerate significant. Ook zijn er browsers die niks meer inladen zodra je over bepaalde limieten heen gaat, dit is browser specifiek. Dit heeft er voor gezorgd dat objecten zijn gegroepeerd op bestands niveau, dus de game ziet dit dan als één groot object.
 
 ##### Physics engine outdated
-Om gebruik te maken van de [physics engine](https://github.com/n5ro/aframe-physics-system) moet er gebruik gemaakt worden van een oudere versie van [A-Frame](https://aframe.io/)e. Met het gebruik van een oudere versie is er geen ondersteuning en kan er geen gebruik gemaakt worden van nieuwe features. Hier is ook geen alternatief voor.
+Om gebruik te maken van de [physics engine](https://github.com/n5ro/aframe-physics-system) moet er gebruik gemaakt worden van een oudere versie van [A-Frame](https://aframe.io/). Met het gebruik van een oudere versie is er geen ondersteuning en kan er geen gebruik gemaakt worden van nieuwe features. Hier is ook geen alternatief voor.
 
 #### Browser Oculus Quest
 
@@ -181,7 +181,7 @@ Om gebruik te maken van de [physics engine](https://github.com/n5ro/aframe-physi
 De standaard browser van Oculus heeft geen ondersteuning voor het gebruik van text-to-speech, als alternatief is er gebruik gemaakt van audio bestanden.
 
 ##### Geen extensies
-Screen readers zijn er niet voor de Oculus browser, de website (home & settings page) is hierdoor op de Oculus Quest niet accessible, dit zorgt ervoor dat mensen met een visuele beperking het spel niet zelf kunnen starten en aanpassen.
+Screen readers zijn er niet voor de Oculus browser, de website (home & settings page) is hierdoor op de Oculus Quest niet toegankelijk, dit zorgt ervoor dat mensen met een visuele beperking het spel niet zelf kunnen starten en aanpassen.
 
 ### Tools
 - De [Text-To-Speech](https://ttsmp3.com/text-to-speech/Dutch/) die gebruikt is om de geluiden van de objecten op te lezen, met als stem "Dutch / Lotte".
