@@ -21,6 +21,7 @@ window.AFRAME.registerComponent("cache", {
 		hitbox.setAttribute("position", positions[random].position);
 		hitbox.setAttribute("radius", "0.75");
 		hitbox.setAttribute("opacity", "0");
+		hitbox.setAttribute("class", "interactable");
 
 		hitbox.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("interacting", "true");
