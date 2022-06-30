@@ -6,7 +6,7 @@ window.AFRAME.registerComponent("player-sound", {
 	},
 
 	isWalking(e) {
-		this.walking = e.detail.y != 0 || e.detail.x != 0;
+		this.walking = e.detail.y !== 0 || e.detail.x !== 0;
 	},
 
 	tick() {
