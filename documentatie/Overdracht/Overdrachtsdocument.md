@@ -170,7 +170,11 @@ Allereerst is het nodig om de mp3-bestanden toe te voegen in de assets. Vervolge
 </a-scene>
 ```
     
-De tweede manier is als de geluid als attribuut in een object meegeeft, dan werkt het precies hetzelfde als de eerste manier, maar wordt het geluid afgespeeld vanuit de positie van het object.   
+De tweede manier is als de geluid als attribuut in een object meegeeft, dan werkt het precies hetzelfde als de eerste manier, maar wordt het geluid afgespeeld vanuit de positie van het object. Hieronder staat een voorbeeld:  
+    
+````
+<a-entity sound="src: url(mp3); positional: (false of true);"><a-entity>
+````
 
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
