@@ -14,3 +14,4 @@ import "./world/a11y/description";
 import "./world/border";
 import "./overlay";
 import "./world/player/player-sound";
+import "./world/player/oculus/object-sound-handler";
