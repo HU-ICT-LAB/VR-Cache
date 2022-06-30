@@ -163,19 +163,27 @@ Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
 ### Geluid toevoegen
-Allereerst is het nodig om de mp3-bestanden toe te voegen in de assets. Vervolgens kan je geluid op twee manieren geluid toevoegen. De eerste manier is om een <a-sound> tag te typen en in de src-attribuut (zie hieronder) een link van een mp3-bestand te geven en een positional-attribuut (zie hieronder), om te kiezen of je het geluid alleen op een positie wilt laten afspelen (true) of overal (false). Deze geluiden zijn dan op deze manier niet verbonden aan objecten, maar aan posities.
+Allereerst is het nodig om het mp3-bestanden toe te voegen in de assets met daarin de url naar het mp3-bestand, vervolgens kan je geluid op twee manieren toevoegen.
     
+#### Optie 1:
 ```
-<a-scene>
-  <a-sound src="url(click.mp3)"  positional="(true or false)"></a-sound>
-</a-scene>
+<a-sound src="url(click.mp3)" autoplay="true"></a-sound>
 ```
-    
-De tweede manier is als de geluid als attribuut in een object meegeeft, dan werkt het precies hetzelfde als de eerste manier, maar wordt het geluid afgespeeld vanuit de positie van het object. Hieronder staat een voorbeeld:  
-    
+
+Attributen:
+- autoplay: Automatisch laten afspelen van het geluid, default ``false``.
+- loop: Herhaling van het geluid, default ``false``.
+- src: Bron van het geluid, dit moet de link zijn naar de mp3
+- volume: Volume van het geluid, default is ``1``
+
+#### Optie 2:
 ````
-<a-entity sound="src: url(mp3); positional: (false of true);"><a-entity>
+<a-entity sound="src: url(click.mp3);><a-entity>
 ````
+Dit is handig als het geluid uit een object moet komen, dus bijvorbeeld als een kampvuur een knisperend geluid maakt.
+
+#### Geluid niet positioneel maken
+Om deze geluiden positineel te maken moet de positinal veranderd worden naar ``positional:"true"``, dit is van naturen 
 
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
