@@ -9,7 +9,11 @@ window.AFRAME.registerComponent("border", {
 		element.setAttribute("Class", "interactable");
 
 		this.el.addEventListener("raycaster-intersected", function () {
-			document.getElementById("wereldBorderAsset").components.sound.playSound();
+			sessionStorage.setItem("object", "wereldborder");
+		});
+
+		this.el.addEventListener("raycaster-intersected-cleared", function () {
+			sessionStorage.setItem("object", "");
 		});
 	}
 });

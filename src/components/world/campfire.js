@@ -7,7 +7,11 @@ window.AFRAME.registerComponent("campfire", {
 		element.setAttribute("sound", "src: assets/KampvuurGeluid.mp3; autoplay: true; loop: true; volume: 3.5");
 
 		this.el.addEventListener("raycaster-intersected", function () {
-			document.getElementById("kampvuurSoundAsset").components.sound.playSound();
+			sessionStorage.setItem("object", "kampvuur");
+		});
+
+		this.el.addEventListener("raycaster-intersected-cleared", function () {
+			sessionStorage.setItem("object", "");
 		});
 	}
 });
