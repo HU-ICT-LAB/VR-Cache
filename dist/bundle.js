@@ -159,8 +159,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _uti
   \*****************************************************/
 /***/ (() => {
 
-eval("window.AFRAME.registerComponent(\"player-sound\", {\r\n\twalking: false,\r\n\talreadyWalking: false,\r\n\tinit() {\r\n\t\tthis.el.addEventListener(\"thumbstickmoved\", this.isWalking);\r\n\t},\r\n\r\n\tisWalking(e) {\r\n\t\tthis.walking = e.detail.y > 0.95 || e.detail.y < -0.95 || e.detail.x < -0.95 || e.detail.x > 0.95;\r\n\t\tconsole.log(e);\r\n\t},\r\n\r\n\ttick() {\r\n\t\tif (this.walking && !this.alreadyWalking) {\r\n\t\t\tdocument.getElementById(\"playerWalkingsoundAsset\").components.sound.playSound();\r\n\t\t\tthis.alreadyWalking = true;\r\n\t\t} else if (!this.walking) {\r\n\t\t\tdocument.getElementById(\"playerWalkingsoundAsset\").components.sound.stopSound();\r\n\t\t\tthis.alreadyWalking = false;\r\n\t\t}\r\n\t}\r\n});\n\n//# sourceURL=webpack://vr-cache/./src/components/world/player/player-sound.js?");
-
 /***/ }),
 
 /***/ "./src/components/world/player/player.js":
