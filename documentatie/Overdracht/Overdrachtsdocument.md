@@ -19,6 +19,7 @@ In dit document is alle informatie te vinden over het project en benodigdheden o
 5.1. [Lokaal ontwikkelen](#lokaal-ontwikkelen)<br/>
 5.2. [Components toevoegen](#components-toevoegen)<br/>
 5.3. [Objecten toevoegen](#objecten-toevoegen)<br/>
+5.4. [Geluid toevoegen](#geluid-toevoegen)<br/>
 5.4. [Limitaties](#limitaties)<br/>
 5.5. [Tools](#tools)
 6. [Bekende bugs](#bekende-bugs)
@@ -160,6 +161,21 @@ src/
 Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar de type bestanden bestaan grotendeels uit .obj of .blend. A-Frame heeft een voorkeur voor .gltf bestanden, dus om dit op te lossen kan je in het programma [blender](https://www.blender.org/) het object aanpassen naar eigen behoren en het object vervolgens te exporteren als een .gltf bestand.
 
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
+
+### Geluid toevoegen
+Allereerst is het nodig om de mp3-bestanden toe te voegen in de assets. Vervolgens kan je geluid op twee manieren geluid toevoegen. De eerste manier is om een <a-sound> tag te typen en in de src-attribuut (zie hieronder) een link van een mp3-bestand te geven en een positional-attribuut (zie hieronder), om te kiezen of je het geluid alleen op een positie wilt laten afspelen (true) of overal (false). Deze geluiden zijn dan op deze manier niet verbonden aan objecten, maar aan posities.
+    
+```
+<a-scene>
+  <a-sound src="url(click.mp3)"  positional="(true or false)"></a-sound>
+</a-scene>
+```
+    
+De tweede manier is als de geluid als attribuut in een object meegeeft, dan werkt het precies hetzelfde als de eerste manier, maar wordt het geluid afgespeeld vanuit de positie van het object. Hieronder staat een voorbeeld:  
+    
+````
+<a-entity sound="src: url(mp3); positional: (false of true);"><a-entity>
+````
 
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
