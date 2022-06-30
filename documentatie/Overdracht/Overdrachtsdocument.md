@@ -162,7 +162,15 @@ Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
 ### Geluid toevoegen
-
+Allereerst is het nodig om de mp3-bestanden toe te voegen in de assets. Vervolgens kunt u geluid op twee manieren toevoegen.  De eerste manier is om een <a-sound> tag te typen en in de src-attribuut (zie hieronder) een link van een mp3-bestand te geven en een positional-attribuut (zie hieronder), om te kiezen of je het geuild alleen op een positie wilt laten afspelen (true) of overal (false). Deze geluiden zijn dan op deze manier niet verbonden aan objecten, maar aan posities.
+    
+```
+<a-scene>
+  <a-sound src="src: url(click.mp3)"  positional="(true or false)"></a-sound>
+</a-scene>
+```
+    
+De tweede manier is als de geluid als attribuut in een object meegeeft, dan werkt het precies hetzelfde als de eerste manier, maar wordt het geluid afgespeeld vanuit de positie van het object.   
 
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
