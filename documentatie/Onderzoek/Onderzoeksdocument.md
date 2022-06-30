@@ -142,7 +142,10 @@ Mensen maken in het dagelijks leven gebruik van woningen, openbaar vervoer, wink
 **Sociale toegankelijkheid**<br/>
 Buiten digitale en fysieke toegankelijkheid heb je ook nog de term sociale toegankelijkheid. In Nederland alleen al hebben 1 op de 6 mensen last van laaggeletterdheid, deze mensen hebben moeite met lezen en schrijven. Wanneer een website, handleiding of dergelijk erg moeilijke woorden of zinnen gebruikt kan dit erg lastig te begrijpen zijn voor deze mensen. Hier spreken we dan over sociale toegankelijkheid. Bij sociale toegankelijkheid gaat het er dus om dat je juist te woord gestaan, krijg je op een makkelijke manier informatie en is deze ook makkelijk te begrijpen.
 
+Een andere term die vaak samen wordt gebruikt met toegankelijkheid is 'inclusiviteit'. Bij inclusiviteit houd je rekening met de diversiteit aan doelgroepen. Een digitale dienst die volledig toegankelijk is gemaakt volgens de richtlijnen betekent niet dat het voor alle doelgroepen automatisch ook toegankelijk is. Een voorbeeld hiervan is wanneer een inschrijfformulier op een website volledig is gemaakt volgens de digitale richtlijnen alleen wel om het geslacht vraagt en hierbij alleen 'Man' en 'Vrouw' als opties geeft. In dit geval spreek je van een toegankelijk formulier maar niet inclusief. Om dit formulier ook inclusief te maken kan je in plaats van vragen om het geslacht ook vragen om de aanspreekvormen of je kan extra opties aanbieden waarbij de persoon een vrijere invoer kan ingeven.
+
 ### Deelconclusie
+Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke definitie van het woord 'toegankelijkheid' te vinden en dit duidelijk te onderscheiden van inclusiviteit. Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken alleen dit is niet gericht op het individu. Wanneer je meer gaat kijken naar het individu heb je het dus over inclusiviteit.
 
 ## Wat is een visuele beperking? (Samy)
 
@@ -165,7 +168,6 @@ Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind
 
 ![Foto van tabel visuele beperking in NL](https://i.ibb.co/xzg3L5f/overzicht-visulebeperking-nl.png) <br/>
 *Overzicht van visueel beperking en andere beperking in Nederland*
-
 
 ### Deelconclusie
 
