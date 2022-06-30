@@ -1,4 +1,4 @@
-window.AFRAME.registerComponent("oculus-input-handler", {
+window.AFRAME.registerComponent("object-sound-handler", {
 	init() {
 		this.el.addEventListener("gripdown", function () {
 			switch (sessionStorage.getItem("object")) {
