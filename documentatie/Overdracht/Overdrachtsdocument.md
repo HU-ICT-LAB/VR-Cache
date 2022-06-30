@@ -162,11 +162,11 @@ Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
 ### Geluid toevoegen
-Allereerst is het nodig om de mp3-bestanden toe te voegen in de assets. Vervolgens kunt u geluid op twee manieren toevoegen.  De eerste manier is om een <a-sound> tag te typen en in de src-attribuut (zie hieronder) een link van een mp3-bestand te geven en een positional-attribuut (zie hieronder), om te kiezen of je het geuild alleen op een positie wilt laten afspelen (true) of overal (false). Deze geluiden zijn dan op deze manier niet verbonden aan objecten, maar aan posities.
+Allereerst is het nodig om de mp3-bestanden toe te voegen in de assets. Vervolgens kan je geluid op twee manieren geluid toevoegen. De eerste manier is om een <a-sound> tag te typen en in de src-attribuut (zie hieronder) een link van een mp3-bestand te geven en een positional-attribuut (zie hieronder), om te kiezen of je het geluid alleen op een positie wilt laten afspelen (true) of overal (false). Deze geluiden zijn dan op deze manier niet verbonden aan objecten, maar aan posities.
     
 ```
 <a-scene>
-  <a-sound src="src: url(click.mp3)"  positional="(true or false)"></a-sound>
+  <a-sound src="url(click.mp3)"  positional="(true or false)"></a-sound>
 </a-scene>
 ```
     
