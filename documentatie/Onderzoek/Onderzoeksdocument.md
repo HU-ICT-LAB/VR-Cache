@@ -121,7 +121,7 @@ A-Frame heeft standaard verschillende web components zoals bijvoorbeeld box, cyl
 In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3.0/core/component.html) te maken die eigen unieke functionaliteiten bevatten die je met elkaar kan laten communiceren via events.
 
 ### Deelconclusie
-In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebasseerd is op HTML ,dat betekent dat het heel makkelijk is om iets op te zetten. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren ,dus we konden zien dat het ontwikkellen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrijwel simpel.
+In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebasseerd is op HTML en Javascript, dat betekent dat het heel makkelijk is om iets op te zetten. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en en vrij eenvoudig.
 
 ## Wat is toegankelijkheid? (Jaimie)
 
