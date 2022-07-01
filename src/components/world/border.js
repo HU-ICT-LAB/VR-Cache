@@ -10,6 +10,7 @@ window.AFRAME.registerComponent("border", {
 
 		this.el.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("object", "wereldborder");
+			document.getElementById("right").components.haptics.pulse(0.5, 50);
 		});
 
 		this.el.addEventListener("raycaster-intersected-cleared", function () {

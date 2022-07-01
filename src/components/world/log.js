@@ -7,6 +7,7 @@ window.AFRAME.registerComponent("log", {
 
 		this.el.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("object", "kleineBoomstam");
+			document.getElementById("right").components.haptics.pulse(0.5, 50);
 		});
 
 		this.el.addEventListener("raycaster-intersected-cleared", function () {
