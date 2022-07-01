@@ -1,6 +1,6 @@
 window.AFRAME.registerComponent("object-sound-handler", {
 	init() {
-		this.el.addEventListener("gripdown", function () {
+		this.el.addEventListener("triggerdown", function () {
 			switch (sessionStorage.getItem("object")) {
 			case "boom":
 				document.getElementById("boomSoundAsset").components.sound.playSound();
@@ -13,9 +13,6 @@ window.AFRAME.registerComponent("object-sound-handler", {
 				break;
 			case "wereldborder":
 				document.getElementById("wereldborderSoundAsset").components.sound.playSound();
-				break;
-			case "cache":
-				document.getElementById("cacheSoundAsset").components.sound.playSound();
 				break;
 			default:
 				break;
