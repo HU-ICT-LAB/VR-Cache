@@ -14,6 +14,9 @@ window.AFRAME.registerComponent("object-sound-handler", {
 			case "wereldborder":
 				document.getElementById("wereldborderSoundAsset").components.sound.playSound();
 				break;
+			case "cache":
+				document.getElementById("cacheSoundAsset").components.sound.playSound();
+				break;
 			default:
 				break;
 			}

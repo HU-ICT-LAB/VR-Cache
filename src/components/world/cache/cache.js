@@ -25,7 +25,7 @@ window.AFRAME.registerComponent("cache", {
 
 		hitbox.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("interacting", "true");
-			document.getElementById("cacheSoundAsset").components.sound.playSound();
+			sessionStorage.setItem("object", "cache");
 			document.getElementById("right").components.haptics.pulse(0.5, 50);
 		});
 
