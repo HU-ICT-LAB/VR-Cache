@@ -4,7 +4,8 @@ In dit document is alle informatie te vinden over het project en benodigdheden o
 ## Inhoudsopgave
 1. [Omschrijving](#omschrijving)<br/>
 1.1. [Oculus Quest 2](#oculus-quest-2)<br/>
-1.2. [Toegankelijkheid](#toegankelijkheid)
+1.2. [Controls](#controls)<br/>
+1.3. [Toegankelijkheid](#toegankelijkheid)
 2. [Deployment](#deployment)<br/>
 2.1. [Installatie](#installatie)<br/>
 2.2. [GitHub](#github)<br/>
@@ -31,6 +32,14 @@ De applicatie is gemaakt met behulp van het [A-Frame](https://aframe.io/) framew
 
 ### Oculus Quest 2
 Ons gekozen platform voor dit project is de Oculus Quest 2, de Oculus Quest 2 maakt gebruik van een virtual reality bril en 2 controllers die beide vibratie ondersteunen. De Oculus Quest 2 bevat een eigen standaard browser. Deze gebruikt de [Chromium rendering engine](https://www.chromium.org/chromium-projects/) en heeft daardoor compatibiliteit met alle normale sites en sites die gebruik maken van web based virtual reality. 
+
+### Controls
+| Knop         | Actie                       |
+|--------------|-----------------------------|
+| A            | Interact cache              |
+| Front trigger| Uitlezen informatie richter |
+| Side grip    | Sonar vibratie              |
+| Joystick     | Rondlopen                   |
 
 ### Toegankelijkheid
 
