@@ -12,3 +12,5 @@
 | Meeting         | 23-06  | x      | x      | x      |        | x    |      |
 | Meeting Alex    | 27-06  | x      | x      | x      |        | x    |      |
 | Meeting         | 30-06  | x      | x      | x      | x      | x    |      |
+| Testen          | 01-07  | x      | x      | x      | x      | x    |      |
+| Meeting         | 02-07  | x      | x      | x      | x      | x    |      |
