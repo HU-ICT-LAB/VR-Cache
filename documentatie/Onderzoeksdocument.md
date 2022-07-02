@@ -98,17 +98,46 @@ Hoe je virtual reality toegankelijk maakt voor mensen met een visuele beperking 
   Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
 
   ##### *Qua map design, wat wel en niet?*
-  Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
+  Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler  zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
 </details>
 
 <details>
   <summary>Testen met Nicolien</summary>
+  
+  Nicolien is een vriendin van Mike, en ze is onderdeel van het panel binnen Stichting Accessibility. Ze heeft last van een tunnel visie, dit betekent dat ze alleen     goed zicht heeft op het midden van haar gezichtsveld. Op het gebied van virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. We hebben haar een aantal opties gegeven tijdens de test:
+  
+  ##### *Optie 1: automatisch uitlezen van objecten*
+  Tijdens de eerste test run had ze nog een beetje moeite met de controls van de game, desondanks had ze wel al een paar opmerkingen over het spel. Door het automatisch oplezen had ze het gevoel alsof ze een overload aan informatie kreeg. 
+  
+  ##### *Optie 2: vibration collision en automatisch uitlezen van objecten*
+  In de tweede test run ging het al een stuk beter. Ze was erg enthousiast over de vibration, omdat ze echt het gevoel kreeg dat ze de objecten aanraakte.
+  
+  ##### *Optie 3: vibration collision en uitlezen van objecten gebind aan een knop*
+  Deze test run vond Nicolien het best. Ze kreeg eigenlijk het beste van optie 1 en optie 2 gecombineerd. Zelf omschreef ze dat de vibratie haar goed hielp met het navigeren, en dat ze tegelijkertijd geen overload aan informatie te horen kreeg.
+  
+  ##### *Opmerkingen*
+  - Een kleine uitleg aan het begin van het spel.
+  - Geluid van de cache mag harder.
+  - De cache mag van verder weg te horen zijn.
+  
   
   
 </details>
 
 <details>
   <summary>Testen met Mike</summary>
+  
+  Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van de panel binnen Stichting Accessibility. Hij is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle opties aan Mike voorgelegd, omdat we na het testen met Nicolien opties hadden gewijzigd of hebben weggehaald.
+  
+  ##### *Optie 1: automatisch uitlezen van objecten*
+  Bij de eerste test run had Mike net als bij Nicolien nog een beetje moeite met het oriënteren van zichzelf in de map. Met een klein beetje hulp kon hij de cache vinden. Hij vond het automatisch oplezen ook net als Nicolien een overload aan informatie.
+  
+  ##### *Optie 2 vibration collision en uitlezen van objecten gebind aan een knop*
+  Nu Mike een beeld had van het spel kon hij de cache een stuk sneller vinden, hij vond de vibratie behulpzaam. Het geluid van de cache was voor mike wel een leidend middel om de cache te vinden.
+  
+  ##### *Opmerkingen*
+  - Meer geplaatste omgevingsgeluiden.
+  - Duidelijke aanduiding als je tegen de wereldborder aanloopt.
   
   
 </details>
@@ -118,6 +147,8 @@ In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de m
 
 ### Deelconclusie
 In het interview kwam naar voren dat het belangerijk is om geluid op een functionele manier toe te passen. De voorbeelden die Mike gaf met de 3d sound van de cache en de ambient geluiden in de omgeving zijn erg belangerijk om je te kunnen oriënteren in de map. Ook kwam naar voren dat hoe dichter de geluiden bij de werkelijkheid komen hoe makkelijker het is om een beeld te schetsen van je omgeving, bijvoorbeeld dat je in een bos de wind door bomen hoort gaan en dat je vogels hoort zingen. Maar ook dat je objecten logische natuurlijke geluiden geeft om de speler te laten weten waar die mee interacteert.
+
+Uit de testen konden we concluderen dat we op het gebied van geluiden goed onderweg waren, maar er waren wel nog een paar andere tekortkomingen. Een tutorial is erg belangerijk aan het begin van het spel zodat de speler gelijk begrijpt wat alle geluiden en knoppen betekenen, Ook moet je rekening houden met de hoeveelheid aan informatie die je geeft aan de speler. Te veel of te weinig informatie kunnen beide de speler in verwarring brengen, daarom is het belangerijk om veel te testen met de doelgroep. 
 
 Verder in het onderzoek is ook naar voren gekomen dat het erg belangerijk is om de speler vrijheid te geven. Je kan wel handige functies toevoegen aan je game die je zelf erg toepasselijk vindt, maar uiteindelijk is het de speler die bepaald of de functies daadwerkelijk van toepassing zijn. Ook hebben we gezien dat in accessibility er niet alleen gedacht wordt aan de mensen met een beperking, maar dat er ook aandacht gegeven wordt aan de mensen zonder een beperking met universele functies die voor iedereen handig zijn zoals het kunnen remappen van je input knoppen.
 
