@@ -62,42 +62,57 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 Hoe je virtual reality toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatiebron is ons contactpersoon Mike, hij heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames. Onze tweede informatiebron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
 
 ### Resultaten
-Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
+<details>
+  <summary>Interview met Mike</summary>
+  Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
 
-#### Interview:
+  #### Interview:
 
-##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
-- Horizon Zero Dawn
-- The Last Of Us II
-- [Swamp](https://www.youtube.com/watch?v=4YVvvPGKsA0)
-- [AudioGames.net](https://audiogames.net/list-games/)
+  ##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
+  - Horizon Zero Dawn
+  - The Last Of Us II
+  - [Swamp](https://www.youtube.com/watch?v=4YVvvPGKsA0)
+  - [AudioGames.net](https://audiogames.net/list-games/)
 
-Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. De eerste manier is als de game gericht is op inclusiviteit dit betekent dat de game gedeeltelijk te spelen is voor visueel beperkte, maar dat er sommige punten zijn die worden overgeslagen of de speler wordt geholpen. De tweede manier is als een game op toegankelijkheid is gericht, dit betekent dat de game in zijn volledigheid te spelen is door iemand met een visuele beperking.
+  Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. De eerste manier is als de game gericht is op inclusiviteit dit betekent dat de game gedeeltelijk te spelen is voor visueel beperkte, maar dat er sommige punten zijn die worden overgeslagen of de speler wordt geholpen. De tweede manier is als een game op toegankelijkheid is gericht, dit betekent dat de game in zijn volledigheid te spelen is door iemand met een visuele beperking.
 
 
-##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
-Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt alsof je op hout klopt.
+  ##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
+  Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt alsof je op hout klopt.
 
-##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
-Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede kant op kijkt.
+  ##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
+  Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede kant op kijkt.
 
-##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
-Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan loopt.
+  ##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
+  Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan loopt.
 
-##### *Wat maakt een menu goed of slecht?*
-Het is belangrijk om het menu goed te ordenen en een goede logische plaatsing te hebben van de knoppen. Veel games hebben in de menus dezelfde knop posities voor de verschillende opties, zoals dat de verdergaan knop altijd bovenaan staat. Dit zorgt er voor de een menu natuurlijk aanvoeld.
+  ##### *Wat maakt een menu goed of slecht?*
+  Het is belangrijk om het menu goed te ordenen en een goede logische plaatsing te hebben van de knoppen. Veel games hebben in de menus dezelfde knop posities voor de verschillende opties, zoals dat de verdergaan knop altijd bovenaan staat. Dit zorgt er voor de een menu natuurlijk aanvoeld.
 
-##### *Ambient sounds, zijn ze storend of helpen ze?*
-Ambient sounds zijn heel belangrijk voor het schetsen van de omgeving. Een tekst omschrijving van de omgeving kan ook van grote toegevoegde waarde zijn.
-Geluid van wind als er een opening links of rechts is 
-Geluid van takjes of grond waar je op loopt
+  ##### *Ambient sounds, zijn ze storend of helpen ze?*
+  Ambient sounds zijn heel belangrijk voor het schetsen van de omgeving. Een tekst omschrijving van de omgeving kan ook van grote toegevoegde waarde zijn.
+  Geluid van wind als er een opening links of rechts is 
+  Geluid van takjes of grond waar je op loopt
 
-##### *Is een tutorial handig (Interactief of text)?*
-Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
+  ##### *Is een tutorial handig (Interactief of text)?*
+  Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
 
-##### *Qua map design, wat wel en niet?*
-Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
+  ##### *Qua map design, wat wel en niet?*
+  Als je een bos als voorbeeld zou nemen. Dan is het erg belangerijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een textomschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangerijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
+</details>
 
+<details>
+  <summary>Testen met Nicolien</summary>
+  
+  
+</details>
+
+<details>
+  <summary>Testen met Mike</summary>
+  
+  
+</details>
+  
 #### Community research:
 In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulpmiddel voor ons project. De [pagina](https://whitethorngames.com/accessibility) is van een indie game publisher [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game publisher is om games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig zijn maar voor iedereen, zoals de functie dat je elke button kan remappen op een andere button.
 
