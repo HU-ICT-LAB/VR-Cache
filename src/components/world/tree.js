@@ -9,7 +9,12 @@ window.AFRAME.registerComponent("tree", {
 		element.setAttribute("material", "opacity: 0;");
 
 		this.el.addEventListener("raycaster-intersected", function () {
-			document.getElementById("boomSoundAsset").components.sound.playSound();
+			sessionStorage.setItem("object", "boom");
+			document.getElementById("right").components.haptics.pulse(0.5, 50);
+		});
+
+		this.el.addEventListener("raycaster-intersected-cleared", function () {
+			sessionStorage.setItem("object", "");
 		});
 	}
 });
