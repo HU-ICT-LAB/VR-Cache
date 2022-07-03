@@ -343,11 +343,18 @@ De meerderheid is het hier mee eens.
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
 
+Bij het eerste onderdeel van het onderzoek hebben we de vraag getackled 'Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?'. Hieruit is gebleken dat het belangrijk is om de speler zo veel mogelijk vrijheid in opties te geven, maar het is wel belangerijk dat alle opties van tevoren goed worden uitgelegd aan de gebruiker. Verder is gebleken dat geluid en vibratie de beste manieren zijn om de speler te voorzien van informatie, het is hierbij wel belangerijk dat niet te veel informatie tegelijkertijd op de speler wordt afgestuurd. dit kan zorgen voor een overbelasting van de zintuigen, waardoor de speler gedesoriënteerd raakt.
 
+In het tweede onderdeel van het onderzoek hebben we gekeken naar de vraag 'Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?'. Omdat A-Frame gebasseerd is op HTML en Javascript is het erg eenvoudig om een simpel virtual reality spel te ontwikkelen voor de browser.
+
+Het derde onderdeel gaat over de vraag 'Wat is toegankelijkheid?'. Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken.
+
+In het vierde onderdeel kwam de vraag 'Wat is een visuele beperking?' naar voren. Hier zagen we dat er vier verschillende soorten zijn van visuele beperkingen. 
 
 # Aanbevelingen
+Bij al onze tegenslagen was er één motief dat steeds terug naar boven kwam, en dat is dat A-Frame niet geschikt is om virtual reality games te maken voor mensen met een visuele beperking. Omdat A-Frame nog erg jong in ontwikkeling is, loop je al snel tegen limitaties aan. Voorbeelden hiervan zijn dat de raycaster niet aanpasbaar is, de inspector erg veel bugs bevat, er geen gebruik gemaakt kan worden van text to speech en six degrees of freedom niet toegepast kan worden, omdat de informatie van de guardian niet op te halen is.
 
-# Evaluatie
+We raden aan om in plaats van A-Frame gebruik te maken van een al verder ontwikkelde engine of framework die meer functionaliteiten bevat.
 
 # Bronnen
 Wat is Een Visuele Handicap? ZEISS Netherlands. (n.d.). Retrieved June 26, 2022, from https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
