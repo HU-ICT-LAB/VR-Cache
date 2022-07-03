@@ -338,12 +338,12 @@ De meerderheid is het hier mee eens.
   <p> 1 = Oneens | 5 = Eens </p>
 </details>
 
-
 ### Deelconclusie
 
-
-
 # Conclusie
+In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
+
+
 
 # Aanbevelingen
 
@@ -369,3 +369,5 @@ Wat is toegankelijkheid? Accessibility.nl. (n.d.). Retrieved June 26, 2022, from
 Informatie over Laaggeletterdheid in Nederland. https://www.lezenenschrijven.nl/. (n.d.). Retrieved June 26, 2022, from https://www.lezenenschrijven.nl/informatie-over-laaggeletterdheid-nederland 
 
 Whitethorn games. Whitethorn Games. (n.d.). Retrieved June 26, 2022, from https://whitethorngames.com/ 
+
+Pietroszek, K. (2018). Raycasting in Virtual Reality. SpringerLink. Geraadpleegd op 3 juli 2022, van https://link.springer.com/referenceworkentry/10.1007/978-3-319-08234-9_180-1?error=cookies_not_supported&code=6b1ad02a-1e08-44e5-b57a-9afd81231b0f
