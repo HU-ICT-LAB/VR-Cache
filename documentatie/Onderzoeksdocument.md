@@ -217,7 +217,7 @@ Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind
 *Overzicht van visuele beperking in Nederland*
 
 ### Deelconclusie
-Na het bestuderen van visuele berking in het algemeen, ben ik tot conclusie gekomen dat het vier verschillende soorten (kleurenblind, blind,slechtziend en doofblind) bevat en alle vier hebben weer verschillende oorzaken. Mensen kunnen ook niet volledig beperkt zijn, dus dat betekent dat zij meer zien dan volledig beperking. Ook is er naar voren gekomen dat niet alle soorten ongeneesbaar zijn, want tegen slechtziendheid is er wel een behandeling, alleen wordt het zicht gedeeltelijk verbeterd door chirurgische procedurres. Aan de hand van de foto hierboven kan ik concluderen, dat kleurenblinden het meest voorkomen in Nederland.
+Na het bestuderen en ondervragen over visuele berking in het algemeen, ben ik tot conclusie gekomen dat het vier verschillende soorten (kleurenblind, blind,slechtziend en doofblind) bevat en alle vier hebben verschillende, maar ook overeenkomsten in oorzaken. Visueel beperking houdt in dat het zicht van mensen enigermate beperkt is. Mensen kunnen ook niet volledig beperkt zijn, dus dat betekent dat zij meer zien dan volledig beperking. Ook is er naar voren gekomen dat niet alle soorten ongeneesbaar zijn, want tegen slechtziendheid is er wel een behandeling, alleen wordt het zicht gedeeltelijk verbeterd door chirurgische procedurres. Aan de hand van de foto hierboven kan ik concluderen, dat kleurenblinden het meest voorkomen in Nederland.
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
