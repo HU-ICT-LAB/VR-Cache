@@ -48,6 +48,8 @@ Een object is een primitieve vorm in aframe die als hitbox om het visuele object
 
 <img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" height="250" />
 
+*Hitbox van een object in het spel*
+
 #### Richter als herkenningsstok met "text-to-speech"
 Als de richter in aanranking komt met een object dan zal de controller een kleine vibratie geven dat een aanraking naabootst. Vervolgens kan de **Trigger** ingedrukt worden, dit zorgt er voor dat er een geluid met de uitleg van het object wordt afgespeeld.  
 
@@ -77,8 +79,12 @@ Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aa
 
 ![Git graph](/docs/Git_Graph.png)
 
+*Github branches diagram*
+
 ### Deployment diagram
 ![Deployment diagram](/docs/Deployment_diagram.png)
+
+*Deployment diagram*
 
 ## Structuur
 
@@ -172,10 +178,14 @@ Importeer het object in [blender](https://www.blender.org/).
 
 <img src="/docs/import.png" alt="importeren voorbeeld" data-canonical-src="" height="400" />
 
+*Blender importeren voorbeeld*
+
 #### Stap 3:
 In [blender](https://www.blender.org/) kan je het object aanpassen naar eigen voorkeur, en het vervolgens exporteren als een ``.gltf`` bestand. Hierbij is het belangerijk dat de format embedded is.
 
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
+
+*Blender exporteren voorbeeld*
 
 #### Stap 4:
 Zet het bestand in de ``/assets`` map, vervolgens kan je dit bestand aanroepen in de html code met het ``gltf-model`` atribuut:
