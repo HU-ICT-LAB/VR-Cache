@@ -206,7 +206,7 @@ Als het geluid positioneel wil gebruiken, dan moet je een ``position="x z y"`` a
 
 ##### Optie 2
 ```
-<a-entity sound="src: url(click.mp3);><a-entity>
+<a-entity sound="src: url(click.mp3);"><a-entity>
 ```
 Deze optie is handig als je de positie van het geluid wil binden aan een object, bijvoorbeeld in onze applicatie waar het kampvuur een knisperend geluid maakt.
 
