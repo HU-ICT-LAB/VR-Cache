@@ -1,5 +1,5 @@
 # Overdrachtsdocument
-In dit document is alle informatie te vinden over het project en benodigdheden om het project op te zetten binnen een lokale en productieomgeving. Ook is er informatie te vinden over hoe de applicatie in elkaar zit en hoe hierop uit te breiden is. Tijdens de ontwikkeling zijn we tegen bepaalde obstakels en limitaties aangelopen, in dit document geven we hier uitleg over plus eventuele oplossingen.
+Dit document bevat alle informatie en benodigdheden over het project om het op te zetten binnen een lokale- en productieomgeving. Ook is er informatie te vinden over hoe de applicatie in elkaar zit en hoe hierop uit te breiden is. Tijdens de ontwikkeling zijn we tegen bepaalde obstakels en limitaties aangelopen, hier geven wij uitleg over plus eventuele oplossingen.
 
 ## Inhoudsopgave
 1. [Omschrijving](#omschrijving)<br/>
@@ -43,16 +43,16 @@ Ons gekozen platform voor dit project is de Oculus Quest 2, de Oculus Quest 2 ma
 
 ### Toegankelijkheid
 
-#### Richter met "text-to-speech"
-Als de richter over een object heen gaat zal deze een geluid met de uitleg van het object afspelen.
-
 #### Object heeft een grotere hitbox
-Een object heeft een grotere cilinder of kubus eromheen waar de richter op reageert, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om het geluid te activeren.
+Een object is een primitieve vorm in aframe die als hitbox om het visuele object heen gaat, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om te kunnen interacteren. 
 
 <img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" height="250" />
 
+#### Richter als herkenningsstok met "text-to-speech"
+Als de richter in aanranking komt met een object dan zal de controller een kleine vibratie geven dat een aanraking naabootst. Vervolgens kan de **Trigger** ingedrukt worden, dit zorgt er voor dat er een geluid met de uitleg van het object wordt afgespeeld.  
+
 #### Sonar vibratie cache
-Als de gebruiker op de trekker van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pauze tussen elke trilling is 2 seconden.
+Als de gebruiker op de **Sidegrip** van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pauze tussen elke trilling is 2 seconden.
 
 ## Deployment
 
@@ -71,9 +71,9 @@ webpack --watch --progress --mode=development
 ```
 
 ### GitHub
-VR Cache maakt gebruik van GitHub pages voor de hosting van het spel. Met [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) is het heel eenvoudig om snel en in een gestructureerde manier met git om tijdens development gebruik te maken van continuous deployment. In het onderstaande diagram is gevisualiseerd hoe de git workflow loopt van het begin van een feature naar uiteindelijke deployment via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/). 
+VR Cache maakt gebruik van GitHub pages voor de hosting van het spel. Met [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) is het heel eenvoudig om snel en gestructureerd tijdens development gebruik te maken van continuous deployment. In het onderstaande diagram is gevisualiseerd hoe de git workflow loopt van het begin van een feature naar uiteindelijke deployment via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/). 
 
-Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aangemaakt. Vervolgens wordt er voor elke aparte taak nog een extra branch aangemaakt die vervolgens weer merged met de feature branch. Zodra de feature voltooid is kan deze worden gemerged met de development branch. Bij het mergen naar de development zal [ESLint](https://eslint.org/) eerst de code valideren via GitHub Actions. Wanneer je de development branch merged naar de demo branch zal er automatisch via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) een website worden opgezet waarop alle features getest kunnen worden door de opdrachtgever. Zodra de opdrachtgever hier akkoord op geeft kan de code uit de development gemerged worden naar de master branch.
+Zodra er een idee is voor een nieuwe feature wordt hiervoor een nieuwe branch aangemaakt. Vervolgens wordt er voor elke aparte taak nog een extra branch aangemaakt die weer merged met de feature branch. Zodra de feature voltooid is kan deze worden gemerged met de development branch. Bij het mergen naar de development zal [ESLint](https://eslint.org/) eerst de code valideren via GitHub Actions. Wanneer je de development branch merged naar de demo branch zal er automatisch via [GitHub pages](https://hu-ict-lab.github.io/VR-Cache/) een website worden opgezet waarop alle features getest kunnen worden door de opdrachtgever. Zodra de opdrachtgever hier akkoord op geeft kan de code uit de development gemerged worden naar de master branch.
 
 ![Git graph](/docs/Git_Graph.png)
 
@@ -95,8 +95,7 @@ documentatie/                    Alle documentatie voor het project in markdown
 |   ├── Overig/                  Overige notities
 |   └── Sprint Meetings/         Notities van de sprint meetings
 ├── Onderzoek/                   Alle documentatie met betrekking tot het onderzoeksrapport
-├── Overdracht/                  Informatie voor de overdracht van het project
-└── Wiki/                        Documentatie over het project
+└── Overdracht/                  Informatie voor de overdracht van het project
 public/
 src/                               
 ├── components/                  Alle A-Frame componenten
@@ -116,7 +115,6 @@ src/
 [ESLint](https://eslint.org/) zorgt ervoor dat de gehele codebase één code standaard aanhoudt. Deze regels hebben wij gedefinieerd in het bestand [.eslintrc.json](https://github.com/HU-ICT-LAB/VR-Cache/blob/master/.eslintrc.json). Deze regels kunnen indien nodig aangepast worden.
 
 ### Componenten
-
 Componenten zijn herbruikbare modules of data-containers die aan entiteiten kunnen worden gekoppeld om uiterlijk, gedrag en/of functionaliteit toe te voegen. Alle logica wordt geïmplementeerd via componenten en we definiëren verschillende soorten objecten door deze te mixen, matchen en configureren.
 
 Registreer een A-Frame component via ``window.AFRAME.registerComponent (name, definition)``, componenten moeten worden geregistreerd voordat ze ergens in de scene gebruikt kunnen worden.
@@ -167,9 +165,26 @@ src/
 
 ### Objecten toevoegen
 
-Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar de type bestanden bestaan grotendeels uit .obj of .blend. A-Frame heeft een voorkeur voor .gltf bestanden, dus om dit op te lossen kan je in het programma [blender](https://www.blender.org/) het object aanpassen naar eigen behoren en het object vervolgens te exporteren als een .gltf bestand.
+Om dit het beste te kunnen doen heb je de software [blender](https://www.blender.org/) nodig.
+
+#### Stap 1:
+Download een object van een site zoals [Free3d](https://free3d.com).
+
+#### Stap 2:
+Importeer het object in [blender](https://www.blender.org/).
+
+<img src="/docs/import.png" alt="importeren voorbeeld" data-canonical-src="" height="400" />
+
+#### Stap 3:
+In [blender](https://www.blender.org/) kan je het object aanpassen naar eigen voorkeur, en het vervolgens exporteren als een ``.gltf`` bestand. Hierbij is het belangerijk dat de format embedded is.
 
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
+
+#### Stap 4:
+Zet het bestand in de ``/assets`` map, vervolgens kan je dit bestand aanroepen in de html code met het ``gltf-model`` atribuut:
+```
+<a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
+```
 
 ### Geluid toevoegen
 Allereerst is het nodig om het mp3-bestanden toe te voegen in de assets met daarin de url naar het mp3-bestand, vervolgens kan je geluid op twee verschillende manieren toevoegen.
@@ -191,9 +206,9 @@ Attributen:
 Als het geluid positioneel wil gebruiken, dan moet je een ``position="x z y"`` atribuut meegeven. Om het geluid niet positineel te maken moet  ``positional="false"`` toegevoegd worden, dit zorgt er voor dat het geluid over de hele map even duidelijk te horen is. 
 
 ##### Optie 2
-````
+```
 <a-entity sound="src: url(click.mp3);><a-entity>
-````
+```
 Deze optie is handig als je de positie van het geluid wil binden aan een object, bijvoorbeeld in onze applicatie waar het kampvuur een knisperend geluid maakt.
 
 ### Limitaties
