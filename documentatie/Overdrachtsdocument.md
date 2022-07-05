@@ -90,12 +90,10 @@ In het diagram hieronder is de volledige mappenstructuur van het project gevisua
 assets/                          Bestanden die in het spel worden gebruikt
 docs/                            Documenten
 documentatie/                    Alle documentatie voor het project in markdown
-├── Bijlagen/                      
-|   ├── Lessen/                  Notities over besprekingen in de lessen
-|   ├── Overig/                  Overige notities
-|   └── Sprint Meetings/         Notities van de sprint meetings
-├── Onderzoek/                   Alle documentatie met betrekking tot het onderzoeksrapport
-└── Overdracht/                  Informatie voor de overdracht van het project
+└── Bijlagen/                      
+    ├── Lessen/                  Notities over besprekingen in de lessen
+    ├── Overig/                  Overige notities
+    └── Sprint Meetings/         Notities van de sprint meetings
 public/
 src/                               
 ├── components/                  Alle A-Frame componenten
