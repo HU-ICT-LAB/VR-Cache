@@ -60,7 +60,7 @@ Als de gebruiker op de **Sidegrip** van de controller drukt dan zal de controlle
 Om het project te installeren in je lokale omgeving zijn er een aantal benodigdheden vereist. 
 
 #### Benodigdheden
-De applicatie is geschreven met gebruik van [NodeJS v16.13.2](https://nodejs.org/en/), het is daarom vereist om deze te installeren. Om de code vervolgens samen te voegen tot 1 bundel maken we gebruik van [Webpack v5.66.0](https://webpack.js.org/) `npm install --save-dev webpack` en [Webpack Cli v4.9.1](https://webpack.js.org/) `npm install --save-dev webpack-cli`. Om de kwaliteit van de code te bewaken maken we gebruik van [ESLint v8.8.0](https://eslint.org/) `npm install eslint --save-dev`. [ESLint](https://eslint.org/) zorgt ervoor dat er één vaste code standaard wordt aangehouden binnen het project.
+De applicatie is geschreven met gebruik van [NodeJS v16.13.2](https://nodejs.org/en/), het is daarom vereist om deze te installeren. Om de code vervolgens samen te voegen tot 1 bundel maken we gebruik van [Webpack v5.66.0](https://webpack.js.org/) ``npm install --save-dev webpack`` en [Webpack Cli v4.9.1](https://webpack.js.org/) ``npm install --save-dev webpack-cli``. Om de kwaliteit van de code te bewaken maken we gebruik van [ESLint v8.8.0](https://eslint.org/) ``npm install eslint --save-dev``. [ESLint](https://eslint.org/) zorgt ervoor dat er één vaste code standaard wordt aangehouden binnen het project.
 
 #### Stappen
 De volgende commando's zijn vereist om uitgevoerd te worden in de commandline om de applicatie op te starten binnen je lokale omgeving.
@@ -148,12 +148,11 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 ## Verder ontwikkelen
 
 ### Lokaal ontwikkelen
-Om de applicatie lokaal verder te ontwikkelen en te testen zonder iedere keer via GitHub pages de applicatie op te zetten kan je gebruik maken van [ngrok](https://ngrok.com/). Deze tool zorgt ervoor dat je lokale server vanaf andere devices geopend kan worden. Zodra je deze tool hebt geïnstalleerd en de installatie stappen van de applicatie hebt gevolgd en de server running hebt met `npm start` kan je een nieuwe commandline openen en het commando `ngrok http 8000` uitvoeren. Je zal vervolgens een 'Forwarding' url te zien krijgen die te bezoeken is via je Oculus Quest 2.
+Om de applicatie lokaal verder te ontwikkelen en testen zonder iedere keer via GitHub pages de applicatie op te zetten kan je gebruik maken van [ngrok](https://ngrok.com/). Deze tool zorgt ervoor dat je lokale server vanaf andere devices geopend kan worden. Installeer de tool, loop door de installatie stappen van de applicatie en run de server met ``npm start``. Open een nieuwe commandline en voer het commando ``ngrok http 8000`` uit. Je zal vervolgens een 'Forwarding' url te zien krijgen die te bezoeken is via je Oculus Quest 2.
 
-Indien je tijdens het ontwikkelen gebruik wilt maken van de developer console is dit mogelijk door middel van [Chrome remote debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). Wanneer je de Oculus Quest 2 met een USB naar USB-C kabel verbindt met je computer en vervolgens toestemming geeft in je Oculus Quest 2 dat je computer je Oculus Quest 2 kan uitlezen kan je via de url `chrome://inspect#devices` in Google Chrome je device aanklikken en de developer console openen.
+Indien je tijdens het ontwikkelen gebruik wilt maken van de developer console is dit mogelijk door middel van [Chrome remote debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). Wanneer je de Oculus Quest 2 met een USB naar USB-C kabel verbindt en vervolgens toestemming geeft dat deze uitgelezen mag worden, dan kan je via de url  ``chrome://inspect#devices`` in Google Chrome je device aanklikken en de developer console openen.
 
 ### Components toevoegen
-
 Na het schrijven van nieuwe code moet het bestand toegevoegd worden als import in de [components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js), deze staat als import in [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/index.js).
 Hieronder kan je zien waar die twee bestanden zich in de github-repository bevinden.
 ```
@@ -212,7 +211,7 @@ Als het geluid positioneel wil gebruiken, dan moet je een ``position="x z y"`` a
 Deze optie is handig als je de positie van het geluid wil binden aan een object, bijvoorbeeld in onze applicatie waar het kampvuur een knisperend geluid maakt.
 
 ### Limitaties
-Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
+Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest 2.
 
 #### A-Frame
 
@@ -242,3 +241,4 @@ Screen readers zijn er niet voor de Oculus browser, de website (home & settings 
 ## Bekende bugs
 - [Timer UI gaat door objecten](https://github.com/HU-ICT-LAB/VR-Cache/issues/32)
 - [Colliders krijgen een aparte offset bij het verplaatsen of draaien van objecten](https://github.com/HU-ICT-LAB/VR-Cache/issues/31)
+- [Geluid van de cache kraakt]()
