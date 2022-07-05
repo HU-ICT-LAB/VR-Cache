@@ -45,6 +45,5 @@ window.AFRAME.registerComponent("cache-sound", {
 			document.querySelector("#cache").components.sound.stopSound();
 			this.inSoundDistanceTriggered = false;
 		}
-
 	}
 });

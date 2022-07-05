@@ -3,10 +3,10 @@ import {Vector3D} from "../../../../utils/vector3d";
 window.AFRAME.registerComponent("vibration", {
 	pressed: false,
 	init() {
-		this.el.addEventListener("triggerdown", () => {
+		this.el.addEventListener("gripdown", () => {
 			this.pressed = true;
 		});
-		this.el.addEventListener("triggerup", () => {
+		this.el.addEventListener("gripup", () => {
 			this.pressed = false;
 		});
 		setInterval(this.sonar.bind(this), 1500);
