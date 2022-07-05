@@ -172,27 +172,29 @@ Objecten zijn online te vinden op sites zoals [Free3d](https://free3d.com), maar
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
 ### Geluid toevoegen
-Allereerst is het nodig om het mp3-bestanden toe te voegen in de assets met daarin de url naar het mp3-bestand, vervolgens kan je geluid op twee manieren toevoegen.
+Allereerst is het nodig om het mp3-bestanden toe te voegen in de assets met daarin de url naar het mp3-bestand, vervolgens kan je geluid op twee verschillende manieren toevoegen.
+
+#### Opties:
     
-#### Optie 1:
+##### Optie 1
 ```
-<a-sound src="url(click.mp3)" autoplay="true"></a-sound>
+<a-sound src="url(click.mp3)"></a-sound>
 ```
+Deze optie wordt vooral gebruikt als het geluid niet gebonden is aan een object, zoals fluitende vogels in de achtergrond of de stem die de objecten opnoemt.
 
 Attributen:
 - autoplay: Automatisch laten afspelen van het geluid, default ``false``.
 - loop: Herhaling van het geluid, default ``false``.
-- src: Bron van het geluid, dit moet de link zijn naar de mp3
-- volume: Volume van het geluid, default is ``1``
+- src: Bron van het geluid, dit moet de link zijn naar de mp3.
+- volume: Volume van het geluid, default is ``1``.
 
-#### Optie 2:
+Als het geluid positioneel wil gebruiken, dan moet je een ``position="x z y"`` atribuut meegeven. Om het geluid niet positineel te maken moet  ``positional="false"`` toegevoegd worden, dit zorgt er voor dat het geluid over de hele map even duidelijk te horen is. 
+
+##### Optie 2
 ````
 <a-entity sound="src: url(click.mp3);><a-entity>
 ````
-Dit is handig als het geluid uit een object moet komen, dus bijvorbeeld als een kampvuur een knisperend geluid maakt.
-
-#### Geluid niet positioneel maken
-Om deze geluiden positineel te maken moet de positinal veranderd worden naar ``positional:"true"``, dit is van naturen 
+Deze optie is handig als je de positie van het geluid wil binden aan een object, bijvoorbeeld in onze applicatie waar het kampvuur een knisperend geluid maakt.
 
 ### Limitaties
 Tijdens de development van het project zijn er een aantal limitaties op ons pad gekomen, deze limitaties zitten vooral in [A-Frame](https://aframe.io/) en de browsers van de Oculus Quest.
