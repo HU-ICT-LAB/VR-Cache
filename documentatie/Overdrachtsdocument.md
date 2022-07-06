@@ -18,7 +18,7 @@ Dit document bevat alle informatie en benodigdheden over het project om het op t
 4.1. [Milestones](#milestones)
 4. [Verder ontwikkelen](#verder-ontwikkelen)<br/>
 5.1. [Lokaal ontwikkelen](#lokaal-ontwikkelen)<br/>
-5.2. [Components toevoegen](#components-toevoegen)<br/>
+5.2. [Componenten toevoegen](#components-toevoegen)<br/>
 5.3. [Objecten toevoegen](#objecten-toevoegen)<br/>
 5.4. [Geluid toevoegen](#geluid-toevoegen)<br/>
 5.4. [Limitaties](#limitaties)<br/>
@@ -44,14 +44,14 @@ Ons gekozen platform voor dit project is de Oculus Quest 2, de Oculus Quest 2 ma
 ### Toegankelijkheid
 
 #### Object heeft een grotere hitbox
-Een object is een primitieve vorm in aframe die als hitbox om het visuele object heen gaat, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om te kunnen interacteren. 
+Een object is een primitieve vorm in [A-Frame](https://aframe.io/) die als hitbox om het visuele object heen gaat, hierdoor hoeft de gebruiker minder precies het object aan te wijzen om te kunnen interacteren. 
 
 <img src="/docs/Object_Hitbox.png" alt="Object hitbox voorbeeld" height="250" />
 
 *Hitbox van een object in het spel*
 
 #### Richter als herkenningsstok met "text-to-speech"
-Als de richter in aanranking komt met een object dan zal de controller een kleine vibratie geven dat een aanraking naabootst. Vervolgens kan de **Trigger** ingedrukt worden, dit zorgt er voor dat er een geluid met de uitleg van het object wordt afgespeeld.  
+Als de richter in aanraking komt met een object dan zal de controller een kleine vibratie geven dat een aanraking nabootst. Vervolgens kan de **Trigger** ingedrukt worden, dit zorgt er voor dat er een geluid met de uitleg van het object wordt afgespeeld.  
 
 #### Sonar vibratie cache
 Als de gebruiker op de **Sidegrip** van de controller drukt dan zal de controller gaan vibreren. Hoe dichterbij de cache is hoe langer de trilling zal zijn, de pauze tussen elke trilling is 2 seconden.
@@ -154,9 +154,9 @@ We hebben tijdens het project verschillende milestones gepland. Hieronder is een
 ### Lokaal ontwikkelen
 Om de applicatie lokaal verder te ontwikkelen en testen zonder iedere keer via GitHub pages de applicatie op te zetten kan je gebruik maken van [ngrok](https://ngrok.com/). Deze tool zorgt ervoor dat je lokale server vanaf andere devices geopend kan worden. Installeer de tool, loop door de installatie stappen van de applicatie en run de server met ``npm start``. Open een nieuwe commandline en voer het commando ``ngrok http 8000`` uit. Je zal vervolgens een 'Forwarding' url te zien krijgen die te bezoeken is via je Oculus Quest 2.
 
-Indien je tijdens het ontwikkelen gebruik wilt maken van de developer console is dit mogelijk door middel van [Chrome remote debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). Wanneer je de Oculus Quest 2 met een USB naar USB-C kabel verbindt en vervolgens toestemming geeft dat deze uitgelezen mag worden, dan kan je via de url  ``chrome://inspect#devices`` in Google Chrome je device aanklikken en de developer console openen.
+Als je tijdens het ontwikkelen gebruik wilt maken van de developer console is dit mogelijk door middel van [Chrome remote debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). Wanneer je de Oculus Quest 2 met een USB naar USB-C kabel verbindt en vervolgens toestemming geeft dat deze uitgelezen mag worden, dan kan je via de url  ``chrome://inspect#devices`` in Google Chrome je device aanklikken en de developer console openen.
 
-### Components toevoegen
+### Componenten toevoegen
 Na het schrijven van nieuwe code moet het bestand toegevoegd worden als import in de [components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js), deze staat als import in [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/index.js).
 Hieronder kan je zien waar die twee bestanden zich in de github-repository bevinden.
 ```
@@ -181,17 +181,20 @@ Importeer het object in [blender](https://www.blender.org/).
 *Blender importeren voorbeeld*
 
 #### Stap 3:
-In [blender](https://www.blender.org/) kan je het object aanpassen naar eigen voorkeur, en het vervolgens exporteren als een ``.gltf`` bestand. Hierbij is het belangerijk dat de format embedded is.
+In [blender](https://www.blender.org/) kan je het object aanpassen naar eigen voorkeur, en het vervolgens exporteren als een ``.gltf`` bestand. Hierbij is het belangrijk dat de format embedded is.
 
 <img src="/docs/export.png" alt="exporteren voorbeeld" data-canonical-src="" height="250" />
 
 *Blender exporteren voorbeeld*
 
 #### Stap 4:
-Zet het bestand in de ``/assets`` map, vervolgens kan je dit bestand aanroepen in de html code met het ``gltf-model`` atribuut:
+Zet het bestand in de ``/assets`` map, vervolgens kan je dit bestand aanroepen in de html code met het ``gltf-model`` attribuut:
 ```
 <a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
 ```
+
+#### Onze wereld
+De stappen hierboven beschrijven hoe je een apart object in je wereld zet, maar dit is niet de methode die wij hebben gebruikt. Je zou onze wereld eigenlijk kunnen opsplitsen in een visuele kant en een interactieve kant. De visuele kant is de wereld die de speler kan zien, zoals de bomen, bergen en het kampvuur. Al die objecten bij elkaar bestaan uit één groot ``.gltf`` bestand die van tevoren is opgezet in [blender](https://www.blender.org/). De interactieve kant is wat de richter van de speler ziet, hiervoor gebruiken we de primitieve objecten die in [A-Frame](https://aframe.io/) beschikbaar zijn om als het ware een hitbox om het object heen te zetten. Om een [voorbeeld](#object-heeft-een-grotere-hitbox) te geven hebben we om een boomstronk een cilinder gezet. Vanuit de blender software lezen wij de coördinaten van elk object in de wereld, en vervolgens passen wij die toe op de primitieve objecten in de html code zodat ze op de goede positie staan. Tot slot hebben wij van elk primitief object de opacity op nul gezet zodat ze onzichtbaar zijn voor de speler.
 
 ### Geluid toevoegen
 Allereerst is het nodig om het mp3-bestanden toe te voegen in de assets met daarin de url naar het mp3-bestand, vervolgens kan je geluid op twee verschillende manieren toevoegen.
@@ -210,7 +213,7 @@ Attributen:
 - src: Bron van het geluid, dit moet de link zijn naar de mp3.
 - volume: Volume van het geluid, default is ``1``.
 
-Als het geluid positioneel wil gebruiken, dan moet je een ``position="x z y"`` atribuut meegeven. Om het geluid niet positineel te maken moet  ``positional="false"`` toegevoegd worden, dit zorgt er voor dat het geluid over de hele map even duidelijk te horen is. 
+Als het geluid positioneel wil gebruiken, dan moet je een ``position="x z y"`` attribuut meegeven. Om het geluid niet positioneel te maken moet  ``positional="false"`` toegevoegd worden, dit zorgt er voor dat het geluid over de hele map even duidelijk te horen is. 
 
 ##### Optie 2
 ```
