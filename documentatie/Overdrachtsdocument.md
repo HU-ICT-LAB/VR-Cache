@@ -193,6 +193,9 @@ Zet het bestand in de ``/assets`` map, vervolgens kan je dit bestand aanroepen i
 <a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
 ```
 
+#### Onze wereld
+De stappen hierboven beschrijven hoe je een apart object in je wereld zet, maar dit is niet de methode die wij hebben gebruikt. Je zou onze wereld eigenlijk kunnen opsplitsen in een visuele kant en een interactieve kant. De visuele kant is de wereld die de speler kan zien, zoals de bomen, bergen en het kampvuur. Al die objecten bij elkaar bestaan uit één groot ``.gltf`` bestand die van te voren is opgezet in [blender](https://www.blender.org/). De interactieve kant is wat de richter van de speler ziet, hiervoor gebruiken we de primitieve objecten die in aframe beschikbaar zijn om als het ware een hitbox om het object heen te zetten. Om een voorbeeld te geven hebben we om een boomstronk een cilinder gezet ([voorbeeld](#object-heeft-een-grotere-hitbox)). Vanuit de blender software lezen wij de coördinaten van elk object in de wereld, en vervolgens passen wij die toe op de primitieve objecten in de html code zodat ze op de goede positie staan. Tot slot hebben wij van elk primitief object de opacity op nul gezet zodat ze onzichtbaar zijn voor de speler.
+
 ### Geluid toevoegen
 Allereerst is het nodig om het mp3-bestanden toe te voegen in de assets met daarin de url naar het mp3-bestand, vervolgens kan je geluid op twee verschillende manieren toevoegen.
 
