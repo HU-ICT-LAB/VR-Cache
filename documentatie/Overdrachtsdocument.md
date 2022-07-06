@@ -156,7 +156,7 @@ Om de applicatie lokaal verder te ontwikkelen en testen zonder iedere keer via G
 
 Als je tijdens het ontwikkelen gebruik wilt maken van de developer console is dit mogelijk door middel van [Chrome remote debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). Wanneer je de Oculus Quest 2 met een USB naar USB-C kabel verbindt en vervolgens toestemming geeft dat deze uitgelezen mag worden, dan kan je via de url  ``chrome://inspect#devices`` in Google Chrome je device aanklikken en de developer console openen.
 
-### Components toevoegen
+### Componenten toevoegen
 Na het schrijven van nieuwe code moet het bestand toegevoegd worden als import in de [components.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/components/components.js), deze staat als import in [index.js](https://github.com/HU-ICT-LAB/VR-Cache/blob/development/src/index.js).
 Hieronder kan je zien waar die twee bestanden zich in de github-repository bevinden.
 ```
