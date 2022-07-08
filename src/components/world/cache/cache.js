@@ -15,6 +15,7 @@ window.AFRAME.registerComponent("cache", {
 		this.el.setAttribute("gltf-model", "assets/cache.gltf");
 		this.el.setAttribute("scale", "0.2 0.2 0.2");
 		this.el.setAttribute("sound", "src: assets/CacheGeluid.mp3; autoplay: true; loop: true; maxDistance: 10000; rolloffFactor: 3; volume: 1;");
+		this.el.setAttribute("class", "interactable");
 
 		const hitbox = document.createElement("a-sphere");
 

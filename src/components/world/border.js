@@ -7,7 +7,7 @@ window.AFRAME.registerComponent("border", {
 		element.setAttribute("height", "20");
 		element.setAttribute("depth", "1");
 		element.setAttribute("static-body", null);
-		element.setAttribute("Class", "interactable");
+		element.setAttribute("class", "interactable");
 
 		this.el.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("object", "wereldborder");
