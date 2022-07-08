@@ -221,7 +221,7 @@ Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot
 
 ### Aanpak
 
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. Dit is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij onderzoeken via een [survey](https://ictresearchmethods.nl/Survey). Om dit te onderzoeken zal er een enquête gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. Dit is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
 
 ### Resultaten
 
