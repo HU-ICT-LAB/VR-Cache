@@ -17,7 +17,7 @@ window.AFRAME.registerComponent("keyboard-input-handler", {
 			);
 
 			if (result.magnitude() <= 3) {
-				window.location.href = "./succes.html";
+				window.location.href = "./index.html";
 			}
 		}
 	}
