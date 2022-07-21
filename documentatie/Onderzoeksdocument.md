@@ -161,7 +161,7 @@ gemaakt van opties die de accessibility zouden kunnen verbeteren in ons eigen sp
 | Een verteller toepassen in het menu. | Dit kan blinde spelers helpen om het menu makkelijker te navigeren door te op te lezen wat ze selecteren. | Blind of slechtziend | Ja |
 | Een verteller toepassen in het spel. | Door op te lezen waar blinde spelers naar kijken in het spel hebben ze een beter beeld van waar ze zich begeven. | Blind of slechtziend | Ja |
 | Het volume harder en zachter kunnen zetten. | Als een speler minder goed kan horen zou hij het geluid harder kunnen zetten.| Slechthorend | Ja |
-| Geluiden apart van elkaar harder of zachter zetten. | Blinde spelers zouden hierdoor de belangerijkere geluiden harder kunnen zetten. | Blind of slechtziend | Ja |
+| Geluiden apart van elkaar harder of zachter zetten. | Blinde spelers zouden hierdoor de belangrijkere geluiden harder kunnen zetten. | Blind of slechtziend | Ja |
 | Ondertiteling toepassen. | Als een speler doof is kan die nog steeds geinformeerd worden over het spel.| Doof of slechthorend | Ja |
 | Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Dit kan de blinde speler een indicatie geven of hij de goede kant op loopt als hij de vibratie harder voelt worden. | Blind of slechtziend | Ja |
 | Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Dit kan de blinde speler een indicatie geven dat hij een andere richting op moet lopen als hij de vibratie voelt. | Blind of slechtziend | Ja |
@@ -266,24 +266,29 @@ bepaald vanuit eigen observatie en reactie van Mike.
 
 ### Deelconclusie
 
-In het interview kwam naar voren dat het belangrijk is om geluid op een functionele manier toe te passen. De voorbeelden
-die Mike gaf met de 3d sound van de cache en de ambient geluiden in de omgeving zijn erg belangrijk om je te kunnen
-oriënteren in de map. Ook kwam naar voren dat hoe dichter de geluiden bij de werkelijkheid komen hoe makkelijker het is
-om een beeld te schetsen van je omgeving, bijvoorbeeld dat je in een bos de wind door bomen hoort gaan en dat je vogels
-hoort zingen. Maar ook dat je objecten logische natuurlijke geluiden geeft om de speler te laten weten waar die mee
-interacteert.
+Uit het onderzoek kunnen we concluderen dat geluid het belangrijkste onderdeel is om een spel accessibel te maken. In
+de test runs zagen we dat beide kandidaten zich het meest focusde op het positionele geluid van de cache. Ook was er een
+positioneel geluid van het kampvuur in het midden van de wereld waar de kandidaten gebruik van maakte om te weten hoe
+dicht ze in het midden van de wereld stonden. Het niet positionele geluid van de vogels en de oplezer van de objecten
+waren beide van wat mindere toepassing. De vogels hielpen met het schetsen van een beeld van de omgeving, maar verder
+hadden ze geen duidelijke functie. Doordat de vogel geluiden niet positioneel waren kon de speler het niet gebruiken om
+zichzelf te orienteren op de map, bijvoorbeeld weten dat je ergens al bent geweest omdat je het vogel geluid herkent.
+Ook de oplezer was van korte duur nuttig voor de speler. Na de eerste test run hadden de kandidaten geen behoefte meer
+aan de beschrijvende informatie van de oplezer, omdat de informatie vaak herhalend werd. Na het uitzetten van het
+automatisch oplezen waren de kandidaten meer positief over de functie, omdat ze zelf de keuzen hadden of ze informatie
+kregen en zich daardoor ook niet overladen voelde van de oplezende stem.
 
-Uit de testen konden we concluderen dat we op het gebied van geluiden goed onderweg waren, maar er waren wel nog een
-paar andere tekortkomingen. Een tutorial is erg belangrijk aan het begin van het spel zodat de speler gelijk begrijpt
-wat alle geluiden en knoppen betekenen, Ook moet je rekening houden met de hoeveelheid aan informatie die je geeft aan
-de speler. Te veel of te weinig informatie kunnen beide de speler in verwarring brengen, daarom is het belangrijk om
-veel te testen met de doelgroep.
+Verder waren de vibratie opties ook positief ontvangen door de kandidaten. Bij de optie van het vibreren van de
+controller als je iets aanraakt in het spel zagen we de meeste positieve feedback. Dit kwam deels ook doordat het een
+goede plaatsvervanger was van de oplezende stem om de speler te laten weten dat er een object was. De kleine trillingen
+in plaats van de oplezende stem gaf de spelers een betere ervaring, omdat ze veel minder informatie kregen waardoor ze
+zich ook minder overladen voelde. De vibratie die harder en zachter werd hoe dichter je bij de cache kwam werd soms
+vergeten door de kandidaten, omdat ze zich meer focusde op het geluid van de cache. Toch heeft het op sommige momenten
+geholpen als de speler ten einde raad was, het werd meer gezien als een laatste hulpmiddel.
 
-Verder in het onderzoek is ook naar voren gekomen dat het erg belangrijk is om de speler vrijheid te geven. Je kan wel
-handige functies toevoegen aan je game die je zelf erg toepasselijk vindt, maar uiteindelijk is het de speler die
-bepaald of de functies daadwerkelijk van toepassing zijn. Ook hebben we gezien dat in accessibility er niet alleen
-gedacht wordt aan de mensen met een beperking, maar dat er ook aandacht gegeven wordt aan de mensen zonder een beperking
-met universele functies die voor iedereen handig zijn zoals het kunnen herpositioneren van je input knoppen.
+Dus hoe maak je virtual reality accessible? Om het samen te vatten kan je in de resultaten terug zien dat positioneel
+geluid het allerbelangrijkst is. Vibratie kan hierbij een goed hulpmiddel zijn maar wegens gebrek aan de mogelijkheid
+om de speler te kunnen informeren zal het nooit op zichzelf toegepast kunnen worden. 
 
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
