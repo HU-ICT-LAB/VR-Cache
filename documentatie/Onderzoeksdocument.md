@@ -268,29 +268,14 @@ bepaald vanuit eigen observatie en reactie van Mike.
 
 ### Deelconclusie
 
-Uit het onderzoek kunnen we concluderen dat geluid het belangrijkste onderdeel is om een spel accessibel te maken. In
-de test runs zagen we dat beide kandidaten zich het meest focusde op het positionele geluid van de cache. Ook was er een
-positioneel geluid van het kampvuur in het midden van de wereld waar de kandidaten gebruik van maakte om te weten hoe
-dicht ze in het midden van de wereld stonden. Het niet positionele geluid van de vogels en de oplezer van de objecten
-waren beide van wat mindere toepassing. De vogels hielpen met het schetsen van een beeld van de omgeving, maar verder
-hadden ze geen duidelijke functie. Doordat de vogel geluiden niet positioneel waren kon de speler het niet gebruiken om
-zichzelf te orienteren op de map, bijvoorbeeld weten dat je ergens al bent geweest omdat je het vogel geluid herkent.
-Ook de oplezer was van korte duur nuttig voor de speler. Na de eerste test run hadden de kandidaten geen behoefte meer
-aan de beschrijvende informatie van de oplezer, omdat de informatie vaak herhalend werd. Na het uitzetten van het
-automatisch oplezen waren de kandidaten meer positief over de functie, omdat ze zelf de keuzen hadden of ze informatie
-kregen en zich daardoor ook niet overladen voelde van de oplezende stem.
+Uit het onderzoek kunnen we concluderen dat geluid het belangrijkste onderdeel is om een spel accessible te maken. In de test runs zagen we dat beide kandidaten zich het meest focuste op het positionele geluid van de cache. Ook was er een positioneel geluid van het kampvuur in het midden van de wereld. Hier konden de kandidaten gebruik van maken om er achter te komen hoe dicht ze bij het midden van de wereld stonden. Het niet positionele geluid van de vogels en de voorlezer van de objecten waren beide minder van toepassing voor de positionering. De vogels hielpen met het schetsen van een beeld van de omgeving, maar verder hadden ze geen toegevoegde waarde. Omdat de vogel geluiden geen positionele functie hadden kon de speler het niet gebruiken om zichzelf te oriënteren op de map. 
 
-Verder waren de vibratie opties ook positief ontvangen door de kandidaten. Bij de optie van het vibreren van de
-controller als je iets aanraakt in het spel zagen we de meeste positieve feedback. Dit kwam deels ook doordat het een
-goede plaatsvervanger was van de oplezende stem om de speler te laten weten dat er een object was. De kleine trillingen
-in plaats van de oplezende stem gaf de spelers een betere ervaring, omdat ze veel minder informatie kregen waardoor ze
-zich ook minder overladen voelde. De vibratie die harder en zachter werd hoe dichter je bij de cache kwam werd soms
-vergeten door de kandidaten, omdat ze zich meer focusde op het geluid van de cache. Toch heeft het op sommige momenten
-geholpen als de speler ten einde raad was, het werd meer gezien als een laatste hulpmiddel.
+De voorlezer van de objecten was in het begin erg fijn voor de speler. Omdat de eerste keer dat de spelers het spel speelde alle objecten nog nieuw en onbekend waren. Nadat de spelers de eerste test run hadden voltooid kwamen we tot de conclusie dat de spelers vaak dezelfde informatie hoorde omdat het automatisch voor werd gelezen. Wanneer we de spelers zelf de keuze gaven om een object voor te lezen was dit een betere ervaring. De spelers konden de functie gebruiken wanneer ze het nodig hadden en voelde zich ook minder overladen met informatie. 
 
-Dus hoe maak je virtual reality accessible? Om het samen te vatten kan je in de resultaten terug zien dat positioneel
-geluid het allerbelangrijkst is. Vibratie kan hierbij een goed hulpmiddel zijn maar wegens gebrek aan de mogelijkheid
-om de speler te kunnen informeren zal het nooit op zichzelf toegepast kunnen worden. 
+Verder werden de vibratie opties ook positief ontvangen door de kandidaten. 
+De controller ging vibreren wanneer je iets aanraakte in het spel. Hier hebben we veel positieve feedback over ontvangen, de vibratie was ook een goede plaatsvervanger van de voorlezende stem die liet weten dat er een object was. De vibratie die harder en zachter werd hoe dichter je bij de cache kwam werd soms vergeten door de kandidaten. Dit kwam omdat ze zich meer focuste op het geluid van de cache. Toch heeft het geholpen wanneer de speler ten einde raad was. Het werd meer gebruikt als een laatste hulpmiddel. 
+
+Dus hoe maak je virtual reality accessible? Om het samen te vatten kan je in de resultaten terug zien dat positioneel geluid het allerbelangrijkst is. Hierdoor kan de speler zichzelf door de map oriënteren. Vibratie is hierbij een goed hulpmiddel. Uit onze testen kwam naar voren dat de vibratie een secundaire waarde heeft tegenover het positionerende geluid. De vibratie geeft te weinig context aan de speler, het geluid is de primaire bron voor de speler om zich te positioneren. Losstaand is vibratie niet geschikt voor het bepalen van positionering op de map. Wanneer je de vibratie combineert met het geluid is het nuttige feedback voor de speler en zo maak je virtual reality meer accessible.
 
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
