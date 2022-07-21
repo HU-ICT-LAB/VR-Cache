@@ -84,6 +84,8 @@ lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler e
 niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig
 zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
 
+*(Whitethorn Games, 2022)*
+
 <details>
   <summary>Interview met Mike</summary>
   Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
