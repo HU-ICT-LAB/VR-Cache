@@ -165,11 +165,11 @@ gemaakt van opties die de accessibility zouden kunnen verbeteren in ons eigen sp
 | Ondertiteling toepassen. | Als een speler doof is kan die nog steeds geinformeerd worden over het spel.| Doof of slechthorend | Ja |
 | Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Dit kan de blinde speler een indicatie geven of hij de goede kant op loopt als hij de vibratie harder voelt worden. | Blind of slechtziend | Ja |
 | Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Dit kan de blinde speler een indicatie geven dat hij een andere richting op moet lopen als hij de vibratie voelt. | Blind of slechtziend | Ja |
-| Een vibratie geven als je ergens tegen aan loopt. | Door de vibratie weten blinde spelers of ze ergens tegen aan zijn gelopen of niet meer door kunnen lopen.| Blind of slechtziend | Nee, net zoals bij het geluid als je ergens tegen aan loopt is het moeilijk te bepalen of de speler wel of niet ergens tegen aan loopt.|
+| Een vibratie geven als je ergens tegen aan loopt. | Door de vibratie weten blinde spelers of ze ergens tegen aan zijn gelopen of niet meer door kunnen lopen.| Blind of slechtziend | Nee, net zoals bij het geluid als je ergens tegen aan loopt is het moeilijk te bepalen of de speler daadwerkelijk wel of niet ergens tegen aan loopt.|
 | Een vibratie geven als je iets aanraakt in het spel. | Dit kan een realistich effect geven aan blinde mensen omdat ze dan kunnen voelen of ze iets aanraken in het spel. | Blind of slechtziend | Ja |
 | Een tutorial aan het begin van het spel. | Dit helpt de speler om de besturing onder de knie te krijgen en het spel beter te snappen. | Voor iedereen | Ja | 
 
-In ons onderzoek focussen we ons op blinde en slechtiende spelers. Met deze reden negeren wij we de opties die niet
+In ons onderzoek focussen we ons op blinde en slechtziende spelers. Met deze reden negeren wij we de opties die niet
 gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven opties die voor blinde en slechtziende
 spelers zijn en wel geimplementeerd kunnen worden.
 
