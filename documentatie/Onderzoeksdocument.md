@@ -168,29 +168,32 @@ In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3
 ### Deelconclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
 
-## Wat is toegankelijkheid? (Jaimie)
+## Welke vorm van geocaching is het best te gebruiken in een virtual reality spel voor mensen met een visuele beperking? (Jaimie)
 
 ### Aanpak
-Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het noodzakelijk om goed in kaart te hebben wat er precies onder die term valt en ook juist wat hier niet onder valt. Om dit te onderzoeken zal er voornamelijk [literature study](https://ictresearchmethods.nl/Literature_study) gedaan worden om goed in kaart te brengen wat deze term inhoudt. Er zijn ook verschillende organisaties die hier veel mee bezig zijn die we kunnen [interviewen](https://ictresearchmethods.nl/Expert_interview) om hier meer informatie over te vergaren.
+Er bestaan verschillende soorten van geocaching. Door middel van literature study gaan we de verschillende soorten geocaching in kaart brengen. Om erachter te komen welke van deze vormen het beste aansluit bij een virtual reality spel voor mensen met een visuele beperking kijken we naar de complexiteit van de verschillende spelvormen en kijken we naar de testresultaten van het testen met testpersonen.
 
 ### Resultaten
-Wanneer je op zoekt gaat naar de term 'toegankelijkheid' kom je veel verschillende pagina's tegen die omschrijven wat dit precies inhoudt, ook zal je veel tegen de term 'inclusiviteit' aanlopen. Wat houden deze twee termen precies in? Bij het onderzoeken hiervan hebben we verschillende bronnen geraadpleegd die vrij te verkrijgen zijn op het internet. We hebben ook gesproken met verschillende experts in het gebied van toegankelijkheid en inclusiviteit zodat we een beter beeld konden krijgen wat deze termen nou precies inhouden.
+Er zijn veel verschillende soorten soorten van geocaching. De 3 bekendste vormen van geocaching staan hier beschreven.
 
-Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken. De term toegankelijkheid komt voor in verschillende vormen:
+#### Soorten caches
 
-**Digitale toegankelijkheid**<br/>
-Bij deze term gaat het erom dat iedereen gebruik kan maken van het internet, websites, apps, telefoons en dergelijk. Een blind persoon kan wanneer een website niet toegankelijk is deze niet navigeren. Wanneer een website digitaal toegankelijk is betekent dit dus dat iedereen deze kan navigeren ongeacht je lichaam en eventuele beperkingen.
+##### Traditionele cache
+Bij dit type van geocaching krijg je meteen de eindcoördinaten waar de geocache verborgen ligt. Wanneer je op de locatie aankomt van de coördinaten zal je een geocache moeten zien te vinden, hierin zal je je naam kunnen schrijven als bewijs dat je deze gevonden hebt. 
 
-**Fysieke toegankelijkheid**<br/>
-Mensen maken in het dagelijks leven gebruik van woningen, openbaar vervoer, winkels en dergelijk. Hier is waar fysieke toegankelijkheid komt kijken. Een fysiek toegankelijke winkel is bijvoorbeeld volledig ingericht dat deze te bezoeken is voor mensen met een rolstoel, zodat zij ook zelf zonder ondersteuning van anderen in deze winkel kunnen gaan winkelen. 
+##### Multi cache
+Bij multi caches krijg je een coördinaat die niet direct naar de eindcache toeleidt. De bedoeling van multi caches is dat je van punt naar punt gaat op basis van coördinaten die je zal moeten verzamelen via hints die elke keer op de volgende locatie liggen. Hoeveel tussenpunten er zijn is vooraf niet bekend.
 
-**Sociale toegankelijkheid**<br/>
-Buiten digitale en fysieke toegankelijkheid heb je ook nog de term sociale toegankelijkheid. In Nederland alleen al hebben 1 op de 6 mensen last van laaggeletterdheid, deze mensen hebben moeite met lezen en schrijven. Wanneer een website, handleiding of dergelijk erg moeilijke woorden of zinnen gebruikt kan dit erg lastig te begrijpen zijn voor deze mensen. Hier spreken we dan over sociale toegankelijkheid. Bij sociale toegankelijkheid gaat het er om dat de juiste woorden worden gebruikt en deze ook makkelijk te begrijpen zijn.
+##### Puzzel cache
+Een puzzel cache begint niet met coördinaten maar met een puzzel die opgelost zal moeten worden. Wanneer je de puzzel weet op te lossen zal je de coördinaten krijgen van de eindcache. Wat ook kan is dat de puzzel cache gecombineerd wordt met een multi cache, dan zal het coördinaat dat je ontvangt na het oplossen van de puzzel niet de locatie van de eindcache bevatten maar van een tussenpunt.
 
-Een andere term die vaak samen wordt gebruikt met toegankelijkheid is 'inclusiviteit'. Bij inclusiviteit houd je rekening met de diversiteit aan doelgroepen. Een digitale dienst die volledig toegankelijk is gemaakt volgens de richtlijnen betekent niet dat het voor alle doelgroepen automatisch ook toegankelijk is. Een voorbeeld hiervan is wanneer een inschrijfformulier op een website volledig is gemaakt volgens de digitale richtlijnen, maar bij de optie geslacht alleen 'Man' en 'Vrouw' weergeeft. In dit geval spreek je van een toegankelijk formulier maar niet inclusief. Om dit formulier ook inclusief te maken kan je in plaats van vragen om het geslacht ook vragen om de aanspreekvormen of je kan extra opties aanbieden waarbij de persoon een vrijere invoer kan ingeven.
+#### Testen van een demo
+We hebben met 2 testpersonen waarvan één volledig blind en één met beperkt zicht een demo getest die we hebben opgezet. Deze demo is voorzien van een kleine wereld waar je in rond kan lopen door middel van de joystick van de Oculus Quest 2 controller en een cache die je moet vinden. Tijdens het opzetten van de demo werd al snel duidelijk dat een cache die je moet zoeken door middel van coördinaten heel erg lastig gaat zijn voor iemand die geen zicht heeft omdat het erg lastig is om een kompas na te bootsen in een vorm die te gebruiken is voor mensen zonder zicht. Het alternatief dat we hebben getest is dat de speler op zoek moet gaan naar de cache door middel van geluiden en trillingen in de controller. Testpersoon 1 gaf aan erg gedesorienteerd te zijn van de hoeveelheid 
+
+([Geocaching.nl](https://www.geocaching.nl) 2022)
+([Geocachen.nl](https://geocachen.nl) 2022)
 
 ### Deelconclusie
-Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke definitie van het woord 'toegankelijkheid' te vinden en dit duidelijk te onderscheiden van inclusiviteit. Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken alleen dit is niet gericht op het individu. Wanneer je meer gaat kijken naar het individu heb je het dus over inclusiviteit.
 
 ## Wat is een visuele beperking? (Samy)
 
