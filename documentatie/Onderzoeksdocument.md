@@ -187,13 +187,21 @@ Bij multi caches krijg je een coördinaat die niet direct naar de eindcache toel
 ##### Puzzel cache
 Een puzzel cache begint niet met coördinaten maar met een puzzel die opgelost zal moeten worden. Wanneer je de puzzel weet op te lossen zal je de coördinaten krijgen van de eindcache. Wat ook kan is dat de puzzel cache gecombineerd wordt met een multi cache, dan zal het coördinaat dat je ontvangt na het oplossen van de puzzel niet de locatie van de eindcache bevatten maar van een tussenpunt.
 
+#### Ontwikkelen van de verschillende soorten geocaches
+Tijdens het ontwikkelproces hebben we gekeken naar de verschillende vormen van geocaching. Wat al erg snel duidelijk werd was dat het erg lastig is om te werken met coördinaten omdat het erg lastig is om een kompas na te bootsen voor mensen die geen zicht meer hebben. We hebben gekeken om dit op te lossen door de richtingen aan te geven door ingesproken kompasrichtingen alleen hiermee liepen we tegen het probleem aan dat het niet accuraat genoeg was en dat het erg lastig is om deze informatie te verwerken is zonder gedesoriënteerd te raken.
+
+De tweede optie die we hebben uitgeprobeerd is geen gebruik maken van coördinaten maar gebruik maken van geluid en gebruik maken van vibraties in de controller van de Oculus Quest 2. De cache geeft een geluid af en de controller geeft trillingen die steviger worden zodra je dichter bij de cache in de buurt komt. Deze optie was een stuk eenvoudiger om te implementeren.
+
 #### Testen van een demo
-We hebben met 2 testpersonen waarvan één volledig blind en één met beperkt zicht een demo getest die we hebben opgezet. Deze demo is voorzien van een kleine wereld waar je in rond kan lopen door middel van de joystick van de Oculus Quest 2 controller en een cache die je moet vinden. Tijdens het opzetten van de demo werd al snel duidelijk dat een cache die je moet zoeken door middel van coördinaten heel erg lastig gaat zijn voor iemand die geen zicht heeft omdat het erg lastig is om een kompas na te bootsen in een vorm die te gebruiken is voor mensen zonder zicht. Het alternatief dat we hebben getest is dat de speler op zoek moet gaan naar de cache door middel van geluiden en trillingen in de controller. Testpersoon 1 gaf aan erg gedesorienteerd te zijn van de hoeveelheid 
+We hebben met 2 testpersonen waarvan één volledig blind en één met beperkt zicht een demo getest die we hebben opgezet. We hebben de demo gebruikt van optie 2 en gekeken hoe deze verbeterd kan worden. Tijdens het testen met de testpersonen werd duidelijk dat het erg belangrijk is om de speler niet te laten overstromen met informatie omdat dit tot desoriëntatie leidt. Dit bevestigde ons beeld dat we al hadden over dat optie 1 niet erg geschikt is voor een virtual reality geocaching spel voor mensen met een visuele beperking.
+
+In de deelvraag ['Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?'](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking-robert) staat meer omschreven over het testproces en wat de ervaring was van de testpersonen.
 
 ([Geocaching.nl](https://www.geocaching.nl) 2022)
 ([Geocachen.nl](https://geocachen.nl) 2022)
 
 ### Deelconclusie
+Wat we kunnen concluderen uit onze eigen ervaringen tijdens het ontwikkelproces is dat het ontwikkelen van de drie bekende vormen van geocaching heel erg complex is voor mensen die geen zicht meer hebben. Tijdens testen met de testpersonen werd nog meer duidelijk dat deze vormen enorm lastig zijn om toe te passen voor mensen zonder zicht op een duidelijke manier en zonder dat zij overladen worden met informatie. De conclusie die wij hieruit trekken is dat voor een geocaching spel in virtual reality voor mensen met een visuele beperking de vorm van geocaching waarbij je niet werkt met coördinaten maar met vormen waarop de speler in een bepaalde richting geleid kan worden zoals geluid en vibratie de beste speelvorm is.
 
 ## Wat is een visuele beperking? (Samy)
 
