@@ -225,116 +225,131 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 
 ### Resultaten
 
-**Enquête "Zorgt toegankelijkheid in games voor minder ongelijkheid?".**
-
-De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben wij 21 antwoorden binnengekregen. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
-
-#### Heb je een beperking?
-
-De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
+#### Enquête "Zorgt toegankelijkheid in games voor minder ongelijkheid?"
+De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben 21 personen de enquête ingevuld. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
 
 <details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/1_Do_you_have_any_kind_of_disability.png" alt="Grafiek vraag 1"/>
+  <summary>Antwoorden</summary>
+
+  #### Heb je een beperking?
+
+  De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/1_Do_you_have_any_kind_of_disability.png" alt="Grafiek vraag 1"/>
+  </details>
+
+  #### Wat voor spellen speel je?
+
+  Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/2_What_kind_of_games_do_you_play.png" alt="Grafiek vraag 2"/>
+  </details>
+
+  #### Waarom speel je spellen?
+
+  De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/3_What_makes_you_want_to_play_a_game.png" alt="Grafiek vraag 3"/>
+  </details>
+
+  #### Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png" alt="Grafiek vraag 4"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png" alt="Grafiek vraag 5"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Ik zou willen dat meer spellen toegankelijk waren.
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/6_I_wish_more_games_would_be_accessible.png" alt="Grafiek vraag 6"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png" alt="Grafiek vraag 7"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png" alt="Grafiek vraag 8"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png" alt="Grafiek vraag 9"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
+
+  De meerderheid is hier neutraal over.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png" alt="Grafiek vraag 10"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
+
+  #### Als virtual reality toegankelijk was dan zou ik het willen proberen.
+
+  De meerderheid is het hier mee eens.
+
+  <details>
+    <summary>Grafiek</summary><br/>
+    <img src="/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png" alt="Grafiek vraag 11"/>
+    <p> 1 = Oneens | 5 = Eens </p>
+  </details>
 </details>
 
-#### Wat voor spellen speel je?
+#### Extra 
+Er bestaan veel verschillende visuele beperkingen, maar de beperking die bij onze doelgroep het meest voorkomt is slechtziend en blindheid.
 
-Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
+- **Slechtziend** <br/>
+Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen. De meest voorkomende oorzaken van slechtziendheid zijn maculadegeneratie, diabetische retinopathie en glaucoom.
 
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/2_What_kind_of_games_do_you_play.png" alt="Grafiek vraag 2"/>
-</details>
+- **Blind** <br/>
+Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden. Blindheid kan bij geboorte al gekregen zijn of in de loop van het leven door een ziekte of ongeval.
 
-#### Waarom speel je spellen?
-
-De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/3_What_makes_you_want_to_play_a_game.png" alt="Grafiek vraag 3"/>
-</details>
-
-#### Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png" alt="Grafiek vraag 4"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png" alt="Grafiek vraag 5"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Ik zou willen dat meer spellen toegankelijk waren.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/6_I_wish_more_games_would_be_accessible.png" alt="Grafiek vraag 6"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png" alt="Grafiek vraag 7"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png" alt="Grafiek vraag 8"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png" alt="Grafiek vraag 9"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
-
-De meerderheid is hier neutraal over.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png" alt="Grafiek vraag 10"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Als virtual reality toegankelijk was dan zou ik het willen proberen.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png" alt="Grafiek vraag 11"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
+![Foto van tabel visuele beperking in NL](https://i.ibb.co/tcJK1g6/overzicht-visulebeperking-nl-new.png) <br/>
+*Overzicht van visuele beperking in Nederland*
 
 ### Deelconclusie
 Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de "Gaming community", als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Toegankelijkheid is vaak een dwarsboom als het op gamen met vrienden aankomt, ondervraagden geven aan dat ze zich buitengesloten voelen als zij een game niet kunnen spelen en vrienden wel. Negen van de tien ondervraagden is enthousiast en wil graag de mogelijkheden van virtual reality zien.
