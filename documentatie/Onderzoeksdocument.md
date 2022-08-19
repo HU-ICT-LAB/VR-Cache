@@ -197,7 +197,7 @@ We hebben met 2 testpersonen waarvan één volledig blind en één met beperkt z
 
 In de deelvraag ['Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking?'](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking-robert) staat meer omschreven over het testproces en wat de ervaring was van de testpersonen.
 
-([Geocaching.nl](https://www.geocaching.nl) 2022)
+([Geocaching.nl](https://www.geocaching.nl) 2022)<br>
 ([Geocachen.nl](https://geocachen.nl) 2022)
 
 ### Deelconclusie
