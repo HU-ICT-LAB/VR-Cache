@@ -221,7 +221,7 @@ Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot
 
 ### Aanpak
 
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. Dit is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
+Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij op twee manieren onderzoeken. Om dit te onderzoeken zal er een [survey](https://ictresearchmethods.nl/Survey) gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. Dit is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. Ook zal er [literature study](https://ictresearchmethods.nl/Literature_study) gedaan worden om onze doelgroep in kaart te brengen.
 
 ### Resultaten
 
@@ -231,7 +231,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
 <details>
   <summary>Antwoorden</summary>
 
-  #### Heb je een beperking?
+  #### Vraag 1: Heb je een beperking?
 
   De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
 
@@ -240,7 +240,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <img src="/docs/google_form/1_Do_you_have_any_kind_of_disability.png" alt="Grafiek vraag 1"/>
   </details>
 
-  #### Wat voor spellen speel je?
+  #### Vraag 2:  Wat voor spellen speel je?
 
   Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
 
@@ -249,7 +249,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <img src="/docs/google_form/2_What_kind_of_games_do_you_play.png" alt="Grafiek vraag 2"/>
   </details>
 
-  #### Waarom speel je spellen?
+  #### Vraag 3:  Waarom speel je spellen?
 
   De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
 
@@ -258,7 +258,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <img src="/docs/google_form/3_What_makes_you_want_to_play_a_game.png" alt="Grafiek vraag 3"/>
   </details>
 
-  #### Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+  #### Vraag 4:  Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
 
   De meerderheid is het hier mee eens.
 
@@ -268,7 +268,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+  #### Vraag 5:  Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
 
   De meerderheid is het hier mee eens.
 
@@ -278,7 +278,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Ik zou willen dat meer spellen toegankelijk waren.
+  #### Vraag 6: Ik zou willen dat meer spellen toegankelijk waren.
 
   De meerderheid is het hier mee eens.
 
@@ -288,7 +288,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
+  #### Vraag 7: Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
 
   De meerderheid is het hier mee eens.
 
@@ -298,7 +298,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
+  #### Vraag 8: Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
 
   De meerderheid is het hier mee eens.
 
@@ -308,7 +308,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+  #### Vraag 9: Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
 
   De meerderheid is het hier mee eens.
 
@@ -318,7 +318,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
+  #### Vraag 10: Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
 
   De meerderheid is hier neutraal over.
 
@@ -328,7 +328,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
     <p> 1 = Oneens | 5 = Eens </p>
   </details>
 
-  #### Als virtual reality toegankelijk was dan zou ik het willen proberen.
+  #### Vraag 11: Als virtual reality toegankelijk was dan zou ik het willen proberen.
 
   De meerderheid is het hier mee eens.
 
@@ -339,20 +339,25 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   </details>
 </details>
 
-#### Extra 
-Er bestaan veel verschillende visuele beperkingen, maar de beperking die bij onze doelgroep het meest voorkomt is slechtziend en blindheid.
+#### Doelgroeponderzoek
+Er bestaan veel verschillende visuele beperkingen, maar de beperking die bij onze doelgroep het meest voorkomen zijn slechtziendheid en blindheid.
 
 - **Slechtziend** <br/>
-Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen. De meest voorkomende oorzaken van slechtziendheid zijn maculadegeneratie, diabetische retinopathie en glaucoom.
+Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen.
 
 - **Blind** <br/>
-Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden. Blindheid kan bij geboorte al gekregen zijn of in de loop van het leven door een ziekte of ongeval.
+Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden.
 
 ![Foto van tabel visuele beperking in NL](https://i.ibb.co/tcJK1g6/overzicht-visulebeperking-nl-new.png) <br/>
 *Overzicht van visuele beperking in Nederland*
 
 ### Deelconclusie
-Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de "Gaming community", als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Toegankelijkheid is vaak een dwarsboom als het op gamen met vrienden aankomt, ondervraagden geven aan dat ze zich buitengesloten voelen als zij een game niet kunnen spelen en vrienden wel. Negen van de tien ondervraagden is enthousiast en wil graag de mogelijkheden van virtual reality zien.
+
+Het is lastig om nauwkeurige cijfers te geven over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind en slechtziend zijn. 
+
+Zoals te zien is in de enquête bij vraag 11 is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality. Dit laat zien dat er nog te weinig aandacht is gegeven aan virtual reality voor mensen met een beperking,
+
+Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de "Gaming community", als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Toegankelijkheid is vaak een dwarsboom als het op gamen met vrienden aankomt, ondervraagden geven aan dat ze zich buitengesloten voelen als zij een game niet kunnen spelen en vrienden wel.
 
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
@@ -365,6 +370,9 @@ Bij al onze tegenslagen was er één motief dat steeds terug naar boven kwam, en
 We raden aan om in plaats van A-Frame gebruik te maken van een al verder ontwikkelde engine of framework die meer functionaliteiten bevat.
 
 # Bronnen
+
+https://wireframe.raspberrypi.com/articles/seen-and-heard-making-games-for-the-visually-impaired
+
 Wat is Een Visuele Handicap? ZEISS Netherlands. (n.d.). Retrieved June 26, 2022, from https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
 
 Visuele beperking. Accessibility.nl. (n.d.). Retrieved June 26, 2022, from https://www.accessibility.nl/verschillende-beperkingen/visuele-beperking
