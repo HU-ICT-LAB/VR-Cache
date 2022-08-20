@@ -192,27 +192,24 @@ Een andere term die vaak samen wordt gebruikt met toegankelijkheid is 'inclusivi
 ### Deelconclusie
 Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke definitie van het woord 'toegankelijkheid' te vinden en dit duidelijk te onderscheiden van inclusiviteit. Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken alleen dit is niet gericht op het individu. Wanneer je meer gaat kijken naar het individu heb je het dus over inclusiviteit.
 
-## Wat is een visuele beperking? (Samy)
+## Hoe maak je een virtual reality wereld in aframe? (Samy)
 
 ### Aanpak
-Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
+Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
 ### Resultaten
-Er bestaan veel verschillende beperkingen, maar de beperking die bij onze doelgroep het meest voorkomt is slechtziend en blindheid. Bij het opzoeken van wat visuele beperking precies inhoudt, komt je vier verschillende soorten visuele beperkingen tegen.
+In aframe kunnen verschillende werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen. Verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordaty je die elementen in een aframe wereld gaat plaatsen, moet je ze hebben gemaakt. Wij hebben ervoor gekozen om die elementen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste websites de beste gratis 3D software en andere reden is, dat het mogelijk is om gltf-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het nodig om het bestand naar gltf-type te exporteren. 
 
-- **Kleurenblind** <br/>
-Mensen die kleurenblind zijn, hebben problemen met het onderscheiden van verschillen tussen kleuren en soms het ontbreken van kleurwaarneming. Dus kleurenblindheid is eigenlijk een verkeerde naam. Daarom wordt vaak de term kleurenzienstoornis gebruikt, want blind in kleuren zijn ze niet. Kleurenblindheid komt veel voor. 8% van de mannen in Nederland lijdt aan enige vorm van kleurenblindheid. Bij vrouwen ligt het cijfer veel lager: 0,5%. Kleurenblindheid is genetisch gerelateerd aan seks. Dit betekent dat het kind het via de moeder van de grootvader kan erven. Oorzaak kleurenblind zijn is dat er een fout zit in de kegeltjes (kleine cellen op het netvlies). Deze kegeltjes schakelen niet goed, waardoor je de kleuren niet ziet zoals ze in werkelijkheid zijn. Kleurenblindheid is niet te genezen.
-
-- **Slechtziend** <br/>
-Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen. De meest voorkomende oorzaken van slechtziendheid zijn maculadegeneratie, diabetische retinopathie en glaucoom.
-
-- **Blind** <br/>
-Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden. Blindheid kan bij geboorte al gekregen zijn of in de loop van het leven door een ziekte of ongeval.
-
-- **Doofblind** <br/>
-Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind-/slechtziendheid. Dit heeft grote invloed op hun leven, want het belemmert mensen in hun communicatie, het vergaren van informatie en bewegelijkheid. De meeste met deze aandoening kunnen nog wel wat zien horen, een klein aantal zijn compleet doof en blind. Bij het zien is hun gezichtsveld kleiner dan 30 graden, en bij het horen is er sprake van 35 decibel verlies aan gehoor. Doof blindheid kan verschillende oorzaken hebben: door syndroom van Usher, trauma, hersenvliesontsteking, ziekte, vroeggeboorte en congenitale rebellavirus.
-
-![Foto van tabel visuele beperking in NL](https://i.ibb.co/tcJK1g6/overzicht-visulebeperking-nl-new.png) <br/>
-*Overzicht van visuele beperking in Nederland*
+|                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **GLTF** |
+|---------------------------|-------------|-----------|-----------|-------------------|------------------|----------|
+| 1) **Adobe Substance 3D** | Ja          | Ja        | Ja        | €48,39/pm         | Gemiddeld        | Ja       |
+| 2) **Maya**               | Ja          | Ja        | Ja        | €279/pm           | Moeilijk         | Ja       |
+| 3) **Houdini**            | Ja          | Ja        | Ja        | €1986,69 eenmalig | Moeilijk         | Ja       |
+| 4) **Autodesk 3DS MAX**   | Ja          | Ja        | Ja        | €279/pm           | Gemiddeld        | Ja       |
+| 5) **Modo**               | Ja          | Ja        | Ja        | €63/pm            | Moeilijk         | Ja       |
+| 6) **ZBrush**             | Ja          | Ja        | Ja        | €32,69/pm         | Gemiddeld        | Nee      |
+| 8) **Adobe Dimension**    | Ja          | Ja        | Ja        | €81,66/pm         | Makkelijk        | Ja       |
+| 9) **Blender**            | Ja          | Ja        | Ja        | Gratis            | Moeilijk         | Ja       |
+| 10) **Fusion 360**        | Ja          | Ja        | Ja        | €73/pm            | Gemiddeld        | Ja       |
 
 ### Deelconclusie
 Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot conclusie gekomen dat het vier verschillende soorten bevat (kleurenblind, blind, slechtziend en doofblind). Alle vier hebben verschillen, maar ook overeenkomsten in oorzaken. Visueel beperkt zijn houdt in dat het zicht van een persoon enigermate beperkt is. Mensen kunnen ook gedeeltelijk beperkt zijn, dat betekent dat zij meer zien dan een volledig beperking. Ook is er naar voren gekomen dat niet alle soorten ongeneesbaar zijn, want tegen slechtziendheid is er wel een behandeling het zicht wordt gedeeltelijk verbeterd door chirurgische procedures. Aan de hand van de foto hierboven kan ik concluderen, dat kleurenblinden het meest voorkomen in Nederland.
