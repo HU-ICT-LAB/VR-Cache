@@ -353,7 +353,7 @@ Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tel
 
 ### Deelconclusie
 
-Het is lastig om nauwkeurige cijfers te geven over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind en slechtziend zijn. 
+Het is lastig om nauwkeurige cijfers te geven over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn. 
 
 Zoals te zien is in de enquête bij vraag 11 is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality. Dit laat zien dat er nog te weinig aandacht is gegeven aan virtual reality voor mensen met een beperking,
 
