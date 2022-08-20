@@ -219,7 +219,7 @@ Nu we de juiste 3D-programma hebben gekozen, kunnen we de objecten in de a-frame
 Geluid is ook wat een aframe wereld kan bevatten, om de beste ervaring van VR te beleven. In ons project hebben wij daar wel gebruik van gemaakt en dat hebben we gedaan door mp3-bestanden te importeren. We zijn tot die keuze gekomen, omdat de standaardbrowser van oculus een text-to-speech limitatie bevat.
 
 ### Deelconclusie
-Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot conclusie gekomen dat het vier verschillende soorten bevat (kleurenblind, blind, slechtziend en doofblind). Alle vier hebben verschillen, maar ook overeenkomsten in oorzaken. Visueel beperkt zijn houdt in dat het zicht van een persoon enigermate beperkt is. Mensen kunnen ook gedeeltelijk beperkt zijn, dat betekent dat zij meer zien dan een volledig beperking. Ook is er naar voren gekomen dat niet alle soorten ongeneesbaar zijn, want tegen slechtziendheid is er wel een behandeling het zicht wordt gedeeltelijk verbeterd door chirurgische procedures. Aan de hand van de foto hierboven kan ik concluderen, dat kleurenblinden het meest voorkomen in Nederland.
+
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
