@@ -340,22 +340,30 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
 </details>
 
 #### Doelgroeponderzoek
-Er bestaan veel verschillende visuele beperkingen, maar de beperking die bij onze doelgroep het meest voorkomen zijn slechtziendheid en blindheid.
 
-- **Slechtziend** <br/>
-Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen.
+##### Visuele beperkingen
+Op dit moment zijn er naar schatting zo'n 345.000 blinden en slechtzienden in Nederland. Het aantal blinden en slechtzienden groeit elk jaar.
 
-- **Blind** <br/>
-Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden.
+* **Slechtziend**
 
-![Foto van tabel visuele beperking in NL](https://i.ibb.co/tcJK1g6/overzicht-visulebeperking-nl-new.png) <br/>
-*Overzicht van visuele beperking in Nederland*
+  Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen.
+
+* **Blind**
+
+  Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden.
+
+##### Gamers met een visuele beperking
+Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn, dit is zo'n 1% van alle mensen met een visuele beperking.
 
 ### Deelconclusie
 
-Het is lastig om nauwkeurige cijfers te geven over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn. 
+Zoals te zien is in de enquête bij vraag 11 is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality. Dit laat zien dat er nog te weinig aandacht is gegeven aan virtual reality voor mensen met een visuele beperking, hier zijn een aantal redenen voor.
 
-Zoals te zien is in de enquête bij vraag 11 is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality. Dit laat zien dat er nog te weinig aandacht is gegeven aan virtual reality voor mensen met een beperking,
+* Het aansluiten en instellen van de vr-headset is voor nu nog niet mogelijk als je visueel beperkt bent.
+* Elke applicatie heeft zijn eigen menus die meestal niet makkelijk te navigeren zijn. 
+* De meeste vr-headsets hebben screenreaders voor het systeem maar helaas zijn deze nog niet compatibel met de games zelf. 
+
+Dit allemaal zorgt ervoor dat de drempel erg hoog ligt om een vr-headset aan te schaffen. 
 
 Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de "Gaming community", als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Toegankelijkheid is vaak een dwarsboom als het op gamen met vrienden aankomt, ondervraagden geven aan dat ze zich buitengesloten voelen als zij een game niet kunnen spelen en vrienden wel.
 
