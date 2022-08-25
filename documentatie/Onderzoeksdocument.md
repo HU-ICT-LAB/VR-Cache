@@ -214,9 +214,26 @@ In aframe kunnen verschillende werelden gecreërd worden. Wij hebben voor de spe
 
 *Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is.*
 
-Nu we de juiste 3D-programma hebben gekozen, kunnen we de objecten in de a-frame wereld plaatsen. Tijdens het plaatsen van de objecten zijn wij erachter gekomen, dat het voorlezen van de objecten niet werkte. Er werd niet goed onderscheid gemaakt, dus hebben we ervoor gekozen om 'onzichtbare' cilinders te plaatsen op elk object. 
 
-Geluid is ook wat een aframe wereld kan bevatten, om de beste ervaring van VR te beleven. In ons project hebben wij daar wel gebruik van gemaakt en dat hebben we gedaan door mp3-bestanden te importeren. We zijn tot die keuze gekomen, omdat de standaardbrowser van oculus een text-to-speech limitatie bevat.
+Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Er volgen een aantal opties van verschillende IDE's, om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De IDE's worden beoordeeld op basis van de volgende criteria:
+- Volledig kosteloos te gebruiken
+- Meeste geschikt voor front-end (HTML, Javascript, A-frame)
+
+
+|                        | **Windows** | **MacOS** | **Linux** | **Prijzen**                                                    | **Beste voor**                     |
+|------------------------|-------------|-----------|-----------|----------------------------------------------------------------|------------------------------------|
+| **Visual Studio**      | Ja          | Ja        | Ja        | Volledig gratis                                                | .NET & C++                         |
+| **IntelliJ IDEA**      | Ja          | Ja        | Ja        | Community versie is gratis Ultimate versie 30 dagen gratis     | Java                               |
+| **PhpStorm**           | Ja          | Ja        | Ja        | 30 dagen gratis                                                | Php                                |
+| **Visual Studio code** | Ja          | Ja        | Ja        | Gratis                                                         | HTML, Javascript, Typescript & CSS |
+| **PyCharm**            | Ja          | Ja        | Ja        | Community versie is gratis Professional versie 30 dagen gratis | Python                             |
+
+*Top 5 IDE's*
+
+Als de aframe wereld klaar is, moeten we het ook natuurlijk ergens hosten. Voor het hosten hebben wij Github-pages gebruikt. Om te weten of we gebruik hebben gemaakt van de juiste hosting-tool, gaan we het vergelijken met andere hosting-tools. De hosting-tools worden beoordeeld op basis van de volgende criteria:
+- Volledig kosteloos te gebruiken
+- ?
+- ?
 
 ### Deelconclusie
 
