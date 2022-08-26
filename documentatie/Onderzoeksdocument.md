@@ -354,7 +354,7 @@ Op dit moment zijn er naar schatting zo'n 345.000 blinden en slechtzienden in Ne
 
 ##### Gamers met een visuele beperking
 
-Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn, dit is zo'n 1% van alle mensen met een visuele beperking. 
+Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende gamers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn, dit is zo'n 1% van alle mensen met een visuele beperking. 
 
 Binnen deze groep is het gebruik van vr-headsets extreem laag door het gebrek aan de toegankelijkheid van deze toestellen. Bij het gebruik van een vr-headset kom je een aantal obstakels tegen:
 
