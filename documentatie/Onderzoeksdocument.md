@@ -229,7 +229,7 @@ Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijk
 De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben 21 personen de enquête ingevuld. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
 
 <details>
-  <summary>Antwoorden</summary>
+  <summary>Vragen</summary>
 
   #### Vraag 1: Heb je een beperking?
 
@@ -346,24 +346,25 @@ Op dit moment zijn er naar schatting zo'n 345.000 blinden en slechtzienden in Ne
 
 * **Slechtziend**
 
-  Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen.
+  Mensen die slechtziend zijn, kunnen minder dan 30% zien of hebben een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen.
 
 * **Blind**
 
-  Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden.
+  Mensen die blind zijn, kunnen minder dan 5% zien of hun gezichtsveld is beperkt tot minder dan 10 graden, dat noemen we ook wel maatschappelijk blind.
 
 ##### Gamers met een visuele beperking
-Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn, dit is zo'n 1% van alle mensen met een visuele beperking.
 
-### Deelconclusie
+Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende spelers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn, dit is zo'n 1% van alle mensen met een visuele beperking. 
 
-Bij het gebruik van een vr-headset kom je als visueel beperkte veel obstakels tegen 
+Binnen deze groep is het gebruik van vr-headsets extreem laag door het gebrek aan de toegankelijkheid van deze toestellen. Bij het gebruik van een vr-headset kom je een aantal obstakels tegen:
 
 * Het aansluiten en instellen van de vr-headset is voor nu nog erg ingewikkeld.
 * Elke applicatie heeft zijn eigen menus die meestal niet makkelijk te navigeren zijn. 
-* De meeste vr-headsets hebben screenreaders voor het systeem, helaas zijn deze nog niet compatibel met de games zelf.
+* De meeste vr-headsets hebben screenreaders voor het systeem, helaas zijn deze nog niet compatibel met de games en de browser.
 
-Dit allemaal zorgt ervoor dat de drempel erg hoog ligt om een vr-headset aan te schaffen. Alsnog is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality, dit is te zien in de enquête bij vraag 11. Dit laat zien dat als we voor deze obstakels een oplossing vinden, er meer duidelijkheid komt over toegankelijkheid in virtual reality. Dit creëert mogelijkheden voor developers om hier gebruik van te maken.
+### Deelconclusie
+
+Helaas zorgt dit er allemaal voor dat de drempel erg hoog ligt om een vr-headset aan te schaffen. Alsnog is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality, dit is te zien in de enquête bij vraag 11. 
 
 Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de gaming community, als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. 
 
