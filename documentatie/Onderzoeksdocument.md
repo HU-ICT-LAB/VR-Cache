@@ -357,15 +357,15 @@ Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtzien
 
 ### Deelconclusie
 
-Zoals te zien is in de enquête bij vraag 11 is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality. Dit laat zien dat er nog te weinig aandacht is gegeven aan virtual reality voor mensen met een visuele beperking, hier zijn een aantal redenen voor.
+Bij het gebruik van een vr-headset kom je als visueel beperkte veel obstakels tegen 
 
-* Het aansluiten en instellen van de vr-headset is voor nu nog niet mogelijk als je visueel beperkt bent.
+* Het aansluiten en instellen van de vr-headset is voor nu nog erg ingewikkeld.
 * Elke applicatie heeft zijn eigen menus die meestal niet makkelijk te navigeren zijn. 
-* De meeste vr-headsets hebben screenreaders voor het systeem maar helaas zijn deze nog niet compatibel met de games zelf. 
+* De meeste vr-headsets hebben screenreaders voor het systeem, helaas zijn deze nog niet compatibel met de games zelf.
 
-Dit allemaal zorgt ervoor dat de drempel erg hoog ligt om een vr-headset aan te schaffen. 
+Dit allemaal zorgt ervoor dat de drempel erg hoog ligt om een vr-headset aan te schaffen. Alsnog is negen van de tien ondervraagden enthousiast over de mogelijkheden van virtual reality, dit is te zien in de enquête bij vraag 11. Dit laat zien dat als we voor deze obstakels een oplossing vinden, er meer duidelijkheid komt over toegankelijkheid in virtual reality. Dit creëert mogelijkheden voor developers om hier gebruik van te maken.
 
-Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de "Gaming community", als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Toegankelijkheid is vaak een dwarsboom als het op gamen met vrienden aankomt, ondervraagden geven aan dat ze zich buitengesloten voelen als zij een game niet kunnen spelen en vrienden wel.
+Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de gaming community, als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. 
 
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
