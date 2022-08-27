@@ -195,10 +195,10 @@ Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke d
 ## Hoe maak je een virtual reality wereld in aframe? (Samy)
 
 ### Aanpak
-Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meeste gebruikte 3D programma's vergelijken en kijken welke het meest geschikt is voor ons project.
+Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meeste gebruikte programma's vergelijken en kijken welke het meest geschikt is voor ons project.
 
 ### Resultaten
-In aframe kunnen verschillende werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Wij hebben ervoor gekozen om die elementen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om gltf-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltf-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van gltf-bestanden en kosteloos gebruik.
+In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de objecten in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
 
 |                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **GLTF** |
 |---------------------------|-------------|-----------|-----------|-------------------|------------------|----------|
@@ -214,11 +214,7 @@ In aframe kunnen verschillende werelden gecreërd worden. Wij hebben voor de spe
 
 *Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is.*
 
-
-Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Er volgen een aantal opties van verschillende IDE's, om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De IDE's worden beoordeeld op basis van de volgende criteria:
-- Volledig kosteloos te gebruiken
-- Meeste geschikt voor front-end (HTML, Javascript, A-frame)
-
+Wij hebben ervoor gekozen om die elementen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om gltf-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltf-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van gltf-bestanden en kosteloos gebruik.
 
 |                        | **Windows** | **MacOS** | **Linux** | **Prijzen**                                                    | **Beste voor**                     |
 |------------------------|-------------|-----------|-----------|----------------------------------------------------------------|------------------------------------|
@@ -229,6 +225,10 @@ Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd 
 | **PyCharm**            | Ja          | Ja        | Ja        | Community versie is gratis Professional versie 30 dagen gratis | Python                             |
 
 *Top 5 IDE's*
+
+Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende IDE's te zien en beoordeeld op criteria. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De IDE's worden beoordeeld op basis van de volgende criteria:
+- Volledig kosteloos te gebruiken
+- Meeste geschikt voor front-end (HTML, Javascript, A-frame)
 
 Als de aframe wereld klaar is, moeten we het ook natuurlijk ergens hosten. Voor het hosten hebben wij Github-pages gebruikt. Om te weten of we gebruik hebben gemaakt van de juiste hosting-tool, gaan we het vergelijken met andere hosting-tools. De hosting-tools worden beoordeeld op basis van de volgende criteria:
 - Volledig kosteloos te gebruiken
