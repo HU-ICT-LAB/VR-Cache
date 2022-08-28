@@ -195,12 +195,12 @@ Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke d
 ## Hoe maak je een virtual reality wereld in aframe? (Samy)
 
 ### Aanpak
-Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meeste gebruikte programma's vergelijken en kijken welke het meest geschikt is voor ons project.
+Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [Literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meest gebruikte tool vergelijken en kijken welke het meest geschikt is voor ons project.
 
 ### Resultaten
-In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de objecten in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
+In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de 3D-modellen in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
 
-|                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **GLTF** |
+|                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **glTF** |
 |---------------------------|-------------|-----------|-----------|-------------------|------------------|----------|
 | 1) **Adobe Substance 3D** | Ja          | Ja        | Ja        | €48,39/pm         | Gemiddeld        | Ja       |
 | 2) **Maya**               | Ja          | Ja        | Ja        | €279/pm           | Moeilijk         | Ja       |
@@ -214,21 +214,39 @@ In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voo
 
 *Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is.*
 
-Wij hebben ervoor gekozen om die elementen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om gltf-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltf-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van gltf-bestanden en kosteloos gebruik.
+Wij hebben ervoor gekozen om de 3D-modellen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om glTF-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltTF-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van glTF-bestanden en kosteloos gebruik. Dus qua 3D-programma hebben wij de juiste programma gebruikt, omdat het de beste gratis 3D-programma is, die ook voor beginners is aangeraden. Met behulp van de [documentatie](https://docs.blender.org/manual/en/latest/) van [Blender](https://www.blender.org/about/) en youtube tutorial's van [Blender Guru](https://www.youtube.com/c/BlenderGuruOfficial), kan je al een heel eind komen.
+
+Voordat we met [Blender](https://www.blender.org/about/) aan de slag zijn gegaan hebben we ons eerst verdiept in de documentatie van [Blender](https://www.blender.org/about/). Om te beginnen moet je weten [hoe een object in blender ](https://www.raywenderlich.com/21459096-blender-tutorial-for-beginners-how-to-make-a-mushroom) gecreërd kan worden. Of je kan ervoor kiezen om gratis 3D-modellen van het internet te plukken. Zo heb je websites als [Free3D](https://free3d.com/) of [Sketchfab](https://sketchfab.com/features/free-3d-models). Als het object is gecreërd, moet het als een glTF-bestand [geëxporteerd](https://docs.blender.org/manual/en/latest/files/import_export.html ) worden, zodat je het vervolgens in een developer tool kan [importeren](https://docs.blender.org/manual/en/latest/files/import_export.html). Een belangrijk punt is, dat het geëxporteerde bestand glTF Embedded-type moet zijn en geen Binary-type.
 
 |                        | **Windows** | **MacOS** | **Linux** | **Prijzen**                                                    | **Beste voor**                     |
 |------------------------|-------------|-----------|-----------|----------------------------------------------------------------|------------------------------------|
 | **Visual Studio**      | Ja          | Ja        | Ja        | Volledig gratis                                                | .NET & C++                         |
-| **IntelliJ IDEA**      | Ja          | Ja        | Ja        | Community versie is gratis Ultimate versie 30 dagen gratis     | Java                               |
+| **IntelliJ IDEA**      | Ja          | Ja        | Ja        | Community versie is gratis<br>Ultimate versie 30 dagen gratis  | Java                               |
 | **PhpStorm**           | Ja          | Ja        | Ja        | 30 dagen gratis                                                | Php                                |
 | **Visual Studio code** | Ja          | Ja        | Ja        | Gratis                                                         | HTML, Javascript, Typescript & CSS |
-| **PyCharm**            | Ja          | Ja        | Ja        | Community versie is gratis Professional versie 30 dagen gratis | Python                             |
+| **PyCharm**            | Ja          | Ja        | Ja        | Community versie is gratis<br>Professional versie 30 dagen gratis | Python                            |
 
-*Top 5 IDE's*
+*Top 5 developer tools*
 
-Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende IDE's te zien en beoordeeld op criteria. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De IDE's worden beoordeeld op basis van de volgende criteria:
+Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende developer tools te zien en beoordeeld op criteria. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De developer tools worden beoordeeld op basis van de volgende criteria:
+
 - Volledig kosteloos te gebruiken
 - Meeste geschikt voor front-end (HTML, Javascript, A-frame)
+
+Wij hebben gebruik gemaakt van IntelliJ IDEA, maar als we naar de tabel kijken, zou je denken dat er niet de juist keuze is gemaakt, aangezien IntelliJ meer voor back-end talen wordt gebruikt, terwijl wij met HTML en Javascript hebben gewerkt. Maar over het algemeen scoort IntelliJ IDEA beter dan Visual Studio Code op de volgende punten:
+
+- Betere code analyse-functies
+- Alles-in-een developer tool met goede basis functionaliteit zonder noodzaak veel externe plugins te installeren
+- Het refactoren van code
+
+Deze conclusies zijn gebasseerd op ander [onderzoek](https://dev.to/mokkapps/why-i-switched-from-visual-studio-code-to-jetbrains-webstorm-939) van Micheal Hoffmann. Hij laat ook in zijn onderzoek zien d.m.v afbeeldingen waarom IntelliJ IDEA toch beter scoort dan Visual Studio Code.
+
+Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebruik van te maken. Dat kan in code ongeveer zo eruit komen te zien:
+
+```
+<a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
+```
+*'assets/' is de naam van een map waarin alle glTF-bestanden zitten in ons project*
 
 Als de aframe wereld klaar is, moeten we het ook natuurlijk ergens hosten. Voor het hosten hebben wij Github-pages gebruikt. Om te weten of we gebruik hebben gemaakt van de juiste hosting-tool, gaan we het vergelijken met andere hosting-tools. De hosting-tools worden beoordeeld op basis van de volgende criteria:
 - Volledig kosteloos te gebruiken
