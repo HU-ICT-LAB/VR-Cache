@@ -57,40 +57,15 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 
 ## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)
 
-### Aanpak
-
-Hoe je virtual reality toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken.
-Onze eerste informatiebron is ons contactpersoon Mike, hij heeft zelf een visuele beperking en interesse in videogames.
-Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat
+Om deze vraag te beantwoorden begint ons onderzoek bij ons contactpersoon Mike, hij een visuele beperking en interesse in videogames.
+Door middel van een [interview](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat
 slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames, zodat we dit kunnen toepassen in virtual
-reality. Onze tweede informatiebron zal door middel
-van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het
-internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met
-Mike hebben te verbreden naar een grotere doelgroep.
+reality. 
 
-### Resultaten
-
-#### Community research:
-
-In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members
-een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulpmiddel voor ons project.
-De [pagina](https://whitethorngames.com/accessibility) is van een indie game
-uitgever [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game uitgever is om
-games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op
-de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke
-strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de
-game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen
-lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en
-niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig
-zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
-
-*(Whitethorn Games, 2022)*
+Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
 
 <details>
   <summary>Interview met Mike</summary>
-  Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
-
-#### Interview:
 
 ##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
 
@@ -144,9 +119,22 @@ correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind doo
 hoort kraken als je erop loopt.
 </details>
 
-#### opties:   
+Na het interview hebben we ook community research geraadpleegd, hiermee hebben we gekeken naar wat er allemaal voor mogelijkheden bestaan om deze problemen aan te pakken.
 
-Met het interview van mike en de [pagina](https://whitethorngames.com/accessibility)
+In de game accessibility(IGDA-GASIG) groep op discord werd ons door een member
+een [pagina](https://whitethorngames.com/accessibility) doorgestuurd van de indie game
+uitgever [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game uitgever is om
+games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op
+de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke
+strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de
+game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen
+lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en
+niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig
+zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
+
+*(Whitethorn Games, 2022)*  
+
+Met het interview van Mike en de [pagina](https://whitethorngames.com/accessibility)
 van [Whitethorn Games](https://whitethorngames.com/#about-1-section) als referentiepunt hebben wij zelf een lijst
 gemaakt van opties die de accessibility zouden kunnen verbeteren in ons eigen spel.
 
@@ -188,14 +176,17 @@ spelers zijn en wel geimplementeerd kunnen worden.
 | Een vibratie geven als je iets aanraakt in het spel. |Ja|
 | Een tutorial aan het begin van het spel. |Nee|
 
-<details>
-  <summary>Testen met Nicolien</summary>
+Nu we de opties gerealiseerd hebben, willen we er achter komen hoeveel impact deze hebben op de speelervaring van de gebruiker. We hebben onze proefpersonen, Mike en Nicolien, een aantal versies van het spel laten spelen. Elke versie heeft een unieke toepassing van één of meerdere opties.
+
+### Nicolien
 
 Nicolien is een vriendin van Mike, en ze is onderdeel van het panel binnen Stichting Accessibility. Ze heeft last van
 een tunnel visie, dit betekent dat ze alleen goed zicht heeft op het midden van haar gezichtsveld. Op het gebied van
-virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. We hebben haar een
-aantal versies van het spel laten spelen waar de opties met elkaar gecombineerd zijn. Bij elke versie hebben we een klein verhaal geschreven over hoe het ging.
+virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. 
 
+<details>
+  <summary>Testen met Nicolien</summary>
+  
 ##### *Versie 1: automatisch uitlezen van objecten*
 Tijdens de eerste test run had ze nog een beetje moeite met de besturing van de game, desondanks had ze wel al een paar
 opmerkingen over het spel. Door het automatisch oplezen had ze het gevoel alsof ze overladen werd met informatie.
@@ -228,13 +219,12 @@ bepaald vanuit eigen observatie en reactie van Nicolien.
 
 </details>
 
+### Mike
+
+Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van het panel binnen Stichting Accessibility. Hij is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle versies aan Mike voorgelegd, omdat we na het testen met Nicolien er achter kwamen dat bepaalde versies verwaarloosbaar waren en anderen gecombineerd konden worden.
+
 <details>
   <summary>Testen met Mike</summary>
-
-Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van het panel binnen Stichting Accessibility. Hij
-is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook
-heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle versies aan Mike voorgelegd, omdat
-we na het testen met Nicolien opties hadden gewijzigd of hebben weggehaald.
 
 ##### *Versie 1: automatisch uitlezen van objecten*
 
@@ -265,8 +255,6 @@ bepaald vanuit eigen observatie en reactie van Mike.
 - Duidelijke aanduiding als je tegen de wereldborder aanloopt.
 
 </details>
-
-### Deelconclusie
 
 Uit het onderzoek kunnen we concluderen dat geluid het belangrijkste onderdeel is om een spel accessible te maken. In de test runs zagen we dat beide kandidaten zich het meest focuste op het positionele geluid van de cache. Ook was er een positioneel geluid van het kampvuur in het midden van de wereld. Hier konden de kandidaten gebruik van maken om er achter te komen hoe dicht ze bij het midden van de wereld stonden. Het niet positionele geluid van de vogels en de voorlezer van de objecten waren beide minder van toepassing voor de positionering. De vogels hielpen met het schetsen van een beeld van de omgeving, maar verder hadden ze geen toegevoegde waarde. Omdat de vogel geluiden geen positionele functie hadden kon de speler het niet gebruiken om zichzelf te oriënteren op de map. 
 
