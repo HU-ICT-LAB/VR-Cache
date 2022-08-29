@@ -233,30 +233,45 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
 
   #### Vraag 1: Heb je een beperking?
 
+  ```mermaid
+  pie
+    "Visually Impaired" : 8
+    "Blindness" : 8
+    "Hearing Impaired or deaf" : 3
+    "Physical disability" : 3
+    "None" : 2
+  ```
   De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/1_Do_you_have_any_kind_of_disability.png" alt="Grafiek vraag 1"/>
-  </details>
-
+  
   #### Vraag 2:  Wat voor spellen speel je?
 
+  ```mermaid
+  pie
+    "Real-time strategy" : 5
+    "Shooters" : 5
+    "Role-playing" : 7
+    "Simulation and sports" : 4
+    "Puzzlers and party games" : 5
+    "Action-adventure" : 5
+    "Survival" : 6
+    "Platformer" : 7
+    "Sandbox" : 6
+    "Audio" : 9
+    "Horror" : 2
+  ```
   Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/2_What_kind_of_games_do_you_play.png" alt="Grafiek vraag 2"/>
-  </details>
 
   #### Vraag 3:  Waarom speel je spellen?
 
+  ```mermaid
+  pie
+    "Relaxation" : 12
+    "Boredom" : 12
+    "Competency" : 4
+    "Playing with friends" : 12
+    "Making friends" : 2
+  ```
   De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/3_What_makes_you_want_to_play_a_game.png" alt="Grafiek vraag 3"/>
-  </details>
 
   #### Vraag 4:  Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
 
