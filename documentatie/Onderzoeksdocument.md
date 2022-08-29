@@ -119,7 +119,7 @@ correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind doo
 hoort kraken als je erop loopt.
 </details>
 
-Na het interview hebben we ook community research geraadpleegd, hiermee hebben we gekeken naar wat er allemaal voor mogelijkheden bestaan om deze problemen aan te pakken.
+Na het interview hebben we ook community research geraadpleegd, hiermee hebben we gekeken naar wat er allemaal voor mogelijkheden er nog meer bestaan om deze problemen aan te pakken.
 
 In de game accessibility(IGDA-GASIG) groep op discord werd ons door een member
 een [pagina](https://whitethorngames.com/accessibility) doorgestuurd van de indie game
@@ -138,30 +138,49 @@ Met het interview van Mike en de [pagina](https://whitethorngames.com/accessibil
 van [Whitethorn Games](https://whitethorngames.com/#about-1-section) als referentiepunt hebben wij zelf een lijst
 gemaakt van opties die de accessibility zouden kunnen verbeteren in ons eigen spel.
 
-| Optie | Onderbouwing | Beperking | Implementatie mogelijkheid | 
-|-------|--------------|:---------:| :-------------------------:|
-| Herpositionering van alle buttons mogelijk maken.| Dit kan behulpzaam zijn voor spelers die bijvoorbeeld een hand missen om ze de vrijheid te geven hoe ze zelf het liefst spelen.| Lichaamelijk | Ja
-| De cache een herkenbaar opvallend geluid geven. | Voor blinde spelers kan dit behulpzaam zijn door ze een duidelijk leidend geluid te geven waar ze naar toe moeten gaan.| Blind of slechtziend | Ja
-| Omgevings geluiden toepassen. | Visueel beperkte spelers zouden via de geluiden kunnen opvatten waar ze zich begeven zoals rijdende auto's of wind die door de bomen gaat.| Blind of slechtziend | Ja
-| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Dit helpt blinde spelers om ze te laten weten wat ze vast hebben of aanraken in het spel.| Blind of slechtziend | Nee, want objecten oppakken en bewegen is nog gelimiteerd in aframe. door objecten op te pakken zou je wel de positie kunnen veranderen maar niet de rotatie.|
-| Een geluid toepassen als je ergens tegen aan loopt. | Als een blinde speler tegen een muur aan loopt en niet meer verder kan is het handig om hem te laten weten dat hij niet meer door kan lopen.| Blind of slechtziend | Nee, want het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen.
-| Een geluid toepassen als je richting de cache kijkt. | Door een klein geluidje af te spelen als de blinde speler de goede kant op kijkt weet hij gelijk waar hij heen zal moeten gaan. | Blind of slechtziend | Nee, want er is op dit moment geen mogelijkheid om te kunnen kijken wat er binnen het gezichtsveld van de speler bevindt.|
-| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | De blinde speler hoeft hierdoor minder bang te zijn dat die tegen iets aanloopt in de echte wereld, omdat hij dan een waarschuwing krijgt als die te ver weg loopt.| Blind of slechtziend | Nee, omdat er geen mogelijkheid is om de data op te kunnen halen van de Guardian via A-Frame.|
-| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Als de blinde speler dicht bij de wereld border komt is het handig om hem te informeren dat hij terug moet gaan. | Blind of slechtziend | Ja |
-| Een verteller toepassen in het menu. | Dit kan blinde spelers helpen om het menu makkelijker te navigeren door te op te lezen wat ze selecteren. | Blind of slechtziend | Ja |
-| Een verteller toepassen in het spel. | Door op te lezen waar blinde spelers naar kijken in het spel hebben ze een beter beeld van waar ze zich begeven. | Blind of slechtziend | Ja |
-| Het volume harder en zachter kunnen zetten. | Als een speler minder goed kan horen zou hij het geluid harder kunnen zetten.| Slechthorend | Ja |
-| Geluiden apart van elkaar harder of zachter zetten. | Blinde spelers zouden hierdoor de belangrijkere geluiden harder kunnen zetten. | Blind of slechtziend | Ja |
-| Ondertiteling toepassen. | Als een speler doof is kan die nog steeds geinformeerd worden over het spel.| Doof of slechthorend | Ja |
-| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Dit kan de blinde speler een indicatie geven of hij de goede kant op loopt als hij de vibratie harder voelt worden. | Blind of slechtziend | Ja |
-| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Dit kan de blinde speler een indicatie geven dat hij een andere richting op moet lopen als hij de vibratie voelt. | Blind of slechtziend | Ja |
-| Een vibratie geven als je ergens tegen aan loopt. | Door de vibratie weten blinde spelers of ze ergens tegen aan zijn gelopen of niet meer door kunnen lopen.| Blind of slechtziend | Nee, net zoals bij het geluid als je ergens tegen aan loopt is het moeilijk te bepalen of de speler daadwerkelijk wel of niet ergens tegen aan loopt.|
-| Een vibratie geven als je iets aanraakt in het spel. | Dit kan een realistich effect geven aan blinde mensen omdat ze dan kunnen voelen of ze iets aanraken in het spel. | Blind of slechtziend | Ja |
-| Een tutorial aan het begin van het spel. | Dit helpt de speler om de besturing onder de knie te krijgen en het spel beter te snappen. | Voor iedereen | Ja | 
+| Optie | Onderbouwing | Beperking |
+|-------|--------------|:---------:|
+| Herpositionering van alle buttons mogelijk maken.| Dit kan behulpzaam zijn voor spelers die bijvoorbeeld een hand missen om ze de vrijheid te geven hoe ze zelf het liefst spelen.| Lichaamelijk |
+| De cache een herkenbaar opvallend geluid geven. | Voor blinde spelers kan dit behulpzaam zijn door ze een duidelijk leidend geluid te geven waar ze naar toe moeten gaan.| Blind of slechtziend |
+| Omgevings geluiden toepassen. | Visueel beperkte spelers zouden via de geluiden kunnen opvatten waar ze zich begeven zoals rijdende auto's of wind die door de bomen gaat.| Blind of slechtziend |
+| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Dit helpt blinde spelers om ze te laten weten wat ze vast hebben of aanraken in het spel.| Blind of slechtziend |
+| Een geluid toepassen als je ergens tegen aan loopt. | Als een blinde speler tegen een muur aan loopt en niet meer verder kan is het handig om hem te laten weten dat hij niet meer door kan lopen.| Blind of slechtziend |
+| Een geluid toepassen als je richting de cache kijkt. | Door een klein geluidje af te spelen als de blinde speler de goede kant op kijkt weet hij gelijk waar hij heen zal moeten gaan. | Blind of slechtziend |
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | De blinde speler hoeft hierdoor minder bang te zijn dat die tegen iets aanloopt in de echte wereld, omdat hij dan een waarschuwing krijgt als die te ver weg loopt.| Blind of slechtziend |
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Als de blinde speler dicht bij de wereld border komt is het handig om hem te informeren dat hij terug moet gaan. | Blind of slechtziend |
+| Een verteller toepassen in het menu. | Dit kan blinde spelers helpen om het menu makkelijker te navigeren door te op te lezen wat ze selecteren. | Blind of slechtziend |
+| Een verteller toepassen in het spel. | Door op te lezen waar blinde spelers naar kijken in het spel hebben ze een beter beeld van waar ze zich begeven. | Blind of slechtziend |
+| Het volume harder en zachter kunnen zetten. | Als een speler minder goed kan horen zou hij het geluid harder kunnen zetten.| Slechthorend |
+| Geluiden apart van elkaar harder of zachter zetten. | Blinde spelers zouden hierdoor de belangrijkere geluiden harder kunnen zetten. | Blind of slechtziend |
+| Ondertiteling toepassen. | Als een speler doof is kan die nog steeds geinformeerd worden over het spel.| Doof of slechthorend |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Dit kan de blinde speler een indicatie geven of hij de goede kant op loopt als hij de vibratie harder voelt worden. | Blind of slechtziend | 
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Dit kan de blinde speler een indicatie geven dat hij een andere richting op moet lopen als hij de vibratie voelt. | Blind of slechtziend | 
+| Een vibratie geven als je ergens tegenaan loopt. | Door de vibratie weten blinde spelers of ze ergens tegen aan zijn gelopen of niet meer door kunnen lopen.| Blind of slechtziend |
+| Een vibratie geven als je iets aanraakt in het spel. | Dit kan een realistich effect geven aan blinde mensen omdat ze dan kunnen voelen of ze iets aanraken in het spel. | Blind of slechtziend |
+| Een tutorial aan het begin van het spel. | Dit helpt de speler om de besturing onder de knie te krijgen en het spel beter te snappen. | Voor iedereen |
 
 In ons onderzoek focussen we ons op blinde en slechtziende spelers. Met deze reden negeren wij we de opties die niet
-gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven opties die voor blinde en slechtziende
-spelers zijn en wel geimplementeerd kunnen worden.
+gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven opties waar we kijken of het mogelijk is om deze opties te implementeren in ons project.
+
+| Optie | Implementatie mogelijkheid | Onderbouwing | Onderzoeksmethode |
+|-------|:--------------------------:|--------------|:-----------------:|
+| De cache een herkenbaar opvallend geluid geven. | Ja | A-frame biedt de mogelijk om geluiden vast te zetten aan objecten. | Document analysis |
+| Omgevings geluiden toepassen. | Ja | A-frame ondersteund het gerbuik van geluiden | Document analysis |
+| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Nee | Objecten oppakken en bewegen is nog gelimiteerd in aframe. door objecten op te pakken zou je wel de positie kunnen veranderen maar niet de rotatie.| literature research | 
+| Een geluid toepassen als je ergens tegen aan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
+| Een geluid toepassen als je richting de cache kijkt. | Nee | A-frame biedt op dit moment geen mogelijkheid om te kunnen kijken wat er binnen het gezichtsveld van de speler bevindt. | Document analysis |
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | Nee | Er is geen mogelijkheid om de data op te kunnen halen van de Oculus Guardian via A-Frame.| literature research | 
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object. | Document analysis |
+| Een verteller toepassen in het menu. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
+| Een verteller toepassen in het spel. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
+| Geluiden apart van elkaar harder of zachter zetten. | Ja | Elk geluid in A-frame kan apart harde of zachter gezet worden.| Document analysis |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object.| Document analysis |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object.| Document analysis |
+| Een vibratie geven als je ergens tegenaan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
+| Een vibratie geven als je iets aanraakt in het spel. | Ja | Met de ingebouwde richter van A-frame zou je kunnen bepalen wanneer die door een object heen gaat. | Document analysis | 
+| Een tutorial aan het begin van het spel. | Ja | Met een oplezende stem zou je de speler kunnen informeren over het spel, en zelfs met toepassing van events zou je de controls langs kunnen gaan. | Document analysis |
+
+Omdat het uitzoeken van de implementatie mogelijkheid bij elke optie veel tijd kostte. is het ons niet gelukt om elke optie toe te passen in de code. hieronder zie je een tabel met een overzicht van welke opties wel en niet toegepast zijn.
 
 | Optie | Toegepast in code|
 |-------|:----------------:|
