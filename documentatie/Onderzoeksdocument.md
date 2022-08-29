@@ -243,7 +243,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 1: Heb je een beperking?
 
   ```mermaid
-  pie
+  pie showData
     "Visually Impaired" : 8
     "Blindness" : 8
     "Hearing Impaired or deaf" : 3
@@ -255,7 +255,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 2:  Wat voor spellen speel je?
 
   ```mermaid
-  pie
+  pie showData
     "Real-time strategy" : 5
     "Shooters" : 5
     "Role-playing" : 7
@@ -273,7 +273,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 3:  Waarom speel je spellen?
 
   ```mermaid
-  pie
+  pie showData
     "Relaxation" : 12
     "Boredom" : 12
     "Competency" : 4
@@ -285,7 +285,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 4:  Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
 
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 9
     "Eens" : 9
     "Neutraal" : 0
@@ -297,7 +297,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 5:  Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 7
     "Eens" : 9
     "Neutraal" : 3
@@ -309,7 +309,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 6: Ik zou willen dat meer spellen toegankelijk waren.
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 13
     "Eens" : 4
     "Neutraal" : 4
@@ -321,7 +321,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 7: Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 10
     "Eens" : 6
     "Neutraal" : 3
@@ -333,7 +333,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 8: Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 6
     "Eens" : 7
     "Neutraal" : 3
@@ -345,7 +345,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 9: Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 6
     "Eens" : 8
     "Neutraal" : 2
@@ -357,7 +357,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 10: Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 5
     "Eens" : 3
     "Neutraal" : 7
@@ -369,7 +369,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
   #### Vraag 11: Als virtual reality toegankelijk was dan zou ik het willen proberen.
   
   ```mermaid
-  pie
+  pie showData
     "Helemaal eens" : 14
     "Eens" : 5
     "Neutraal" : 0
