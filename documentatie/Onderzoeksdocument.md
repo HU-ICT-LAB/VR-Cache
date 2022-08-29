@@ -275,83 +275,99 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
 
   #### Vraag 4:  Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
 
+  ```mermaid
+  pie
+    "Helemaal eens" : 9
+    "Eens" : 9
+    "Neutraal" : 0
+    "Oneens" : 2
+    "Helemaal oneens" : 1
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png" alt="Grafiek vraag 4"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 
   #### Vraag 5:  Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 7
+    "Eens" : 9
+    "Neutraal" : 3
+    "Oneens" : 1
+    "Helemaal oneens" : 1
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png" alt="Grafiek vraag 5"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 
   #### Vraag 6: Ik zou willen dat meer spellen toegankelijk waren.
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 13
+    "Eens" : 4
+    "Neutraal" : 4
+    "Oneens" : 0
+    "Helemaal oneens" : 0
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/6_I_wish_more_games_would_be_accessible.png" alt="Grafiek vraag 6"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 
   #### Vraag 7: Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 10
+    "Eens" : 6
+    "Neutraal" : 3
+    "Oneens" : 1
+    "Helemaal oneens" : 1
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png" alt="Grafiek vraag 7"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 
   #### Vraag 8: Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 6
+    "Eens" : 7
+    "Neutraal" : 3
+    "Oneens" : 4
+    "Helemaal oneens" : 1
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png" alt="Grafiek vraag 8"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 
   #### Vraag 9: Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 6
+    "Eens" : 8
+    "Neutraal" : 2
+    "Oneens" : 4
+    "Helemaal oneens" : 1
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png" alt="Grafiek vraag 9"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 
   #### Vraag 10: Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 5
+    "Eens" : 3
+    "Neutraal" : 7
+    "Oneens" : 4
+    "Helemaal oneens" : 2
+  ```
   De meerderheid is hier neutraal over.
 
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png" alt="Grafiek vraag 10"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
-
   #### Vraag 11: Als virtual reality toegankelijk was dan zou ik het willen proberen.
-
+  
+  ```mermaid
+  pie
+    "Helemaal eens" : 14
+    "Eens" : 5
+    "Neutraal" : 0
+    "Oneens" : 1
+    "Helemaal oneens" : 1
+  ```
   De meerderheid is het hier mee eens.
-
-  <details>
-    <summary>Grafiek</summary><br/>
-    <img src="/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png" alt="Grafiek vraag 11"/>
-    <p> 1 = Oneens | 5 = Eens </p>
-  </details>
 </details>
 
 #### Doelgroeponderzoek
