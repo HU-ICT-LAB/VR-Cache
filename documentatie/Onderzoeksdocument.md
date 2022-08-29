@@ -57,7 +57,7 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 
 ## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)
 
-Om deze vraag te beantwoorden begint ons onderzoek bij ons contactpersoon Mike, hij een visuele beperking en interesse in videogames.
+Om deze vraag te beantwoorden begint ons onderzoek bij ons contactpersoon Mike, hij heeft een visuele beperking en interesse in videogames.
 Door middel van een [interview](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat
 slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames, zodat we dit kunnen toepassen in virtual
 reality. 
