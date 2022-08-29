@@ -219,7 +219,9 @@ Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
-Op dit moment zijn er naar schatting zo'n 345.000 blinden en slechtzienden in Nederland. Het aantal blinden en slechtzienden groeit elk jaar.
+Op dit moment zijn er naar schatting zo'n 345.000 mensen met een visuele beperking in Nederland, dit aantal groeit elk jaar. 
+
+Wat is een visuele beperking?
 
 * **Slechtziend**
 
@@ -229,16 +231,14 @@ Op dit moment zijn er naar schatting zo'n 345.000 blinden en slechtzienden in Ne
 
   Mensen die blind zijn, kunnen minder dan 5% zien of hun gezichtsveld is beperkt tot minder dan 10 graden, dat noemen we ook wel maatschappelijk blind.
 
-### Gamers met een visuele beperking
-
-Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende gamers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn, dit is zo'n 1% van alle mensen met een visuele beperking. 
+Het is lastig om nauwkeurige cijfers te vinden over hoeveel blinde en slechtziende gamers er wereldwijd zijn. Arianna Ortelli van NOVIS, schat dat er ongeveer 23 miljoen gamers in de wereld blind of slechtziend zijn.
 
 Om te onderzoeken of er een verband is tussen ongelijkheid en toegankelijkheid is er een [survey](https://ictresearchmethods.nl/Survey) op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook groepen voor visueel beperkte gamers. Uit de enquête kwam al snel naar boven dat er een wel degelijk ongelijkheid is door slechte toegankelijkheid in games.
 
 De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben 21 personen de enquête ingevuld. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
 
 <details>
-  <summary>Vragen</summary>
+  <summary>Enquête resultaten</summary>
 
   #### Vraag 1: Heb je een beperking?
 
@@ -381,9 +381,7 @@ De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formuli
 
 Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de gaming community, als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. 
 
-Negen van de tien ondervraagde is enthousiast over de mogelijkheden van virtual reality, dit is te zien in de enquête bij vraag 11. Ondanks deze grote vraag is er nog weinig gedaan aan de toegankelijkheid van deze toestellen. 
-
-Bij het gebruik van een vr-headset kom je een aantal obstakels tegen:
+Negen van de tien ondervraagde is enthousiast over de mogelijkheden van virtual reality, dit is te zien in de enquête bij vraag 11. Ondanks deze grote vraag is er nog weinig gedaan aan de toegankelijkheid van vr-headsets. Bij het gebruik van deze toestellen kom je verschillende obstakels tegen, een aantal van deze als voorbeeld:
 
 * Het aansluiten en instellen van de vr-headset is voor nu nog erg ingewikkeld.
 * Elke applicatie heeft zijn eigen menus die meestal niet makkelijk te navigeren zijn. 
