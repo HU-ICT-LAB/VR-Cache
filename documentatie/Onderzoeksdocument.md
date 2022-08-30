@@ -248,14 +248,6 @@ Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebru
 ```
 *'assets/' is de naam van een map waarin alle glTF-bestanden zitten in ons project*
 
-Als de aframe wereld klaar is, moeten we het ook natuurlijk ergens hosten. Voor het hosten hebben wij Github-pages gebruikt. Om te weten of we gebruik hebben gemaakt van de juiste hosting-tool, gaan we het vergelijken met andere hosting-tools. De hosting-tools worden beoordeeld op basis van de volgende criteria:
-- Volledig kosteloos te gebruiken
-- ?
-- ?
-
-### Deelconclusie
-
-
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
 ### Aanpak
