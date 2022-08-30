@@ -219,9 +219,17 @@ Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
-Op dit moment zijn er naar schatting zo'n 345.000 mensen met een visuele beperking in Nederland, dit aantal groeit elk jaar. 
+Gamen is snel een van de grootste vormen van entertainment geworden in het laatste decennium. Om zoveel mogelijk mensen te includeren wordt er veel naar toegankelijkheid gekeken, maar hoe voelen mensen met een beperking zich hierover? Op dit moment zijn er naar schatting wereldwijd zo'n 1.1 miljard mensen met een visuele beperking, dit aantal groeit elk jaar. 
 
-Wat is een visuele beperking?
+  ```mermaid
+  pie
+    "Slechtziend [295 million]" : 295091908
+    "Blindheid [43 million]" : 43279994
+    "Bijziend [510 million]" : 509689139
+    "Mild [258 million]" : 257832316
+  ```
+
+Van deze 1.1 miljard hebben de slechtzienden en blinden, samen een gedeelde 338 miljoen. Deze groep heeft de meeste hinder bij het spelen van games en is daarom onze focus voor dit project.
 
 * **Slechtziend**
 
@@ -398,6 +406,8 @@ Bij al onze tegenslagen was er één motief dat steeds terug naar boven kwam, en
 We raden aan om in plaats van A-Frame gebruik te maken van een al verder ontwikkelde engine of framework die meer functionaliteiten bevat.
 
 # Bronnen
+
+https://www.iapb.org/learn/vision-atlas/magnitude-and-projections/global/
 
 https://wireframe.raspberrypi.com/articles/seen-and-heard-making-games-for-the-visually-impaired
 
