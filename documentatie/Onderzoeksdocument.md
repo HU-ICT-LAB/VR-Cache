@@ -223,10 +223,10 @@ Gamen is snel een van de grootste vormen van entertainment geworden in het laats
 
   ```mermaid
   pie
-    "Slechtziend [295 million]" : 295091908
-    "Blindheid [43 million]" : 43279994
-    "Bijziend [510 million]" : 509689139
-    "Mild [258 million]" : 257832316
+    "Slechtziend [295 miljoen]" : 295091908
+    "Blindheid [43 miljoen]" : 43279994
+    "Bijziend [510 miljoen]" : 509689139
+    "Mild [258 miljoen]" : 257832316
   ```
 
 Van deze 1.1 miljard zijn de slechtzienden en blinden samen 338 miljoen, het is lastig om nauwkeurige cijfers te vinden over hoeveel van deze personen actief gamen. Arianna Ortelli van NOVIS schat dat dit er ongeveer 23 miljoen zijn. Deze groep heeft de meeste hinder bij het gamen en is daarom onze focus voor dit project.
