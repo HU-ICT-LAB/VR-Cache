@@ -158,15 +158,176 @@ Ook kunnen we Stackoverflow raadplegen voor meer specifieke vragen die we zullen
 
 ### Resultaten
 Met ons onderzoek hebben we het volgende gevonden: <br>
+#### De map
+In onze map hebben we boomstamen, bomen,map randen, een cache die in deze spel in de vorm van een klein kist komt en een kampvuur.
+We hebben gebruikt gemaakt van [gltf](https://www.khronos.org/gltf/) bestanden om deze objecten in de map te krijgen. Wij hebben de hele map in [Blender](https://www.blender.org/about/) gemaakt, wij hebben de gltf bestanden van de objecten in Blender geïmporteerd, alles behalve de cache op een positie gezet en opgeslagen dus onze hele map is 1 gltf bestand zoals u hier kunt zien: <br>    ```<a-entity id="world" gltf-model="assets/world.gltf" scale="0.3 0.3 0.3"></a-entity>```
 
-A-Frame is een webframework voor het bouwen van virtual reality applicaties. A-Frame is gebaseerd op HTML, waardoor het eenvoudig is om aan de slag te gaan, het maakt ook gebruik van [Three.js](https://threejs.org). Met weinig regels code kan je al snel simpele applicaties opzetten, een voorbeeld hiervan is [dit spel](https://glitch.com/edit/#!/aframe?path=index.html%3A1%3A0).
+Voor de cache hebben wij iets anders gedaan, als de user deze spel meerdere keren wilt gaan spelen en de cache op dezelfde positie zit is de spel niet meer leuk dus we hebben het volgende gedaan voor de positie van de cache: <br>
+In de cache.js file hebben wij een lijst van mogelijke posities gedifineerd.
+``` 
+const positions = [{position: "-13.43007 -0.00483 -5.78539", rotation: "0 37.83 0"},
+	{position: "-6.52414 -0.00483 -9.61352", rotation: "0 37.83 0"},
+	{position: "0.97651 -0.00483 -11.41705", rotation: "0 0 0"},
+	{position: "9.16316 -0.00483 -12.47704", rotation: "0 -36.94 0"},
+	{position: "13.40126 -0.00483 -7.60519", rotation: "0 -60.94 0"},
+	{position: "12.07774 -0.00483 8.65857", rotation: "0 -127.14 0"},
+	{position: "5.349 -0.00483 8.002", rotation: "0 -127.140 0"},
+	{position: "-7.877 -0.00483 11.000", rotation: "0 -216.710 0"}];
+```
+Daarnast wordt er in de [registerComponent](https://aframe.io/docs/1.3.0/core/component.html#aframe-registercomponent-name-definition) methode een willekeurige positie gekozen.
+```
+const random = Math.floor(Math.random() * positions.length);
+this.el.setAttribute("position", positions[random].position);
+```
 
-A-Frame heeft standaard verschillende webcomponenten zoals bijvoorbeeld kubus, cilinder, vlak of een bal. Er zijn ook een aantal websites waar je [custom objecten](https://blog.mozvr.com/using-gltf-models-with-a-frame) die iemand anders heeft gemaakt kan downloaden en kan gebruiken in je eigen project.
 
-In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3.0/core/component.html) te maken die eigen unieke functionaliteiten bevatten die je met elkaar kan laten communiceren via events.
+Omdat de raycaster alleen met [primitieve objecten](https://aframe.io/docs/1.3.0/introduction/html-and-primitives.html#primitives) kan interageren hebben we hotboxen in de positie van de bomen, boomstamen gezet in de vorm van cylinders en hotboxen in de vorm van box voor de map randen dus je kunt de boom gewoon zien maar er zit nog een cylinder in de positie van de boom puur voor interactie een voorbeeld hiervan is het volgende: <br>
+```
+<a-cylinder class="interactable" id="tree29" tree position="28.5246 0 -32.9995"></a-cylinder>
+```
+#### Interactie met de cache
+De doel van de spel is om de cache te vinden daarvoor moesten wij een manier bedenken waarbij je met de cache kan interacteren.
+Je moet wel binnen een bepaalde afstand van de cache zijn om met de cache te kunnen inerageren en daarvoor hebben wij de klasse "Vector3D" in deze klasse kan de afstand tussen de speler en een bepalde positie berekend worden als de positie van de cache in deze klasse megegeven wordt kunnen wij de afstand tussen de speler en de cache weten.
+En nu dat we het afstand van de cache en de speler kan weten kunnen wij dit berekening doen wanneer een bepaalde knop ingedrukt wordt en dit doen we in het interact methode van het "keyboard-input-handler.js" file.
+
+```
+if (e.key === "e") {
+  const playerPosition = document.querySelector("[camera]").object3D.position;
+  const cachePosition = document.getElementById("cache").object3D.position;
+
+  const result = new Vector3D(
+	cachePosition.x - playerPosition.x,
+	cachePosition.y - playerPosition.y,
+	cachePosition.z - playerPosition.z
+	);
+
+  if (result.magnitude() <= 3) {
+    window.location.href = "./succes.html";
+  }
+}
+
+```
+
+Zoals u in de code voorbeeld kunt zien als de knop "e" gedrukt wordt, wordt de positie van de speler en de cache meegegeven aan de Vector3D daarna wordt er gecontroleerd als de uitkomst van de berekening gelijk aan 3 of minder dan 3 is, als dat waar is heb je een succesvol interactie gehad met de cache en je wordt naar een andere pagina gestuurd.
+
+#### Geluid
+Voor de geluid in de spel hebben wij [MP3](https://nl.wikipedia.org/wiki/MP3#:~:text=MP3%20-%20Wikipedia%20MP3%20MP3%20%28officieel%20MPEG-1%20Audio,Group%29%20uit%201992%2C%20waarvan%20implementaties%20bestaan%20sinds%201994.) files van de benodigde geluiden gedownload en in de project gezet.
+In deze project hebben wij geluid gebruikt in de volgende manieren:
+1. Om de object de object die met de [raycaster](https://github.com/aframevr/aframe/blob/master/docs/components/raycaster.md) botst te benoemen. Er is voor iedere object een mp3 file waarin de naam van de object uitgesproken wordt. How we dit hebben geregeld is als de raycaster een botsing heeft met een object wordt een event gegooid genaam "raycaster-intersected", elke object heeft een event listener die naar de genoemde event luistert, in de event listener wordt de naam van die object opgeslagen in de [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage), de volgende is een code voorbeeld van de tree.js file.
+```
+this.el.addEventListener("raycaster-intersected", function () {
+			sessionStorage.setItem("object", "boom");
+			document.getElementById("right").components.haptics.pulse(0.5, 50);
+		});
+```
+
+En in de "object-sound-handler" component wordt er gekeken naar welke object naam opgeslagen is in de sessionStorage en die naam spreekt de spel uit.
+```
+switch (sessionStorage.getItem("object")) {
+			case "boom":
+				document.getElementById("boomSoundAsset").components.sound.playSound();
+				break;
+			case "kleineBoomstam":
+				document.getElementById("kleineBoomstamSoundAsset").components.sound.playSound();
+				break;
+			case "kampvuur":
+				document.getElementById("kampvuurSoundAsset").components.sound.playSound();
+				break;
+			case "wereldborder":
+				document.getElementById("wereldborderSoundAsset").components.sound.playSound();
+				break;
+			default:
+				break;
+			}
+```
+2. Om een indicatie van de locatie van de cache te kunnen krijgen vanuit een bepaalde afstand. Er is een vaste afstand van de cache vastgelegd waarbij de geluid van de cache hoorbaar is.
+
+```
+const DISTANCE_TO_HEAR = 10;
+```
+
+De cache krijgt een mp3 file toegewezen in zijn registerComponent methode.
+```
+this.el.setAttribute("sound", "src: assets/CacheGeluid.mp3; autoplay: true; loop: true; maxDistance: 10000; rolloffFactor: 3; volume: 1;");
+```
+Na elke frame wordt er gecontroleerd als de afstand klein genoeg is om de cache te kunnen horen. Om de afstand tussen de speler en cache te berekenen gebruiken we de klasse Vector3D.
+```
+const playerPosition = document.getElementById("rig").object3D.position;
+const cachePosition = document.getElementById("cache").object3D.position;
+
+const result = new Vector3D(
+	cachePosition.x - playerPosition.x,
+	cachePosition.y - playerPosition.y,
+	cachePosition.z - playerPosition.z
+);
+
+this.inSoundDistance = result.magnitude() <= DISTANCE_TO_HEAR;
+```
+
+Als inSoundDistance true is en als de geluid niet al aan het spelen is dan wordt de cache geluid gespeeld anders niet.
+```
+if (this.inSoundDistance && !this.inSoundDistanceTriggered) {
+			document.querySelector("#cache").components.sound.playSound();
+			this.inSoundDistanceTriggered = true;
+		} else if (!this.inSoundDistance) {
+			document.querySelector("#cache").components.sound.stopSound();
+			this.inSoundDistanceTriggered = false;
+		}
+```
+En omdat de geluid direct van de cache komt kan je een indicatie krijgen van waar de cache is.
+
+3. Er wordt constant een achtergrond geluid gespeeld, die mp3 file is direct toegewezen naar de scene. 
+```
+<a-sound id="backgroundnoise" sound="positional: false" src="assets/forest.mp3" autoplay="true" loop="true" volume="0.1"></a-sound>
+```
+4. Elke keer dat de user een stap doet in het spel wordt een stap geluid uitgespeeld. Als de user de thumbstick in een bepaalde richting beweegt wordt er een event gegooid genaamd "thumbstickmoved", in de "player-sound" component is er een event listener die luister naar de genoemde event van de beweging van de thumbstick, in deze functie wordt het geluid van de toegewezen mp3 file afgespeeld. 
+
+```
+if (this.walking && !this.alreadyWalking) {
+			document.getElementById("playerWalkingsoundAsset").components.sound.playSound();
+			this.alreadyWalking = true;
+		} else if (!this.walking) {
+			document.getElementById("playerWalkingsoundAsset").components.sound.stopSound();
+			this.alreadyWalking = false;
+		}
+```
+Als de speler aan het lopen is en als het geluid niet al gespeeld werd wordt het lopen geluid afgespeeld anders niet.
+#### Vibratie
+Om vibratie in de spel te hebben wij [aframe-haptics-component](https://www.npmjs.com/package/aframe-haptics-component) geimporteerd.
+Met hulp van het aframe haptics component kunnen we de volgende stuk code runnen en vibratie krijgen bij de controller: <br>
+```
+this.el.components.haptics.pulse(force, duration);
+```
+
+Deze vibratie was zeer hulpvaardig in het aantonen van een botsing tussen de raycaster en een andere object en onze sonar functie.
+
+##### Sonar
+Deze functionaliteit was bedacht met de bedoeling om de user een indicatie te geven van de afstand tussen de speler en de cache in de vorm van vibratie.
+In deze functie wordt de positie van de cache en de speler gegeven aan de Vector3D om de afstand tussen de speler en cache te berekenen.
+
+
+```
+const cachePosition = document.getElementById("rig").object3D.position;
+const playerPosition = document.getElementById("cache").object3D.position;
+
+const result = new Vector3D(
+	cachePosition.x - playerPosition.x,
+	cachePosition.y - playerPosition.y,
+	cachePosition.z - playerPosition.z
+);
+
+pulse = 1300 - result.magnitude() * 65;
+	if (pulse > 0) {
+		this.el.components.haptics.pulse(0.5, pulse);
+	}
+```
+Met de antwoord van de Vector3D berekening wordt de pusle berekend en daarna wordt het pulse gebruikt om de duratie van de vibratie te bepalen dus hoe groter de afstand hoe langer de vibratie.
+
 
 ### Deelconclusie
-In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
+In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, geluid was al ingebouwd en makkelijk aanpasbaar.
+Je kan ook aparte componenten importeren bijvorbeeld aframe-haptics-component en veel anderen.
+Dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
 
 ## Wat is toegankelijkheid? (Jaimie)
 
