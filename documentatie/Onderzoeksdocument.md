@@ -352,30 +352,59 @@ Na deze vergelijking geven wij het advies om gebruik te maken van de eigen versi
 ([Geocachen.nl](https://geocachen.nl) 2022)<br>
 ([Aframe.io](https://aframe.io/) 2022)
 
-## Wat is een visuele beperking? (Samy)
+## Hoe maak je een virtual reality wereld in aframe? (Samy)
 
-### Aanpak
-Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
-### Resultaten
-Er bestaan veel verschillende beperkingen, maar de beperking die bij onze doelgroep het meest voorkomt is slechtziend en blindheid. Bij het opzoeken van wat visuele beperking precies inhoudt, komt je vier verschillende soorten visuele beperkingen tegen.
+Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [Literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meest gebruikte tool vergelijken en kijken welke het meest geschikt is voor ons project.
 
-- **Kleurenblind** <br/>
-Mensen die kleurenblind zijn, hebben problemen met het onderscheiden van verschillen tussen kleuren en soms het ontbreken van kleurwaarneming. Dus kleurenblindheid is eigenlijk een verkeerde naam. Daarom wordt vaak de term kleurenzienstoornis gebruikt, want blind in kleuren zijn ze niet. Kleurenblindheid komt veel voor. 8% van de mannen in Nederland lijdt aan enige vorm van kleurenblindheid. Bij vrouwen ligt het cijfer veel lager: 0,5%. Kleurenblindheid is genetisch gerelateerd aan seks. Dit betekent dat het kind het via de moeder van de grootvader kan erven. Oorzaak kleurenblind zijn is dat er een fout zit in de kegeltjes (kleine cellen op het netvlies). Deze kegeltjes schakelen niet goed, waardoor je de kleuren niet ziet zoals ze in werkelijkheid zijn. Kleurenblindheid is niet te genezen.
+In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de 3D-modellen in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
 
-- **Slechtziend** <br/>
-Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen. De meest voorkomende oorzaken van slechtziendheid zijn maculadegeneratie, diabetische retinopathie en glaucoom.
+|                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **glTF** |
+|---------------------------|-------------|-----------|-----------|-------------------|------------------|----------|
+| 1) **Adobe Substance 3D** | Ja          | Ja        | Ja        | €48,39/pm         | Gemiddeld        | Ja       |
+| 2) **Maya**               | Ja          | Ja        | Ja        | €279/pm           | Moeilijk         | Ja       |
+| 3) **Houdini**            | Ja          | Ja        | Ja        | €1986,69 eenmalig | Moeilijk         | Ja       |
+| 4) **Autodesk 3DS MAX**   | Ja          | Ja        | Ja        | €279/pm           | Gemiddeld        | Ja       |
+| 5) **Modo**               | Ja          | Ja        | Ja        | €63/pm            | Moeilijk         | Ja       |
+| 6) **ZBrush**             | Ja          | Ja        | Ja        | €32,69/pm         | Gemiddeld        | Nee      |
+| 8) **Adobe Dimension**    | Ja          | Ja        | Ja        | €81,66/pm         | Makkelijk        | Ja       |
+| 9) **Blender**            | Ja          | Ja        | Ja        | Gratis            | Moeilijk         | Ja       |
+| 10) **Fusion 360**        | Ja          | Ja        | Ja        | €73/pm            | Gemiddeld        | Ja       |
 
-- **Blind** <br/>
-Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden. Blindheid kan bij geboorte al gekregen zijn of in de loop van het leven door een ziekte of ongeval.
+*Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is.*
 
-- **Doofblind** <br/>
-Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind-/slechtziendheid. Dit heeft grote invloed op hun leven, want het belemmert mensen in hun communicatie, het vergaren van informatie en bewegelijkheid. De meeste met deze aandoening kunnen nog wel wat zien horen, een klein aantal zijn compleet doof en blind. Bij het zien is hun gezichtsveld kleiner dan 30 graden, en bij het horen is er sprake van 35 decibel verlies aan gehoor. Doof blindheid kan verschillende oorzaken hebben: door syndroom van Usher, trauma, hersenvliesontsteking, ziekte, vroeggeboorte en congenitale rebellavirus.
+Wij hebben ervoor gekozen om de 3D-modellen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om glTF-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltTF-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van glTF-bestanden en kosteloos gebruik. Dus qua 3D-programma hebben wij de juiste programma gebruikt, omdat het de beste gratis 3D-programma is, die ook voor beginners is aangeraden. Met behulp van de [documentatie](https://docs.blender.org/manual/en/latest/) van [Blender](https://www.blender.org/about/) en youtube tutorial's van [Blender Guru](https://www.youtube.com/c/BlenderGuruOfficial), kan je al een heel eind komen.
 
-![Foto van tabel visuele beperking in NL](https://i.ibb.co/tcJK1g6/overzicht-visulebeperking-nl-new.png) <br/>
-*Overzicht van visuele beperking in Nederland*
+Voordat we met [Blender](https://www.blender.org/about/) aan de slag zijn gegaan hebben we ons eerst verdiept in de documentatie van [Blender](https://www.blender.org/about/). Om te beginnen moet je weten [hoe een object in blender ](https://www.raywenderlich.com/21459096-blender-tutorial-for-beginners-how-to-make-a-mushroom) gecreërd kan worden. Of je kan ervoor kiezen om gratis 3D-modellen van het internet te plukken. Zo heb je websites als [Free3D](https://free3d.com/) of [Sketchfab](https://sketchfab.com/features/free-3d-models). Als het object is gecreërd, moet het als een glTF-bestand [geëxporteerd](https://docs.blender.org/manual/en/latest/files/import_export.html ) worden, zodat je het vervolgens in een developer tool kan [importeren](https://docs.blender.org/manual/en/latest/files/import_export.html). Een belangrijk punt is, dat het geëxporteerde bestand glTF Embedded-type moet zijn en geen Binary-type.
 
-### Deelconclusie
-Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot conclusie gekomen dat het vier verschillende soorten bevat (kleurenblind, blind, slechtziend en doofblind). Alle vier hebben verschillen, maar ook overeenkomsten in oorzaken. Visueel beperkt zijn houdt in dat het zicht van een persoon enigermate beperkt is. Mensen kunnen ook gedeeltelijk beperkt zijn, dat betekent dat zij meer zien dan een volledig beperking. Ook is er naar voren gekomen dat niet alle soorten ongeneesbaar zijn, want tegen slechtziendheid is er wel een behandeling het zicht wordt gedeeltelijk verbeterd door chirurgische procedures. Aan de hand van de foto hierboven kan ik concluderen, dat kleurenblinden het meest voorkomen in Nederland.
+|                        | **Windows** | **MacOS** | **Linux** | **Prijzen**                                                    | **Beste voor**                     |
+|------------------------|-------------|-----------|-----------|----------------------------------------------------------------|------------------------------------|
+| **Visual Studio**      | Ja          | Ja        | Ja        | Volledig gratis                                                | .NET & C++                         |
+| **IntelliJ IDEA**      | Ja          | Ja        | Ja        | Community versie is gratis<br>Ultimate versie 30 dagen gratis  | Java                               |
+| **PhpStorm**           | Ja          | Ja        | Ja        | 30 dagen gratis                                                | Php                                |
+| **Visual Studio code** | Ja          | Ja        | Ja        | Gratis                                                         | HTML, Javascript, Typescript & CSS |
+| **PyCharm**            | Ja          | Ja        | Ja        | Community versie is gratis<br>Professional versie 30 dagen gratis | Python                            |
+
+*Top 5 developer tools*
+
+Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende developer tools te zien en beoordeeld op criteria. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De developer tools worden beoordeeld op basis van de volgende criteria:
+
+- Volledig kosteloos te gebruiken
+- Meeste geschikt voor front-end (HTML, Javascript, A-frame)
+
+Wij hebben gebruik gemaakt van IntelliJ IDEA, maar als we naar de tabel kijken, zou je denken dat er niet de juist keuze is gemaakt, aangezien IntelliJ meer voor back-end talen wordt gebruikt, terwijl wij met HTML en Javascript hebben gewerkt. Maar over het algemeen scoort IntelliJ IDEA beter dan Visual Studio Code op de volgende punten:
+
+- Betere code analyse-functies
+- Alles-in-een developer tool met goede basis functionaliteit zonder noodzaak veel externe plugins te installeren
+- Het refactoren van code
+
+Deze conclusies zijn gebasseerd op ander [onderzoek](https://dev.to/mokkapps/why-i-switched-from-visual-studio-code-to-jetbrains-webstorm-939) van Micheal Hoffmann. Hij laat ook in zijn onderzoek zien d.m.v afbeeldingen waarom IntelliJ IDEA toch beter scoort dan Visual Studio Code.
+
+Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebruik van te maken. Dat kan in code ongeveer zo eruit komen te zien:
+
+```
+<a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
+```
+*'assets/' is de naam van een map waarin alle glTF-bestanden zitten in ons project*
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
 
