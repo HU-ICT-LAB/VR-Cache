@@ -391,7 +391,7 @@ Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is
 * De meeste vr-headsets hebben screenreaders voor het systeem, helaas zijn deze nog niet compatibel met de games en de browser.
 * Elke applicatie heeft zijn eigen menus die meestal niet makkelijk te navigeren zijn. 
 
-Deze obstakels laten zien dat er nog weinig aandacht is besteed aan de toegankelijkheid van VR headsets, dit komt voornamelijk omdat virtual reality nog zo nieuw is binnen de gaming wereld. De schermlezers nog niet compatibel met de games zelf, vooral vanwege engines zoals Unreal en Unity. Dit is gelukkig wel aan het veranderen, zowel Unreal als Unity werken aan toegankelijkheidsfuncties waar ontwikkelaars gebruik van kunnen maken.
+Deze obstakels laten zien dat er nog weinig aandacht is besteed aan de toegankelijkheid van VR headsets, dit komt voornamelijk omdat virtual reality nog zo nieuw is binnen de gaming wereld en engines zoals Unreal en Unity nog geen toegankelijkheidsfuncties hebben. Dit is gelukkig wel aan het veranderen, zowel Unreal als Unity werken aan toegankelijkheidsfuncties waar ontwikkelaars gebruik van kunnen maken.
 
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
