@@ -407,126 +407,181 @@ Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebru
 *'assets/' is de naam van een map waarin alle glTF-bestanden zitten in ons project*
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
+Gamen is snel een van de grootste vormen van entertainment geworden in het laatste decennium. Om zoveel mogelijk mensen te includeren wordt er veel naar toegankelijkheid gekeken, maar hoe voelen mensen met een beperking zich hierover? Op dit moment zijn er naar schatting wereldwijd zo'n 1.1 miljard mensen met een visuele beperking, dit aantal groeit elk jaar. 
 
-### Aanpak
+  ```mermaid
+  pie
+    "Slechtziend [295 miljoen]" : 295091908
+    "Blindheid [43 miljoen]" : 43279994
+    "Bijziend [510 miljoen]" : 509689139
+    "Mild [258 miljoen]" : 257832316
+  ```
 
-Om erachter te komen hoe toegankelijkheid in games bijdraagt aan minder ongelijkheid gaan wij onderzoeken via een [survey](https://ictresearchmethods.nl/Survey). Om dit te onderzoeken zal er een enquête gedaan worden onder visueel beperkten die gamen, in deze enquête ligt de nadruk vooral op ongelijkheid. Dit is op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook. 
+Van deze 1.1 miljard zijn de slechtzienden en blinden samen 338 miljoen, het is lastig om nauwkeurige cijfers te vinden over hoeveel van deze personen actief gamen. Arianna Ortelli van NOVIS schat dat dit er ongeveer 23 miljoen zijn. Deze groep heeft de meeste hinder bij het gamen en is daarom onze focus voor dit project.
 
-### Resultaten
+* **Slechtziend**
 
-**Enquête "Zorgt toegankelijkheid in games voor minder ongelijkheid?".**
+  Mensen die slechtziend zijn, kunnen minder dan 30% zien of hebben een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen.
 
-De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben wij 21 antwoorden binnengekregen. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
+* **Blind**
 
-#### Heb je een beperking?
+  Mensen die blind zijn, kunnen minder dan 5% zien of hun gezichtsveld is beperkt tot minder dan 10 graden, dat noemen we ook wel maatschappelijk blind.
 
-De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
+Om te onderzoeken of er een verband is tussen ongelijkheid en toegankelijkheid is er een [survey](https://ictresearchmethods.nl/Survey) op meerdere platforms en communities geplaatst, waaronder Discord, Reddit en Facebook groepen voor visueel beperkte gamers. Uit de enquête kwam al snel naar boven dat er een wel degelijk ongelijkheid is door slechte toegankelijkheid in games.
 
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/1_Do_you_have_any_kind_of_disability.png" alt="Grafiek vraag 1"/>
-</details>
-
-#### Wat voor spellen speel je?
-
-Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/2_What_kind_of_games_do_you_play.png" alt="Grafiek vraag 2"/>
-</details>
-
-#### Waarom speel je spellen?
-
-De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
+De [enquête](https://forms.gle/og7QvZFB7WMh2ZuJ8) is gemaakt in [google formulieren](https://www.google.nl/intl/nl/forms/about/). In totaal hebben 21 personen de enquête ingevuld. De gemiddelde leeftijd van de ondervraagden was 26 jaar, daarvan was de oudste 41 en de jongste 16. 
 
 <details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/3_What_makes_you_want_to_play_a_game.png" alt="Grafiek vraag 3"/>
+  <summary>Enquête resultaten</summary>
+
+  #### Vraag 1: Heb je een beperking?
+
+  ```mermaid
+  pie showData
+    "Visually Impaired" : 8
+    "Blindness" : 8
+    "Hearing Impaired or deaf" : 3
+    "Physical disability" : 3
+    "None" : 2
+  ```
+  De twee meest gegeven antwoorden zijn visuele beperking en blindheid.
+  
+  #### Vraag 2:  Wat voor spellen speel je?
+
+  ```mermaid
+  pie showData
+    "Real-time strategy" : 5
+    "Shooters" : 5
+    "Role-playing" : 7
+    "Simulation and sports" : 4
+    "Puzzlers and party games" : 5
+    "Action-adventure" : 5
+    "Survival" : 6
+    "Platformer" : 7
+    "Sandbox" : 6
+    "Audio" : 9
+    "Horror" : 2
+  ```
+  Het meest gegeven antwoorden is audio spellen, daarna platformer en role-playing.
+
+  #### Vraag 3:  Waarom speel je spellen?
+
+  ```mermaid
+  pie showData
+    "Relaxation" : 12
+    "Boredom" : 12
+    "Competency" : 4
+    "Playing with friends" : 12
+    "Making friends" : 2
+  ```
+  De drie meest gegeven antwoorden zijn "Om te relaxen", "Uit verveling" en "Spelen met vrienden".
+
+  #### Vraag 4:  Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 9
+    "Eens" : 9
+    "Neutraal" : 0
+    "Oneens" : 2
+    "Helemaal oneens" : 1
+  ```
+  De meerderheid is het hier mee eens.
+
+  #### Vraag 5:  Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 7
+    "Eens" : 9
+    "Neutraal" : 3
+    "Oneens" : 1
+    "Helemaal oneens" : 1
+  ```
+  De meerderheid is het hier mee eens.
+
+  #### Vraag 6: Ik zou willen dat meer spellen toegankelijk waren.
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 13
+    "Eens" : 4
+    "Neutraal" : 4
+    "Oneens" : 0
+    "Helemaal oneens" : 0
+  ```
+  De meerderheid is het hier mee eens.
+
+  #### Vraag 7: Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 10
+    "Eens" : 6
+    "Neutraal" : 3
+    "Oneens" : 1
+    "Helemaal oneens" : 1
+  ```
+  De meerderheid is het hier mee eens.
+
+  #### Vraag 8: Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 6
+    "Eens" : 7
+    "Neutraal" : 3
+    "Oneens" : 4
+    "Helemaal oneens" : 1
+  ```
+  De meerderheid is het hier mee eens.
+
+  #### Vraag 9: Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 6
+    "Eens" : 8
+    "Neutraal" : 2
+    "Oneens" : 4
+    "Helemaal oneens" : 1
+  ```
+  De meerderheid is het hier mee eens.
+
+  #### Vraag 10: Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 5
+    "Eens" : 3
+    "Neutraal" : 7
+    "Oneens" : 4
+    "Helemaal oneens" : 2
+  ```
+  De meerderheid is hier neutraal over.
+
+  #### Vraag 11: Als virtual reality toegankelijk was dan zou ik het willen proberen.
+  
+  ```mermaid
+  pie showData
+    "Helemaal eens" : 14
+    "Eens" : 5
+    "Neutraal" : 0
+    "Oneens" : 1
+    "Helemaal oneens" : 1
+  ```
+  De meerderheid is het hier mee eens.
 </details>
 
-#### Wanner ik een spel niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
+Uit de enquête kwam duidelijk naar boven dat er een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de gaming community, als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Ook is negen van de tien ondervraagde enthousiast over de mogelijkheden van virtual reality, dit is te zien in de enquête bij vraag 11. Ondanks deze grote vraag kom je bij het gebruik van deze toestellen verschillende obstakels tegen, een aantal van deze als voorbeeld:
 
-De meerderheid is het hier mee eens.
+* Het aansluiten en instellen van de vr-headset is voor nu nog erg ingewikkeld.
+* De meeste vr-headsets hebben screenreaders voor het systeem, helaas zijn deze nog niet compatibel met de games en de browser.
+* Elke applicatie heeft zijn eigen menus die meestal niet makkelijk te navigeren zijn. 
 
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/4_When_I_cant_play_a_game_due_to_bad_accessiblity_this_make_me_feel_left_out.png" alt="Grafiek vraag 4"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
+Deze obstakels laten zien dat er nog weinig aandacht is besteed aan de toegankelijkheid van VR headsets, dit komt voornamelijk omdat virtual reality nog zo nieuw is binnen de gaming wereld. Er bestaan nog geen duidelijke standaarden voor toegankelijkheid binnen VR en engines zoals Unreal en Unity hebben nog geen toegankelijkheidsfuncties. Dit is gelukkig wel aan het veranderen, zowel Unreal als Unity werken aan toegankelijkheidsfuncties waar ontwikkelaars gebruik van kunnen maken. Ook bestaat de organisatie [XR Access](https://xraccess.org/) die zich inzet voor het verbeteren van de toegankelijkheid van virtual reality. 
 
-#### Wanneer mijn vrienden over spellen praten die ik niet kan spelen vanwege slechte toegankelijkheid dan voel ik mij buitengesloten.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/5_When_my_friends_talk_about_games_that_I_cant_play_due_to_bad_accessiblity_it_makes_me_feel_left_out.png" alt="Grafiek vraag 5"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Ik zou willen dat meer spellen toegankelijk waren.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/6_I_wish_more_games_would_be_accessible.png" alt="Grafiek vraag 6"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer een spel toegankelijk is voel ik mij meer geaccepteerd door de "Gaming community".
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/7_When_a_game_is_accessible_I_feel_more_included_in_the_gaming_community.png" alt="Grafiek vraag 7"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer een spel maar gedeeltelijk toegankelijk is dan speel ik het liever niet.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/8_When_a_game_is_only_partially_accessible_I_would_rather_not_play_it.png" alt="Grafiek vraag 8"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer een spel geadverteerd wordt als toegankelijk ben ik nog steeds sceptisch over de speelbaarheid.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/9_When_a_game_is_advertised_as_accessible_Im_still_doubtful_about_the_playability.png" alt="Grafiek vraag 9"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Wanneer ik spellen gekocht had die geadverteerd waren als toegankelijkheid dan was ik vaak teleurgesteld over de speelbaarheid.
-
-De meerderheid is hier neutraal over.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/10_When_I_bought_games_that_were_advertised_as_accessible_often_I_was_dissapointed_about_the_playability.png" alt="Grafiek vraag 10"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-#### Als virtual reality toegankelijk was dan zou ik het willen proberen.
-
-De meerderheid is het hier mee eens.
-
-<details>
-  <summary>Grafiek</summary><br/>
-  <img src="/docs/google_form/11_If_virtual_reality_was_accessible_I_would_like_to_try_it_out.png" alt="Grafiek vraag 11"/>
-  <p> 1 = Oneens | 5 = Eens </p>
-</details>
-
-### Deelconclusie
-Uit de enquête kwam duidelijk naar boven dat er een wel degelijk een verband is tussen ongelijkheid en toegankelijkheid. De ondervraagden geven aan dat het voor hen belangrijk is dat meer spellen toegankelijk worden, dit geeft het gevoel dat ze meer betrokken worden in de gaming community, als een spel maar gedeeltelijk toegankelijk is beginnen ze er liever niet aan. Toegankelijkheid is vaak een dwarsboom als het op gamen met vrienden aankomt, ondervraagden geven aan dat ze zich buitengesloten voelen als zij een game niet kunnen spelen en vrienden wel. Negen van de tien ondervraagden is enthousiast en wil graag de mogelijkheden van virtual reality zien.
+Dit alles bij elkaar zorgt ervoor dat virtual reality vrijwel onspeelbaar is in de huidige staat voor mensen met een visuele beperking. Al deze mensen krijgen niet de mogelijkheid gebruik te maken van deze technologieën. Dit creëert ongelijkheid, dit komt ook duidelijk naar voren in de resultaten van de enquête bij bijvoorbeeld vraag 5, 7 en 11. Hier laten de ondervraagden duidelijk weten dat toegankelijk voor hen heel belangrijk is, als deze er niet is dan voelen ze zich vaker buitengesloten.
 
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
@@ -539,6 +594,11 @@ Bij al onze tegenslagen was er één motief dat steeds terug naar boven kwam, en
 We raden aan om in plaats van A-Frame gebruik te maken van een al verder ontwikkelde engine of framework die meer functionaliteiten bevat.
 
 # Bronnen
+
+https://www.iapb.org/learn/vision-atlas/magnitude-and-projections/global/
+
+https://wireframe.raspberrypi.com/articles/seen-and-heard-making-games-for-the-visually-impaired
+
 Wat is Een Visuele Handicap? ZEISS Netherlands. (n.d.). Retrieved June 26, 2022, from https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
 
 Visuele beperking. Accessibility.nl. (n.d.). Retrieved June 26, 2022, from https://www.accessibility.nl/verschillende-beperkingen/visuele-beperking
