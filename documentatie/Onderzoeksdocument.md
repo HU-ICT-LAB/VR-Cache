@@ -57,97 +57,232 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 
 ## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)
 
-### Aanpak
-Hoe je virtual reality toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatiebron is ons contactpersoon Mike, hij heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames, zodat we dit kunnen toepassen in virtual reality. Onze tweede informatiebron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
+Om deze vraag te beantwoorden begint ons onderzoek bij ons contactpersoon Mike, hij heeft een visuele beperking en interesse in videogames.
+Door middel van een [interview](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat
+slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames, zodat we dit kunnen toepassen in virtual
+reality. 
 
-### Resultaten
+Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
+
 <details>
   <summary>Interview met Mike</summary>
-  Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
 
-  #### Interview:
+##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
 
-  ##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
-  - Horizon Zero Dawn
-  - The Last Of Us II
-  - [Swamp](https://www.youtube.com/watch?v=4YVvvPGKsA0)
-  - [AudioGames.net](https://audiogames.net/list-games/)
+- Horizon Zero Dawn
+- The Last Of Us II
+- [Swamp](https://www.youtube.com/watch?v=4YVvvPGKsA0)
+- [AudioGames.net](https://audiogames.net/list-games/)
 
-  Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. De eerste manier is als de game gericht is op inclusiviteit dit betekent dat de game  gedeeltelijk te spelen is voor visueel beperkte, maar dat er sommige punten zijn die worden overgeslagen of de speler wordt geholpen. De tweede manier is als een      game op toegankelijkheid is gericht, dit betekent dat de game in zijn volledigheid te spelen is door iemand met een visuele beperking.
+Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. De eerste manier is als de game gericht
+is op inclusiviteit dit betekent dat de game gedeeltelijk te spelen is voor visueel beperkte, maar dat er sommige punten
+zijn die worden overgeslagen of de speler wordt geholpen. De tweede manier is als een game op toegankelijkheid is
+gericht, dit betekent dat de game in zijn volledigheid te spelen is door iemand met een visuele beperking.
 
+##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
 
-  ##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
-  Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt alsof je op hout klopt.
+Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt
+alsof je op hout klopt.
 
-  ##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
-  Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede kant op kijkt.
+##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
 
-  ##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
-  Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan loopt.
+Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld
+van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede
+kant op kijkt.
 
-  ##### *Wat maakt een menu goed of slecht?*
-  Het is belangrijk om het menu goed te ordenen en een goede logische plaatsing te hebben van de knoppen. Veel games hebben in de menu's dezelfde knop posities voor de verschillende opties, zoals dat de verdergaan knop altijd bovenaan staat. Dit zorgt er voor de een menu natuurlijk aanvoelt.
+##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
 
-  ##### *Ambient sounds, zijn ze storend of helpen ze?*
-  Ambient sounds zijn heel belangrijk voor het schetsen van de omgeving. Een tekst omschrijving van de omgeving kan ook van grote toegevoegde waarde zijn.
-  Geluid van wind als er een opening links of rechts is 
-  Geluid van takjes of grond waar je op loopt
+Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan
+loopt.
 
-  ##### *Is een tutorial handig (Interactief of tekst)?*
-  Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
+##### *Wat maakt een menu goed of slecht?*
 
-  ##### *Qua map design, wat wel en niet?*
-  Als je een bos als voorbeeld zou nemen. Dan is het erg belangrijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een tekst omschrijving van waar de speler  zich begeeft zou handig kunnen zijn. Ook is het belangrijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
+Het is belangrijk om het menu goed te ordenen en een goede logische plaatsing te hebben van de knoppen. Veel games
+hebben in de menu's dezelfde knop posities voor de verschillende opties, zoals dat de verdergaan knop altijd bovenaan
+staat. Dit zorgt er voor de een menu natuurlijk aanvoelt.
+
+##### *Ambient sounds, zijn ze storend of helpen ze?*
+
+Ambient sounds zijn heel belangrijk voor het schetsen van de omgeving. Een tekst omschrijving van de omgeving kan ook
+van grote toegevoegde waarde zijn. Geluid van wind als er een opening links of rechts is Geluid van takjes of grond waar
+je op loopt
+
+##### *Is een tutorial handig (Interactief of tekst)?*
+
+Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
+
+##### *Qua map design, wat wel en niet?*
+
+Als je een bos als voorbeeld zou nemen. Dan is het erg belangrijk dat je ook daadwerkelijk merkt dat je in een bos
+staat. Een tekst omschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangrijk dat de
+correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je
+hoort kraken als je erop loopt.
 </details>
+
+Na het interview hebben we ook community research geraadpleegd, hiermee hebben we gekeken naar wat er allemaal voor mogelijkheden er nog meer bestaan om deze problemen aan te pakken.
+
+In de game accessibility(IGDA-GASIG) groep op discord werd ons door een member
+een [pagina](https://whitethorngames.com/accessibility) doorgestuurd van de indie game
+uitgever [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game uitgever is om
+games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op
+de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke
+strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de
+game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen
+lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en
+niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig
+zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
+
+*(Whitethorn Games, 2022)*  
+
+Met het interview van Mike en de [pagina](https://whitethorngames.com/accessibility)
+van [Whitethorn Games](https://whitethorngames.com/#about-1-section) als referentiepunt hebben wij zelf een lijst
+gemaakt van opties die de accessibility zouden kunnen verbeteren in ons eigen spel.
+
+| Optie | Onderbouwing | Beperking |
+|-------|--------------|:---------:|
+| Herpositionering van alle buttons mogelijk maken.| Dit kan behulpzaam zijn voor spelers die bijvoorbeeld een hand missen om ze de vrijheid te geven hoe ze zelf het liefst spelen.| Lichaamelijk |
+| De cache een herkenbaar opvallend geluid geven. | Voor blinde spelers kan dit behulpzaam zijn door ze een duidelijk leidend geluid te geven waar ze naar toe moeten gaan.| Blind of slechtziend |
+| Omgevings geluiden toepassen. | Visueel beperkte spelers zouden via de geluiden kunnen opvatten waar ze zich begeven zoals rijdende auto's of wind die door de bomen gaat.| Blind of slechtziend |
+| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Dit helpt blinde spelers om ze te laten weten wat ze vast hebben of aanraken in het spel.| Blind of slechtziend |
+| Een geluid toepassen als je ergens tegen aan loopt. | Als een blinde speler tegen een muur aan loopt en niet meer verder kan is het handig om hem te laten weten dat hij niet meer door kan lopen.| Blind of slechtziend |
+| Een geluid toepassen als je richting de cache kijkt. | Door een klein geluidje af te spelen als de blinde speler de goede kant op kijkt weet hij gelijk waar hij heen zal moeten gaan. | Blind of slechtziend |
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | De blinde speler hoeft hierdoor minder bang te zijn dat die tegen iets aanloopt in de echte wereld, omdat hij dan een waarschuwing krijgt als die te ver weg loopt.| Blind of slechtziend |
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Als de blinde speler dicht bij de wereld border komt is het handig om hem te informeren dat hij terug moet gaan. | Blind of slechtziend |
+| Een verteller toepassen in het menu. | Dit kan blinde spelers helpen om het menu makkelijker te navigeren door te op te lezen wat ze selecteren. | Blind of slechtziend |
+| Een verteller toepassen in het spel. | Door op te lezen waar blinde spelers naar kijken in het spel hebben ze een beter beeld van waar ze zich begeven. | Blind of slechtziend |
+| Het volume harder en zachter kunnen zetten. | Als een speler minder goed kan horen zou hij het geluid harder kunnen zetten.| Slechthorend |
+| Geluiden apart van elkaar harder of zachter zetten. | Blinde spelers zouden hierdoor de belangrijkere geluiden harder kunnen zetten. | Blind of slechtziend |
+| Ondertiteling toepassen. | Als een speler doof is kan die nog steeds geinformeerd worden over het spel.| Doof of slechthorend |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Dit kan de blinde speler een indicatie geven of hij de goede kant op loopt als hij de vibratie harder voelt worden. | Blind of slechtziend | 
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Dit kan de blinde speler een indicatie geven dat hij een andere richting op moet lopen als hij de vibratie voelt. | Blind of slechtziend | 
+| Een vibratie geven als je ergens tegenaan loopt. | Door de vibratie weten blinde spelers of ze ergens tegen aan zijn gelopen of niet meer door kunnen lopen.| Blind of slechtziend |
+| Een vibratie geven als je iets aanraakt in het spel. | Dit kan een realistich effect geven aan blinde mensen omdat ze dan kunnen voelen of ze iets aanraken in het spel. | Blind of slechtziend |
+| Een tutorial aan het begin van het spel. | Dit helpt de speler om de besturing onder de knie te krijgen en het spel beter te snappen. | Voor iedereen |
+
+In ons onderzoek focussen we ons op blinde en slechtziende spelers. Met deze reden negeren wij we de opties die niet
+gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven opties waar we kijken of het mogelijk is om deze opties te implementeren in ons project.
+
+| Optie | Implementatie mogelijkheid | Onderbouwing | Onderzoeksmethode |
+|-------|:--------------------------:|--------------|:-----------------:|
+| De cache een herkenbaar opvallend geluid geven. | Ja | A-frame biedt de mogelijk om geluiden vast te zetten aan objecten. | Document analysis |
+| Omgevings geluiden toepassen. | Ja | A-frame ondersteund het gerbuik van geluiden | Document analysis |
+| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Nee | Objecten oppakken en bewegen is nog gelimiteerd in aframe. door objecten op te pakken zou je wel de positie kunnen veranderen maar niet de rotatie.| literature research | 
+| Een geluid toepassen als je ergens tegen aan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
+| Een geluid toepassen als je richting de cache kijkt. | Nee | A-frame biedt op dit moment geen mogelijkheid om te kunnen kijken wat er binnen het gezichtsveld van de speler bevindt. | Document analysis |
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | Nee | Er is geen mogelijkheid om de data op te kunnen halen van de Oculus Guardian via A-Frame.| literature research | 
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object. | Document analysis |
+| Een verteller toepassen in het menu. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
+| Een verteller toepassen in het spel. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
+| Geluiden apart van elkaar harder of zachter zetten. | Ja | Elk geluid in A-frame kan apart harde of zachter gezet worden.| Document analysis |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object.| Document analysis |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object.| Document analysis |
+| Een vibratie geven als je ergens tegenaan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
+| Een vibratie geven als je iets aanraakt in het spel. | Ja | Met de ingebouwde richter van A-frame zou je kunnen bepalen wanneer die door een object heen gaat. | Document analysis | 
+| Een tutorial aan het begin van het spel. | Ja | Met een oplezende stem zou je de speler kunnen informeren over het spel, en zelfs met toepassing van events zou je de controls langs kunnen gaan. | Document analysis |
+
+Omdat het uitzoeken van de implementatie mogelijkheid bij elke optie veel tijd kostte. is het ons niet gelukt om elke optie toe te passen in de code. hieronder zie je een tabel met een overzicht van welke opties wel en niet toegepast zijn.
+
+| Optie | Toegepast in code|
+|-------|:----------------:|
+| De cache een herkenbaar opvallend geluid geven. |Ja|
+| Omgevings geluiden toepassen. |Ja|
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. |Nee|
+| Een verteller toepassen in het menu. |Nee|
+| Een verteller toepassen in het spel. |Ja|
+| Geluiden apart van elkaar harder of zachter zetten. |Nee|
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. |Ja|
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. |Nee|
+| Een vibratie geven als je iets aanraakt in het spel. |Ja|
+| Een tutorial aan het begin van het spel. |Nee|
+
+Nu we de opties gerealiseerd hebben, willen we er achter komen hoeveel impact deze hebben op de speelervaring van de gebruiker. We hebben onze proefpersonen, Mike en Nicolien, een aantal versies van het spel laten spelen. Elke versie heeft een unieke toepassing van één of meerdere opties.
+
+### Nicolien
+
+Nicolien is een vriendin van Mike, en ze is onderdeel van het panel binnen Stichting Accessibility. Ze heeft last van
+een tunnel visie, dit betekent dat ze alleen goed zicht heeft op het midden van haar gezichtsveld. Op het gebied van
+virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. 
 
 <details>
   <summary>Testen met Nicolien</summary>
   
-  Nicolien is een vriendin van Mike, en ze is onderdeel van het panel binnen Stichting Accessibility. Ze heeft last van een tunnel visie, dit betekent dat ze alleen     goed zicht heeft op het midden van haar gezichtsveld. Op het gebied van virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. We hebben haar een aantal opties gegeven tijdens de test:
-  
-  ##### *Optie 1: automatisch uitlezen van objecten*
-  Tijdens de eerste test run had ze nog een beetje moeite met de besturing van de game, desondanks had ze wel al een paar opmerkingen over het spel. Door het automatisch oplezen had ze het gevoel alsof ze overladen werd met informatie. 
-  
-  ##### *Optie 2: vibratie collision en automatisch uitlezen van objecten*
-  In de tweede test run ging het al een stuk beter. Ze was erg enthousiast over de vibratie, omdat ze echt het gevoel kreeg dat ze de objecten aanraakte.
-  
-  ##### *Optie 3: vibratie collision en uitlezen van objecten verbonden aan een knop*
-  Deze test run vond Nicolien het best. Ze kreeg eigenlijk het beste van optie 1 en optie 2 gecombineerd. Zelf omschreef ze dat de vibratie haar goed hielp met het navigeren, en dat ze tegelijkertijd niet overladen werd met informatie.
-  
-  ##### *Opmerkingen*
-  - Een kleine uitleg aan het begin van het spel.
-  - Geluid van de cache mag harder.
-  - De cache mag van verder weg te horen zijn.
-  
+##### *Versie 1: automatisch uitlezen van objecten*
+Tijdens de eerste test run had ze nog een beetje moeite met de besturing van de game, desondanks had ze wel al een paar
+opmerkingen over het spel. Door het automatisch oplezen had ze het gevoel alsof ze overladen werd met informatie.
+
+##### *Versie 2: vibratie collision en automatisch uitlezen van objecten*
+In de tweede test run ging het al een stuk beter. Ze was erg enthousiast over de vibratie, omdat ze echt het gevoel
+kreeg dat ze de objecten aanraakte.
+
+##### *Versie 3: vibratie collision en uitlezen van objecten verbonden aan een knop*
+Deze test run vond Nicolien het best. Ze kreeg eigenlijk het beste van optie 1 en optie 2 gecombineerd. Zelf omschreef
+ze dat de vibratie haar goed hielp met het navigeren, en dat ze tegelijkertijd niet overladen werd met informatie.
+
+##### *impact opties*
+In het tabel hieronder kijken we naar de opties en hoeveel impact ze hadden op de gameplay op een schaal van 0 tot 5. De impact is
+bepaald vanuit eigen observatie en reactie van Nicolien.
+
+|Optie| Impact| Onderbouwing |
+|-----|:-----:|--------------|
+| De cache een herkenbaar opvallend geluid geven.|5| Tijdens het zoeken van de cache zagen we dat ze het geluid van de cache als leidend middel gebruikte om te weten waar ze naartoe moest.|
+| Omgevings geluiden toepassen.|3| De omgevings geluiden gaven haar gelijk een beeld van waar ze was, maar het heeft niet veel geholpen in het vinden van de cache.|
+| Een verteller toepassen in het spel.|3| Nicolien beschreef dat de verteller erg veel informatie gaf tijdens het spelen wat meer voor verwarring zorgde. Toen we de verteller niet meer automatisch lieten oplezen was Nicolien wel iets positiever over de optie. |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent.|2| Deze functie heeft ze niet veel gebruikt waardoor het ook niet veel impact heeft gehad op haar gameplay.|
+| Een vibratie geven als je iets aanraakt in het spel.|4| Nicolien gaf aan dat ze de vibratie erg fijn vond omdat ze echt kon voelen wat om haar heen zat.|
+
+##### *Opmerkingen*
+
+- Een kleine uitleg aan het begin van het spel.
+- Geluid van de cache mag harder.
+- De cache mag van verder weg te horen zijn.
+
 </details>
+
+### Mike
+
+Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van het panel binnen Stichting Accessibility. Hij is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle versies aan Mike voorgelegd, omdat we na het testen met Nicolien er achter kwamen dat bepaalde versies verwaarloosbaar waren en anderen gecombineerd konden worden.
 
 <details>
   <summary>Testen met Mike</summary>
-  
-  Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van het panel binnen Stichting Accessibility. Hij is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle opties aan Mike voorgelegd, omdat we na het testen met Nicolien opties hadden gewijzigd of hebben weggehaald.
-  
-  ##### *Optie 1: automatisch uitlezen van objecten*
-  Bij de eerste test run had Mike net als bij Nicolien nog een beetje moeite met het oriënteren van zichzelf in de map. Met een klein beetje hulp kon hij de cache vinden. Hij vond het automatisch oplezen ook net als Nicolien te veel informatie tegelijkertijd.
-  
-  ##### *Optie 2: vibratie collision en uitlezen van objecten verbonden aan een knop*
-  Nu Mike een beeld had van het spel kon hij de cache een stuk sneller vinden, hij vond de vibratie behulpzaam. Het geluid van de cache was voor Mike wel een leidend middel om de cache te vinden.
-  
-  ##### *Opmerkingen*
-  - Meer geplaatste omgevingsgeluiden.
-  - Duidelijke aanduiding als je tegen de wereldborder aanloopt.
-  
-  
+
+##### *Versie 1: automatisch uitlezen van objecten*
+
+Bij de eerste test run had Mike net als bij Nicolien nog een beetje moeite met het oriënteren van zichzelf in de map.
+Met een klein beetje hulp kon hij de cache vinden. Hij vond het automatisch oplezen ook net als Nicolien te veel
+informatie tegelijkertijd.
+
+##### *Versie 2: vibratie collision en uitlezen van objecten verbonden aan een knop*
+
+Nu Mike een beeld had van het spel kon hij de cache een stuk sneller vinden, hij vond de vibratie behulpzaam. Het geluid
+van de cache was voor Mike wel een leidend middel om de cache te vinden.
+
+##### *impact opties*
+In het tabel hieronder kijken we naar de opties en hoeveel impact ze hadden op de gameplay op een schaal van 0 tot 5. De impact is
+bepaald vanuit eigen observatie en reactie van Mike.
+
+|Optie| Impact| Onderbouwing |
+|-----|:-----:|--------------|
+|De cache een herkenbaar opvallend geluid geven.|5| Mike was net als Nicolien er gefocust op het geluid van de cache en kon hierdoor erg snel de cache vinden.|
+|Omgevings geluiden toepassen.|2| De omgevings geluiden gaven Mike wel een beeld van waar die was, maar hij beschreef dat die niet genoeg geplaatste geluiden om zich heen had. Hierdoor kon hij het niet goed gebruiken om te bewegen door de wereld|
+|Een verteller toepassen in het spel.|2| Net als Nicolien vond Mike de verteller ook te veel informatie geven. Het moment toen de verteller niet meer automatisch oplas werd hij ook niet meer gebruikt door Mike. |
+|Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent.|4| Mike gebruikte deze functie een stuk meer dan Nicolien en dit hielp hem wel op de momenten dat hij ver weg van de cache stond. Dit kwam omdat de vibratie een langere afstand heeft dan het geluid.|
+|Een vibratie geven als je iets aanraakt in het spel.|4| Net als Nicolien vond mike het ook fijn om zijn omgeving te kunnen voelen.|
+
+##### *Opmerkingen*
+
+- Meer geplaatste omgevingsgeluiden.
+- Duidelijke aanduiding als je tegen de wereldborder aanloopt.
+
 </details>
-  
-#### Community research:
-In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulpmiddel voor ons project. De [pagina](https://whitethorngames.com/accessibility) is van een indie game uitgever [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game uitgever is om games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
 
-### Deelconclusie
-In het interview kwam naar voren dat het belangrijk is om geluid op een functionele manier toe te passen. De voorbeelden die Mike gaf met de 3d sound van de cache en de ambient geluiden in de omgeving zijn erg belangrijk om je te kunnen oriënteren in de map. Ook kwam naar voren dat hoe dichter de geluiden bij de werkelijkheid komen hoe makkelijker het is om een beeld te schetsen van je omgeving, bijvoorbeeld dat je in een bos de wind door bomen hoort gaan en dat je vogels hoort zingen. Maar ook dat je objecten logische natuurlijke geluiden geeft om de speler te laten weten waar die mee interacteert.
+Uit het onderzoek kunnen we concluderen dat geluid het belangrijkste onderdeel is om een spel accessible te maken. In de test runs zagen we dat beide kandidaten zich het meest focuste op het positionele geluid van de cache. Ook was er een positioneel geluid van het kampvuur in het midden van de wereld. Hier konden de kandidaten gebruik van maken om er achter te komen hoe dicht ze bij het midden van de wereld stonden. Het niet positionele geluid van de vogels en de voorlezer van de objecten waren beide minder van toepassing voor de positionering. De vogels hielpen met het schetsen van een beeld van de omgeving, maar verder hadden ze geen toegevoegde waarde. Omdat de vogel geluiden geen positionele functie hadden kon de speler het niet gebruiken om zichzelf te oriënteren op de map. 
 
-Uit de testen konden we concluderen dat we op het gebied van geluiden goed onderweg waren, maar er waren wel nog een paar andere tekortkomingen. Een tutorial is erg belangrijk aan het begin van het spel zodat de speler gelijk begrijpt wat alle geluiden en knoppen betekenen, Ook moet je rekening houden met de hoeveelheid aan informatie die je geeft aan de speler. Te veel of te weinig informatie kunnen beide de speler in verwarring brengen, daarom is het belangrijk om veel te testen met de doelgroep. 
+De voorlezer van de objecten was in het begin erg fijn voor de speler. Omdat de eerste keer dat de spelers het spel speelde alle objecten nog nieuw en onbekend waren. Nadat de spelers de eerste test run hadden voltooid kwamen we tot de conclusie dat de spelers vaak dezelfde informatie hoorde omdat het automatisch voor werd gelezen. Wanneer we de spelers zelf de keuze gaven om een object voor te lezen was dit een betere ervaring. De spelers konden de functie gebruiken wanneer ze het nodig hadden en voelde zich ook minder overladen met informatie. 
 
-Verder in het onderzoek is ook naar voren gekomen dat het erg belangrijk is om de speler vrijheid te geven. Je kan wel handige functies toevoegen aan je game die je zelf erg toepasselijk vindt, maar uiteindelijk is het de speler die bepaald of de functies daadwerkelijk van toepassing zijn. Ook hebben we gezien dat in accessibility er niet alleen gedacht wordt aan de mensen met een beperking, maar dat er ook aandacht gegeven wordt aan de mensen zonder een beperking met universele functies die voor iedereen handig zijn zoals het kunnen herpositioneren van je input knoppen.
+Verder werden de vibratie opties ook positief ontvangen door de kandidaten. 
+De controller ging vibreren wanneer je iets aanraakte in het spel. Hier hebben we veel positieve feedback over ontvangen, de vibratie was ook een goede plaatsvervanger van de voorlezende stem die liet weten dat er een object was. De vibratie die harder en zachter werd hoe dichter je bij de cache kwam werd soms vergeten door de kandidaten. Dit kwam omdat ze zich meer focuste op het geluid van de cache. Toch heeft het geholpen wanneer de speler ten einde raad was. Het werd meer gebruikt als een laatste hulpmiddel. 
+
+Dus hoe maak je virtual reality accessible? Om het samen te vatten kan je in de resultaten terug zien dat positioneel geluid het allerbelangrijkst is. Hierdoor kan de speler zichzelf door de map oriënteren. Vibratie is hierbij een goed hulpmiddel. Uit onze testen kwam naar voren dat de vibratie een secundaire waarde heeft tegenover het positionerende geluid. De vibratie geeft te weinig context aan de speler, het geluid is de primaire bron voor de speler om zich te positioneren. Losstaand is vibratie niet geschikt voor het bepalen van positionering op de map. Wanneer je de vibratie combineert met het geluid is het nuttige feedback voor de speler en zo maak je virtual reality meer accessible.
 
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
