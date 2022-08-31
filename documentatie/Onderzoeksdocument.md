@@ -151,14 +151,14 @@ Verder in het onderzoek is ook naar voren gekomen dat het erg belangrijk is om d
 
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
-### Aanpak
+
 Om te leren hoe je een virtual reality spel kan maken op basis van A-Frame hebben we besloten om twee onderzoeksmethodes te gebruiken. De eerste is [literature study](https://ictresearchmethods.nl/Literature_study). Op de website van A-Frame staat de documentatie die we kunnen gebruiken om A-Frame goed te kunnen begrijpen.
 
 Ook kunnen we Stackoverflow raadplegen voor meer specifieke vragen die we zullen hebben. De tweede onderzoeksmethode die zeker belangrijk is voor ons is [best good and bad practices](https://ictresearchmethods.nl/Best_good_and_bad_practices), dit betekent namelijk dat wij gaan kijken hoe andere projecten bepaalde functionaliteiten op een goede manier hebben toegepast, daarna kunnen wij die ook toepassen in ons project. A-Frame is een nieuw concept voor ons, dus als we kunnen gebruiken wat anderen al hebben ontdekt zou dat ideaal zijn.
 
-### Resultaten
+
 Met ons onderzoek hebben we het volgende gevonden: <br>
-#### De map
+### De map
 In onze map hebben we boomstammen, bomen, kaart randen, een cache die in deze spel in de vorm van een klein kist komt en een kampvuur.
 We hebben gebruikt gemaakt van [gltf](https://www.khronos.org/gltf/) bestanden om deze objecten in de map te krijgen. Wij hebben de hele map in [Blender](https://www.blender.org/about/) gemaakt, wij hebben de gltf bestanden van de objecten in Blender geïmporteerd, alles behalve de cache op een positie gezet en opgeslagen dus onze hele map is 1 gltf bestand zoals u hier kunt zien: <br>    ```<a-entity id="world" gltf-model="assets/world.gltf" scale="0.3 0.3 0.3"></a-entity>```
 
@@ -185,7 +185,7 @@ Omdat de raycaster alleen met [primitieve objecten](https://aframe.io/docs/1.3.0
 ``` 
 <a-cylinder class="interactable" id="tree29" tree position="28.5246 0 -32.9995"></a-cylinder> 
 ``` 
-#### Interactie met de cache
+### Interactie met de cache
 De doel van de spel is om de cache te vinden daarvoor moesten wij een manier bedenken waarbij je met de cache kan interacteren.
 Je moet wel binnen een bepaalde afstand van de cache zijn om met de cache te kunnen inerageren en daarvoor hebben wij de klasse "Vector3D" in deze klasse kan de afstand tussen de speler en een bepaalde positie berekend worden als de positie van de cache in deze klasse meegegeven wordt kunnen wij de afstand tussen de speler en de cache weten.
 En nu dat we het afstand van de cache en de speler kan weten kunnen wij dit berekening doen wanneer een bepaalde knop ingedrukt wordt en dit doen we in het interact methode van het "keyboard-input-handler.js" file.
@@ -210,7 +210,7 @@ if (e.key === "e") {
 
 Zoals u in de code voorbeeld kunt zien als de knop "e" gedrukt wordt, wordt de positie van de speler en de cache meegegeven aan de Vector3D daarna wordt er gecontroleerd als de uitkomst van de berekening gelijk aan 3 of minder dan 3 is, als dat waar is heb je een succesvol interactie gehad met de cache en je wordt naar een andere pagina gestuurd.
 
-#### Geluid
+### Geluid
 Voor de geluid in de spel hebben wij [MP3](https://nl.wikipedia.org/wiki/MP3#:~:text=MP3%20-%20Wikipedia%20MP3%20MP3%20%28officieel%20MPEG-1%20Audio,Group%29%20uit%201992%2C%20waarvan%20implementaties%20bestaan%20sinds%201994.) files van de benodigde geluiden gedownload en in de project gezet.
 In deze project hebben wij geluid gebruikt in de volgende manieren:
 1. Om de object de object die met de [raycaster](https://github.com/aframevr/aframe/blob/master/docs/components/raycaster.md) botst te benoemen. Er is voor iedere object een mp3 file waarin de naam van de object uitgesproken wordt. How we dit hebben geregeld is als de raycaster een botsing heeft met een object wordt een event gegooid genaamd "raycaster-intersected", elke object heeft een event listener die naar de genoemde event luistert, in de event listener wordt de naam van die object opgeslagen in de [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage), de volgende is een code voorbeeld van de tree.js file.
@@ -292,7 +292,7 @@ if (this.walking && !this.alreadyWalking) {
       } 
 ``` 
 Als de speler aan het lopen is en als het geluid niet al gespeeld werd wordt het lopen geluid afgespeeld anders niet.
-#### Vibratie
+### Vibratie
 Om vibratie in de spel te hebben wij [aframe-haptics-component](https://www.npmjs.com/package/aframe-haptics-component) geimporteerd.
 Met hulp van het aframe haptics component kunnen we de volgende stuk code runnen en vibratie krijgen bij de controller: <br>
 ``` 
@@ -301,7 +301,7 @@ this.el.components.haptics.pulse(force, duration);
 
 Deze vibratie was zeer hulpvaardig in het aantonen van een botsing tussen de raycaster en een andere object en onze sonar functie.
 
-##### Sonar
+#### Sonar
 Deze functionaliteit was bedacht met de bedoeling om de user een indicatie te geven van de afstand tussen de speler en de cache in de vorm van vibratie.
 In deze functie wordt de positie van de cache en de speler gegeven aan de Vector3D om de afstand tussen de speler en cache te berekenen.
 
@@ -323,11 +323,11 @@ pulse = 1300 - result.magnitude() * 65;
 ``` 
 Met de antwoord van de Vector3D berekening wordt de pulse berekend en daarna wordt het pulse gebruikt om de tijdsduur van de vibratie te bepalen dus hoe groter de afstand hoe langer de vibratie.
 
-#### Hosting
+### Hosting
 Om een applicatie op de internet te hebben moet het natuurlijk ook gehost worden. Voor de [hosting](https://www.techopedia.com/definition/29023/web-hosting) hebben wij gekozen voor [Github Pages](https://pages.github.com/). Github Pages is van [Github](https://github.com/) zelf, is gratis en makkelijk om te gebruiken.
 Omdat wij github gebruikt voor de versiebeheer van onze applicatie heeft github onze code al dus als wij later iets pusht wordt de gehoste applicatie meteen bijgewerkt.
 
-### Deelconclusie
+
 In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, geluid was al ingebouwd en makkelijk aanpasbaar.
 Je kan ook aparte componenten importeren bijvorbeeld aframe-haptics-component en veel anderen.
 Dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
