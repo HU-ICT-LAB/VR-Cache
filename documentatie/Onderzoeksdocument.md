@@ -13,7 +13,7 @@
 7. [Deelvragen](#deelvragen)<br/>
 ㅤㅤ7.1. [Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking-robert)<br/>
 ㅤㅤ7.2. [Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)](#hoe-ontwikkel-je-een-virtual-reality-game-in-de-browser-door-middel-van-a-frame-misher)<br/>
-ㅤㅤ7.3. [Wat is toegankelijkheid? (Jaimie)](#wat-is-toegankelijkheid-jaimie)<br/>
+ㅤㅤ7.3. [Welke vorm van geocaching is het best te gebruiken in een virtual reality spel voor mensen met een visuele beperking? (Jaimie)](#welke-vorm-van-geocaching-is-het-best-te-gebruiken-in-een-virtual-reality-spel-voor-mensen-met-een-visuele-beperking-jaimie)<br/>
 ㅤㅤ7.4. [Wat is een visuele beperking? (Samy)](#wat-is-een-visuele-beperking-samy)<br/>
 ㅤㅤ7.5. [Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden? (Thomas)](#op-welke-manier-draagt-toegankelijkheid-in-games-bij-aan-minder-ongelijkheid-thomas)
 8. [Conclusie](#conclusie)
@@ -57,97 +57,232 @@ Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkele
 
 ## Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)
 
-### Aanpak
-Hoe je virtual reality toegankelijk maakt voor mensen met een visuele beperking kunnen we op twee manieren onderzoeken. Onze eerste informatiebron is ons contactpersoon Mike, hij heeft zelf een visuele beperking en interesse in videogames. Door middel van [interviews](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames, zodat we dit kunnen toepassen in virtual reality. Onze tweede informatiebron zal door middel van [community research](https://ictresearchmethods.nl/Community_research) zijn. Er zijn veel communities op het internet die ervaring hebben op het gebied van visueel beperkte videogames, zij kunnen helpen het perspectief wat we met Mike hebben te verbreden naar een grotere doelgroep.
+Om deze vraag te beantwoorden begint ons onderzoek bij ons contactpersoon Mike, hij heeft een visuele beperking en interesse in videogames.
+Door middel van een [interview](https://ictresearchmethods.nl/Interview) kunnen we een goed perspectief krijgen op wat
+slechte en goede hulpmiddelen zijn voor visueel beperkte spelers in videogames, zodat we dit kunnen toepassen in virtual
+reality. 
 
-### Resultaten
+Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
+
 <details>
   <summary>Interview met Mike</summary>
-  Op 6 april hadden we onze eerste meeting met Mike. In deze meeting hebben we hem geïnterviewd over het toegankelijk maken van games.
 
-  #### Interview:
+##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
 
-  ##### *Heb je zelf een paar voorbeelden van games die goed toegankelijk zijn?*
-  - Horizon Zero Dawn
-  - The Last Of Us II
-  - [Swamp](https://www.youtube.com/watch?v=4YVvvPGKsA0)
-  - [AudioGames.net](https://audiogames.net/list-games/)
+- Horizon Zero Dawn
+- The Last Of Us II
+- [Swamp](https://www.youtube.com/watch?v=4YVvvPGKsA0)
+- [AudioGames.net](https://audiogames.net/list-games/)
 
-  Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. De eerste manier is als de game gericht is op inclusiviteit dit betekent dat de game  gedeeltelijk te spelen is voor visueel beperkte, maar dat er sommige punten zijn die worden overgeslagen of de speler wordt geholpen. De tweede manier is als een      game op toegankelijkheid is gericht, dit betekent dat de game in zijn volledigheid te spelen is door iemand met een visuele beperking.
+Er zijn eigenlijk twee manieren hoe games voor visueel beperkte worden gemaakt. De eerste manier is als de game gericht
+is op inclusiviteit dit betekent dat de game gedeeltelijk te spelen is voor visueel beperkte, maar dat er sommige punten
+zijn die worden overgeslagen of de speler wordt geholpen. De tweede manier is als een game op toegankelijkheid is
+gericht, dit betekent dat de game in zijn volledigheid te spelen is door iemand met een visuele beperking.
 
+##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
 
-  ##### *Hoe maak je geluiden duidelijk en onderscheidbaar?*
-  Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt alsof je op hout klopt.
+Zorg ervoor dat objecten een realistisch natuurlijk geluid hebben, zoals als je op hout klopt dat het ook echt klinkt
+alsof je op hout klopt.
 
-  ##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
-  Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede kant op kijkt.
+##### *In de game is er een kompas, hoe maak je die het beste toegankelijk?*
 
-  ##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
-  Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan loopt.
+Het liefst zou je willen dat je iets van een knop ingedrukt houdt die ervoor zorgt dat er een 3D sound wordt afgespeeld
+van waar de cache zich bevindt. Als alternatief zou je ook kunnen toepassen dat er een geluid afspeelt als je de goede
+kant op kijkt.
 
-  ##### *Wat maakt een menu goed of slecht?*
-  Het is belangrijk om het menu goed te ordenen en een goede logische plaatsing te hebben van de knoppen. Veel games hebben in de menu's dezelfde knop posities voor de verschillende opties, zoals dat de verdergaan knop altijd bovenaan staat. Dit zorgt er voor de een menu natuurlijk aanvoelt.
+##### *Hoe zou het aangegeven moeten worden als je tegen een muur aanloopt?*
 
-  ##### *Ambient sounds, zijn ze storend of helpen ze?*
-  Ambient sounds zijn heel belangrijk voor het schetsen van de omgeving. Een tekst omschrijving van de omgeving kan ook van grote toegevoegde waarde zijn.
-  Geluid van wind als er een opening links of rechts is 
-  Geluid van takjes of grond waar je op loopt
+Je zou dan net zoals eerder beschreven een natuurlijk bonk geluid moeten horen van het materiaal waar je tegen aan
+loopt.
 
-  ##### *Is een tutorial handig (Interactief of tekst)?*
-  Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
+##### *Wat maakt een menu goed of slecht?*
 
-  ##### *Qua map design, wat wel en niet?*
-  Als je een bos als voorbeeld zou nemen. Dan is het erg belangrijk dat je ook daadwerkelijk merkt dat je in een bos staat. Een tekst omschrijving van waar de speler  zich begeeft zou handig kunnen zijn. Ook is het belangrijk dat de correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je hoort kraken als je erop loopt.
+Het is belangrijk om het menu goed te ordenen en een goede logische plaatsing te hebben van de knoppen. Veel games
+hebben in de menu's dezelfde knop posities voor de verschillende opties, zoals dat de verdergaan knop altijd bovenaan
+staat. Dit zorgt er voor de een menu natuurlijk aanvoelt.
+
+##### *Ambient sounds, zijn ze storend of helpen ze?*
+
+Ambient sounds zijn heel belangrijk voor het schetsen van de omgeving. Een tekst omschrijving van de omgeving kan ook
+van grote toegevoegde waarde zijn. Geluid van wind als er een opening links of rechts is Geluid van takjes of grond waar
+je op loopt
+
+##### *Is een tutorial handig (Interactief of tekst)?*
+
+Interactief is de beste manier om het spel uit te leggen, de speler kan zelf kiezen hoeveel die er mee doet.
+
+##### *Qua map design, wat wel en niet?*
+
+Als je een bos als voorbeeld zou nemen. Dan is het erg belangrijk dat je ook daadwerkelijk merkt dat je in een bos
+staat. Een tekst omschrijving van waar de speler zich begeeft zou handig kunnen zijn. Ook is het belangrijk dat de
+correcte omgevingsgeluiden toegepast worden zoals vogeltjes die zingen, wind door de bomen horen gaan en takjes die je
+hoort kraken als je erop loopt.
 </details>
+
+Na het interview hebben we ook community research geraadpleegd, hiermee hebben we gekeken naar wat er allemaal voor mogelijkheden er nog meer bestaan om deze problemen aan te pakken.
+
+In de game accessibility(IGDA-GASIG) groep op discord werd ons door een member
+een [pagina](https://whitethorngames.com/accessibility) doorgestuurd van de indie game
+uitgever [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game uitgever is om
+games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op
+de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke
+strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de
+game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen
+lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en
+niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig
+zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
+
+*(Whitethorn Games, 2022)*  
+
+Met het interview van Mike en de [pagina](https://whitethorngames.com/accessibility)
+van [Whitethorn Games](https://whitethorngames.com/#about-1-section) als referentiepunt hebben wij zelf een lijst
+gemaakt van opties die de accessibility zouden kunnen verbeteren in ons eigen spel.
+
+| Optie | Onderbouwing | Beperking |
+|-------|--------------|:---------:|
+| Herpositionering van alle buttons mogelijk maken.| Dit kan behulpzaam zijn voor spelers die bijvoorbeeld een hand missen om ze de vrijheid te geven hoe ze zelf het liefst spelen.| Lichaamelijk |
+| De cache een herkenbaar opvallend geluid geven. | Voor blinde spelers kan dit behulpzaam zijn door ze een duidelijk leidend geluid te geven waar ze naar toe moeten gaan.| Blind of slechtziend |
+| Omgevings geluiden toepassen. | Visueel beperkte spelers zouden via de geluiden kunnen opvatten waar ze zich begeven zoals rijdende auto's of wind die door de bomen gaat.| Blind of slechtziend |
+| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Dit helpt blinde spelers om ze te laten weten wat ze vast hebben of aanraken in het spel.| Blind of slechtziend |
+| Een geluid toepassen als je ergens tegen aan loopt. | Als een blinde speler tegen een muur aan loopt en niet meer verder kan is het handig om hem te laten weten dat hij niet meer door kan lopen.| Blind of slechtziend |
+| Een geluid toepassen als je richting de cache kijkt. | Door een klein geluidje af te spelen als de blinde speler de goede kant op kijkt weet hij gelijk waar hij heen zal moeten gaan. | Blind of slechtziend |
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | De blinde speler hoeft hierdoor minder bang te zijn dat die tegen iets aanloopt in de echte wereld, omdat hij dan een waarschuwing krijgt als die te ver weg loopt.| Blind of slechtziend |
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Als de blinde speler dicht bij de wereld border komt is het handig om hem te informeren dat hij terug moet gaan. | Blind of slechtziend |
+| Een verteller toepassen in het menu. | Dit kan blinde spelers helpen om het menu makkelijker te navigeren door te op te lezen wat ze selecteren. | Blind of slechtziend |
+| Een verteller toepassen in het spel. | Door op te lezen waar blinde spelers naar kijken in het spel hebben ze een beter beeld van waar ze zich begeven. | Blind of slechtziend |
+| Het volume harder en zachter kunnen zetten. | Als een speler minder goed kan horen zou hij het geluid harder kunnen zetten.| Slechthorend |
+| Geluiden apart van elkaar harder of zachter zetten. | Blinde spelers zouden hierdoor de belangrijkere geluiden harder kunnen zetten. | Blind of slechtziend |
+| Ondertiteling toepassen. | Als een speler doof is kan die nog steeds geinformeerd worden over het spel.| Doof of slechthorend |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Dit kan de blinde speler een indicatie geven of hij de goede kant op loopt als hij de vibratie harder voelt worden. | Blind of slechtziend | 
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Dit kan de blinde speler een indicatie geven dat hij een andere richting op moet lopen als hij de vibratie voelt. | Blind of slechtziend | 
+| Een vibratie geven als je ergens tegenaan loopt. | Door de vibratie weten blinde spelers of ze ergens tegen aan zijn gelopen of niet meer door kunnen lopen.| Blind of slechtziend |
+| Een vibratie geven als je iets aanraakt in het spel. | Dit kan een realistich effect geven aan blinde mensen omdat ze dan kunnen voelen of ze iets aanraken in het spel. | Blind of slechtziend |
+| Een tutorial aan het begin van het spel. | Dit helpt de speler om de besturing onder de knie te krijgen en het spel beter te snappen. | Voor iedereen |
+
+In ons onderzoek focussen we ons op blinde en slechtziende spelers. Met deze reden negeren wij we de opties die niet
+gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven opties waar we kijken of het mogelijk is om deze opties te implementeren in ons project.
+
+| Optie | Implementatie mogelijkheid | Onderbouwing | Onderzoeksmethode |
+|-------|:--------------------------:|--------------|:-----------------:|
+| De cache een herkenbaar opvallend geluid geven. | Ja | A-frame biedt de mogelijk om geluiden vast te zetten aan objecten. | Document analysis |
+| Omgevings geluiden toepassen. | Ja | A-frame ondersteund het gerbuik van geluiden | Document analysis |
+| Objecten natuurlijke geluiden geven als je met ze interacteerd. | Nee | Objecten oppakken en bewegen is nog gelimiteerd in aframe. door objecten op te pakken zou je wel de positie kunnen veranderen maar niet de rotatie.| literature research | 
+| Een geluid toepassen als je ergens tegen aan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
+| Een geluid toepassen als je richting de cache kijkt. | Nee | A-frame biedt op dit moment geen mogelijkheid om te kunnen kijken wat er binnen het gezichtsveld van de speler bevindt. | Document analysis |
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | Nee | Er is geen mogelijkheid om de data op te kunnen halen van de Oculus Guardian via A-Frame.| literature research | 
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object. | Document analysis |
+| Een verteller toepassen in het menu. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
+| Een verteller toepassen in het spel. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
+| Geluiden apart van elkaar harder of zachter zetten. | Ja | Elk geluid in A-frame kan apart harde of zachter gezet worden.| Document analysis |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object.| Document analysis |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object.| Document analysis |
+| Een vibratie geven als je ergens tegenaan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
+| Een vibratie geven als je iets aanraakt in het spel. | Ja | Met de ingebouwde richter van A-frame zou je kunnen bepalen wanneer die door een object heen gaat. | Document analysis | 
+| Een tutorial aan het begin van het spel. | Ja | Met een oplezende stem zou je de speler kunnen informeren over het spel, en zelfs met toepassing van events zou je de controls langs kunnen gaan. | Document analysis |
+
+Omdat het uitzoeken van de implementatie mogelijkheid bij elke optie veel tijd kostte. is het ons niet gelukt om elke optie toe te passen in de code. hieronder zie je een tabel met een overzicht van welke opties wel en niet toegepast zijn.
+
+| Optie | Toegepast in code|
+|-------|:----------------:|
+| De cache een herkenbaar opvallend geluid geven. |Ja|
+| Omgevings geluiden toepassen. |Ja|
+| Een geluid toepassen als je te dicht bij de wereld border in de game komt. |Nee|
+| Een verteller toepassen in het menu. |Nee|
+| Een verteller toepassen in het spel. |Ja|
+| Geluiden apart van elkaar harder of zachter zetten. |Nee|
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent. |Ja|
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de world border bent. |Nee|
+| Een vibratie geven als je iets aanraakt in het spel. |Ja|
+| Een tutorial aan het begin van het spel. |Nee|
+
+Nu we de opties gerealiseerd hebben, willen we er achter komen hoeveel impact deze hebben op de speelervaring van de gebruiker. We hebben onze proefpersonen, Mike en Nicolien, een aantal versies van het spel laten spelen. Elke versie heeft een unieke toepassing van één of meerdere opties.
+
+### Nicolien
+
+Nicolien is een vriendin van Mike, en ze is onderdeel van het panel binnen Stichting Accessibility. Ze heeft last van
+een tunnel visie, dit betekent dat ze alleen goed zicht heeft op het midden van haar gezichtsveld. Op het gebied van
+virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. 
 
 <details>
   <summary>Testen met Nicolien</summary>
   
-  Nicolien is een vriendin van Mike, en ze is onderdeel van het panel binnen Stichting Accessibility. Ze heeft last van een tunnel visie, dit betekent dat ze alleen     goed zicht heeft op het midden van haar gezichtsveld. Op het gebied van virtual reality heeft ze nog geen ervaring, dus ze was erg enthousiast om het spel uit te testen. We hebben haar een aantal opties gegeven tijdens de test:
-  
-  ##### *Optie 1: automatisch uitlezen van objecten*
-  Tijdens de eerste test run had ze nog een beetje moeite met de besturing van de game, desondanks had ze wel al een paar opmerkingen over het spel. Door het automatisch oplezen had ze het gevoel alsof ze overladen werd met informatie. 
-  
-  ##### *Optie 2: vibratie collision en automatisch uitlezen van objecten*
-  In de tweede test run ging het al een stuk beter. Ze was erg enthousiast over de vibratie, omdat ze echt het gevoel kreeg dat ze de objecten aanraakte.
-  
-  ##### *Optie 3: vibratie collision en uitlezen van objecten verbonden aan een knop*
-  Deze test run vond Nicolien het best. Ze kreeg eigenlijk het beste van optie 1 en optie 2 gecombineerd. Zelf omschreef ze dat de vibratie haar goed hielp met het navigeren, en dat ze tegelijkertijd niet overladen werd met informatie.
-  
-  ##### *Opmerkingen*
-  - Een kleine uitleg aan het begin van het spel.
-  - Geluid van de cache mag harder.
-  - De cache mag van verder weg te horen zijn.
-  
+##### *Versie 1: automatisch uitlezen van objecten*
+Tijdens de eerste test run had ze nog een beetje moeite met de besturing van de game, desondanks had ze wel al een paar
+opmerkingen over het spel. Door het automatisch oplezen had ze het gevoel alsof ze overladen werd met informatie.
+
+##### *Versie 2: vibratie collision en automatisch uitlezen van objecten*
+In de tweede test run ging het al een stuk beter. Ze was erg enthousiast over de vibratie, omdat ze echt het gevoel
+kreeg dat ze de objecten aanraakte.
+
+##### *Versie 3: vibratie collision en uitlezen van objecten verbonden aan een knop*
+Deze test run vond Nicolien het best. Ze kreeg eigenlijk het beste van optie 1 en optie 2 gecombineerd. Zelf omschreef
+ze dat de vibratie haar goed hielp met het navigeren, en dat ze tegelijkertijd niet overladen werd met informatie.
+
+##### *impact opties*
+In het tabel hieronder kijken we naar de opties en hoeveel impact ze hadden op de gameplay op een schaal van 0 tot 5. De impact is
+bepaald vanuit eigen observatie en reactie van Nicolien.
+
+|Optie| Impact| Onderbouwing |
+|-----|:-----:|--------------|
+| De cache een herkenbaar opvallend geluid geven.|5| Tijdens het zoeken van de cache zagen we dat ze het geluid van de cache als leidend middel gebruikte om te weten waar ze naartoe moest.|
+| Omgevings geluiden toepassen.|3| De omgevings geluiden gaven haar gelijk een beeld van waar ze was, maar het heeft niet veel geholpen in het vinden van de cache.|
+| Een verteller toepassen in het spel.|3| Nicolien beschreef dat de verteller erg veel informatie gaf tijdens het spelen wat meer voor verwarring zorgde. Toen we de verteller niet meer automatisch lieten oplezen was Nicolien wel iets positiever over de optie. |
+| Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent.|2| Deze functie heeft ze niet veel gebruikt waardoor het ook niet veel impact heeft gehad op haar gameplay.|
+| Een vibratie geven als je iets aanraakt in het spel.|4| Nicolien gaf aan dat ze de vibratie erg fijn vond omdat ze echt kon voelen wat om haar heen zat.|
+
+##### *Opmerkingen*
+
+- Een kleine uitleg aan het begin van het spel.
+- Geluid van de cache mag harder.
+- De cache mag van verder weg te horen zijn.
+
 </details>
+
+### Mike
+
+Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van het panel binnen Stichting Accessibility. Hij is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle versies aan Mike voorgelegd, omdat we na het testen met Nicolien er achter kwamen dat bepaalde versies verwaarloosbaar waren en anderen gecombineerd konden worden.
 
 <details>
   <summary>Testen met Mike</summary>
-  
-  Mike is ons contactpersoon in dit onderzoek, en hij is ook onderdeel van het panel binnen Stichting Accessibility. Hij is in zijn jongere jaren blind geworden. Integendeel van Nicolien heeft Mike wel al ervaring in virtual reality, ook heeft hij veel videogame ervaring met zijn eigen YouTube kanaal. We hebben niet alle opties aan Mike voorgelegd, omdat we na het testen met Nicolien opties hadden gewijzigd of hebben weggehaald.
-  
-  ##### *Optie 1: automatisch uitlezen van objecten*
-  Bij de eerste test run had Mike net als bij Nicolien nog een beetje moeite met het oriënteren van zichzelf in de map. Met een klein beetje hulp kon hij de cache vinden. Hij vond het automatisch oplezen ook net als Nicolien te veel informatie tegelijkertijd.
-  
-  ##### *Optie 2: vibratie collision en uitlezen van objecten verbonden aan een knop*
-  Nu Mike een beeld had van het spel kon hij de cache een stuk sneller vinden, hij vond de vibratie behulpzaam. Het geluid van de cache was voor Mike wel een leidend middel om de cache te vinden.
-  
-  ##### *Opmerkingen*
-  - Meer geplaatste omgevingsgeluiden.
-  - Duidelijke aanduiding als je tegen de wereldborder aanloopt.
-  
-  
+
+##### *Versie 1: automatisch uitlezen van objecten*
+
+Bij de eerste test run had Mike net als bij Nicolien nog een beetje moeite met het oriënteren van zichzelf in de map.
+Met een klein beetje hulp kon hij de cache vinden. Hij vond het automatisch oplezen ook net als Nicolien te veel
+informatie tegelijkertijd.
+
+##### *Versie 2: vibratie collision en uitlezen van objecten verbonden aan een knop*
+
+Nu Mike een beeld had van het spel kon hij de cache een stuk sneller vinden, hij vond de vibratie behulpzaam. Het geluid
+van de cache was voor Mike wel een leidend middel om de cache te vinden.
+
+##### *impact opties*
+In het tabel hieronder kijken we naar de opties en hoeveel impact ze hadden op de gameplay op een schaal van 0 tot 5. De impact is
+bepaald vanuit eigen observatie en reactie van Mike.
+
+|Optie| Impact| Onderbouwing |
+|-----|:-----:|--------------|
+|De cache een herkenbaar opvallend geluid geven.|5| Mike was net als Nicolien er gefocust op het geluid van de cache en kon hierdoor erg snel de cache vinden.|
+|Omgevings geluiden toepassen.|2| De omgevings geluiden gaven Mike wel een beeld van waar die was, maar hij beschreef dat die niet genoeg geplaatste geluiden om zich heen had. Hierdoor kon hij het niet goed gebruiken om te bewegen door de wereld|
+|Een verteller toepassen in het spel.|2| Net als Nicolien vond Mike de verteller ook te veel informatie geven. Het moment toen de verteller niet meer automatisch oplas werd hij ook niet meer gebruikt door Mike. |
+|Een zachtere of hardere vibratie geven hoe verder of dichterbij je bij de cache bent.|4| Mike gebruikte deze functie een stuk meer dan Nicolien en dit hielp hem wel op de momenten dat hij ver weg van de cache stond. Dit kwam omdat de vibratie een langere afstand heeft dan het geluid.|
+|Een vibratie geven als je iets aanraakt in het spel.|4| Net als Nicolien vond mike het ook fijn om zijn omgeving te kunnen voelen.|
+
+##### *Opmerkingen*
+
+- Meer geplaatste omgevingsgeluiden.
+- Duidelijke aanduiding als je tegen de wereldborder aanloopt.
+
 </details>
-  
-#### Community research:
-In de game accessibility(IGDA-GASIG) groep op discord werd ons door een van de members een [pagina](https://whitethorngames.com/accessibility) doorgestuurd als hulpmiddel voor ons project. De [pagina](https://whitethorngames.com/accessibility) is van een indie game uitgever [Whitethorn Games](https://whitethorngames.com/#about-1-section). Hun doel als een indie game uitgever is om games te maken die simpel zijn en gespeeld kunnen worden door iedereen. Op de [pagina](https://whitethorngames.com/accessibility) die ons was doorgestuurd werd uitgebreid uitgelegd welke strategieën ze hebben gebruikt om hun games accesible te maken. Om een voorbeeld te geven hebben ze in de game [APICO](https://whitethorngames.com/apico) een functie toegevoegd die de optie geeft om door bomen heen te kunnen lopen in het spel, waardoor je geen rekening meer hoeft te houden of de speler ergens achter zou kunnen blijven haken en niet meer zou kunnen bewegen. Ook hebben ze aan functies gedacht die niet alleen voor mensen met een beperking handig zijn maar voor iedereen, zoals de functie dat je elke button kan herpositioneren op een andere button.
 
-### Deelconclusie
-In het interview kwam naar voren dat het belangrijk is om geluid op een functionele manier toe te passen. De voorbeelden die Mike gaf met de 3d sound van de cache en de ambient geluiden in de omgeving zijn erg belangrijk om je te kunnen oriënteren in de map. Ook kwam naar voren dat hoe dichter de geluiden bij de werkelijkheid komen hoe makkelijker het is om een beeld te schetsen van je omgeving, bijvoorbeeld dat je in een bos de wind door bomen hoort gaan en dat je vogels hoort zingen. Maar ook dat je objecten logische natuurlijke geluiden geeft om de speler te laten weten waar die mee interacteert.
+Uit het onderzoek kunnen we concluderen dat geluid het belangrijkste onderdeel is om een spel accessible te maken. In de test runs zagen we dat beide kandidaten zich het meest focuste op het positionele geluid van de cache. Ook was er een positioneel geluid van het kampvuur in het midden van de wereld. Hier konden de kandidaten gebruik van maken om er achter te komen hoe dicht ze bij het midden van de wereld stonden. Het niet positionele geluid van de vogels en de voorlezer van de objecten waren beide minder van toepassing voor de positionering. De vogels hielpen met het schetsen van een beeld van de omgeving, maar verder hadden ze geen toegevoegde waarde. Omdat de vogel geluiden geen positionele functie hadden kon de speler het niet gebruiken om zichzelf te oriënteren op de map. 
 
-Uit de testen konden we concluderen dat we op het gebied van geluiden goed onderweg waren, maar er waren wel nog een paar andere tekortkomingen. Een tutorial is erg belangrijk aan het begin van het spel zodat de speler gelijk begrijpt wat alle geluiden en knoppen betekenen, Ook moet je rekening houden met de hoeveelheid aan informatie die je geeft aan de speler. Te veel of te weinig informatie kunnen beide de speler in verwarring brengen, daarom is het belangrijk om veel te testen met de doelgroep. 
+De voorlezer van de objecten was in het begin erg fijn voor de speler. Omdat de eerste keer dat de spelers het spel speelde alle objecten nog nieuw en onbekend waren. Nadat de spelers de eerste test run hadden voltooid kwamen we tot de conclusie dat de spelers vaak dezelfde informatie hoorde omdat het automatisch voor werd gelezen. Wanneer we de spelers zelf de keuze gaven om een object voor te lezen was dit een betere ervaring. De spelers konden de functie gebruiken wanneer ze het nodig hadden en voelde zich ook minder overladen met informatie. 
 
-Verder in het onderzoek is ook naar voren gekomen dat het erg belangrijk is om de speler vrijheid te geven. Je kan wel handige functies toevoegen aan je game die je zelf erg toepasselijk vindt, maar uiteindelijk is het de speler die bepaald of de functies daadwerkelijk van toepassing zijn. Ook hebben we gezien dat in accessibility er niet alleen gedacht wordt aan de mensen met een beperking, maar dat er ook aandacht gegeven wordt aan de mensen zonder een beperking met universele functies die voor iedereen handig zijn zoals het kunnen herpositioneren van je input knoppen.
+Verder werden de vibratie opties ook positief ontvangen door de kandidaten. 
+De controller ging vibreren wanneer je iets aanraakte in het spel. Hier hebben we veel positieve feedback over ontvangen, de vibratie was ook een goede plaatsvervanger van de voorlezende stem die liet weten dat er een object was. De vibratie die harder en zachter werd hoe dichter je bij de cache kwam werd soms vergeten door de kandidaten. Dit kwam omdat ze zich meer focuste op het geluid van de cache. Toch heeft het geholpen wanneer de speler ten einde raad was. Het werd meer gebruikt als een laatste hulpmiddel. 
+
+Dus hoe maak je virtual reality accessible? Om het samen te vatten kan je in de resultaten terug zien dat positioneel geluid het allerbelangrijkst is. Hierdoor kan de speler zichzelf door de map oriënteren. Vibratie is hierbij een goed hulpmiddel. Uit onze testen kwam naar voren dat de vibratie een secundaire waarde heeft tegenover het positionerende geluid. De vibratie geeft te weinig context aan de speler, het geluid is de primaire bron voor de speler om zich te positioneren. Losstaand is vibratie niet geschikt voor het bepalen van positionering op de map. Wanneer je de vibratie combineert met het geluid is het nuttige feedback voor de speler en zo maak je virtual reality meer accessible.
 
 ## Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)
 
@@ -168,57 +303,110 @@ In A-Frame is het ook mogelijk om eigen [componenten](https://aframe.io/docs/1.3
 ### Deelconclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
 
-## Wat is toegankelijkheid? (Jaimie)
+## Welke vorm van geocaching is het best te gebruiken in een virtual reality spel voor mensen met een visuele beperking? (Jaimie)
 
-### Aanpak
-Om erachter te komen hoe je een virtual reality spel toegankelijk maakt is het noodzakelijk om goed in kaart te hebben wat er precies onder die term valt en ook juist wat hier niet onder valt. Om dit te onderzoeken zal er voornamelijk [literature study](https://ictresearchmethods.nl/Literature_study) gedaan worden om goed in kaart te brengen wat deze term inhoudt. Er zijn ook verschillende organisaties die hier veel mee bezig zijn die we kunnen [interviewen](https://ictresearchmethods.nl/Expert_interview) om hier meer informatie over te vergaren.
+Er bestaan verschillende soorten van geocaching. Door middel van literature study gaan we de verschillende soorten geocaching in kaart brengen. Om erachter te komen welke van deze vormen het beste aansluit bij een virtual reality spel voor mensen met een visuele beperking gaan we de verschillende spelvormen met elkaar vergelijken op complexiteit in code, complexiteit in besturing, toegankelijkheid en ervaringen met testen.
 
-### Resultaten
-Wanneer je op zoekt gaat naar de term 'toegankelijkheid' kom je veel verschillende pagina's tegen die omschrijven wat dit precies inhoudt, ook zal je veel tegen de term 'inclusiviteit' aanlopen. Wat houden deze twee termen precies in? Bij het onderzoeken hiervan hebben we verschillende bronnen geraadpleegd die vrij te verkrijgen zijn op het internet. We hebben ook gesproken met verschillende experts in het gebied van toegankelijkheid en inclusiviteit zodat we een beter beeld konden krijgen wat deze termen nou precies inhouden.
+### Soorten caches
+Er zijn veel verschillende soorten soorten van geocaching. De 3 bekendste vormen van geocaching staan hier beschreven.
 
-Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken. De term toegankelijkheid komt voor in verschillende vormen:
+#### Traditionele cache
+Bij dit type van geocaching krijg je meteen de eindcoördinaten waar de geocache verborgen ligt. Wanneer je op de locatie aankomt van de coördinaten zal je een geocache moeten zien te vinden, hierin zal je je naam kunnen schrijven als bewijs dat je deze gevonden hebt. 
 
-**Digitale toegankelijkheid**<br/>
-Bij deze term gaat het erom dat iedereen gebruik kan maken van het internet, websites, apps, telefoons en dergelijk. Een blind persoon kan wanneer een website niet toegankelijk is deze niet navigeren. Wanneer een website digitaal toegankelijk is betekent dit dus dat iedereen deze kan navigeren ongeacht je lichaam en eventuele beperkingen.
+#### Multi cache
+Bij multi caches krijg je een coördinaat die niet direct naar de eindcache toeleidt. De bedoeling van multi caches is dat je van punt naar punt gaat op basis van coördinaten die je zal moeten verzamelen via hints die elke keer op de volgende locatie liggen. Hoeveel tussenpunten er zijn is vooraf niet bekend.
 
-**Fysieke toegankelijkheid**<br/>
-Mensen maken in het dagelijks leven gebruik van woningen, openbaar vervoer, winkels en dergelijk. Hier is waar fysieke toegankelijkheid komt kijken. Een fysiek toegankelijke winkel is bijvoorbeeld volledig ingericht dat deze te bezoeken is voor mensen met een rolstoel, zodat zij ook zelf zonder ondersteuning van anderen in deze winkel kunnen gaan winkelen. 
+#### Puzzel cache
+Een puzzel cache begint niet met coördinaten maar met een puzzel die opgelost zal moeten worden. Wanneer je de puzzel weet op te lossen zal je de coördinaten krijgen van de eindcache. Wat ook kan is dat de puzzel cache gecombineerd wordt met een multi cache, dan zal het coördinaat dat je ontvangt na het oplossen van de puzzel niet de locatie van de eindcache bevatten maar van een tussenpunt.
 
-**Sociale toegankelijkheid**<br/>
-Buiten digitale en fysieke toegankelijkheid heb je ook nog de term sociale toegankelijkheid. In Nederland alleen al hebben 1 op de 6 mensen last van laaggeletterdheid, deze mensen hebben moeite met lezen en schrijven. Wanneer een website, handleiding of dergelijk erg moeilijke woorden of zinnen gebruikt kan dit erg lastig te begrijpen zijn voor deze mensen. Hier spreken we dan over sociale toegankelijkheid. Bij sociale toegankelijkheid gaat het er om dat de juiste woorden worden gebruikt en deze ook makkelijk te begrijpen zijn.
+### Ontwikkelen van de verschillende soorten geocaches
+Tijdens het ontwikkelproces hebben we gekeken naar de verschillende vormen van geocaching en wat het beste zou aansluiten bij een virtual reality geocaching spel voor mensen met een visuele beperking ontwikkeld in A-Frame. We hebben voor de drie bovengenoemde spelvormen gekeken naar wat mogelijke manieren zouden kunnen zijn om deze te implementeren als spelvorm en welke eventuele problemen er bij komen kijken.
 
-Een andere term die vaak samen wordt gebruikt met toegankelijkheid is 'inclusiviteit'. Bij inclusiviteit houd je rekening met de diversiteit aan doelgroepen. Een digitale dienst die volledig toegankelijk is gemaakt volgens de richtlijnen betekent niet dat het voor alle doelgroepen automatisch ook toegankelijk is. Een voorbeeld hiervan is wanneer een inschrijfformulier op een website volledig is gemaakt volgens de digitale richtlijnen, maar bij de optie geslacht alleen 'Man' en 'Vrouw' weergeeft. In dit geval spreek je van een toegankelijk formulier maar niet inclusief. Om dit formulier ook inclusief te maken kan je in plaats van vragen om het geslacht ook vragen om de aanspreekvormen of je kan extra opties aanbieden waarbij de persoon een vrijere invoer kan ingeven.
+#### Traditionele cache
+Voor de traditionele cache hebben we gekeken voor een vorm waarop de speler een bepaalde coördinaat kan krijgen en naar deze kan navigeren. Aangezien het gespeeld moet kunnen worden door mensen met een visuele beperking is werken met een visueel kompas niet mogelijk. Hierop hebben we diverse alternatieven op bedacht, geprobeerd te implementeren en getest. Als eerst hebben we geprobeerd de speler te begeleiden door aan te geven in welke richting de speler gericht staat door een tekst uit te laten spreken gevolgd door de afstand wanneer er op een knop gedrukt wordt. Doordat we tegen limitaties aanliepen met text-to-speech werd het erg lastig om verschillende afstanden mee te geven aan de speler. We hebben als alternatief hierop verschillende afstanden ingesproken vast erin gezet waarbij die de afstand pakte die het dichtste bij de werkelijke afstand uitgesproken werd. Tijdens het testen van deze manier van navigatie werd al erg snel duidelijk dat het enorm lastig is om je te oriënteren via deze manier. Het implementeren van deze methode was complex en kost veel tijd om aan te passen omdat alle verschillende afstanden ingesproken moeten worden en er handmatig ingezet moeten worden. Wij raden het daarom af om de traditionele manier van geocaching en de navigatie hiervan te implementeren.
 
-### Deelconclusie
-Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke definitie van het woord 'toegankelijkheid' te vinden en dit duidelijk te onderscheiden van inclusiviteit. Toegankelijkheid houdt in dat ongeacht je lichaam, beperking of geen beperking, je gebruik kan maken van hetgeen dat je wilt gebruiken alleen dit is niet gericht op het individu. Wanneer je meer gaat kijken naar het individu heb je het dus over inclusiviteit.
+#### Multi cache
+Tijdens het ontwerpen van hoe we de multi cache gingen implementeren liepen we al direct tegen hetzelfde probleem aan van de traditionele cache en was de vraag ‘Hoe gaan we de speler laten navigeren?’ Verder lijkt ons als beste manier om de speler van punt naar punt te leiden je het beste een audiofragment kan afspelen die aangeeft dat je op een tussenpunt bent aangekomen waarna de manier van navigatie weer automatisch instelt op het volgende (eind)punt. Aangezien je bij de multi cache je tegen hetzelfde probleem met navigatie aanloopt als met de traditionele cache raden we ook deze vorm van geocaching af.
 
-## Wat is een visuele beperking? (Samy)
+#### Puzzel cache
+Bij de puzzel cache komt bovenop het probleem en complexiteit van de eerdergenoemde navigatie er nog een extra vorm van complexiteit bovenop dat er een puzzel opgelost moet worden. We hebben hiervoor onderzocht wat voor soorten digitale puzzels er al bestaan voor mensen met een visuele beperking. Tijdens dit zijn we erachter gekomen dat er nog erg weinig puzzels digitaal zijn gemaakt voor mensen met een visuele beperking, dit komt omdat je bij veel puzzelspellen een vorm van overzicht moet hebben die je niet hebt zonder zicht. Bij digitale puzzels ben je ook beperkt tot geluid en vibratie, je kan hier geen gebruik maken van de voel zintuigen waarbij je je handen kan gebruiken om erachter te komen hoe een object in elkaar zit en welke vorm dit heeft. We raden hierom ook deze vorm van geocaching af door de beperkingen die je hebt aan feedback die je terug kan geven aan de speler tijdens het spelen.
 
-### Aanpak
-Wij gaan een game maken voor mensen met een visuele beperking, maar wat is visuele beperking? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Survey](https://ictresearchmethods.nl/Survey) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de doelgroep (Mike en Nicoline) ondervragen om informatie te vergaren en proberen in te beelden hoe het is om visueel beperkt te zijn.
-### Resultaten
-Er bestaan veel verschillende beperkingen, maar de beperking die bij onze doelgroep het meest voorkomt is slechtziend en blindheid. Bij het opzoeken van wat visuele beperking precies inhoudt, komt je vier verschillende soorten visuele beperkingen tegen.
+#### Eigen spelvorm
+Wat we kunnen concluderen uit onze eigen ervaringen tijdens het ontwikkelproces is dat het ontwikkelen van de drie bekende vormen van geocaching heel erg complex zijn voor mensen die geen zicht meer hebben. Wat we ook concluderen is dat veel van deze vormen erg lastig zijn om te implementeren met A-Frame door de limitaties die je hebt met dit framework.
 
-- **Kleurenblind** <br/>
-Mensen die kleurenblind zijn, hebben problemen met het onderscheiden van verschillen tussen kleuren en soms het ontbreken van kleurwaarneming. Dus kleurenblindheid is eigenlijk een verkeerde naam. Daarom wordt vaak de term kleurenzienstoornis gebruikt, want blind in kleuren zijn ze niet. Kleurenblindheid komt veel voor. 8% van de mannen in Nederland lijdt aan enige vorm van kleurenblindheid. Bij vrouwen ligt het cijfer veel lager: 0,5%. Kleurenblindheid is genetisch gerelateerd aan seks. Dit betekent dat het kind het via de moeder van de grootvader kan erven. Oorzaak kleurenblind zijn is dat er een fout zit in de kegeltjes (kleine cellen op het netvlies). Deze kegeltjes schakelen niet goed, waardoor je de kleuren niet ziet zoals ze in werkelijkheid zijn. Kleurenblindheid is niet te genezen.
+Als alternatief hebben wij een spelvorm bedacht en ontwikkeld waarbij het meer een zoektocht wordt dan dat je moet navigeren op basis van coördinaten. De speler wordt hierbij niet in bepaalde richtingen genavigeerd maar krijgt diverse soorten feedback terug waardoor de speler zich kan oriënteren binnen de wereld waarin je aan het spelen bent. Wij hebben hiervoor in de wereld verschillende objecten toegevoegd die geluiden afgeven waardoor de speler een idee krijgt van waar die zich bevindt. Ook kan de speler gebruik maken van een ‘sonar’ functie. Deze functie activeert wanneer er een bepaalde knop ingedrukt wordt op de controller, wanneer deze ingedrukt wordt zal de controller elke 2 seconden een vibratie afgeven die 0 tot 1.8 seconden lang is. Hoe dichterbij de speler zich bevind tot de cache hoe langer de vibratie zal zijn. Wat we als laatste manier van feedback hebben toegevoegd is een blindgeleide stok, dit is een virtuele lijn die vast zit aan je controller van een beperkte lengte die de objecten scant waar je naar richt. Zodra je met de virtuele stok een object aanraak zal de controller een kleine vibratie afgeven en wanneer er op een knop wordt gedrukt zal uitgesproken worden wat dit object is.
 
-- **Slechtziend** <br/>
-Mensen die slechtziend zijn, kunnen minder dan 30% zien of heeft een gezichtsveld dat kleiner is dan 30 graden. Ze hebben een onscherp zicht, kokervisie en verlies van het centrale zien. Een normaal gezichtsveld is 140 graden. De visuele beperking kan niet worden gecorrigeerd door het dragen van een bril of contactlenzen. De meest voorkomende oorzaken van slechtziendheid zijn maculadegeneratie, diabetische retinopathie en glaucoom.
+### Vergelijking tussen de spelvormen
+Alle spelvormen kunnen we nu vergelijken op basis van onze ervaringen, dit doen we door een rangschikking te geven aan elke kolom met 'Zeer slecht/complex', 'Slecht/complex', 'Normaal', 'Goed/eenvoudig' en 'Zeer goed/eenvoudig'.
 
-- **Blind** <br/>
-Mensen die blind zijn, kunnen minder dan 5% zien, dat is ongeveer het kunnen tellen van vingers op 1 meter afstand. Of hun gezichtsveld is beperkt tot minder dan 10 graden; dat noemen we ook wel maatschappelijk blind. Een normaal gezichtsveld is 140 graden. Blindheid kan bij geboorte al gekregen zijn of in de loop van het leven door een ziekte of ongeval.
+| Spelvorm           | Complexiteit implementeren in code | Complexiteit in besturing | Ervaringen met testen |
+|--------------------|------------------------------------|---------------------------|-----------------------|
+| Traditionele cache | Complex                            | Zeer eenvoudig            | Slecht                |
+| Multi cache        | Complex                            | Zeer eenvoudig            | Slecht                |
+| Puzzel cache       | Zeer complex                       | Zeer complex              | Zeer slecht           |
+| Aangepaste cache   | Zeer eenvoudig                     | Zeer eenvoudig            | Goed                  |
 
-- **Doofblind** <br/>
-Mensen die doofblind zijn, horen en zien niet goed, dus een combinatie van blind-/slechtziendheid. Dit heeft grote invloed op hun leven, want het belemmert mensen in hun communicatie, het vergaren van informatie en bewegelijkheid. De meeste met deze aandoening kunnen nog wel wat zien horen, een klein aantal zijn compleet doof en blind. Bij het zien is hun gezichtsveld kleiner dan 30 graden, en bij het horen is er sprake van 35 decibel verlies aan gehoor. Doof blindheid kan verschillende oorzaken hebben: door syndroom van Usher, trauma, hersenvliesontsteking, ziekte, vroeggeboorte en congenitale rebellavirus.
+Na deze vergelijking geven wij het advies om gebruik te maken van de eigen versie van geocachen. De meer reguliere bekende speelvormen van geocachen zijn te ingewikkeld om te ontwikkelen en te spelen voor mensen die geen/slecht zicht hebben. Om deze reden is het noodzakelijk dat er gebruik wordt gemaakt van een aangepaste spelvorm die meer is afgestemd op de doelgroep.
 
-![Foto van tabel visuele beperking in NL](https://i.ibb.co/tcJK1g6/overzicht-visulebeperking-nl-new.png) <br/>
-*Overzicht van visuele beperking in Nederland*
+([Geocaching.nl](https://www.geocaching.nl) 2022)<br>
+([Geocachen.nl](https://geocachen.nl) 2022)<br>
+([Aframe.io](https://aframe.io/) 2022)
 
-### Deelconclusie
-Na het bestuderen en ondervragen over visuele beperking in het groot, ben ik tot conclusie gekomen dat het vier verschillende soorten bevat (kleurenblind, blind, slechtziend en doofblind). Alle vier hebben verschillen, maar ook overeenkomsten in oorzaken. Visueel beperkt zijn houdt in dat het zicht van een persoon enigermate beperkt is. Mensen kunnen ook gedeeltelijk beperkt zijn, dat betekent dat zij meer zien dan een volledig beperking. Ook is er naar voren gekomen dat niet alle soorten ongeneesbaar zijn, want tegen slechtziendheid is er wel een behandeling het zicht wordt gedeeltelijk verbeterd door chirurgische procedures. Aan de hand van de foto hierboven kan ik concluderen, dat kleurenblinden het meest voorkomen in Nederland.
+## Hoe maak je een virtual reality wereld in aframe? (Samy)
+
+Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [Literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meest gebruikte tool vergelijken en kijken welke het meest geschikt is voor ons project.
+
+In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de 3D-modellen in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
+
+|                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **glTF** |
+|---------------------------|-------------|-----------|-----------|-------------------|------------------|----------|
+| 1) **Adobe Substance 3D** | Ja          | Ja        | Ja        | €48,39/pm         | Gemiddeld        | Ja       |
+| 2) **Maya**               | Ja          | Ja        | Ja        | €279/pm           | Moeilijk         | Ja       |
+| 3) **Houdini**            | Ja          | Ja        | Ja        | €1986,69 eenmalig | Moeilijk         | Ja       |
+| 4) **Autodesk 3DS MAX**   | Ja          | Ja        | Ja        | €279/pm           | Gemiddeld        | Ja       |
+| 5) **Modo**               | Ja          | Ja        | Ja        | €63/pm            | Moeilijk         | Ja       |
+| 6) **ZBrush**             | Ja          | Ja        | Ja        | €32,69/pm         | Gemiddeld        | Nee      |
+| 8) **Adobe Dimension**    | Ja          | Ja        | Ja        | €81,66/pm         | Makkelijk        | Ja       |
+| 9) **Blender**            | Ja          | Ja        | Ja        | Gratis            | Moeilijk         | Ja       |
+| 10) **Fusion 360**        | Ja          | Ja        | Ja        | €73/pm            | Gemiddeld        | Ja       |
+
+*Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is.*
+
+Wij hebben ervoor gekozen om de 3D-modellen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om glTF-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltTF-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van glTF-bestanden en kosteloos gebruik. Dus qua 3D-programma hebben wij de juiste programma gebruikt, omdat het de beste gratis 3D-programma is, die ook voor beginners is aangeraden. Met behulp van de [documentatie](https://docs.blender.org/manual/en/latest/) van [Blender](https://www.blender.org/about/) en youtube tutorial's van [Blender Guru](https://www.youtube.com/c/BlenderGuruOfficial), kan je al een heel eind komen.
+
+Voordat we met [Blender](https://www.blender.org/about/) aan de slag zijn gegaan hebben we ons eerst verdiept in de documentatie van [Blender](https://www.blender.org/about/). Om te beginnen moet je weten [hoe een object in blender ](https://www.raywenderlich.com/21459096-blender-tutorial-for-beginners-how-to-make-a-mushroom) gecreërd kan worden. Of je kan ervoor kiezen om gratis 3D-modellen van het internet te plukken. Zo heb je websites als [Free3D](https://free3d.com/) of [Sketchfab](https://sketchfab.com/features/free-3d-models). Als het object is gecreërd, moet het als een glTF-bestand [geëxporteerd](https://docs.blender.org/manual/en/latest/files/import_export.html ) worden, zodat je het vervolgens in een developer tool kan [importeren](https://docs.blender.org/manual/en/latest/files/import_export.html). Een belangrijk punt is, dat het geëxporteerde bestand glTF Embedded-type moet zijn en geen Binary-type.
+
+|                        | **Windows** | **MacOS** | **Linux** | **Prijzen**                                                    | **Beste voor**                     |
+|------------------------|-------------|-----------|-----------|----------------------------------------------------------------|------------------------------------|
+| **Visual Studio**      | Ja          | Ja        | Ja        | Volledig gratis                                                | .NET & C++                         |
+| **IntelliJ IDEA**      | Ja          | Ja        | Ja        | Community versie is gratis<br>Ultimate versie 30 dagen gratis  | Java                               |
+| **PhpStorm**           | Ja          | Ja        | Ja        | 30 dagen gratis                                                | Php                                |
+| **Visual Studio code** | Ja          | Ja        | Ja        | Gratis                                                         | HTML, Javascript, Typescript & CSS |
+| **PyCharm**            | Ja          | Ja        | Ja        | Community versie is gratis<br>Professional versie 30 dagen gratis | Python                            |
+
+*Top 5 developer tools*
+
+Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende developer tools te zien en beoordeeld op criteria. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De developer tools worden beoordeeld op basis van de volgende criteria:
+
+- Volledig kosteloos te gebruiken
+- Meeste geschikt voor front-end (HTML, Javascript, A-frame)
+
+Wij hebben gebruik gemaakt van IntelliJ IDEA, maar als we naar de tabel kijken, zou je denken dat er niet de juist keuze is gemaakt, aangezien IntelliJ meer voor back-end talen wordt gebruikt, terwijl wij met HTML en Javascript hebben gewerkt. Maar over het algemeen scoort IntelliJ IDEA beter dan Visual Studio Code op de volgende punten:
+
+- Betere code analyse-functies
+- Alles-in-een developer tool met goede basis functionaliteit zonder noodzaak veel externe plugins te installeren
+- Het refactoren van code
+
+Deze conclusies zijn gebasseerd op ander [onderzoek](https://dev.to/mokkapps/why-i-switched-from-visual-studio-code-to-jetbrains-webstorm-939) van Micheal Hoffmann. Hij laat ook in zijn onderzoek zien d.m.v afbeeldingen waarom IntelliJ IDEA toch beter scoort dan Visual Studio Code.
+
+Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebruik van te maken. Dat kan in code ongeveer zo eruit komen te zien:
+
+```
+<a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
+```
+*'assets/' is de naam van een map waarin alle glTF-bestanden zitten in ons project*
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
-
 Gamen is snel een van de grootste vormen van entertainment geworden in het laatste decennium. Om zoveel mogelijk mensen te includeren wordt er veel naar toegankelijkheid gekeken, maar hoe voelen mensen met een beperking zich hierover? Op dit moment zijn er naar schatting wereldwijd zo'n 1.1 miljard mensen met een visuele beperking, dit aantal groeit elk jaar. 
 
   ```mermaid
