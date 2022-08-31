@@ -170,21 +170,18 @@ In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je e
 
 ## Welke vorm van geocaching is het best te gebruiken in een virtual reality spel voor mensen met een visuele beperking? (Jaimie)
 
-### Aanpak
-Er bestaan verschillende soorten van geocaching. Door middel van literature study gaan we de verschillende soorten geocaching in kaart brengen. Om erachter te komen welke van deze vormen het beste aansluit bij een virtual reality spel voor mensen met een visuele beperking kijken we naar de complexiteit van de verschillende spelvormen en kijken we naar de testresultaten van het testen met testpersonen.
+Er bestaan verschillende soorten van geocaching. Door middel van literature study gaan we de verschillende soorten geocaching in kaart brengen. Om erachter te komen welke van deze vormen het beste aansluit bij een virtual reality spel voor mensen met een visuele beperking gaan we de verschillende spelvormen met elkaar vergelijken op complexiteit in code, complexiteit in besturing, toegankelijkheid en ervaringen met testen.
 
-### Resultaten
+### Soorten caches
 Er zijn veel verschillende soorten soorten van geocaching. De 3 bekendste vormen van geocaching staan hier beschreven.
 
-#### Soorten caches
-
-##### Traditionele cache
+#### Traditionele cache
 Bij dit type van geocaching krijg je meteen de eindcoördinaten waar de geocache verborgen ligt. Wanneer je op de locatie aankomt van de coördinaten zal je een geocache moeten zien te vinden, hierin zal je je naam kunnen schrijven als bewijs dat je deze gevonden hebt. 
 
-##### Multi cache
+#### Multi cache
 Bij multi caches krijg je een coördinaat die niet direct naar de eindcache toeleidt. De bedoeling van multi caches is dat je van punt naar punt gaat op basis van coördinaten die je zal moeten verzamelen via hints die elke keer op de volgende locatie liggen. Hoeveel tussenpunten er zijn is vooraf niet bekend.
 
-##### Puzzel cache
+#### Puzzel cache
 Een puzzel cache begint niet met coördinaten maar met een puzzel die opgelost zal moeten worden. Wanneer je de puzzel weet op te lossen zal je de coördinaten krijgen van de eindcache. Wat ook kan is dat de puzzel cache gecombineerd wordt met een multi cache, dan zal het coördinaat dat je ontvangt na het oplossen van de puzzel niet de locatie van de eindcache bevatten maar van een tussenpunt.
 
 #### Ontwikkelen van de verschillende soorten geocaches
@@ -199,13 +196,26 @@ Tijdens het ontwerpen van hoe we de multi cache gingen implementeren liepen we a
 ##### Puzzel cache
 Bij de puzzel cache komt bovenop het probleem en complexiteit van de eerdergenoemde navigatie er nog een extra vorm van complexiteit bovenop dat er een puzzel opgelost moet worden. We hebben hiervoor onderzocht wat voor soorten digitale puzzels er al bestaan voor mensen met een visuele beperking. Tijdens dit zijn we erachter gekomen dat er nog erg weinig puzzels digitaal zijn gemaakt voor mensen met een visuele beperking, dit komt omdat je bij veel puzzelspellen een vorm van overzicht moet hebben die je niet hebt zonder zicht. Bij digitale puzzels ben je ook beperkt tot geluid en vibratie, je kan hier geen gebruik maken van de voel zintuigen waarbij je je handen kan gebruiken om erachter te komen hoe een object in elkaar zit en welke vorm dit heeft. We raden hierom ook deze vorm van geocaching af door de beperkingen die je hebt aan feedback die je terug kan geven aan de speler tijdens het spelen.
 
+##### Eigen spelvorm
+Wat we kunnen concluderen uit onze eigen ervaringen tijdens het ontwikkelproces is dat het ontwikkelen van de drie bekende vormen van geocaching heel erg complex zijn voor mensen die geen zicht meer hebben. Wat we ook concluderen is dat veel van deze vormen erg lastig zijn om te implementeren met A-Frame door de limitaties die je hebt met dit framework.
+
+Als alternatief hebben wij een spelvorm bedacht en ontwikkeld waarbij het meer een zoektocht wordt dan dat je moet navigeren op basis van coördinaten. De speler wordt hierbij niet in bepaalde richtingen genavigeerd maar krijgt diverse soorten feedback terug waardoor de speler zich kan oriënteren binnen de wereld waarin je aan het spelen bent. Wij hebben hiervoor in de wereld verschillende objecten toegevoegd die geluiden afgeven waardoor de speler een idee krijgt van waar die zich bevindt. Ook kan de speler gebruik maken van een ‘sonar’ functie. Deze functie activeert wanneer er een bepaalde knop ingedrukt wordt op de controller, wanneer deze ingedrukt wordt zal de controller elke 2 seconden een vibratie afgeven die 0 tot 1.8 seconden lang is. Hoe dichterbij de speler zich bevind tot de cache hoe langer de vibratie zal zijn. Wat we als laatste manier van feedback hebben toegevoegd is een blindgeleide stok, dit is een virtuele lijn die vast zit aan je controller van een beperkte lengte die de objecten scant waar je naar richt. Zodra je met de virtuele stok een object aanraak zal de controller een kleine vibratie afgeven en wanneer er op een knop wordt gedrukt zal uitgesproken worden wat dit object is.
+
+#### Vergelijking tussen de spelvormen
+Alle spelvormen kunnen we nu vergelijken op basis van onze ervaringen, dit doen we door een rangschikking te geven aan elke kolom met 'Zeer slecht/complex', 'Slecht/complex', 'Normaal', 'Goed/eenvoudig' en 'Zeer goed/eenvoudig'.
+
+| Spelvorm           | Complexiteit implementeren in code | Complexiteit in besturing | Ervaringen met testen |
+|--------------------|------------------------------------|---------------------------|-----------------------|
+| Traditionele cache | Complex                            | Zeer eenvoudig            | Slecht                |
+| Multi cache        | Complex                            | Zeer eenvoudig            | Slecht                |
+| Puzzel cache       | Zeer complex                       | Zeer complex              | Zeer slecht           |
+| Aangepaste cache   | Zeer eenvoudig                     | Zeer eenvoudig            | Goed                  |
+
+Na deze vergelijking geven wij het advies om gebruik te maken van de eigen versie van geocachen. De meer reguliere bekende speelvormen van geocachen zijn te ingewikkeld om te ontwikkelen en te spelen voor mensen die geen/slecht zicht hebben. Om deze reden is het noodzakelijk dat er gebruik wordt gemaakt van een aangepaste spelvorm die meer is afgestemd op de doelgroep.
+
 ([Geocaching.nl](https://www.geocaching.nl) 2022)<br>
-([Geocachen.nl](https://geocachen.nl) 2022)
-
-### Deelconclusie
-Wat we kunnen concluderen uit onze eigen ervaringen tijdens het ontwikkelproces is dat het ontwikkelen van de drie bekende vormen van geocaching heel erg complex zijn voor mensen die geen zicht meer hebben. Wat we ook concluderen is dat veel van deze vormen erg lastig zijn om te implementeren met A-Frame door de limitaties die je hebt met dit framework. Wij adviseren om geen van de drie genoemde vormen van geocaching te gebruiken.
-
-Als alternatief adviseren wij dat er gebruikt wordt gemaakt van een spelvorm waarbij het meer een zoektocht wordt dan dat je moet navigeren op basis van coördinaten. De speler wordt hierbij niet in bepaalde richtingen genavigeerd maar krijgt diverse soorten feedback terug waardoor de speler zich kan oriënteren binnen de wereld waarin je aan het spelen bent. Wij hebben hiervoor in de wereld verschillende objecten toegevoegd die geluiden afgeven waardoor de speler een idee krijgt van waar die zich bevindt. Ook kan de speler gebruik maken van een ‘sonar’ functie. Deze functie activeert wanneer er een bepaalde knop ingedrukt wordt op de controller, wanneer deze ingedrukt wordt zal de controller elke 2 seconden een vibratie afgeven die 0 tot 1.8 seconden lang is. Hoe dichterbij de speler zich bevind tot de cache hoe langer de vibratie zal zijn. Wat we als laatste manier van feedback hebben toegevoegd is een blindgeleide stok, dit is een virtuele lijn die vast zit aan je controller van een beperkte lengte die de objecten scant waar je naar richt. Zodra je met de virtuele stok een object aanraak zal de controller een kleine vibratie afgeven en wanneer er op een knop wordt gedrukt zal uitgesproken worden wat dit object is.
+([Geocachen.nl](https://geocachen.nl) 2022)<br>
+([Aframe.io](https://aframe.io/) 2022)
 
 ## Wat is een visuele beperking? (Samy)
 
