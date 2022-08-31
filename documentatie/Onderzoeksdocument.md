@@ -190,25 +190,25 @@ De doel van de spel is om de cache te vinden daarvoor moesten wij een manier bed
 Je moet wel binnen een bepaalde afstand van de cache zijn om met de cache te kunnen inerageren en daarvoor hebben wij de klasse "Vector3D" in deze klasse kan de afstand tussen de speler en een bepaalde positie berekend worden als de positie van de cache in deze klasse meegegeven wordt kunnen wij de afstand tussen de speler en de cache weten.
 En nu dat we het afstand van de cache en de speler kan weten kunnen wij dit berekening doen wanneer een bepaalde knop ingedrukt wordt en dit doen we in het interact methode van het "keyboard-input-handler.js" file.
 
-``` 
-if (e.key === "e") { 
-  const playerPosition = document.querySelector("[camera]").object3D.position; 
-  const cachePosition = document.getElementById("cache").object3D.position; 
- 
-  const result = new Vector3D( 
-   cachePosition.x - playerPosition.x, 
-   cachePosition.y - playerPosition.y, 
-   cachePosition.z - playerPosition.z 
-   ); 
- 
-  if (result.magnitude() <= 3) { 
-    window.location.href = "./succes.html"; 
-  } 
-} 
- 
-``` 
+```
+hitbox.addEventListener("raycaster-intersected", function () {
+			sessionStorage.setItem("interacting", "true");
+			document.getElementById("cacheSoundAsset").components.sound.playSound();
+			document.getElementById("right").components.haptics.pulse(0.5, 50);
+		});
+```
 
-Zoals u in de code voorbeeld kunt zien als de knop "e" gedrukt wordt, wordt de positie van de speler en de cache meegegeven aan de Vector3D daarna wordt er gecontroleerd als de uitkomst van de berekening gelijk aan 3 of minder dan 3 is, als dat waar is heb je een succesvol interactie gehad met de cache en je wordt naar een andere pagina gestuurd.
+Als de raycaster de cache aanraakt wordt de value van de key "interacting" in de sessionStorage veranderd naar "true".
+``` 
+this.el.addEventListener("abuttondown", function () {
+			if (sessionStorage.getItem("interacting") === "true") {
+				document.getElementById("cacheGevondenSoundAsset").components.sound.playSound();
+			}
+		});
+ 
+```
+
+Zoals in de code voorbeeld te zien is als de knop "a" gedrukt wordt, wordt er in de sessionStorage gecontroleerd als de value van de key "interacting" gelijk is aan "true", als dat waar is heb je een succesvol interactie gehad met de cache en je wordt naar een andere pagina gestuurd.
 
 ### Geluid
 Voor de geluid in de spel hebben wij [MP3](https://nl.wikipedia.org/wiki/MP3#:~:text=MP3%20-%20Wikipedia%20MP3%20MP3%20%28officieel%20MPEG-1%20Audio,Group%29%20uit%201992%2C%20waarvan%20implementaties%20bestaan%20sinds%201994.) files van de benodigde geluiden gedownload en in de project gezet.
