@@ -323,7 +323,7 @@ pulse = 1300 - result.magnitude() * 65;
 ``` 
 Met de antwoord van de Vector3D berekening wordt de pulse berekend en daarna wordt het pulse gebruikt om de tijdsduur van de vibratie te bepalen dus hoe groter de afstand hoe langer de vibratie.
 
-### Hosting
+#### Hosting
 Om een applicatie op de internet te hebben moet het natuurlijk ook gehost worden. Voor de [hosting](https://www.techopedia.com/definition/29023/web-hosting) hebben wij gekozen voor [Github Pages](https://pages.github.com/). Github Pages is van [Github](https://github.com/) zelf, is gratis en makkelijk om te gebruiken.
 Omdat wij github gebruikt voor de versiebeheer van onze applicatie heeft github onze code al dus als wij later iets pusht wordt de gehoste applicatie meteen bijgewerkt.
 
