@@ -194,10 +194,8 @@ Uit alle bronnen en gesprekken met deskundigen is het gelukt om een duidelijke d
 
 ## Hoe maak je een virtual reality wereld in aframe? (Samy)
 
-### Aanpak
 Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [Literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meest gebruikte tool vergelijken en kijken welke het meest geschikt is voor ons project.
 
-### Resultaten
 In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de 3D-modellen in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
 
 |                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **glTF** |
