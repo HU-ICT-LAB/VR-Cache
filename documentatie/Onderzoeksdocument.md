@@ -14,7 +14,7 @@
 ㅤㅤ7.1. [Hoe pas je virtual reality toe op een toegankelijk manier voor mensen met een visuele beperking? (Robert)](#hoe-pas-je-virtual-reality-toe-op-een-toegankelijk-manier-voor-mensen-met-een-visuele-beperking-robert)<br/>
 ㅤㅤ7.2. [Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame? (Misher)](#hoe-ontwikkel-je-een-virtual-reality-game-in-de-browser-door-middel-van-a-frame-misher)<br/>
 ㅤㅤ7.3. [Welke vorm van geocaching is het best te gebruiken in een virtual reality spel voor mensen met een visuele beperking? (Jaimie)](#welke-vorm-van-geocaching-is-het-best-te-gebruiken-in-een-virtual-reality-spel-voor-mensen-met-een-visuele-beperking-jaimie)<br/>
-ㅤㅤ7.4. [Wat is een visuele beperking? (Samy)](#wat-is-een-visuele-beperking-samy)<br/>
+ㅤㅤ7.4. [Hoe maak je een virtual reality wereld in A-Frame? (Samy)](#hoe-maak-je-een-virtual-reality-wereld-in-a-frame-samy)<br/>
 ㅤㅤ7.5. [Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheden? (Thomas)](#op-welke-manier-draagt-toegankelijkheid-in-games-bij-aan-minder-ongelijkheid-thomas)
 8. [Conclusie](#conclusie)
 9. [Aanbevelingen](#aanbevelingen)
@@ -294,11 +294,11 @@ Ook kunnen we Stackoverflow raadplegen voor meer specifieke vragen die we zullen
 
 Met ons onderzoek hebben we het volgende gevonden: <br>
 ### De map
-In onze map hebben we boomstammen, bomen, kaart randen, een cache die in deze spel in de vorm van een klein kist komt en een kampvuur.
-We hebben gebruikt gemaakt van [gltf](https://www.khronos.org/gltf/) bestanden om deze objecten in de map te krijgen. Wij hebben de hele map in [Blender](https://www.blender.org/about/) gemaakt, wij hebben de gltf bestanden van de objecten in Blender geïmporteerd, alles behalve de cache op een positie gezet en opgeslagen dus onze hele map is 1 gltf bestand zoals u hier kunt zien: <br>    ```<a-entity id="world" gltf-model="assets/world.gltf" scale="0.3 0.3 0.3"></a-entity>```
+In onze map hebben we boomstammen, bomen, wereld borders, een cache in de vorm van een kleine kist en een kampvuur.
+We hebben gebruikt gemaakt van [gltf](https://www.khronos.org/gltf/) bestanden om deze objecten in de map te krijgen. Wij hebben de hele map in [Blender](https://www.blender.org/about/) gemaakt, en hebben de gltf bestanden van de objecten in Blender geïmporteerd. Onze hele map is één gltf bestand zoals hier te zien is: <br>    ```<a-entity id="world" gltf-model="assets/world.gltf" scale="0.3 0.3 0.3"></a-entity>```
 
-Voor de cache hebben wij iets anders gedaan, als de user deze spel meerdere keren wilt gaan spelen en de cache op dezelfde positie zit is de spel niet meer leuk dus we hebben het volgende gedaan voor de positie van de cache: <br>
-In de cache.js file hebben wij een lijst van mogelijke posities gedefineerd.
+Voor de cache hebben wij iets anders gedaan, als de gebruiker het spel meerdere keren wilt gaan spelen en de cache op dezelfde positie zit is het spel niet meer leuk dus we hebben het volgende gedaan voor de positie van de cache: <br>
+In de cache.js file hebben wij een lijst van mogelijke posities gedefinieerd.
 ```  
 const positions = [{position: "-13.43007 -0.00483 -5.78539", rotation: "0 37.83 0"}, 
    {position: "-6.52414 -0.00483 -9.61352", rotation: "0 37.83 0"}, 
@@ -316,39 +316,38 @@ this.el.setAttribute("position", positions[random].position);
 ``` 
 
 
-Omdat de raycaster alleen met [primitieve objecten](https://aframe.io/docs/1.3.0/introduction/html-and-primitives.html#primitives) kan interageren hebben we hotboxen in de positie van de bomen, boomstammen gezet in de vorm van cilinders en hotboxen in de vorm van box voor de map randen dus je kunt de boom gewoon zien maar er zit nog een cilinder in de positie van de boom puur voor interactie een voorbeeld hiervan is het volgende: <br>
+Omdat de raycaster alleen met [primitieve objecten](https://aframe.io/docs/1.3.0/introduction/html-and-primitives.html#primitives) kan interacteren hebben we hitboxen in de positie van de bomen en boomstammen gezet in de vorm van cilinders, ook zijn er hitboxen in de vorm van een kubus voor de wereld randen. De objecten zijn gewoon normaal te zien maar er zit nog een onzichtbare hitbox in de positie van de objecten puur voor interactie een voorbeeld hiervan is het volgende: <br>
 ``` 
 <a-cylinder class="interactable" id="tree29" tree position="28.5246 0 -32.9995"></a-cylinder> 
 ``` 
 ### Interactie met de cache
-De doel van de spel is om de cache te vinden daarvoor moesten wij een manier bedenken waarbij je met de cache kan interacteren.
-Je moet wel binnen een bepaalde afstand van de cache zijn om met de cache te kunnen inerageren en daarvoor hebben wij de klasse "Vector3D" in deze klasse kan de afstand tussen de speler en een bepaalde positie berekend worden als de positie van de cache in deze klasse meegegeven wordt kunnen wij de afstand tussen de speler en de cache weten.
-En nu dat we het afstand van de cache en de speler kan weten kunnen wij dit berekening doen wanneer een bepaalde knop ingedrukt wordt en dit doen we in het interact methode van het "keyboard-input-handler.js" file.
+Het doel van het spel is om de cache te vinden, daarvoor moesten wij een manier bedenken waarbij je met de cache kan interacteren.
+Om met de cache te kunnen interacteren is het noodzakelijk dat je binnen een bepaalde afstand staat en daarvoor hebben wij de klasse "Vector3D". In deze klasse kan de afstand tussen de speler en een bepaalde positie berekend worden. Als de positie van de cache in deze klasse meegegeven wordt kunnen wij de afstand tussen de speler en de cache weten. Nu we de afstand van de cache en de speler weten kunnen wij een berekening doen wanneer een bepaalde knop ingedrukt wordt en dit doen we in de interact methode van het "keyboard-input-handler.js" file.
 
-``` 
-if (e.key === "e") { 
-  const playerPosition = document.querySelector("[camera]").object3D.position; 
-  const cachePosition = document.getElementById("cache").object3D.position; 
- 
-  const result = new Vector3D( 
-   cachePosition.x - playerPosition.x, 
-   cachePosition.y - playerPosition.y, 
-   cachePosition.z - playerPosition.z 
-   ); 
- 
-  if (result.magnitude() <= 3) { 
-    window.location.href = "./succes.html"; 
-  } 
-} 
- 
-``` 
+```
+hitbox.addEventListener("raycaster-intersected", function () {
+			sessionStorage.setItem("interacting", "true");
+			document.getElementById("cacheSoundAsset").components.sound.playSound();
+			document.getElementById("right").components.haptics.pulse(0.5, 50);
+		});
+```
 
-Zoals u in de code voorbeeld kunt zien als de knop "e" gedrukt wordt, wordt de positie van de speler en de cache meegegeven aan de Vector3D daarna wordt er gecontroleerd als de uitkomst van de berekening gelijk aan 3 of minder dan 3 is, als dat waar is heb je een succesvol interactie gehad met de cache en je wordt naar een andere pagina gestuurd.
+Als de raycaster de cache aanraakt wordt de value van de key "interacting" in de sessionStorage veranderd naar "true".
+``` 
+this.el.addEventListener("abuttondown", function () {
+			if (sessionStorage.getItem("interacting") === "true") {
+				document.getElementById("cacheGevondenSoundAsset").components.sound.playSound();
+			}
+		});
+ 
+```
+
+Zoals in de code voorbeeld te zien is als de knop "a" gedrukt wordt, wordt er in de sessionStorage gecontroleerd als de value van de key "interacting" gelijk is aan "true", als dat waar is heb je een succesvol interactie gehad met de cache en je wordt naar een andere pagina gestuurd.
 
 ### Geluid
-Voor de geluid in de spel hebben wij [MP3](https://nl.wikipedia.org/wiki/MP3#:~:text=MP3%20-%20Wikipedia%20MP3%20MP3%20%28officieel%20MPEG-1%20Audio,Group%29%20uit%201992%2C%20waarvan%20implementaties%20bestaan%20sinds%201994.) files van de benodigde geluiden gedownload en in de project gezet.
-In deze project hebben wij geluid gebruikt in de volgende manieren:
-1. Om de object de object die met de [raycaster](https://github.com/aframevr/aframe/blob/master/docs/components/raycaster.md) botst te benoemen. Er is voor iedere object een mp3 file waarin de naam van de object uitgesproken wordt. How we dit hebben geregeld is als de raycaster een botsing heeft met een object wordt een event gegooid genaamd "raycaster-intersected", elke object heeft een event listener die naar de genoemde event luistert, in de event listener wordt de naam van die object opgeslagen in de [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage), de volgende is een code voorbeeld van de tree.js file.
+Voor het geluid in hey spel hebben wij [MP3](https://nl.wikipedia.org/wiki/MP3#:~:text=MP3%20-%20Wikipedia%20MP3%20MP3%20%28officieel%20MPEG-1%20Audio,Group%29%20uit%201992%2C%20waarvan%20implementaties%20bestaan%20sinds%201994.) files van de benodigde geluiden gedownload en in het project gezet.
+In het project hebben wij geluiden gebruikt op de volgende manieren:
+1. Om de objecten die met de [raycaster](https://github.com/aframevr/aframe/blob/master/docs/components/raycaster.md) interacteren te benoemen. Er is voor iedere object een mp3 file waarin de naam van de object uitgesproken wordt. Hoe we dit hebben geregeld is als de raycaster een interactie heeft met een object wordt een event gegooid genaamd "raycaster-intersected", elk object heeft een event listener die naar het genoemde event luistert, in de event listener wordt de naam van het object opgeslagen in de [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage), het volgende is een code voorbeeld van de tree.js file.
 ``` 
 this.el.addEventListener("raycaster-intersected", function () { 
          sessionStorage.setItem("object", "boom"); 
@@ -356,7 +355,7 @@ this.el.addEventListener("raycaster-intersected", function () {
       }); 
 ``` 
 
-En in de "object-sound-handler" component wordt er gekeken naar welke object naam opgeslagen is in de sessionStorage en die naam spreekt het spel uit.
+En in het "object-sound-handler" component wordt er gekeken naar welke object naam opgeslagen is in de sessionStorage en die naam spreekt het spel uit.
 ``` 
 switch (sessionStorage.getItem("object")) { 
          case "boom": 
@@ -385,7 +384,7 @@ De cache krijgt een mp3 file toegewezen in zijn registerComponent methode.
 ``` 
 this.el.setAttribute("sound", "src: assets/CacheGeluid.mp3; autoplay: true; loop: true; maxDistance: 10000; rolloffFactor: 3; volume: 1;"); 
 ``` 
-Na elke frame wordt er gecontroleerd als de afstand klein genoeg is om de cache te kunnen horen. Om de afstand tussen de speler en cache te berekenen gebruiken we de klasse Vector3D.
+Na elke frame wordt er gecontroleerd of de afstand klein genoeg is om de cache te kunnen horen. Om de afstand tussen de speler en cache te berekenen gebruiken we de klasse Vector3D.
 ``` 
 const playerPosition = document.getElementById("rig").object3D.position; 
 const cachePosition = document.getElementById("cache").object3D.position; 
@@ -399,7 +398,7 @@ const result = new Vector3D(
 this.inSoundDistance = result.magnitude() <= DISTANCE_TO_HEAR; 
 ``` 
 
-Als inSoundDistance true is en als de geluid niet al aan het spelen is dan wordt de cache geluid gespeeld anders niet.
+Als inSoundDistance true is en als het geluid niet al aan het afspelen is dan wordt het cache geluid afgespeeld anders niet.
 ``` 
 if (this.inSoundDistance && !this.inSoundDistanceTriggered) { 
          document.querySelector("#cache").components.sound.playSound(); 
@@ -409,13 +408,13 @@ if (this.inSoundDistance && !this.inSoundDistanceTriggered) {
          this.inSoundDistanceTriggered = false; 
       } 
 ``` 
-En omdat de geluid direct van de cache komt kan je een indicatie krijgen van waar de cache is.
+En omdat het geluid direct van de cache komt kan je een indicatie krijgen van waar de cache is.
 
-3. Er wordt constant een achtergrond geluid gespeeld, die mp3 file is direct toegewezen naar de scene.
+3. Er wordt constant een achtergrond geluid afgespeeld, die mp3 file is direct toegewezen naar de scene.
 ``` 
 <a-sound id="backgroundnoise" sound="positional: false" src="assets/forest.mp3" autoplay="true" loop="true" volume="0.1"></a-sound> 
 ``` 
-4. Elke keer dat de user een stap doet in het spel wordt een stap geluid uitgespeeld. Als de user de thumbstick in een bepaalde richting beweegt wordt er een event gegooid genaamd "thumbstickmoved", in de "player-sound" component is er een event listener die luister naar de genoemde event van de beweging van de thumbstick, in deze functie wordt het geluid van de toegewezen mp3 file afgespeeld.
+4. Elke keer dat de speler een stap doet in het spel wordt een stap geluid afgespeeld. Als de speler de thumbstick in een bepaalde richting beweegt wordt er een event gegooid genaamd "thumbstickmoved", in het "player-sound" component is er een event listener die luistert naar het genoemde event van de beweging van de thumbstick, in deze functie wordt het geluid van de toegewezen mp3 file afgespeeld.
 
 ``` 
 if (this.walking && !this.alreadyWalking) { 
@@ -426,18 +425,19 @@ if (this.walking && !this.alreadyWalking) {
          this.alreadyWalking = false; 
       } 
 ``` 
-Als de speler aan het lopen is en als het geluid niet al gespeeld werd wordt het lopen geluid afgespeeld anders niet.
+Als de speler aan het lopen is en als het geluid niet al afgespeeld werd wordt het loop geluid afgespeeld, anders niet.
+
 ### Vibratie
-Om vibratie in de spel te hebben wij [aframe-haptics-component](https://www.npmjs.com/package/aframe-haptics-component) geimporteerd.
-Met hulp van het aframe haptics component kunnen we de volgende stuk code runnen en vibratie krijgen bij de controller: <br>
+Om vibratie mogelijk te maken hebben wij [aframe-haptics-component](https://www.npmjs.com/package/aframe-haptics-component) geimporteerd.
+Met hulp van het aframe haptics component kunnen we het volgende stuk code runnen en vibratie krijgen bij de controller: <br>
 ``` 
 this.el.components.haptics.pulse(force, duration); 
 ``` 
 
-Deze vibratie was zeer hulpvaardig in het aantonen van een botsing tussen de raycaster en een andere object en onze sonar functie.
+Deze vibratie was zeer behulpzaam in het aantonen van een interactie tussen de raycaster en een object.
 
 #### Sonar
-Deze functionaliteit was bedacht met de bedoeling om de user een indicatie te geven van de afstand tussen de speler en de cache in de vorm van vibratie.
+Deze functionaliteit was bedacht met de bedoeling om de speler een indicatie te geven van de afstand tussen de speler en de cache in de vorm van vibratie.
 In deze functie wordt de positie van de cache en de speler gegeven aan de Vector3D om de afstand tussen de speler en cache te berekenen.
 
 
@@ -456,17 +456,15 @@ pulse = 1300 - result.magnitude() * 65;
       this.el.components.haptics.pulse(0.5, pulse); 
    } 
 ``` 
-Met de antwoord van de Vector3D berekening wordt de pulse berekend en daarna wordt het pulse gebruikt om de tijdsduur van de vibratie te bepalen dus hoe groter de afstand hoe langer de vibratie.
+Met het antwoord van de Vector3D berekening wordt de pulse berekend en daarna wordt de pulse gebruikt om de tijdsduur van de vibratie te bepalen. Hoe groter de afstand hoe langer de vibratie.
 
 ### Hosting
-Om een applicatie op de internet te hebben moet het natuurlijk ook gehost worden. Voor de [hosting](https://www.techopedia.com/definition/29023/web-hosting) hebben wij gekozen voor [Github Pages](https://pages.github.com/). Github Pages is van [Github](https://github.com/) zelf, is gratis en makkelijk om te gebruiken.
-Omdat wij github gebruikt voor de versiebeheer van onze applicatie heeft github onze code al dus als wij later iets pusht wordt de gehoste applicatie meteen bijgewerkt.
-
+Om de applicatie op het internet te zetten moet het natuurlijk ook gehost worden. Voor de [hosting](https://www.techopedia.com/definition/29023/web-hosting) hebben wij gekozen voor [Github Pages](https://pages.github.com/). Github Pages is van [Github](https://github.com/) zelf en is gratis en makkelijk om te gebruiken.
+Omdat wij GitHub gebruiken voor versiebeheer van onze applicatie kunnen wij gebruik maken van active deployment.
 
 In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, geluid was al ingebouwd en makkelijk aanpasbaar.
-Je kan ook aparte componenten importeren bijvorbeeld aframe-haptics-component en veel anderen.
-Dus we konden zien dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
-
+Het is ook mogelijk om aparte componenten te importeren zoals bijvoorbeeld het aframe-haptics-component.
+Wat we concluderen is dat het ontwikkelen van een virtual reality game in de browser door middel van A-Frame mogelijk is en vrij eenvoudig.
 
 ## Welke vorm van geocaching is het best te gebruiken in een virtual reality spel voor mensen met een visuele beperking? (Jaimie)
 
@@ -517,11 +515,11 @@ Na deze vergelijking geven wij het advies om gebruik te maken van de eigen versi
 ([Geocachen.nl](https://geocachen.nl) 2022)<br>
 ([Aframe.io](https://aframe.io/) 2022)
 
-## Hoe maak je een virtual reality wereld in aframe? (Samy)
+## Hoe maak je een virtual reality wereld in A-Frame? (Samy)
 
-Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [Literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan meest gebruikte tool vergelijken en kijken welke het meest geschikt is voor ons project.
+Wij gaan een game maken voor mensen met een visuele beperking, maar hoe maak je dan een virtual reality wereld? Om erachter te komen wat dat inhoudt, kunnen we daarvoor [Literature study](https://ictresearchmethods.nl/Literature_study) gebruiken. Bij het gebruiken van die methode worden er allerlei bronnen verzameld en vervolgens een samenvatting gemaakt van belangrijke stukken. Ook kunnen we de [Competitive Analysis](https://ictresearchmethods.nl/Competitive_analysis) methode gebruiken om deze deelvraag te beantwoorden. Bij deze methode gaan we dan de meest gebruikte tools vergelijken en kijken welke het meest geschikt is voor ons project.
 
-In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voor de spelers een bos in aframe gemaakt. Een bos bevat natuurlijk veel bomen en verder wat je kan toevoegen zijn stenen, vogels, struiken ect. Voordat die elementen in een aframe wereld worden geplaatst, moet je ze eerst hebben gemaakt. Vervolgens moeten de 3D-modellen in een IDE geimporteerd worden, zoadat we er gebruik van kunnen maken in onze aframe wereld.
+In A-Frame kunnen verschillende soorten werelden gecreërd worden, wij hebben voor de spelers een bos in A-Frame gemaakt. Een bos is rijk aan elementen zoals bomen, stenen, vogels en struiken. Voordat deze elementen in een A-Frame wereld kunnen worden geplaatst, moet je ze eerst aanmaken. Vervolgens moeten de 3D-modellen in het project geïmporteerd worden zodat we er gebruik van kunnen maken in onze A-Frame wereld.
 
 |                           | **Windows** | **MacOS** | **Linux** | **Prijzen**       | **Moeilijkheid** | **glTF** |
 |---------------------------|-------------|-----------|-----------|-------------------|------------------|----------|
@@ -535,9 +533,9 @@ In aframe kunnen verschillende soorten werelden gecreërd worden. Wij hebben voo
 | 9) **Blender**            | Ja          | Ja        | Ja        | Gratis            | Moeilijk         | Ja       |
 | 10) **Fusion 360**        | Ja          | Ja        | Ja        | €73/pm            | Gemiddeld        | Ja       |
 
-*Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is.*
+*[Hierboven is een vergelijkingtabel te zien, dat ook van boven naar benenden gerangschikt is](https://justcreative.com/best-3d-modeling-software/)*
 
-Wij hebben ervoor gekozen om de 3D-modellen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval, namelijk dat het mogelijk is om glTF-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltTF-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van glTF-bestanden en kosteloos gebruik. Dus qua 3D-programma hebben wij de juiste programma gebruikt, omdat het de beste gratis 3D-programma is, die ook voor beginners is aangeraden. Met behulp van de [documentatie](https://docs.blender.org/manual/en/latest/) van [Blender](https://www.blender.org/about/) en youtube tutorial's van [Blender Guru](https://www.youtube.com/c/BlenderGuruOfficial), kan je al een heel eind komen.
+Wij hebben ervoor gekozen om de 3D-modellen in [Blender](https://www.blender.org/about/) te maken. Waarom Blender? Het is volgens de meeste bronnen de beste gratis 3D software, maar het moet natuurlijk ook gepast zijn voor ons project, en dat is hier wel het geval. Het is namelijk mogelijk om glTF-bestanden te exporteren, want na het maken van een object in [Blender](https://www.blender.org/about/) is het voor ons project nodig om het bestand naar gltTF-type te exporteren. Deze keuze is gebasseerd op sprake van exporteren van glTF-bestanden en kosteloos gebruik. Dus qua 3D-programma hebben wij het juiste programma gebruikt, omdat dit het beste gratis 3D-programma is die ook voor beginners wordt aangeraden. Met behulp van de [documentatie](https://docs.blender.org/manual/en/latest/) van [Blender](https://www.blender.org/about/) en YouTube tutorial's van [Blender Guru](https://www.youtube.com/c/BlenderGuruOfficial), kan je al een heel eind komen.
 
 Voordat we met [Blender](https://www.blender.org/about/) aan de slag zijn gegaan hebben we ons eerst verdiept in de documentatie van [Blender](https://www.blender.org/about/). Om te beginnen moet je weten [hoe een object in blender ](https://www.raywenderlich.com/21459096-blender-tutorial-for-beginners-how-to-make-a-mushroom) gecreërd kan worden. Of je kan ervoor kiezen om gratis 3D-modellen van het internet te plukken. Zo heb je websites als [Free3D](https://free3d.com/) of [Sketchfab](https://sketchfab.com/features/free-3d-models). Als het object is gecreërd, moet het als een glTF-bestand [geëxporteerd](https://docs.blender.org/manual/en/latest/files/import_export.html ) worden, zodat je het vervolgens in een developer tool kan [importeren](https://docs.blender.org/manual/en/latest/files/import_export.html). Een belangrijk punt is, dat het geëxporteerde bestand glTF Embedded-type moet zijn en geen Binary-type.
 
@@ -551,7 +549,7 @@ Voordat we met [Blender](https://www.blender.org/about/) aan de slag zijn gegaan
 
 *Top 5 developer tools*
 
-Nu we de juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende developer tools te zien en beoordeeld op criteria. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een aframe project zoals deze. De developer tools worden beoordeeld op basis van de volgende criteria:
+Nu we het juiste 3D-programma hebben gekozen, moet het ook ergens geprogrammeerd worden. Hierboven zijn een een aantal opties van verschillende developer tools te zien. Om te kijken wat daadwerkelijk de juiste is om mee te werken voor een A-Frame project zoals deze beoordelen we op basis van de volgende criteria:
 
 - Volledig kosteloos te gebruiken
 - Meeste geschikt voor front-end (HTML, Javascript, A-frame)
@@ -564,7 +562,7 @@ Wij hebben gebruik gemaakt van IntelliJ IDEA, maar als we naar de tabel kijken, 
 
 Deze conclusies zijn gebasseerd op ander [onderzoek](https://dev.to/mokkapps/why-i-switched-from-visual-studio-code-to-jetbrains-webstorm-939) van Micheal Hoffmann. Hij laat ook in zijn onderzoek zien d.m.v afbeeldingen waarom IntelliJ IDEA toch beter scoort dan Visual Studio Code.
 
-Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebruik van te maken. Dat kan in code ongeveer zo eruit komen te zien:
+Als de 3D-modellen zijn geïmporteerd, kunnen we ze aanroepen in de code om er gebruik van te maken. Dat kan in de code ongeveer zo eruit komen te zien:
 
 ```
 <a-entity gltf-model="assets/{bestand-naam}.gltf"></a-entity>
@@ -572,7 +570,7 @@ Als de 3D-modellen zijn geimporteerd, kunnen we ze aanroepen in code om er gebru
 *'assets/' is de naam van een map waarin alle glTF-bestanden zitten in ons project*
 
 ## Op welke manier draagt toegankelijkheid in games bij aan minder ongelijkheid? (Thomas)
-Gamen is snel een van de grootste vormen van entertainment geworden in het laatste decennium. Om zoveel mogelijk mensen te includeren wordt er veel naar toegankelijkheid gekeken, maar hoe voelen mensen met een beperking zich hierover? Op dit moment zijn er naar schatting wereldwijd zo'n 1.1 miljard mensen met een visuele beperking, dit aantal groeit elk jaar. 
+Gamen is snel één van de grootste vormen van entertainment geworden in het laatste decennium. Om zoveel mogelijk mensen te includeren wordt er veel naar toegankelijkheid gekeken, maar hoe voelen mensen met een beperking zich hierover? Op dit moment zijn er naar schatting wereldwijd zo'n 1.1 miljard mensen met een visuele beperking, dit aantal groeit elk jaar. 
 
   ```mermaid
   pie
@@ -581,6 +579,7 @@ Gamen is snel een van de grootste vormen van entertainment geworden in het laats
     "Bijziend [510 miljoen]" : 509689139
     "Mild [258 miljoen]" : 257832316
   ```
+  *[Wereldwijde schatting aantal visueel beperkten - IAPB](https://www.iapb.org/learn/vision-atlas/magnitude-and-projections/global/)*
 
 Van deze 1.1 miljard zijn de slechtzienden en blinden samen 338 miljoen, het is lastig om nauwkeurige cijfers te vinden over hoeveel van deze personen actief gamen. Arianna Ortelli van NOVIS schat dat dit er ongeveer 23 miljoen zijn. Deze groep heeft de meeste hinder bij het gamen en is daarom onze focus voor dit project.
 
@@ -751,18 +750,17 @@ Dit alles bij elkaar zorgt ervoor dat virtual reality vrijwel onspeelbaar is in 
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
 
-Om ervoor te zorgen dat mensen met een visuele beperking gebruik kunnen maken van het spel is er gekeken naar wat een visuele beperking is en hoe we hier mee omgaan. Hier zagen we dat er vier verschillende soorten visuele beperkingen zijn, het project is vooral gefocust op slechtzienden en blinden. Hiervoor moeten we de applicatie toegankelijk maken. Toegankelijkheid houdt in dat je met of zonder beperking, gebruik kan maken van hetgeen dat je wilt gebruiken. Dus het is belangrijk dat de speler zo veel mogelijk vrijheid in opties heeft, maar dat alle opties van tevoren goed worden uitgelegd aan de gebruiker. Verder is gebleken dat geluid en vibratie de beste manieren zijn om de speler te voorzien van informatie, het is hierbij wel belangrijk dat niet te veel informatie tegelijkertijd op de speler wordt afgestuurd. dit kan zorgen voor een overbelasting van de zintuigen, waardoor de speler gedesoriënteerd raakt. Omdat A-Frame gebaseerd is op HTML en Javascript is het erg eenvoudig om een simpel virtual reality spel te ontwikkelen voor de browser.
+Om ervoor te zorgen dat mensen met een visuele beperking gebruik kunnen maken van het spel is er gekeken naar wat een visuele beperking is en hoe we hier mee omgaan. Het project is voornamelijk gefocust op slechtzienden en blinden, hiervoor moeten we de applicatie toegankelijk maken. Toegankelijkheid houdt in dat je met of zonder beperking, gebruik kan maken van hetgeen dat je wilt gebruiken. Dus het is belangrijk dat de speler zo veel mogelijk vrijheid in opties heeft, maar dat alle opties van tevoren goed worden uitgelegd aan de gebruiker. Verder is gebleken dat geluid en vibratie de beste manieren zijn om de speler te voorzien van informatie, het is hierbij wel belangrijk dat niet te veel informatie tegelijkertijd op de speler wordt afgestuurd. dit kan zorgen voor een overbelasting van de zintuigen, waardoor de speler gedesoriënteerd raakt. Omdat A-Frame gebaseerd is op HTML en Javascript is het erg eenvoudig om een simpel virtual reality spel te ontwikkelen voor de browser. Tijdens het onderzoek kwam ook naar voren dat de reguliere vormen van geocaching niet geschikt zijn voor een virtual reality spel voor mensen met een visuele beperking.
 
 # Aanbevelingen
-Bij al onze tegenslagen was er één motief dat steeds terug naar boven kwam, en dat is dat A-Frame niet geschikt is om virtual reality games te maken voor mensen met een visuele beperking. Omdat A-Frame nog erg jong in ontwikkeling is, loop je al snel tegen limitaties aan. Voorbeelden hiervan zijn dat de raycaster niet aanpasbaar is, de inspector erg veel bugs bevat, er geen gebruik gemaakt kan worden van text to speech en six degrees of freedom niet toegepast kan worden, omdat de informatie van de guardian niet op te halen is.
-
-We raden aan om in plaats van A-Frame gebruik te maken van een al verder ontwikkelde engine of framework die meer functionaliteiten bevat.
+Bij al onze tegenslagen was er één motief dat steeds terug naar boven kwam, en dat is dat A-Frame niet geschikt is om virtual reality games te maken voor mensen met een visuele beperking. Omdat A-Frame nog erg jong in ontwikkeling is, loop je al snel tegen limitaties aan. Voorbeelden hiervan zijn dat de raycaster niet aanpasbaar is, de inspector erg veel bugs bevat, er geen gebruik gemaakt kan worden van text to speech en six degrees of freedom niet toegepast kan worden, omdat de informatie van de guardian niet op te halen is. Hierom raden we aan om in plaats van gebruik te maken van A-Frame gebruik te maken van een al verder ontwikkelde engine of framework die meer functionaliteiten bevat.
+Omdat de reguliere spelvormen van geocaching niet geschikt zijn adviseren wij om gebruik te maken van een aangepaste variant die meer aangepast is op mensen met een visuele beperking 
 
 # Bronnen
 
-https://www.iapb.org/learn/vision-atlas/magnitude-and-projections/global/
+IAPB (2022, August 31). Retrieved August 31, 2022, from https://www.iapb.org/learn/vision-atlas/magnitude-and-projections/global/
 
-https://wireframe.raspberrypi.com/articles/seen-and-heard-making-games-for-the-visually-impaired
+Geocaching (2022, August 31). Retrieved August 31, 2022, from https://wireframe.raspberrypi.com/articles/seen-and-heard-making-games-for-the-visually-impaired
 
 Wat is Een Visuele Handicap? ZEISS Netherlands. (n.d.). Retrieved June 26, 2022, from https://www.zeiss.nl/vision-care/beter-zien/zicht-inzichtelijk-gemaakt/wat-is-een-visuele-handicap-.html
 
@@ -785,3 +783,9 @@ Informatie over Laaggeletterdheid in Nederland. https://www.lezenenschrijven.nl/
 Whitethorn games. Whitethorn Games. (n.d.). Retrieved June 26, 2022, from https://whitethorngames.com/ 
 
 Pietroszek, K. (2018). Raycasting in Virtual Reality. SpringerLink. Geraadpleegd op 3 juli 2022, van https://link.springer.com/referenceworkentry/10.1007/978-3-319-08234-9_180-1?error=cookies_not_supported&code=6b1ad02a-1e08-44e5-b57a-9afd81231b0f
+
+Geocaching (2022, August 31). Retrieved August 31, 2022, from https://www.geocaching.nl/
+
+Geocachen (2022, August 31). Retrieved August 31, 2022, from https://geocachen.nl/
+
+A-Frame (2022, August 31). Retrieved August 31, 2022, from https://aframe.io/
