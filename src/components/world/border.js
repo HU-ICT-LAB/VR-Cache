@@ -1,4 +1,5 @@
 window.AFRAME.registerComponent("border", {
+	intersect: false,
 	init: function () {
 		const element = this.el;
 		element.setAttribute("material", "opacity: 0;");
@@ -6,15 +7,22 @@ window.AFRAME.registerComponent("border", {
 		element.setAttribute("height", "20");
 		element.setAttribute("depth", "1");
 		element.setAttribute("static-body", null);
-		element.setAttribute("Class", "interactable");
+		element.setAttribute("class", "interactable");
 
 		this.el.addEventListener("raycaster-intersected", function () {
 			sessionStorage.setItem("object", "wereldborder");
-			document.getElementById("right").components.haptics.pulse(0.5, 50);
+			this.intersect = true;
 		});
-
 		this.el.addEventListener("raycaster-intersected-cleared", function () {
 			sessionStorage.setItem("object", "");
+			this.intersect = false;
 		});
+		setInterval(this.vibrate.bind(this), 50);
+	},
+
+	vibrate: function () {
+		if (this.intersect) {
+			document.getElementById("right").components.haptics.pulse(1, 50);
+		}
 	}
 });
