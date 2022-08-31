@@ -169,7 +169,7 @@ gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven 
 | Objecten natuurlijke geluiden geven als je met ze interacteerd. | Nee | Objecten oppakken en bewegen is nog gelimiteerd in aframe. door objecten op te pakken zou je wel de positie kunnen veranderen maar niet de rotatie.| literature research | 
 | Een geluid toepassen als je ergens tegen aan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
 | Een geluid toepassen als je richting de cache kijkt. | Nee | A-frame biedt op dit moment geen mogelijkheid om te kunnen kijken wat er binnen het gezichtsveld van de speler bevindt. | Document analysis |
-| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | Nee | Er is geen mogelijkheid om de data op te kunnen halen van de Oculus Guardian via A-Frame.| literature research | 
+| Een geluid toepassen als je te dicht bij de rand van de Guardian komt in de oculus quest. | Nee | De enige engine die hier toegang tot heeft is Unity. A-frame heeft geen toegang tot de data van de guardian.| literature research | 
 | Een geluid toepassen als je te dicht bij de wereld border in de game komt. | Ja | A-frame biedt de mogelijkheid om de afstand te berekenen tussen de speler en een object. | Document analysis |
 | Een verteller toepassen in het menu. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
 | Een verteller toepassen in het spel. | Ja | A-frame ondersteund het gerbuik van geluiden op een event. | Document analysis |
@@ -179,6 +179,8 @@ gefocust zijn op deze beperking. Hieronder zie je een lijst van de overgebleven 
 | Een vibratie geven als je ergens tegenaan loopt. | Nee | Het zou heel moeilijk zijn om te kunnen bepalen of een speler daadwerekelijk niet meer door zou kunnen lopen. Als de speler schuin op een muur in loopt en heel langzaam tegen de muur opzij beweegt zou het spel het nog steeds kunnen zien als lopen. | Problem analysis |
 | Een vibratie geven als je iets aanraakt in het spel. | Ja | Met de ingebouwde richter van A-frame zou je kunnen bepalen wanneer die door een object heen gaat. | Document analysis | 
 | Een tutorial aan het begin van het spel. | Ja | Met een oplezende stem zou je de speler kunnen informeren over het spel, en zelfs met toepassing van events zou je de controls langs kunnen gaan. | Document analysis |
+
+*(Unity 1.40 Reference Guide, 2022)*, *(Introduction – A-frame, 2022)*
 
 Omdat het uitzoeken van de implementatie mogelijkheid bij elke optie veel tijd kostte. is het ons niet gelukt om elke optie toe te passen in de code. hieronder zie je een tabel met een overzicht van welke opties wel en niet toegepast zijn.
 
@@ -789,3 +791,8 @@ Geocaching (2022, August 31). Retrieved August 31, 2022, from https://www.geocac
 Geocachen (2022, August 31). Retrieved August 31, 2022, from https://geocachen.nl/
 
 A-Frame (2022, August 31). Retrieved August 31, 2022, from https://aframe.io/
+
+Unity 1.40 Reference Guide. Reference. (2022, August 31). Retrieved August 31, 2022, from https://developer.oculus.com/reference/unity/1.40/class_o_v_r_boundary/ 
+
+Introduction – A-frame. A-frame. (2022, August 31). Retrieved August 31, 2022, from https://aframe.io/docs/1.3.0/introduction/ 
+
