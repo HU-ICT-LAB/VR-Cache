@@ -393,7 +393,7 @@ Uit de enquête kwam duidelijk naar boven dat er een verband is tussen ongelijkh
 
 Deze obstakels laten zien dat er nog weinig aandacht is besteed aan de toegankelijkheid van VR headsets, dit komt voornamelijk omdat virtual reality nog zo nieuw is binnen de gaming wereld. Er bestaan nog geen duidelijke standaarden voor toegankelijkheid binnen VR en engines zoals Unreal en Unity hebben nog geen toegankelijkheidsfuncties. Dit is gelukkig wel aan het veranderen, zowel Unreal als Unity werken aan toegankelijkheidsfuncties waar ontwikkelaars gebruik van kunnen maken. Ook bestaat de organisatie [XR Access](https://xraccess.org/) die zich inzet voor het verbeteren van de toegankelijkheid van virtual reality. 
 
-Dit alles bij elkaar zorgt ervoor dat virtual reality vrijwel onspeelbaar is in de huidige staat voor mensen met een visuele beperking.
+Dit alles bij elkaar zorgt ervoor dat virtual reality vrijwel onspeelbaar is in de huidige staat voor mensen met een visuele beperking. Al deze mensen krijgen niet de mogelijkheid gebruik te maken van deze technologieën. Dit creëert ongelijkheid, dit komt ook duidelijk naar voren in de resultaten van de enquête bij bijvoorbeeld vraag 5, 7 en 11. Hier laten de ondervraagden duidelijk weten dat toegankelijk voor hen heel belangrijk is, als deze er niet is dan voelen ze zich vaker buitengesloten.
 
 # Conclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag ‘Wat is een geschikte manier om een virtual reality geocaching spel te ontwikkelen in de browser op basis van A-Frame zodat mensen met een visuele beperking het ook kunnen spelen?’ 
