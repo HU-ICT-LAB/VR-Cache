@@ -184,24 +184,24 @@ Bij multi caches krijg je een coördinaat die niet direct naar de eindcache toel
 #### Puzzel cache
 Een puzzel cache begint niet met coördinaten maar met een puzzel die opgelost zal moeten worden. Wanneer je de puzzel weet op te lossen zal je de coördinaten krijgen van de eindcache. Wat ook kan is dat de puzzel cache gecombineerd wordt met een multi cache, dan zal het coördinaat dat je ontvangt na het oplossen van de puzzel niet de locatie van de eindcache bevatten maar van een tussenpunt.
 
-#### Ontwikkelen van de verschillende soorten geocaches
+### Ontwikkelen van de verschillende soorten geocaches
 Tijdens het ontwikkelproces hebben we gekeken naar de verschillende vormen van geocaching en wat het beste zou aansluiten bij een virtual reality geocaching spel voor mensen met een visuele beperking ontwikkeld in A-Frame. We hebben voor de drie bovengenoemde spelvormen gekeken naar wat mogelijke manieren zouden kunnen zijn om deze te implementeren als spelvorm en welke eventuele problemen er bij komen kijken.
 
-##### Traditionele cache
+#### Traditionele cache
 Voor de traditionele cache hebben we gekeken voor een vorm waarop de speler een bepaalde coördinaat kan krijgen en naar deze kan navigeren. Aangezien het gespeeld moet kunnen worden door mensen met een visuele beperking is werken met een visueel kompas niet mogelijk. Hierop hebben we diverse alternatieven op bedacht, geprobeerd te implementeren en getest. Als eerst hebben we geprobeerd de speler te begeleiden door aan te geven in welke richting de speler gericht staat door een tekst uit te laten spreken gevolgd door de afstand wanneer er op een knop gedrukt wordt. Doordat we tegen limitaties aanliepen met text-to-speech werd het erg lastig om verschillende afstanden mee te geven aan de speler. We hebben als alternatief hierop verschillende afstanden ingesproken vast erin gezet waarbij die de afstand pakte die het dichtste bij de werkelijke afstand uitgesproken werd. Tijdens het testen van deze manier van navigatie werd al erg snel duidelijk dat het enorm lastig is om je te oriënteren via deze manier. Het implementeren van deze methode was complex en kost veel tijd om aan te passen omdat alle verschillende afstanden ingesproken moeten worden en er handmatig ingezet moeten worden. Wij raden het daarom af om de traditionele manier van geocaching en de navigatie hiervan te implementeren.
 
-##### Multi cache
+#### Multi cache
 Tijdens het ontwerpen van hoe we de multi cache gingen implementeren liepen we al direct tegen hetzelfde probleem aan van de traditionele cache en was de vraag ‘Hoe gaan we de speler laten navigeren?’ Verder lijkt ons als beste manier om de speler van punt naar punt te leiden je het beste een audiofragment kan afspelen die aangeeft dat je op een tussenpunt bent aangekomen waarna de manier van navigatie weer automatisch instelt op het volgende (eind)punt. Aangezien je bij de multi cache je tegen hetzelfde probleem met navigatie aanloopt als met de traditionele cache raden we ook deze vorm van geocaching af.
 
-##### Puzzel cache
+#### Puzzel cache
 Bij de puzzel cache komt bovenop het probleem en complexiteit van de eerdergenoemde navigatie er nog een extra vorm van complexiteit bovenop dat er een puzzel opgelost moet worden. We hebben hiervoor onderzocht wat voor soorten digitale puzzels er al bestaan voor mensen met een visuele beperking. Tijdens dit zijn we erachter gekomen dat er nog erg weinig puzzels digitaal zijn gemaakt voor mensen met een visuele beperking, dit komt omdat je bij veel puzzelspellen een vorm van overzicht moet hebben die je niet hebt zonder zicht. Bij digitale puzzels ben je ook beperkt tot geluid en vibratie, je kan hier geen gebruik maken van de voel zintuigen waarbij je je handen kan gebruiken om erachter te komen hoe een object in elkaar zit en welke vorm dit heeft. We raden hierom ook deze vorm van geocaching af door de beperkingen die je hebt aan feedback die je terug kan geven aan de speler tijdens het spelen.
 
-##### Eigen spelvorm
+#### Eigen spelvorm
 Wat we kunnen concluderen uit onze eigen ervaringen tijdens het ontwikkelproces is dat het ontwikkelen van de drie bekende vormen van geocaching heel erg complex zijn voor mensen die geen zicht meer hebben. Wat we ook concluderen is dat veel van deze vormen erg lastig zijn om te implementeren met A-Frame door de limitaties die je hebt met dit framework.
 
 Als alternatief hebben wij een spelvorm bedacht en ontwikkeld waarbij het meer een zoektocht wordt dan dat je moet navigeren op basis van coördinaten. De speler wordt hierbij niet in bepaalde richtingen genavigeerd maar krijgt diverse soorten feedback terug waardoor de speler zich kan oriënteren binnen de wereld waarin je aan het spelen bent. Wij hebben hiervoor in de wereld verschillende objecten toegevoegd die geluiden afgeven waardoor de speler een idee krijgt van waar die zich bevindt. Ook kan de speler gebruik maken van een ‘sonar’ functie. Deze functie activeert wanneer er een bepaalde knop ingedrukt wordt op de controller, wanneer deze ingedrukt wordt zal de controller elke 2 seconden een vibratie afgeven die 0 tot 1.8 seconden lang is. Hoe dichterbij de speler zich bevind tot de cache hoe langer de vibratie zal zijn. Wat we als laatste manier van feedback hebben toegevoegd is een blindgeleide stok, dit is een virtuele lijn die vast zit aan je controller van een beperkte lengte die de objecten scant waar je naar richt. Zodra je met de virtuele stok een object aanraak zal de controller een kleine vibratie afgeven en wanneer er op een knop wordt gedrukt zal uitgesproken worden wat dit object is.
 
-#### Vergelijking tussen de spelvormen
+### Vergelijking tussen de spelvormen
 Alle spelvormen kunnen we nu vergelijken op basis van onze ervaringen, dit doen we door een rangschikking te geven aan elke kolom met 'Zeer slecht/complex', 'Slecht/complex', 'Normaal', 'Goed/eenvoudig' en 'Zeer goed/eenvoudig'.
 
 | Spelvorm           | Complexiteit implementeren in code | Complexiteit in besturing | Ervaringen met testen |
