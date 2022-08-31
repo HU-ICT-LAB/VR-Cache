@@ -323,6 +323,9 @@ pulse = 1300 - result.magnitude() * 65;
 ``` 
 Met de antwoord van de Vector3D berekening wordt de pulse berekend en daarna wordt het pulse gebruikt om de tijdsduur van de vibratie te bepalen dus hoe groter de afstand hoe langer de vibratie.
 
+### Hosting
+Om een applicatie op de internet te hebben moet het natuurlijk ook gehost worden. Voor de [hosting](https://www.techopedia.com/definition/29023/web-hosting) hebben wij gekozen voor [Github Pages](https://pages.github.com/). Github Pages is van [Github](https://github.com/) zelf, is gratis en makkelijk om te gebruiken.
+Omdat wij github gebruikt voor de versiebeheer van onze applicatie heeft github onze code al dus als wij later iets pusht wordt de gehoste applicatie meteen bijgewerkt.
 
 ### Deelconclusie
 In dit onderzoek is gezocht naar een antwoord op de vraag: ‘Hoe ontwikkel je een virtual reality game in de browser door middel van A-Frame?’. Uit het onderzoek is gebleken dat A-Frame gebaseerd is op HTML en Javascript. Je kan ook je eigen componenten maken met hun eigen unieke gedrag die ook met elkaar kunnen communiceren, geluid was al ingebouwd en makkelijk aanpasbaar.
